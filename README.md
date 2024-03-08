@@ -1,2 +1,2 @@
-# transitions-of-care-ig
-FHIR Implementation Guide for PACIO Transitions of Care project
+# transitions-of-care-fsh
+FSH files to generate PACIO Transitions of Care FHIR implementation guide
