@@ -53,15 +53,38 @@ dependencies:
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 #
-# pages:
-#   index.md:
-#     title: Example Home
-#   implementation.xml:
-#   examples.xml:
-#     title: Examples Overview
-#     simpleExamples.xml:
-#     complexExamples.xml:
-#
+pages:
+  index.md:
+    title: PACIO Transitions of Care Implementation Guide
+  personas.md:
+    title: Personas and Scenarios
+  usecases.md:
+    title: Use Cases
+  disciplines.md:
+    title: Discipline-Specific Required DEL Information
+  guidance.md:
+    title: General Guidance
+  profiles.md:
+    title: Profiles
+  capstatement.md:
+    title: Capability Statements
+  examples.md:
+    title: Examples
+
+menu:
+  Home: index.html
+  Table of Contents: toc.html
+  Guidance:
+    Personas and Scenarios: personas.html
+    Use Cases: usecases.html
+    Discipline-Specific Information: disciplines.html
+    General Guidance: guidance.html
+  FHIR Artifacts:
+    All: artifacts.html
+    Profiles: profiles.html
+    Capability Statements: capstatement.html
+    Examples: examples.html
+
 #
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
@@ -84,9 +107,9 @@ dependencies:
 # │ input/includes. To use a provided input/includes/menu.xml file, delete the "menu"              │
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-menu:
-  Home: index.html
-  Artifacts: artifacts.html
+# menu:
+#   Home: index.html
+#   Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
