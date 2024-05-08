@@ -1,6 +1,6 @@
 # ./github/workflows/deploy.yml
 
-name: Deploy FHIR IG to GH Pages
+name: Deploy FHIR TOC IG to GH Pages
 
 on:
   push:
