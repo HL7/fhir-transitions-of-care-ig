@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="BSJ-HeartDiseaseDiagnosis"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Condition</b><a name="BSJ-HeartDiseaseDiagnosis"> </a><a name="hcBSJ-HeartDiseaseDiagnosis"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Condition &quot;BSJ-HeartDiseaseDiagnosis&quot; </p><p style="margin-bottom: 0px">Profile: <code>http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis</code></p></div><p><b>Condition Asserted Date</b>: 2019-06</p><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.4.0/CodeSystem-condition-clinical.html">Condition Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.4.0/CodeSystem-condition-ver-status.html">ConditionVerificationStatus</a>#confirmed)</span></p><p><b>category</b>: Blood vessel functions <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-ICF.html">International Classification of Functioning, Disability and Health</a>#b415)</span>, Encounter Diagnosis <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/us/core/STU6.1/CodeSystem-condition-category.html">US Core Condition Category Extension Codes</a>#encounter-diagnosis)</span></p><p><b>code</b>: Ischemic heart disease (disorder) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SNOMED CT#414545008)</span></p><p><b>bodySite</b>: Structure of cardiovascular system (body structure) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SNOMED CT#113257007)</span></p><p><b>subject</b>: <a href="Patient-Example-Smith-Johnson-Patient1.html">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>recordedDate</b>: 2019-06-08 14:15:00-0400</p><p><b>asserter</b>: <a href="PractitionerRole-Role-IMMD-AnitaChu.html">PractitionerRole/Role-IMMD-AnitaChu</a></p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/condition-assertedDate">
+    <valueDateTime value="2019-06"/>
+  </extension>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+      <code value="active"/>
+    </coding>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+      <code value="confirmed"/>
+    </coding>
+  </verificationStatus>
+  <category>
+    <coding>
+      <system value="http://hl7.org/fhir/sid/icf"/>
+      <code value="b415"/>
+      <display value="Blood vessel functions"/>
+    </coding>
+  </category>
+  <category>
+    <coding>
+      <system value="http://hl7.org/fhir/us/core/CodeSystem/condition-category"/>
+      <code value="encounter-diagnosis"/>
+      <display value="Encounter Diagnosis"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct/731000124108"/>
+      <code value="414545008"/>
+      <display value="Ischemic heart disease (disorder)"/>
+    </coding>
+  </code>
+  <bodySite>
+    <coding>
+      <system value="http://snomed.info/sct/731000124108"/>
+      <code value="113257007"/>
+      <display value="Structure of cardiovascular system (body structure)"/>
+    </coding>
+  </bodySite>
+  <subject>
+    <reference value="Patient/Example-Smith-Johnson-Patient1"/>
+  </subject>
+  <recordedDate value="2019-06-08T14:15:00-04:00"/>
+  <asserter>
+    <reference value="PractitionerRole/Role-IMMD-AnitaChu"/>
+  </asserter>
+</Condition>

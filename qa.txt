@@ -1,0 +1,353 @@
+PACIOTransitionsOfCare : Validation Results
+=========================================
+
+err = 48, warn = 104, info = 60
+IG Publisher Version: 1.6.6
+Generated Wed May 08 12:10:12 EDT 2024. FHIR version 4.0.1 for hl7.fhir.us.pacio-toc#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-toc)
+ Build Errors : 4 / 56 / 0
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/AllergyIntolerance-BSJ-AllergyACE : 0 / 2 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Condition-BSJ-AnemiaDiagnosis : 2 / 2 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Condition-BSJ-Constipation : 2 / 2 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Condition-BSJ-DepressionDiagnosis : 2 / 2 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Condition-BSJ-DiabetesDiagnosis : 2 / 2 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Condition-BSJ-DressingConcern : 1 / 2 / 2
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Condition-BSJ-HeartDiseaseDiagnosis : 2 / 2 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Condition-BSJ-HemiparesisDiagnosis : 2 / 2 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Condition-BSJ-Hyperlipidemia : 2 / 2 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Condition-BSJ-HypertensionDiagnosis : 2 / 2 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Condition-BSJ-KidneyDisease : 2 / 2 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Condition-BSJ-NauseaAndVomiting : 2 / 2 / 2
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Condition-BSJ-Neuropathy : 2 / 2 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Condition-BSJ-StrokeDiagnosis : 2 / 2 / 4
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Condition-BSJ-UndressingConcern : 1 / 2 / 2
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Condition-OT-ProblemList-Decondition : 2 / 2 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Condition-OT-ProblemList-RightWeak : 2 / 2 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.pacio-toc : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Location-org-Loc-Everyday-Community-Pharm : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Location-org-Loc-NED-Contract-Pharm : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Location-org-Loc-Neuro-Care-Inc : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Location-org-Loc-PC-Primary-Care-Michigan : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Location-org-Loc-SNF-Happy-Nursing-Facility : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Observation-BSJ-MDS-Activities-PT1 : 1 / 0 / 2
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Observation-BSJ-MDS-Doffing1 : 1 / 1 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Observation-BSJ-MDS-Donning1 : 1 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Observation-BSJ-MDS-Mobility-PT1 : 1 / 0 / 2
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Observation-BSJ-MDS-ShortWalk1 : 1 / 1 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Observation-BSJ-MDS-SitStand1 : 2 / 0 / 2
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Observation-BSJ-MDS-SitUp1 : 2 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Organization-org-Neuro-Care-Inc : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Organization-org-PC-Primary-Care-Michigan : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Organization-org-Pharm-Everyday-Community-Pharm : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Organization-org-Pharm-NED-Contract-Pharm : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Organization-org-SNF-Happy-Nursing-Facility : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Patient-Example-Smith-Johnson-Patient1 : 0 / 0 / 2
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Practitioner-Practioner-GeraldPark : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Practitioner-Practitioner-AnitaChu : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Practitioner-Practitioner-JenCadbury : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Practitioner-Practitioner-NuraMekel : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Practitioner-Practitioner-Phil-Chekhov : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/Practitioner-Practitioner-Tracy-Count : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/PractitionerRole-Role-IMMD-AnitaChu : 0 / 0 / 2
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/PractitionerRole-Role-Neuro-NuraMekel : 0 / 0 / 2
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/PractitionerRole-Role-OT-JenCadbury : 0 / 0 / 2
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/PractitionerRole-Role-Pharm-PhilChekhov : 0 / 0 / 2
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/PractitionerRole-Role-Pharm-TracyCount : 0 / 0 / 2
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/PractitionerRole-Role-SNFDoc-GeraldPark : 0 / 0 / 2
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/ServiceRequest-BSJ-PCPFollowUp : 1 / 1 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeCallOTRefer : 1 / 1 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeCallOrder : 1 / 1 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeCallSLPRefer : 1 / 1 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeDietProtein : 1 / 1 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeDietSalt : 1 / 1 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeLabOrderBMP : 1 / 1 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeLabOrderCBC : 1 / 1 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/ServiceRequest-BSJ-SNFDischargePTRefer : 1 / 1 / 3
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/StructureDefinition-TOC-Composition-Header : 0 / 1 / 2
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/StructureDefinition-toc-reason-extension : 0 / 1 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/ValueSet-toc-del-loinc-answered-by-LL5571-6-vs : 0 / 1 / 2
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/ValueSet-toc-del-loinc-vs : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/fsh-generated/resources/ValueSet-toc-loinc-answered-by-LL5571-6-vs : 0 / 0 / 1
+ /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/input/resources/CapabilityStatement-toc : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource AllergyIntolerance/BSJ-AllergyACE.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/BSJ-AnemiaDiagnosis.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/BSJ-Constipation.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/BSJ-DepressionDiagnosis.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/BSJ-DiabetesDiagnosis.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/BSJ-DressingConcern.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/BSJ-HeartDiseaseDiagnosis.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/BSJ-HemiparesisDiagnosis.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/BSJ-Hyperlipidemia.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/BSJ-HypertensionDiagnosis.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/BSJ-KidneyDisease.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/BSJ-MDS-Activities-PT1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/BSJ-MDS-Doffing1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/BSJ-MDS-Donning1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/BSJ-MDS-Mobility-PT1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/BSJ-MDS-ShortWalk1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/BSJ-MDS-SitStand1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/BSJ-MDS-SitUp1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/BSJ-NauseaAndVomiting.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/BSJ-Neuropathy.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/BSJ-PCPFollowUp.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/BSJ-SNFDischargeCallOTRefer.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/BSJ-SNFDischargeCallOrder.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/BSJ-SNFDischargeCallSLPRefer.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/BSJ-SNFDischargeDietProtein.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/BSJ-SNFDischargeDietSalt.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/BSJ-SNFDischargeLabOrderBMP.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/BSJ-SNFDischargeLabOrderCBC.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/BSJ-SNFDischargePTRefer.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/BSJ-StrokeDiagnosis.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/BSJ-UndressingConcern.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/Example-Smith-Johnson-Patient1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/OT-ProblemList-Decondition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/OT-ProblemList-RightWeak.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Practioner-GeraldPark.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Practitioner-AnitaChu.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Practitioner-JenCadbury.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Practitioner-NuraMekel.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Practitioner-Phil-Chekhov.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Practitioner-Tracy-Count.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/Role-IMMD-AnitaChu.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/Role-Neuro-NuraMekel.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/Role-OT-JenCadbury.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/Role-Pharm-PhilChekhov.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/Role-Pharm-TracyCount.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/Role-SNFDoc-GeraldPark.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/org-Loc-Everyday-Community-Pharm.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/org-Loc-NED-Contract-Pharm.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/org-Loc-Neuro-Care-Inc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/org-Loc-PC-Primary-Care-Michigan.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/org-Loc-SNF-Happy-Nursing-Facility.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/org-Neuro-Care-Inc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/org-PC-Primary-Care-Michigan.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/org-Pharm-Everyday-Community-Pharm.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/org-Pharm-NED-Contract-Pharm.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/org-SNF-Happy-Nursing-Facility.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/output/search_parameters.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 208, column 9: The link 'SearchParameter-Bundle-composition.html' for "composition" cannot be resolved
+ERROR: /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/output/search_parameters.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 215, column 9: The link 'SearchParameter-Bundle-identifier.html' for "identifier" cannot be resolved
+ERROR: /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/output/search_parameters.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 222, column 9: The link 'SearchParameter-Bundle-timestamp.html' for "timestamp" cannot be resolved
+ERROR: /Users/dwhill/Documents/projects/pacio/transitions-of-care-fsh/output/search_parameters.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 229, column 9: The link 'SearchParameter-Bundle-type.html' for "type" cannot be resolved
+== fsh-generated/resources/AllergyIntolerance-BSJ-AllergyACE.json ==
+WARNING: AllergyIntolerance/BSJ-AllergyACE: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: AllergyIntolerance/BSJ-AllergyACE: AllergyIntolerance.reaction[0].manifestation[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+== fsh-generated/resources/Condition-BSJ-AnemiaDiagnosis.json ==
+ERROR: Condition/BSJ-AnemiaDiagnosis: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' does not resolve
+WARNING: Condition/BSJ-AnemiaDiagnosis: Condition.category[0].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icf' could not be found, so the code cannot be validated
+ERROR: Condition/BSJ-AnemiaDiagnosis: Condition.category[1].coding[0].code: Unknown code 'encounter-diagnosis' in the CodeSystem 'http://hl7.org/fhir/us/core/CodeSystem/condition-category' version '6.1.0'
+INFORMATION: Condition/BSJ-AnemiaDiagnosis: Condition.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: Condition/BSJ-AnemiaDiagnosis: Condition.bodySite[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: Condition/BSJ-AnemiaDiagnosis: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Condition-BSJ-Constipation.json ==
+ERROR: Condition/BSJ-Constipation: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' does not resolve
+WARNING: Condition/BSJ-Constipation: Condition.category[0].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icf' could not be found, so the code cannot be validated
+ERROR: Condition/BSJ-Constipation: Condition.category[1].coding[0].code: Unknown code 'encounter-diagnosis' in the CodeSystem 'http://hl7.org/fhir/us/core/CodeSystem/condition-category' version '6.1.0'
+INFORMATION: Condition/BSJ-Constipation: Condition.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: Condition/BSJ-Constipation: Condition.bodySite[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: Condition/BSJ-Constipation: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Condition-BSJ-DepressionDiagnosis.json ==
+ERROR: Condition/BSJ-DepressionDiagnosis: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' does not resolve
+WARNING: Condition/BSJ-DepressionDiagnosis: Condition.category[0].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icf' could not be found, so the code cannot be validated
+ERROR: Condition/BSJ-DepressionDiagnosis: Condition.category[1].coding[0].code: Unknown code 'encounter-diagnosis' in the CodeSystem 'http://hl7.org/fhir/us/core/CodeSystem/condition-category' version '6.1.0'
+INFORMATION: Condition/BSJ-DepressionDiagnosis: Condition.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: Condition/BSJ-DepressionDiagnosis: Condition.bodySite[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: Condition/BSJ-DepressionDiagnosis: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Condition-BSJ-DiabetesDiagnosis.json ==
+ERROR: Condition/BSJ-DiabetesDiagnosis: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' does not resolve
+WARNING: Condition/BSJ-DiabetesDiagnosis: Condition.category[0].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icf' could not be found, so the code cannot be validated
+ERROR: Condition/BSJ-DiabetesDiagnosis: Condition.category[1].coding[0].code: Unknown code 'encounter-diagnosis' in the CodeSystem 'http://hl7.org/fhir/us/core/CodeSystem/condition-category' version '6.1.0'
+INFORMATION: Condition/BSJ-DiabetesDiagnosis: Condition.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: Condition/BSJ-DiabetesDiagnosis: Condition.bodySite[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: Condition/BSJ-DiabetesDiagnosis: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Condition-BSJ-DressingConcern.json ==
+ERROR: Condition/BSJ-DressingConcern: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns' does not resolve
+WARNING: Condition/BSJ-DressingConcern: Condition.category[0].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icf' could not be found, so the code cannot be validated
+INFORMATION: Condition/BSJ-DressingConcern: Condition.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: Condition/BSJ-DressingConcern: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Condition-BSJ-HeartDiseaseDiagnosis.json ==
+ERROR: Condition/BSJ-HeartDiseaseDiagnosis: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' does not resolve
+WARNING: Condition/BSJ-HeartDiseaseDiagnosis: Condition.category[0].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icf' could not be found, so the code cannot be validated
+ERROR: Condition/BSJ-HeartDiseaseDiagnosis: Condition.category[1].coding[0].code: Unknown code 'encounter-diagnosis' in the CodeSystem 'http://hl7.org/fhir/us/core/CodeSystem/condition-category' version '6.1.0'
+INFORMATION: Condition/BSJ-HeartDiseaseDiagnosis: Condition.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: Condition/BSJ-HeartDiseaseDiagnosis: Condition.bodySite[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: Condition/BSJ-HeartDiseaseDiagnosis: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Condition-BSJ-HemiparesisDiagnosis.json ==
+ERROR: Condition/BSJ-HemiparesisDiagnosis: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' does not resolve
+WARNING: Condition/BSJ-HemiparesisDiagnosis: Condition.category[0].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icf' could not be found, so the code cannot be validated
+ERROR: Condition/BSJ-HemiparesisDiagnosis: Condition.category[1].coding[0].code: Unknown code 'encounter-diagnosis' in the CodeSystem 'http://hl7.org/fhir/us/core/CodeSystem/condition-category' version '6.1.0'
+INFORMATION: Condition/BSJ-HemiparesisDiagnosis: Condition.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: Condition/BSJ-HemiparesisDiagnosis: Condition.bodySite[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: Condition/BSJ-HemiparesisDiagnosis: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Condition-BSJ-Hyperlipidemia.json ==
+ERROR: Condition/BSJ-Hyperlipidemia: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' does not resolve
+WARNING: Condition/BSJ-Hyperlipidemia: Condition.category[0].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icf' could not be found, so the code cannot be validated
+ERROR: Condition/BSJ-Hyperlipidemia: Condition.category[1].coding[0].code: Unknown code 'encounter-diagnosis' in the CodeSystem 'http://hl7.org/fhir/us/core/CodeSystem/condition-category' version '6.1.0'
+INFORMATION: Condition/BSJ-Hyperlipidemia: Condition.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: Condition/BSJ-Hyperlipidemia: Condition.bodySite[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: Condition/BSJ-Hyperlipidemia: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Condition-BSJ-HypertensionDiagnosis.json ==
+ERROR: Condition/BSJ-HypertensionDiagnosis: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' does not resolve
+WARNING: Condition/BSJ-HypertensionDiagnosis: Condition.category[0].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icf' could not be found, so the code cannot be validated
+ERROR: Condition/BSJ-HypertensionDiagnosis: Condition.category[1].coding[0].code: Unknown code 'encounter-diagnosis' in the CodeSystem 'http://hl7.org/fhir/us/core/CodeSystem/condition-category' version '6.1.0'
+INFORMATION: Condition/BSJ-HypertensionDiagnosis: Condition.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: Condition/BSJ-HypertensionDiagnosis: Condition.bodySite[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: Condition/BSJ-HypertensionDiagnosis: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Condition-BSJ-KidneyDisease.json ==
+ERROR: Condition/BSJ-KidneyDisease: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' does not resolve
+WARNING: Condition/BSJ-KidneyDisease: Condition.category[0].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icf' could not be found, so the code cannot be validated
+ERROR: Condition/BSJ-KidneyDisease: Condition.category[1].coding[0].code: Unknown code 'encounter-diagnosis' in the CodeSystem 'http://hl7.org/fhir/us/core/CodeSystem/condition-category' version '6.1.0'
+INFORMATION: Condition/BSJ-KidneyDisease: Condition.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: Condition/BSJ-KidneyDisease: Condition.bodySite[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: Condition/BSJ-KidneyDisease: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Condition-BSJ-NauseaAndVomiting.json ==
+ERROR: Condition/BSJ-NauseaAndVomiting: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' does not resolve
+WARNING: Condition/BSJ-NauseaAndVomiting: Condition.category[0].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icf' could not be found, so the code cannot be validated
+ERROR: Condition/BSJ-NauseaAndVomiting: Condition.category[1].coding[0].code: Unknown code 'encounter-diagnosis' in the CodeSystem 'http://hl7.org/fhir/us/core/CodeSystem/condition-category' version '6.1.0'
+INFORMATION: Condition/BSJ-NauseaAndVomiting: Condition.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: Condition/BSJ-NauseaAndVomiting: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Condition-BSJ-Neuropathy.json ==
+ERROR: Condition/BSJ-Neuropathy: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' does not resolve
+WARNING: Condition/BSJ-Neuropathy: Condition.category[0].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icf' could not be found, so the code cannot be validated
+ERROR: Condition/BSJ-Neuropathy: Condition.category[1].coding[0].code: Unknown code 'encounter-diagnosis' in the CodeSystem 'http://hl7.org/fhir/us/core/CodeSystem/condition-category' version '6.1.0'
+INFORMATION: Condition/BSJ-Neuropathy: Condition.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: Condition/BSJ-Neuropathy: Condition.bodySite[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: Condition/BSJ-Neuropathy: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Condition-BSJ-StrokeDiagnosis.json ==
+ERROR: Condition/BSJ-StrokeDiagnosis: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' does not resolve
+WARNING: Condition/BSJ-StrokeDiagnosis: Condition.category[0].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icf' could not be found, so the code cannot be validated
+ERROR: Condition/BSJ-StrokeDiagnosis: Condition.category[1].coding[0].code: Unknown code 'encounter-diagnosis' in the CodeSystem 'http://hl7.org/fhir/us/core/CodeSystem/condition-category' version '6.1.0'
+INFORMATION: Condition/BSJ-StrokeDiagnosis: Condition.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: Condition/BSJ-StrokeDiagnosis: Condition.bodySite[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: Condition/BSJ-StrokeDiagnosis: Condition.bodySite[1].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: Condition/BSJ-StrokeDiagnosis: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Condition-BSJ-UndressingConcern.json ==
+ERROR: Condition/BSJ-UndressingConcern: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns' does not resolve
+WARNING: Condition/BSJ-UndressingConcern: Condition.category[0].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icf' could not be found, so the code cannot be validated
+INFORMATION: Condition/BSJ-UndressingConcern: Condition.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: Condition/BSJ-UndressingConcern: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Condition-OT-ProblemList-Decondition.json ==
+ERROR: Condition/OT-ProblemList-Decondition: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns' does not resolve
+WARNING: Condition/OT-ProblemList-Decondition: Condition.category[0].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icf' could not be found, so the code cannot be validated
+ERROR: Condition/OT-ProblemList-Decondition: Condition.category[1].coding[0].code: Unknown code 'problem-list-item' in the CodeSystem 'http://hl7.org/fhir/us/core/CodeSystem/condition-category' version '6.1.0'
+INFORMATION: Condition/OT-ProblemList-Decondition: Condition.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: Condition/OT-ProblemList-Decondition: Condition.bodySite[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: Condition/OT-ProblemList-Decondition: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Condition-OT-ProblemList-RightWeak.json ==
+ERROR: Condition/OT-ProblemList-RightWeak: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns' does not resolve
+WARNING: Condition/OT-ProblemList-RightWeak: Condition.category[0].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icf' could not be found, so the code cannot be validated
+ERROR: Condition/OT-ProblemList-RightWeak: Condition.category[1].coding[0].code: Unknown code 'problem-list-item' in the CodeSystem 'http://hl7.org/fhir/us/core/CodeSystem/condition-category' version '6.1.0'
+INFORMATION: Condition/OT-ProblemList-RightWeak: Condition.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: Condition/OT-ProblemList-RightWeak: Condition.bodySite[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: Condition/OT-ProblemList-RightWeak: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.us.pacio-toc.json ==
+== fsh-generated/resources/Location-org-Loc-Everyday-Community-Pharm.json ==
+== fsh-generated/resources/Location-org-Loc-NED-Contract-Pharm.json ==
+== fsh-generated/resources/Location-org-Loc-Neuro-Care-Inc.json ==
+== fsh-generated/resources/Location-org-Loc-PC-Primary-Care-Michigan.json ==
+== fsh-generated/resources/Location-org-Loc-SNF-Happy-Nursing-Facility.json ==
+== fsh-generated/resources/Observation-BSJ-MDS-Activities-PT1.json ==
+INFORMATION: Observation/BSJ-MDS-Activities-PT1: Observation.category[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Observation/BSJ-MDS-Activities-PT1: Observation.category[2].coding[0].code: Unknown code 'blockl2-d51' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '1.0.0'
+== fsh-generated/resources/Observation-BSJ-MDS-Doffing1.json ==
+ERROR: Observation/BSJ-MDS-Doffing1: Observation.code.coding[0].display: Wrong Display Name '	
+Self-care (discharge performance) - upper body dressing' for http://loinc.org#89387-5. Valid display is 'Upper body dressing - functional goal during assessment period [CMS Assessment]' (for the language(s) '--')
+WARNING: Observation/BSJ-MDS-Doffing1: Observation.code.coding[0].display: value should not start or finish with whitespace '\t\nSelf-care (discharge performance) - upper body dressing'
+== fsh-generated/resources/Observation-BSJ-MDS-Donning1.json ==
+ERROR: Observation/BSJ-MDS-Donning1: Observation.code.coding[0].display: Wrong Display Name 'Self-care (discharge performance) - lower body dressing' for http://loinc.org#89406-3. Valid display is 'Lower body dressing - functional goal during assessment period [CMS Assessment]' (for the language(s) '--')
+== fsh-generated/resources/Observation-BSJ-MDS-Mobility-PT1.json ==
+INFORMATION: Observation/BSJ-MDS-Mobility-PT1: Observation.category[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Observation/BSJ-MDS-Mobility-PT1: Observation.category[2].coding[0].code: Unknown code 'blockl2-d41' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '1.0.0'
+== fsh-generated/resources/Observation-BSJ-MDS-ShortWalk1.json ==
+ERROR: Observation/BSJ-MDS-ShortWalk1: Observation.code.coding[0].display: Wrong Display Name '	
+Mobility (discharge performance) - walk 50 feet w/2 turns ' for http://loinc.org#89381-8. Valid display is 'Walk 50 feet with two turns - functional goal during assessment period [CMS Assessment]' (for the language(s) '--')
+WARNING: Observation/BSJ-MDS-ShortWalk1: Observation.code.coding[0].display: value should not start or finish with whitespace '\t\nMobility (discharge performance) - walk 50 feet w/2 turns '
+== fsh-generated/resources/Observation-BSJ-MDS-SitStand1.json ==
+INFORMATION: Observation/BSJ-MDS-SitStand1: Observation.category[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Observation/BSJ-MDS-SitStand1: Observation.category[2].coding[0].code: Unknown code 'd4014' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '1.0.0'
+ERROR: Observation/BSJ-MDS-SitStand1: Observation.code.coding[0].display: Wrong Display Name 'Mobility (discharge performance) - sit to stand' for http://loinc.org#89392-5. Valid display is 'Sit to stand - functional goal during assessment period [CMS Assessment]' (for the language(s) '--')
+== fsh-generated/resources/Observation-BSJ-MDS-SitUp1.json ==
+ERROR: Observation/BSJ-MDS-SitUp1: Observation.code.coding[0].display: Wrong Display Name 'Mobility (discharge performance) - lying to sitting on side of bed' for http://loinc.org#85927-2. Valid display is 'Lying to sitting on side of bed - functional goal during assessment period [CMS Assessment]' (for the language(s) '--')
+ERROR: Observation/BSJ-MDS-SitUp1: Observation.value.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as person completes activity. Assistance may be provided throught the activity or intermittently.' for http://loinc.org#LA30911-4. Valid display is 'Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as person completes activity. Assistance may be provided throughout the activity or intermittently.' (en-US) (for the language(s) '--')
+== fsh-generated/resources/Organization-org-Neuro-Care-Inc.json ==
+== fsh-generated/resources/Organization-org-PC-Primary-Care-Michigan.json ==
+== fsh-generated/resources/Organization-org-Pharm-Everyday-Community-Pharm.json ==
+== fsh-generated/resources/Organization-org-Pharm-NED-Contract-Pharm.json ==
+== fsh-generated/resources/Organization-org-SNF-Happy-Nursing-Facility.json ==
+== fsh-generated/resources/Patient-Example-Smith-Johnson-Patient1.json ==
+INFORMATION: Patient/Example-Smith-Johnson-Patient1: Patient.communication[0].language: Reference to draft CodeSystem urn:ietf:bcp:47|
+== fsh-generated/resources/Practitioner-Practioner-GeraldPark.json ==
+== fsh-generated/resources/Practitioner-Practitioner-AnitaChu.json ==
+== fsh-generated/resources/Practitioner-Practitioner-JenCadbury.json ==
+== fsh-generated/resources/Practitioner-Practitioner-NuraMekel.json ==
+== fsh-generated/resources/Practitioner-Practitioner-Phil-Chekhov.json ==
+== fsh-generated/resources/Practitioner-Practitioner-Tracy-Count.json ==
+== fsh-generated/resources/PractitionerRole-Role-IMMD-AnitaChu.json ==
+INFORMATION: PractitionerRole/Role-IMMD-AnitaChu: PractitionerRole.code[0].coding[0].system: A definition for CodeSystem 'https://taxonomy.nucc.org/' could not be found, so the code cannot be validated
+== fsh-generated/resources/PractitionerRole-Role-Neuro-NuraMekel.json ==
+INFORMATION: PractitionerRole/Role-Neuro-NuraMekel: PractitionerRole.code[0].coding[0]: A definition for CodeSystem 'https://taxonomy.nucc.org/' could not be found, so the code cannot be validated
+== fsh-generated/resources/PractitionerRole-Role-OT-JenCadbury.json ==
+INFORMATION: PractitionerRole/Role-OT-JenCadbury: PractitionerRole.code[0].coding[0]: A definition for CodeSystem 'https://taxonomy.nucc.org/' could not be found, so the code cannot be validated
+== fsh-generated/resources/PractitionerRole-Role-Pharm-PhilChekhov.json ==
+INFORMATION: PractitionerRole/Role-Pharm-PhilChekhov: PractitionerRole.code[0].coding[0]: A definition for CodeSystem 'https://taxonomy.nucc.org/' could not be found, so the code cannot be validated
+== fsh-generated/resources/PractitionerRole-Role-Pharm-TracyCount.json ==
+INFORMATION: PractitionerRole/Role-Pharm-TracyCount: PractitionerRole.code[0].coding[0]: A definition for CodeSystem 'https://taxonomy.nucc.org/' could not be found, so the code cannot be validated
+== fsh-generated/resources/PractitionerRole-Role-SNFDoc-GeraldPark.json ==
+INFORMATION: PractitionerRole/Role-SNFDoc-GeraldPark: PractitionerRole.code[0].coding[0]: A definition for CodeSystem 'https://taxonomy.nucc.org/' could not be found, so the code cannot be validated
+== fsh-generated/resources/ServiceRequest-BSJ-PCPFollowUp.json ==
+ERROR: ServiceRequest/BSJ-PCPFollowUp: ServiceRequest.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' does not resolve
+INFORMATION: ServiceRequest/BSJ-PCPFollowUp: ServiceRequest.category[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: ServiceRequest/BSJ-PCPFollowUp: ServiceRequest.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: ServiceRequest/BSJ-PCPFollowUp: ServiceRequest.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeCallOTRefer.json ==
+ERROR: ServiceRequest/BSJ-SNFDischargeCallOTRefer: ServiceRequest.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' does not resolve
+INFORMATION: ServiceRequest/BSJ-SNFDischargeCallOTRefer: ServiceRequest.category[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: ServiceRequest/BSJ-SNFDischargeCallOTRefer: ServiceRequest.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: ServiceRequest/BSJ-SNFDischargeCallOTRefer: ServiceRequest.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeCallOrder.json ==
+ERROR: ServiceRequest/BSJ-SNFDischargeCallOrder: ServiceRequest.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' does not resolve
+INFORMATION: ServiceRequest/BSJ-SNFDischargeCallOrder: ServiceRequest.category[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: ServiceRequest/BSJ-SNFDischargeCallOrder: ServiceRequest.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: ServiceRequest/BSJ-SNFDischargeCallOrder: ServiceRequest.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeCallSLPRefer.json ==
+ERROR: ServiceRequest/BSJ-SNFDischargeCallSLPRefer: ServiceRequest.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' does not resolve
+INFORMATION: ServiceRequest/BSJ-SNFDischargeCallSLPRefer: ServiceRequest.category[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: ServiceRequest/BSJ-SNFDischargeCallSLPRefer: ServiceRequest.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: ServiceRequest/BSJ-SNFDischargeCallSLPRefer: ServiceRequest.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeDietProtein.json ==
+ERROR: ServiceRequest/BSJ-SNFDischargeDietProtein: ServiceRequest.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' does not resolve
+INFORMATION: ServiceRequest/BSJ-SNFDischargeDietProtein: ServiceRequest.category[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: ServiceRequest/BSJ-SNFDischargeDietProtein: ServiceRequest.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: ServiceRequest/BSJ-SNFDischargeDietProtein: ServiceRequest.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeDietSalt.json ==
+ERROR: ServiceRequest/BSJ-SNFDischargeDietSalt: ServiceRequest.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' does not resolve
+INFORMATION: ServiceRequest/BSJ-SNFDischargeDietSalt: ServiceRequest.category[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: ServiceRequest/BSJ-SNFDischargeDietSalt: ServiceRequest.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: ServiceRequest/BSJ-SNFDischargeDietSalt: ServiceRequest.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeLabOrderBMP.json ==
+ERROR: ServiceRequest/BSJ-SNFDischargeLabOrderBMP: ServiceRequest.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' does not resolve
+INFORMATION: ServiceRequest/BSJ-SNFDischargeLabOrderBMP: ServiceRequest.category[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: ServiceRequest/BSJ-SNFDischargeLabOrderBMP: ServiceRequest.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: ServiceRequest/BSJ-SNFDischargeLabOrderBMP: ServiceRequest.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeLabOrderCBC.json ==
+ERROR: ServiceRequest/BSJ-SNFDischargeLabOrderCBC: ServiceRequest.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' does not resolve
+INFORMATION: ServiceRequest/BSJ-SNFDischargeLabOrderCBC: ServiceRequest.category[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: ServiceRequest/BSJ-SNFDischargeLabOrderCBC: ServiceRequest.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: ServiceRequest/BSJ-SNFDischargeLabOrderCBC: ServiceRequest.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/ServiceRequest-BSJ-SNFDischargePTRefer.json ==
+ERROR: ServiceRequest/BSJ-SNFDischargePTRefer: ServiceRequest.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' does not resolve
+INFORMATION: ServiceRequest/BSJ-SNFDischargePTRefer: ServiceRequest.category[0].coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+INFORMATION: ServiceRequest/BSJ-SNFDischargePTRefer: ServiceRequest.code.coding[0]: A definition for CodeSystem 'http://snomed.info/sct/731000124108' could not be found, so the code cannot be validated
+WARNING: ServiceRequest/BSJ-SNFDischargePTRefer: ServiceRequest.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/StructureDefinition-TOC-Composition-Header.json ==
+INFORMATION: StructureDefinition/TOC-Composition-Header: Composition.extension: The extension http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber|5.1.0 is deprecated
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition-Header'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-toc-reason-extension.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-toc/StructureDefinition/toc-reason-extension'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/ValueSet-toc-del-loinc-answered-by-LL5571-6-vs.json ==
+WARNING: ValueSet/toc-del-loinc-answered-by-LL5571-6-vs: ValueSet.compose.include[0]: This value set has a single include with multiple imported value sets. Per issue https://jira.hl7.org/browse/FHIR-25179, there has been confusion in the past whether these value sets are unioned or intersectioned. If this value set is contained in a package published prior to March 31 2022, it will be treated as a union, otherwise it will be treated as an intersection. If want a union, split the value set imports across multiple includes
+INFORMATION: ValueSet.where(id = 'toc-del-loinc-answered-by-LL5571-6-vs'): The value set expansion is too large, and only a subset has been displayed
+== fsh-generated/resources/ValueSet-toc-del-loinc-vs.json ==
+== fsh-generated/resources/ValueSet-toc-loinc-answered-by-LL5571-6-vs.json ==
+== input/resources/CapabilityStatement-toc.json ==

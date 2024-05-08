@@ -1,0 +1,51 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.69.4",
+      "version" : "20230627",
+      "status" : "active",
+      "name" : "AdvanceDirectivesCategories",
+      "title" : "Advance Directives Categories",
+      "description" : "Categories of content in an advance directive. This list is not exhaustive.",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.11.20.9.69.4"],
+      "sources" : ["2.16.840.1.113883.11.20.9.69.4"],
+      "uses" : {
+      },
+      "StructureDefinition-TOC-Composition-Header.html" : "TOC Composition Header"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/pacio-toc/ValueSet/toc-del-loinc-answered-by-LL5571-6-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TocDelLoincTermsAnsweredByLL5571",
+      "title" : "Transitions of Care LOINC Terms Included in the DEL Answered by LL5571-6 Answer List Value Set",
+      "description" : "This value set includes those LOINC terms that included in the DEL which are defined to be answered by LOINC answer list LL5571-6.",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/pacio-toc/ValueSet/toc-del-loinc-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TocDELItemsLOINC",
+      "title" : "Transitions of Care DEL LOINC Terms Value Set",
+      "description" : "This value set includes those LOINC terms that are used by the DEL.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "ValueSet-toc-del-loinc-answered-by-LL5571-6-vs.html" : "Transitions of Care LOINC Terms Included in the DEL Answered by LL5571-6 Answer List Value Set"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/pacio-toc/ValueSet/toc-loinc-answered-by-LL5571-6-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TocLoincTermsAnsweredByLL5571",
+      "title" : "Transitions of Care LOINC Terms Answered by LL5571-6 Answer List Value Set",
+      "description" : "This value set includes those LOINC terms that are defined to be answered by LOINC answer list LL5571-6.\n\n  Ideally, this could be intensionally defined as terms where the answer-list property is \"LL5571-6\", however at publication time, this property is not supported by the FHIR terminology server at tx.fhir.org.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "ValueSet-toc-del-loinc-answered-by-LL5571-6-vs.html" : "Transitions of Care LOINC Terms Included in the DEL Answered by LL5571-6 Answer List Value Set"
+    }
+  ]
+}

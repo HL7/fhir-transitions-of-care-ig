@@ -1,0 +1,31 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-toc/Organization/org-PC-Primary-Care-Michigan> a fhir:Organization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "org-PC-Primary-Care-Michigan"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"org-PC-Primary-Care-Michigan\"> </a><a name=\"hcorg-PC-Primary-Care-Michigan\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;org-PC-Primary-Care-Michigan&quot; </p></div><p><b>active</b>: true</p><p><b>name</b>: Michigan Primary Health Care Associates</p><p><b>telecom</b>: ph: (616) 555-1212</p><p><b>address</b>: 123 Spruce Dr. Grand Rapids, MI 49503</p></div>"
+  ] ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:name [ fhir:v "Michigan Primary Health Care Associates"] ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "(616) 555-1212" ]
+  ] ) ; # 
+  fhir:address ( [
+     fhir:text [ fhir:v "123 Spruce Dr. Grand Rapids, MI 49503" ] ;
+     fhir:line ( [ fhir:v "123 Spruce Dr" ] ) ;
+     fhir:city [ fhir:v "Grand Rapids" ] ;
+     fhir:state [ fhir:v "MI" ] ;
+     fhir:postalCode [ fhir:v "49503" ] ;
+     fhir:country [ fhir:v "US" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

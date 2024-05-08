@@ -1,0 +1,111 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/OT-ProblemList-Decondition> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "OT-ProblemList-Decondition"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"OT-ProblemList-Decondition\"> </a><a name=\"hcOT-ProblemList-Decondition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;OT-ProblemList-Decondition&quot; </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns</code></p></div><p><b>Condition Asserted Date</b>: 2024-04-30 15:40:00-0400</p><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-condition-ver-status.html\">ConditionVerificationStatus</a>#confirmed)</span></p><p><b>category</b>: Power of muscles in lower half of the body <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ICF.html\">International Classification of Functioning, Disability and Health</a>#b7303)</span>, Problem List Item <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/core/STU6.1/CodeSystem-condition-category.html\">US Core Condition Category Extension Codes</a>#problem-list-item)</span>, Functional Status <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/core/STU6.1/CodeSystem-us-core-category.html\">US Core Category</a>#functional-status)</span></p><p><b>code</b>: Physical deconditioning (finding) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SNOMED CT#31031000119102)</span></p><p><b>bodySite</b>: Entire lower body (body structure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SNOMED CT#362875007)</span></p><p><b>subject</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>onset</b>: 2024-04-26 15:40:00-0400</p><p><b>recordedDate</b>: 2024-04-30 15:40:00-0400</p><p><b>asserter</b>: <a href=\"PractitionerRole-Role-OT-JenCadbury.html\">PractitionerRole/Role-OT-JenCadbury</a></p><blockquote><p><b>evidence</b></p><p><b>detail</b>: <a href=\"Observation-BSJ-MDS-ShortWalk1.html\">Observation/BSJ-MDS-ShortWalk1</a></p></blockquote><blockquote><p><b>evidence</b></p><p><b>detail</b>: <a href=\"Observation-BSJ-MDS-SitStand1.html\">Observation/BSJ-MDS-SitStand1</a></p></blockquote><blockquote><p><b>evidence</b></p><p><b>detail</b>: <a href=\"Observation-BSJ-MDS-SitUp1.html\">Observation/BSJ-MDS-SitUp1</a></p></blockquote><p><b>note</b>: The weakness in the patient's lower extremities is secondary to deconditioning. According to the report from Neurology, patient did not have motor or sensory deficits below upper chest. High rehab potential.</p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "2024-04-30T15:40:00-04:00"^^xsd:dateTime ]
+  ] ) ; # 
+  fhir:clinicalStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:verificationStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-ver-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "confirmed" ]
+     ] )
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/sid/icf"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "b7303" ] ;
+       fhir:display [ fhir:v "Power of muscles in lower half of the body" ]
+     ] )
+  ] [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/us/core/CodeSystem/condition-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "problem-list-item" ] ;
+       fhir:display [ fhir:v "Problem List Item" ]
+     ] )
+  ] [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/us/core/CodeSystem/us-core-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "functional-status" ] ;
+       fhir:display [ fhir:v "Functional Status" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://snomed.info/sct/731000124108"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "31031000119102" ] ;
+       fhir:display [ fhir:v "Physical deconditioning (finding)" ]
+     ] )
+  ] ; # 
+  fhir:bodySite ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://snomed.info/sct/731000124108"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "362875007" ] ;
+       fhir:display [ fhir:v "Entire lower body (body structure)" ]
+     ] )
+  ] ) ; # 
+  fhir:subject [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Patient/Example-Smith-Johnson-Patient1> ;
+     fhir:reference [ fhir:v "Patient/Example-Smith-Johnson-Patient1" ]
+  ] ; # 
+  fhir:onset [ fhir:v "2024-04-26T15:40:00-04:00"^^xsd:dateTime] ; # 
+  fhir:recordedDate [ fhir:v "2024-04-30T15:40:00-04:00"^^xsd:dateTime] ; # 
+  fhir:asserter [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-OT-JenCadbury> ;
+     fhir:reference [ fhir:v "PractitionerRole/Role-OT-JenCadbury" ]
+  ] ; # 
+  fhir:evidence ( [
+     fhir:detail ( [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-ShortWalk1> ;
+       fhir:reference [ fhir:v "Observation/BSJ-MDS-ShortWalk1" ]
+     ] )
+  ] [
+     fhir:detail ( [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitStand1> ;
+       fhir:reference [ fhir:v "Observation/BSJ-MDS-SitStand1" ]
+     ] )
+  ] [
+     fhir:detail ( [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitUp1> ;
+       fhir:reference [ fhir:v "Observation/BSJ-MDS-SitUp1" ]
+     ] )
+  ] ) ; # 
+  fhir:note ( [
+     fhir:text [ fhir:v "The weakness in the patient's lower extremities is secondary to deconditioning. According to the report from Neurology, patient did not have motor or sensory deficits below upper chest. High rehab potential." ]
+  ] ) . # 
+
+<http://hl7.org/fhir/us/pacio-toc/Patient/Example-Smith-Johnson-Patient1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-OT-JenCadbury> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-ShortWalk1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitStand1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitUp1> a fhir:us .
+
+# -------------------------------------------------------------------------------------
+

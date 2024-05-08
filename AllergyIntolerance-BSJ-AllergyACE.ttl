@@ -1,0 +1,71 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-toc/AllergyIntolerance/BSJ-AllergyACE> a fhir:AllergyIntolerance ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BSJ-AllergyACE"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AllergyIntolerance</b><a name=\"BSJ-AllergyACE\"> </a><a name=\"hcBSJ-AllergyACE\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AllergyIntolerance &quot;BSJ-AllergyACE&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html\">US Core AllergyIntolerance Profile</a></p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-allergyintolerance-clinical.html\">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-allergyintolerance-verification.html\">AllergyIntolerance Verification Status</a>#confirmed)</span></p><p><b>category</b>: medication</p><p><b>criticality</b>: high</p><p><b>code</b>: Substance with angiotensin-converting enzyme inhibitor mechanism of action (substance) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SNOMED CT#372733002)</span></p><p><b>patient</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>asserter</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>lastOccurrence</b>: 2011-10</p><h3>Reactions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Substance</b></td><td><b>Manifestation</b></td></tr><tr><td style=\"display: none\">*</td><td>captopril 12.5 MG Oral Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-rxNorm.html\">RxNorm</a>#308963)</span></td><td>Hyperkalemia caused by angiotensin-converting enzyme inhibitor (disorder) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SNOMED CT#427195008)</span></td></tr></table></div>"
+  ] ; # 
+  fhir:clinicalStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:verificationStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "confirmed" ]
+     ] )
+  ] ; # 
+  fhir:category ( [ fhir:v "medication"] ) ; # 
+  fhir:criticality [ fhir:v "high"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://snomed.info/sct/731000124108"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "372733002" ] ;
+       fhir:display [ fhir:v "Substance with angiotensin-converting enzyme inhibitor mechanism of action (substance)" ]
+     ] )
+  ] ; # 
+  fhir:patient [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Patient/Example-Smith-Johnson-Patient1> ;
+     fhir:reference [ fhir:v "Patient/Example-Smith-Johnson-Patient1" ]
+  ] ; # 
+  fhir:asserter [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Patient/Example-Smith-Johnson-Patient1> ;
+     fhir:reference [ fhir:v "Patient/Example-Smith-Johnson-Patient1" ]
+  ] ; # 
+  fhir:lastOccurrence [ fhir:v "2011-10"^^xsd:gYearMonth] ; # 
+  fhir:reaction ( [
+     fhir:substance [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "308963" ] ;
+         fhir:display [ fhir:v "captopril 12.5 MG Oral Tablet" ]
+       ] )
+     ] ;
+     fhir:manifestation ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://snomed.info/sct/731000124108"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "427195008" ] ;
+         fhir:display [ fhir:v "Hyperkalemia caused by angiotensin-converting enzyme inhibitor (disorder)" ]
+       ] )
+     ] )
+  ] ) . # 
+
+<http://hl7.org/fhir/us/pacio-toc/Patient/Example-Smith-Johnson-Patient1> a fhir:us .
+
+# -------------------------------------------------------------------------------------
+

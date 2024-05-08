@@ -1,0 +1,235 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-toc/ValueSet/toc-loinc-answered-by-LL5571-6-vs> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "toc-loinc-answered-by-LL5571-6-vs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/94933-9/\">94933-9</a></td><td style=\"color: #cccccc\">Eating - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94934-7/\">94934-7</a></td><td style=\"color: #cccccc\">Oral hygiene - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94935-4/\">94935-4</a></td><td style=\"color: #cccccc\">Wash upper body - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94936-2/\">94936-2</a></td><td style=\"color: #cccccc\">Shower/bathe self - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94937-0/\">94937-0</a></td><td style=\"color: #cccccc\">Upper body dressing - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94938-8/\">94938-8</a></td><td style=\"color: #cccccc\">Lower body dressing - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94939-6/\">94939-6</a></td><td style=\"color: #cccccc\">Putting on and taking off footwear - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94940-4/\">94940-4</a></td><td style=\"color: #cccccc\">Roll left and right - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94941-2/\">94941-2</a></td><td style=\"color: #cccccc\">Sit to lying - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94942-0/\">94942-0</a></td><td style=\"color: #cccccc\">Lying to sitting on side of bed - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94943-8/\">94943-8</a></td><td style=\"color: #cccccc\">Sit to stand - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94944-6/\">94944-6</a></td><td style=\"color: #cccccc\">Chair/bed-to-chair transfer - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94945-3/\">94945-3</a></td><td style=\"color: #cccccc\">Toilet transfer - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94946-1/\">94946-1</a></td><td style=\"color: #cccccc\">Car transfer - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94947-9/\">94947-9</a></td><td style=\"color: #cccccc\">Walk 10 feet - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94948-7/\">94948-7</a></td><td style=\"color: #cccccc\">Walk 50 feet with two turns - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94949-5/\">94949-5</a></td><td style=\"color: #cccccc\">Walk 150 feet - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94950-3/\">94950-3</a></td><td style=\"color: #cccccc\">Walking 10 feet on uneven surfaces - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94951-1/\">94951-1</a></td><td style=\"color: #cccccc\">Go up and down a curb/step - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94952-9/\">94952-9</a></td><td style=\"color: #cccccc\">Go up and down 4 steps - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94953-7/\">94953-7</a></td><td style=\"color: #cccccc\">Go up and down 12 steps - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94954-5/\">94954-5</a></td><td style=\"color: #cccccc\">Picking up object - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94955-2/\">94955-2</a></td><td style=\"color: #cccccc\">Walks indoors - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94956-0/\">94956-0</a></td><td style=\"color: #cccccc\">Carries something in both hands - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94957-8/\">94957-8</a></td><td style=\"color: #cccccc\">Walks for 15 minutes - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94958-6/\">94958-6</a></td><td style=\"color: #cccccc\">Walks across a street - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94959-4/\">94959-4</a></td><td style=\"color: #cccccc\">Wheel 50 feet with two turns - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94960-2/\">94960-2</a></td><td style=\"color: #cccccc\">Wheel 150 feet - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94961-0/\">94961-0</a></td><td style=\"color: #cccccc\">Wheels for 15 minutes - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94962-8/\">94962-8</a></td><td style=\"color: #cccccc\">Wheels across a street - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94963-6/\">94963-6</a></td><td style=\"color: #cccccc\">Makes a light cold meal - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94964-4/\">94964-4</a></td><td style=\"color: #cccccc\">Makes a light hot meal - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94965-1/\">94965-1</a></td><td style=\"color: #cccccc\">Light daily housework - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94966-9/\">94966-9</a></td><td style=\"color: #cccccc\">Heavier periodic housework - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94967-7/\">94967-7</a></td><td style=\"color: #cccccc\">Light shopping- most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94968-5/\">94968-5</a></td><td style=\"color: #cccccc\">Answering telephone call - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94969-3/\">94969-3</a></td><td style=\"color: #cccccc\">Placing telephone call - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94970-1/\">94970-1</a></td><td style=\"color: #cccccc\">Medication management.oral medications - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94971-9/\">94971-9</a></td><td style=\"color: #cccccc\">Medication management.inhalant/mist medications - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94972-7/\">94972-7</a></td><td style=\"color: #cccccc\">Medication management.injectable medications - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94973-5/\">94973-5</a></td><td style=\"color: #cccccc\">Simple financial management - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94974-3/\">94974-3</a></td><td style=\"color: #cccccc\">Complex financial management - most dependent performance during the past month [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94976-8/\">94976-8</a></td><td style=\"color: #cccccc\">Makes a light cold meal - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94977-6/\">94977-6</a></td><td style=\"color: #cccccc\">Makes a light hot meal - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94978-4/\">94978-4</a></td><td style=\"color: #cccccc\">Light daily housework - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94979-2/\">94979-2</a></td><td style=\"color: #cccccc\">Heavier periodic housework - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94980-0/\">94980-0</a></td><td style=\"color: #cccccc\">Light shopping - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94981-8/\">94981-8</a></td><td style=\"color: #cccccc\">Answering telephone call - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94982-6/\">94982-6</a></td><td style=\"color: #cccccc\">Placing telephone call - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94983-4/\">94983-4</a></td><td style=\"color: #cccccc\">Medication management.oral medications - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94984-2/\">94984-2</a></td><td style=\"color: #cccccc\">Medication management.inhalant/mist medications - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94985-9/\">94985-9</a></td><td style=\"color: #cccccc\">Medication management.injectable medications - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94986-7/\">94986-7</a></td><td style=\"color: #cccccc\">Simple financial management - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94987-5/\">94987-5</a></td><td style=\"color: #cccccc\">Complex financial management - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94989-1/\">94989-1</a></td><td style=\"color: #cccccc\">Wheels across a street - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94990-9/\">94990-9</a></td><td style=\"color: #cccccc\">Wheels for 15 minutes - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94991-7/\">94991-7</a></td><td style=\"color: #cccccc\">Wheel 150 feet - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94992-5/\">94992-5</a></td><td style=\"color: #cccccc\">Wheel 50 feet with two turns - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94993-3/\">94993-3</a></td><td style=\"color: #cccccc\">Walks across a street - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94994-1/\">94994-1</a></td><td style=\"color: #cccccc\">Walks for 15 minutes - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94995-8/\">94995-8</a></td><td style=\"color: #cccccc\">Carries something in both hands - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94996-6/\">94996-6</a></td><td style=\"color: #cccccc\">Walks indoors - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94997-4/\">94997-4</a></td><td style=\"color: #cccccc\">Picking up object - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94998-2/\">94998-2</a></td><td style=\"color: #cccccc\">Go up and down 12 steps - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/94999-0/\">94999-0</a></td><td style=\"color: #cccccc\">Go up and down 4 steps - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95000-6/\">95000-6</a></td><td style=\"color: #cccccc\">Go up and down a curb/step - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95001-4/\">95001-4</a></td><td style=\"color: #cccccc\">Walking 10 feet on uneven surfaces - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95002-2/\">95002-2</a></td><td style=\"color: #cccccc\">Walk 150 feet - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95003-0/\">95003-0</a></td><td style=\"color: #cccccc\">Walk 50 feet with two turns - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95004-8/\">95004-8</a></td><td style=\"color: #cccccc\">Walk 10 feet - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95005-5/\">95005-5</a></td><td style=\"color: #cccccc\">Car transfer - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95006-3/\">95006-3</a></td><td style=\"color: #cccccc\">Toilet transfer - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95007-1/\">95007-1</a></td><td style=\"color: #cccccc\">Chair/bed-to-chair transfer - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95008-9/\">95008-9</a></td><td style=\"color: #cccccc\">Sit to stand - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95009-7/\">95009-7</a></td><td style=\"color: #cccccc\">Lying to sitting on side of bed - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95010-5/\">95010-5</a></td><td style=\"color: #cccccc\">Sit to lying - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95011-3/\">95011-3</a></td><td style=\"color: #cccccc\">Roll left and right - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95012-1/\">95012-1</a></td><td style=\"color: #cccccc\">Putting on/taking off footwear - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95013-9/\">95013-9</a></td><td style=\"color: #cccccc\">Lower body dressing - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95014-7/\">95014-7</a></td><td style=\"color: #cccccc\">Upper body dressing - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95015-4/\">95015-4</a></td><td style=\"color: #cccccc\">Shower/bathe self - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95016-2/\">95016-2</a></td><td style=\"color: #cccccc\">Wash upper body - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95017-0/\">95017-0</a></td><td style=\"color: #cccccc\">Toileting hygiene - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95018-8/\">95018-8</a></td><td style=\"color: #cccccc\">Oral hygiene - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95019-6/\">95019-6</a></td><td style=\"color: #cccccc\">Eating - usual functional ability during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"https://loinc.org/95043-6/\">95043-6</a></td><td style=\"color: #cccccc\">Toileting hygiene - most dependent performance during the past month [CMS Assessment]</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "pc" ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/us/pacio-toc/ValueSet/toc-loinc-answered-by-LL5571-6-vs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "TocLoincTermsAnsweredByLL5571"] ; # 
+  fhir:title [ fhir:v "Transitions of Care LOINC Terms Answered by LL5571-6 Answer List Value Set"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-05-08T12:06:42-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 International / Patient Care"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 International / Patient Care" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/patientcare" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "patientcare@lists.HL7.org" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "PACIO project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/patientcare" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "info@pacioproject.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This value set includes those LOINC terms that are defined to be answered by LOINC answer list LL5571-6.\n\n  Ideally, this could be intensionally defined as terms where the answer-list property is \"LL5571-6\", however at publication time, this property is not supported by the FHIR terminology server at tx.fhir.org."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "US" ] ;
+       fhir:display [ fhir:v "United States of America" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "94933-9" ]
+       ] [
+         fhir:code [ fhir:v "94934-7" ]
+       ] [
+         fhir:code [ fhir:v "94935-4" ]
+       ] [
+         fhir:code [ fhir:v "94936-2" ]
+       ] [
+         fhir:code [ fhir:v "94937-0" ]
+       ] [
+         fhir:code [ fhir:v "94938-8" ]
+       ] [
+         fhir:code [ fhir:v "94939-6" ]
+       ] [
+         fhir:code [ fhir:v "94940-4" ]
+       ] [
+         fhir:code [ fhir:v "94941-2" ]
+       ] [
+         fhir:code [ fhir:v "94942-0" ]
+       ] [
+         fhir:code [ fhir:v "94943-8" ]
+       ] [
+         fhir:code [ fhir:v "94944-6" ]
+       ] [
+         fhir:code [ fhir:v "94945-3" ]
+       ] [
+         fhir:code [ fhir:v "94946-1" ]
+       ] [
+         fhir:code [ fhir:v "94947-9" ]
+       ] [
+         fhir:code [ fhir:v "94948-7" ]
+       ] [
+         fhir:code [ fhir:v "94949-5" ]
+       ] [
+         fhir:code [ fhir:v "94950-3" ]
+       ] [
+         fhir:code [ fhir:v "94951-1" ]
+       ] [
+         fhir:code [ fhir:v "94952-9" ]
+       ] [
+         fhir:code [ fhir:v "94953-7" ]
+       ] [
+         fhir:code [ fhir:v "94954-5" ]
+       ] [
+         fhir:code [ fhir:v "94955-2" ]
+       ] [
+         fhir:code [ fhir:v "94956-0" ]
+       ] [
+         fhir:code [ fhir:v "94957-8" ]
+       ] [
+         fhir:code [ fhir:v "94958-6" ]
+       ] [
+         fhir:code [ fhir:v "94959-4" ]
+       ] [
+         fhir:code [ fhir:v "94960-2" ]
+       ] [
+         fhir:code [ fhir:v "94961-0" ]
+       ] [
+         fhir:code [ fhir:v "94962-8" ]
+       ] [
+         fhir:code [ fhir:v "94963-6" ]
+       ] [
+         fhir:code [ fhir:v "94964-4" ]
+       ] [
+         fhir:code [ fhir:v "94965-1" ]
+       ] [
+         fhir:code [ fhir:v "94966-9" ]
+       ] [
+         fhir:code [ fhir:v "94967-7" ]
+       ] [
+         fhir:code [ fhir:v "94968-5" ]
+       ] [
+         fhir:code [ fhir:v "94969-3" ]
+       ] [
+         fhir:code [ fhir:v "94970-1" ]
+       ] [
+         fhir:code [ fhir:v "94971-9" ]
+       ] [
+         fhir:code [ fhir:v "94972-7" ]
+       ] [
+         fhir:code [ fhir:v "94973-5" ]
+       ] [
+         fhir:code [ fhir:v "94974-3" ]
+       ] [
+         fhir:code [ fhir:v "94976-8" ]
+       ] [
+         fhir:code [ fhir:v "94977-6" ]
+       ] [
+         fhir:code [ fhir:v "94978-4" ]
+       ] [
+         fhir:code [ fhir:v "94979-2" ]
+       ] [
+         fhir:code [ fhir:v "94980-0" ]
+       ] [
+         fhir:code [ fhir:v "94981-8" ]
+       ] [
+         fhir:code [ fhir:v "94982-6" ]
+       ] [
+         fhir:code [ fhir:v "94983-4" ]
+       ] [
+         fhir:code [ fhir:v "94984-2" ]
+       ] [
+         fhir:code [ fhir:v "94985-9" ]
+       ] [
+         fhir:code [ fhir:v "94986-7" ]
+       ] [
+         fhir:code [ fhir:v "94987-5" ]
+       ] [
+         fhir:code [ fhir:v "94989-1" ]
+       ] [
+         fhir:code [ fhir:v "94990-9" ]
+       ] [
+         fhir:code [ fhir:v "94991-7" ]
+       ] [
+         fhir:code [ fhir:v "94992-5" ]
+       ] [
+         fhir:code [ fhir:v "94993-3" ]
+       ] [
+         fhir:code [ fhir:v "94994-1" ]
+       ] [
+         fhir:code [ fhir:v "94995-8" ]
+       ] [
+         fhir:code [ fhir:v "94996-6" ]
+       ] [
+         fhir:code [ fhir:v "94997-4" ]
+       ] [
+         fhir:code [ fhir:v "94998-2" ]
+       ] [
+         fhir:code [ fhir:v "94999-0" ]
+       ] [
+         fhir:code [ fhir:v "95000-6" ]
+       ] [
+         fhir:code [ fhir:v "95001-4" ]
+       ] [
+         fhir:code [ fhir:v "95002-2" ]
+       ] [
+         fhir:code [ fhir:v "95003-0" ]
+       ] [
+         fhir:code [ fhir:v "95004-8" ]
+       ] [
+         fhir:code [ fhir:v "95005-5" ]
+       ] [
+         fhir:code [ fhir:v "95006-3" ]
+       ] [
+         fhir:code [ fhir:v "95007-1" ]
+       ] [
+         fhir:code [ fhir:v "95008-9" ]
+       ] [
+         fhir:code [ fhir:v "95009-7" ]
+       ] [
+         fhir:code [ fhir:v "95010-5" ]
+       ] [
+         fhir:code [ fhir:v "95011-3" ]
+       ] [
+         fhir:code [ fhir:v "95012-1" ]
+       ] [
+         fhir:code [ fhir:v "95013-9" ]
+       ] [
+         fhir:code [ fhir:v "95014-7" ]
+       ] [
+         fhir:code [ fhir:v "95015-4" ]
+       ] [
+         fhir:code [ fhir:v "95016-2" ]
+       ] [
+         fhir:code [ fhir:v "95017-0" ]
+       ] [
+         fhir:code [ fhir:v "95018-8" ]
+       ] [
+         fhir:code [ fhir:v "95019-6" ]
+       ] [
+         fhir:code [ fhir:v "95043-6" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

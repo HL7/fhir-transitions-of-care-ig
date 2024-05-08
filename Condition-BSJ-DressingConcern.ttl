@@ -1,0 +1,77 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-DressingConcern> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BSJ-DressingConcern"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"BSJ-DressingConcern\"> </a><a name=\"hcBSJ-DressingConcern\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;BSJ-DressingConcern&quot; </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns</code></p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-condition-ver-status.html\">ConditionVerificationStatus</a>#confirmed)</span></p><p><b>category</b>: control of complex voluntary movements <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ICF.html\">International Classification of Functioning, Disability and Health</a>#b7601)</span>, Health Concern <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/core/STU6.1/CodeSystem-condition-category.html\">US Core Condition Category Extension Codes</a>#health-concern)</span>, Functional Status <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/core/STU6.1/CodeSystem-us-core-category.html\">US Core Category</a>#functional-status)</span></p><p><b>code</b>: Difficulty performing dressing activity (finding) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SNOMED CT#284972002)</span></p><p><b>subject</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>recordedDate</b>: 2024-04-27 15:40:00-0400</p><p><b>asserter</b>: <a href=\"PractitionerRole-Role-OT-JenCadbury.html\">PractitionerRole/Role-OT-JenCadbury</a></p><p><b>note</b>: Betsy is frustrated, embarrassed, and worried about not being able to dress herself</p></div>"
+  ] ; # 
+  fhir:clinicalStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:verificationStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-ver-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "confirmed" ]
+     ] )
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/sid/icf"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "b7601" ] ;
+       fhir:display [ fhir:v "control of complex voluntary movements" ]
+     ] )
+  ] [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/us/core/CodeSystem/condition-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "health-concern" ] ;
+       fhir:display [ fhir:v "Health Concern" ]
+     ] )
+  ] [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/us/core/CodeSystem/us-core-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "functional-status" ] ;
+       fhir:display [ fhir:v "Functional Status" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://snomed.info/sct/731000124108"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "284972002" ] ;
+       fhir:display [ fhir:v "Difficulty performing dressing activity (finding)" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Patient/Example-Smith-Johnson-Patient1> ;
+     fhir:reference [ fhir:v "Patient/Example-Smith-Johnson-Patient1" ]
+  ] ; # 
+  fhir:recordedDate [ fhir:v "2024-04-27T15:40:00-04:00"^^xsd:dateTime] ; # 
+  fhir:asserter [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-OT-JenCadbury> ;
+     fhir:reference [ fhir:v "PractitionerRole/Role-OT-JenCadbury" ]
+  ] ; # 
+  fhir:note ( [
+     fhir:text [ fhir:v "Betsy is frustrated, embarrassed, and worried about not being able to dress herself" ]
+  ] ) . # 
+
+<http://hl7.org/fhir/us/pacio-toc/Patient/Example-Smith-Johnson-Patient1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-OT-JenCadbury> a fhir:us .
+
+# -------------------------------------------------------------------------------------
+

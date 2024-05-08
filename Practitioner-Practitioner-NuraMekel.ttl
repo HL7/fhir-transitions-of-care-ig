@@ -1,0 +1,40 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-toc/Practitioner/Practitioner-NuraMekel> a fhir:Practitioner ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Practitioner-NuraMekel"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"Practitioner-NuraMekel\"> </a><a name=\"hcPractitioner-NuraMekel\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;Practitioner-NuraMekel&quot; </p></div><p><b>identifier</b>: <a href=\"http://terminology.hl7.org/5.0.0/NamingSystem-npi.html\" title=\"National Provider Identifier\">NPI</a>/9395820218</p><p><b>active</b>: true</p><p><b>name</b>: Nura Mekel</p><p><b>telecom</b>: ph: (210) 555 5555</p><p><b>address</b>: 177 Branching Tree Blvd, Grand Rapids, MI 49509</p><p><b>gender</b>: female</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://hl7.org/fhir/sid/us-npi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "9395820218" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:name ( [
+     fhir:text [ fhir:v "Nura Mekel" ] ;
+     fhir:family [ fhir:v "Mekel" ] ;
+     fhir:given ( [ fhir:v "Nura" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "(210) 555 5555" ]
+  ] ) ; # 
+  fhir:address ( [
+     fhir:text [ fhir:v "177 Branching Tree Blvd, Grand Rapids, MI 49509" ] ;
+     fhir:line ( [ fhir:v "177 Branching Tree Blvd" ] ) ;
+     fhir:city [ fhir:v "Grand Rapids" ] ;
+     fhir:state [ fhir:v "MI" ] ;
+     fhir:postalCode [ fhir:v "49509" ] ;
+     fhir:country [ fhir:v "US" ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "female"] . # 
+
+# -------------------------------------------------------------------------------------
+

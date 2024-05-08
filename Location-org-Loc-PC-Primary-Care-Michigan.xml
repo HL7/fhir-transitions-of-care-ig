@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Location xmlns="http://hl7.org/fhir">
+  <id value="org-Loc-PC-Primary-Care-Michigan"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Location</b><a name="org-Loc-PC-Primary-Care-Michigan"> </a><a name="hcorg-Loc-PC-Primary-Care-Michigan"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Location &quot;org-Loc-PC-Primary-Care-Michigan&quot; </p></div><p><b>status</b>: active</p><p><b>name</b>: Michigan Primary Health Care Associates</p><p><b>address</b>: 123 Spruce Dr. Grand Rapids, MI 49503</p></div>
+  </text>
+  <status value="active"/>
+  <name value="Michigan Primary Health Care Associates"/>
+  <address>
+    <text value="123 Spruce Dr. Grand Rapids, MI 49503"/>
+    <line value="123 Spruce Dr"/>
+    <city value="Grand Rapids"/>
+    <state value="MI"/>
+    <postalCode value="49503"/>
+    <country value="US"/>
+  </address>
+</Location>

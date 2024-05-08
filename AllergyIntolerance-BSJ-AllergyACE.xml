@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AllergyIntolerance xmlns="http://hl7.org/fhir">
+  <id value="BSJ-AllergyACE"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AllergyIntolerance</b><a name="BSJ-AllergyACE"> </a><a name="hcBSJ-AllergyACE"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AllergyIntolerance &quot;BSJ-AllergyACE&quot; </p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html">US Core AllergyIntolerance Profile</a></p></div><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.4.0/CodeSystem-allergyintolerance-clinical.html">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.4.0/CodeSystem-allergyintolerance-verification.html">AllergyIntolerance Verification Status</a>#confirmed)</span></p><p><b>category</b>: medication</p><p><b>criticality</b>: high</p><p><b>code</b>: Substance with angiotensin-converting enzyme inhibitor mechanism of action (substance) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SNOMED CT#372733002)</span></p><p><b>patient</b>: <a href="Patient-Example-Smith-Johnson-Patient1.html">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>asserter</b>: <a href="Patient-Example-Smith-Johnson-Patient1.html">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>lastOccurrence</b>: 2011-10</p><h3>Reactions</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Substance</b></td><td><b>Manifestation</b></td></tr><tr><td style="display: none">*</td><td>captopril 12.5 MG Oral Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-rxNorm.html">RxNorm</a>#308963)</span></td><td>Hyperkalemia caused by angiotensin-converting enzyme inhibitor (disorder) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SNOMED CT#427195008)</span></td></tr></table></div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
+      <code value="active"/>
+    </coding>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"/>
+      <code value="confirmed"/>
+    </coding>
+  </verificationStatus>
+  <category value="medication"/>
+  <criticality value="high"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct/731000124108"/>
+      <code value="372733002"/>
+      <display value="Substance with angiotensin-converting enzyme inhibitor mechanism of action (substance)"/>
+    </coding>
+  </code>
+  <patient>
+    <reference value="Patient/Example-Smith-Johnson-Patient1"/>
+  </patient>
+  <asserter>
+    <reference value="Patient/Example-Smith-Johnson-Patient1"/>
+  </asserter>
+  <lastOccurrence value="2011-10"/>
+  <reaction>
+    <substance>
+      <coding>
+        <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+        <code value="308963"/>
+        <display value="captopril 12.5 MG Oral Tablet"/>
+      </coding>
+    </substance>
+    <manifestation>
+      <coding>
+        <system value="http://snomed.info/sct/731000124108"/>
+        <code value="427195008"/>
+        <display value="Hyperkalemia caused by angiotensin-converting enzyme inhibitor (disorder)"/>
+      </coding>
+    </manifestation>
+  </reaction>
+</AllergyIntolerance>

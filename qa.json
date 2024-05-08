@@ -1,0 +1,19 @@
+{
+  "url" : "http://hl7.org/fhir/us/pacio-toc/ImplementationGuide/hl7.fhir.us.pacio-toc",
+  "name" : "PACIOTransitionsOfCare",
+  "title" : "PACIO Transitions of Care Implementation Guide",
+  "description" : null,
+  "status" : "draft",
+  "package-id" : "hl7.fhir.us.pacio-toc",
+  "ig-ver" : "0.1.0",
+  "date" : "Wed, 08 May, 2024 12:06:42 -0400",
+  "dateISO8601" : "2024-05-08T12:06:42-04:00",
+  "errs" : 48,
+  "warnings" : 104,
+  "hints" : 60,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 8551620808
+}

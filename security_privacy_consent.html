@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Security, Privacy, and Consent - PACIO Transitions of Care Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"7"}
+    h3,h4,h5,h6{--heading-prefix:"7"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">PACIO Transitions of Care Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+
+  <img alt="United States of America flag" src="assets/images/usa.svg" height="16" title="United States of America"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Guidance
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="personas.html">Personas and Scenarios</a>
+      </li>
+      <li>
+        <a href="usecases.html">Use Cases</a>
+      </li>
+      <li>
+        <a href="disciplines.html">Discipline-Specific Information</a>
+      </li>
+      <li>
+        <a href="guidance.html">General Guidance</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">FHIR Artifacts
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html#2">Profiles</a>
+      </li>
+      <li>
+        <a href="artifacts.html#3">Terminology</a>
+      </li>
+      <li>
+        <a href="search_parameters.html">Search Parameters</a>
+      </li>
+      <li>
+        <a href="CapabilityStatement-toc.html">Capability Statement</a>
+      </li>
+      <li>
+        <a href="artifacts.html#4">Examples</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="downloads.html">Downloads</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Security, Privacy, and Consent</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">PACIO Transitions of Care Implementation Guide - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://hl7.org/fhir/us/pacio-toc/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Security, Privacy, and Consent</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+
+<h3 id="general-considerations">General Considerations</h3>
+
+<p>Transitions of Care (TOC) information contains patient specific information, which means that it needs to be protected with proper security and privacy protections to avoid malicious or unintentional exposure of such information. All Advance Directive Interoperability exchanges must be appropriately secured in transit and access limited only to authorized individuals.</p>
+
+<p>The TOC IG focuses on providing a structure to share data and information. Policy, legal, and regulatory differences across states and local areas may impact the workflow and requirements associated with Advance Directives Information. Implementors should review the current context for where this IG is expected to be used to ensure those requirements are met.</p>
+
+<h4 id="security-considerations-and-guidance">Security Considerations and Guidance</h4>
+
+<p>All implementers of the Transitions of Care Implementation Guide (IG) <strong>SHOULD</strong> follow the FHIR Security guidance, Security and Privacy Module, and the FHIR Implementer’s Safety Checklist guidance as defined in the FHIR standard where applicable and not otherwise superseded by this Section of the TOC IG.</p>
+
+<ol>
+  <li>The FHIR Security specification provides guidance related to communication security, authentication, authorization/access control, audit, digital signatures, attachments, labels, narrative, and input validation. The FHIR security specification is available <a href="http://hl7.org/fhir/R4/security.html">here</a>.</li>
+  <li>The FHIR Security and Privacy Module describes access control and authorization considerations to protect a FHIR server, how to document permissions granted, and hot to keep records of performed events. The FHIR Security and privacy module can be found <a href="http://hl7.org/fhir/R4/secpriv-module.html">here</a>.</li>
+  <li>The FHIR Implementer’s Safety Checklist helps implementers be sure that they have considered all the parts of FHIR that impact their system design regarding safety. The FHIR safety check list is available <a href="http://hl7.org/fhir/R4/safety.html">here</a>.</li>
+</ol>
+
+<h4 id="security-requirements">Security Requirements</h4>
+
+<p>For the purposes of Transitions of Care, additional security conformance requirements are as follows:</p>
+
+<h5 id="exchange-security">Exchange Security</h5>
+
+<ol>
+  <li>The exchange of information <strong>SHALL</strong> support <a href="https://www.rfc-editor.org/rfc/rfc5246">Transport Layer Security (TLS) Protocol Version 1.2 (RFC5246)</a> or a more recent version of TLS for transport layer security.</li>
+  <li>Implementers of this Implementation Guide <strong>SHALL</strong> support <a href="http://hl7.org/fhir/smart-app-launch/STU2.1/index.html">SMART on FHIR STU 2.1 App Launch Framework</a> and <strong>MAY</strong> support <a href="https://www.hl7.org/fhir/smart-app-launch/STU2.1/backend-services.html">SMART on FHIR STU 2.1 Backend Services</a>.</li>
+  <li>Implementers of this Implementation Guide <strong>SHOULD</strong> support mutually authenticated TLS.</li>
+  <li>Server implementations that expect to support browser-based javascript applications SHOULD enable <a href="https://www.w3.org/TR/cors/">Cross-Origin Resource Sharing (CORS)</a> for REST operations. Many client web-based apps use javascript for API calls which requires CORS. However, CORS could present security concerns if not implemented correctly or is not continually updated as new security issues are found and addressed. Implementers of CORS <strong>SHOULD</strong> consider advice about CORS from sources such as <a href="http://enable-cors.org/">Enable-CORS</a> and <a href="https://www.moesif.com/blog/technical/cors/Authoritative-Guide-to-CORS-Cross-Origin-Resource-Sharing-for-REST-APIs/">Moesif blog on Guide to CORS Pitfalls</a>.</li>
+</ol>
+
+<h5 id="authentication-and-authorization-requirements">Authentication and Authorization Requirements</h5>
+
+<h6 id="smart-app-launch">SMART App Launch</h6>
+
+<p>The following only applies to servers supporting app launch:</p>
+
+<ol>
+  <li>Implementations <strong>SHALL</strong> support the FHIR US Core <a href="https://hl7.org/fhir/us/core/STU6.1/security.html">Patient Privacy and Security requirements</a>.</li>
+  <li>Server systems <strong>SHALL</strong> publish their authorization and token endpoints for discovery in accordance with the SMART App Launch STU2 framework and publicly publish the <a href="http://hl7.org/fhir/smart-app-launch/STU2.1/conformance.html">Well-Known Uniform Resource Identifiers (URIs)</a> JSON file with scopes defined in the <code class="language-plaintext highlighter-rouge">scopes_supported</code> property.</li>
+  <li>Implementations <strong>SHOULD</strong> consider the <a href="https://hl7.org/fhir/smart-app-launch/STU2.1/best-practices.html">SMART on FHIR STU2 Best Practices in Authorization</a></li>
+  <li>Implementation <strong>MAY</strong> support <a href="https://openid.net/specs/openid-heart-uma2-1_0.html">Health Relationship Trust Profile for User-Managed Access (HEART)</a>.</li>
+  <li>
+    <p>This guide defines the following server requirements for <a href="https://hl7.org/fhir/smart-app-launch/STU2.1/conformance.html#capability-sets">SMART on FHIR Core Capabilities</a>:</p>
+
+    <ol>
+      <li><strong>SHALL</strong> support <a href="http://hl7.org/fhir/smart-app-launch/STU2.1/conformance.html#patient-access-for-standalone-apps">Patient Access for Standalone Apps</a></li>
+      <li><strong>SHOULD</strong> support <a href="http://hl7.org/fhir/smart-app-launch/STU2.1/conformance.html#patient-access-for-ehr-launch-ie-from-portal">Patient Access for EHR Launch</a></li>
+      <li><strong>SHALL</strong> support <a href="http://hl7.org/fhir/smart-app-launch/STU2.1/conformance.html#clinician-access-for-standalone">Clinician Access for Standalone Apps</a></li>
+      <li><strong>SHOULD</strong> support: <a href="http://hl7.org/fhir/smart-app-launch/STU2.1/conformance.html#clinician-access-for-ehr-launch">Clinician Access for EHR Launch</a></li>
+      <li>In addition to the guidance above, there are additional requirements for other SMART on FHIR capabilities not included above, including:
+<br />
+        <table>
+    <tr>
+        <th style="margin-left: 5px; margin-right: 5px;">Element</th>
+        <th style="margin-left: 5px; margin-right: 5px;">Requirement</th>
+        <th style="margin-left: 5px; margin-right: 5xpx;">Reason</th>
+    </tr>
+    <tr>
+        <td>sso-openid-connect</td>
+        <td>SHALL</td>
+        <td>Transitions of Care information is sensitive information, so authorization using SMART's OpenID Connect profile is required</td>
+    </tr>
+    <tr>
+        <td>scopes</td>
+        <td>SHALL</td>
+        <td>
+            <table>
+                <tr>
+                    <td>openid:</td>
+                    <td>Permission to retrieve information about the current logged-in user</td>
+                </tr>
+                <tr>
+                    <td>fhirUser:</td>
+                    <td>Permission to retrieve information about the current logged-in user</td>
+                </tr>
+                <tr>
+                    <td>launch/patient:</td>
+                    <td>When launching outside EHR, ask for patient to be selected at launch time</td>
+                </tr>
+                <tr>
+                    <td>patient/Patient.read:</td>
+                    <td>Permission to read any resource for the current patient</td>
+                </tr>
+                <tr>
+                    <td>user/Patient.read:</td>
+                    <td>Allows the client app to select the patient</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>context-banner</td>
+        <td>SHOULD</td>
+        <td>The banner helps provides the patient context for the data</td>
+    </tr>
+    <tr>
+        <td>permission-offline</td>
+        <td>SHOULD</td>
+        <td>Support for refresh tokens, which allow a session to be extended without repeated logins</td>
+    </tr>
+</table>
+      </li>
+    </ol>
+  </li>
+</ol>
+
+<h6 id="smart-backend-systems">SMART Backend Systems</h6>
+
+<p>The following applies to servers that support backend services:</p>
+
+<ol>
+  <li>Implementations <strong>SHALL</strong> support the <a href="https://hl7.org/fhir/uv/bulkdata/STU1.0.1/authorization/index.html">SMART Backend Services: Authorization Guide</a></li>
+</ol>
+
+<!--  TODO
+#### Individual-Authorized Exchange
+1.	http://hl7.org/fhir/us/davinci-pdex/Member-AuthorizedOAuth2Exchange.html
+-->
+
+<h4 id="privacy-requirement">Privacy Requirement</h4>
+
+<p>For the purposes of Transitions of Care, privacy conformance requirements are as follows:</p>
+<ul>
+  <li>Implementers <strong>SHOULD</strong> support data sharing policies with use of the Consent resource.</li>
+</ul>
+
+<h4 id="provenance">Provenance</h4>
+
+<ol>
+  <li>Server implementations <strong>SHOULD</strong> support the ability to directly record and/or enable clients to assert (store) provenance associated with transitions of care information using the <a href="http://hl7.org/fhir/R4/provenance.html">Provenance</a> resource.</li>
+</ol>
+
+<!-- TODO Consider US Core requirements
+https://www.hl7.org/fhir/us/core/security.html
+-->
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientcare">HL7 International / Patient Care</a>.  Package hl7.fhir.us.pacio-toc#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, May 8, 2024 12:06-0400">2024-05-08</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

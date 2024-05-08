@@ -1,0 +1,2144 @@
+{
+  "date" : "Wed, 08 May, 2024 12:06:42 -0400",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.pacio-toc.json",
+      "size" : 16727,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 80,
+          "length" : 20
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 80,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 80,
+          "length" : 74
+        },
+        {
+          "activity" : "validate",
+          "start" : 97,
+          "length" : 3090
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 102,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 121,
+          "length" : 192
+        },
+        {
+          "activity" : "generate2",
+          "start" : 127,
+          "length" : 545
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 260,
+          "length" : 6
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 289,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/AllergyIntolerance-BSJ-AllergyACE.json",
+      "size" : 1642,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 13
+        },
+        {
+          "activity" : "loadInfo",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 81,
+          "length" : 289
+        },
+        {
+          "activity" : "validate",
+          "start" : 102,
+          "length" : 309
+        },
+        {
+          "activity" : "generate1",
+          "start" : 121,
+          "length" : 55
+        },
+        {
+          "activity" : "generate2",
+          "start" : 128,
+          "length" : 83
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-BSJ-AnemiaDiagnosis.json",
+      "size" : 1850,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 81,
+          "length" : 77
+        },
+        {
+          "activity" : "validate",
+          "start" : 102,
+          "length" : 147
+        },
+        {
+          "activity" : "generate1",
+          "start" : 121,
+          "length" : 46
+        },
+        {
+          "activity" : "generate2",
+          "start" : 128,
+          "length" : 64
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-BSJ-Constipation.json",
+      "size" : 1692,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 81,
+          "length" : 68
+        },
+        {
+          "activity" : "validate",
+          "start" : 102,
+          "length" : 223
+        },
+        {
+          "activity" : "generate1",
+          "start" : 121,
+          "length" : 47
+        },
+        {
+          "activity" : "generate2",
+          "start" : 128,
+          "length" : 53
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-BSJ-DepressionDiagnosis.json",
+      "size" : 1612,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 81,
+          "length" : 60
+        },
+        {
+          "activity" : "validate",
+          "start" : 103,
+          "length" : 274
+        },
+        {
+          "activity" : "generate1",
+          "start" : 121,
+          "length" : 48
+        },
+        {
+          "activity" : "generate2",
+          "start" : 128,
+          "length" : 60
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 259,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-BSJ-DiabetesDiagnosis.json",
+      "size" : 1786,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 8
+        },
+        {
+          "activity" : "scan",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 81,
+          "length" : 71
+        },
+        {
+          "activity" : "validate",
+          "start" : 103,
+          "length" : 578
+        },
+        {
+          "activity" : "generate1",
+          "start" : 121,
+          "length" : 50
+        },
+        {
+          "activity" : "generate2",
+          "start" : 128,
+          "length" : 72
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-BSJ-DressingConcern.json",
+      "size" : 1743,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 8
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 81,
+          "length" : 73
+        },
+        {
+          "activity" : "validate",
+          "start" : 104,
+          "length" : 798
+        },
+        {
+          "activity" : "generate1",
+          "start" : 121,
+          "length" : 51
+        },
+        {
+          "activity" : "generate2",
+          "start" : 128,
+          "length" : 65
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-BSJ-HeartDiseaseDiagnosis.json",
+      "size" : 1764,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 81,
+          "length" : 77
+        },
+        {
+          "activity" : "validate",
+          "start" : 104,
+          "length" : 557
+        },
+        {
+          "activity" : "generate1",
+          "start" : 121,
+          "length" : 46
+        },
+        {
+          "activity" : "generate2",
+          "start" : 128,
+          "length" : 59
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 260,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-BSJ-HemiparesisDiagnosis.json",
+      "size" : 2288,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 81,
+          "length" : 99
+        },
+        {
+          "activity" : "validate",
+          "start" : 105,
+          "length" : 176
+        },
+        {
+          "activity" : "generate1",
+          "start" : 121,
+          "length" : 50
+        },
+        {
+          "activity" : "generate2",
+          "start" : 128,
+          "length" : 56
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-BSJ-Hyperlipidemia.json",
+      "size" : 1694,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 81,
+          "length" : 83
+        },
+        {
+          "activity" : "validate",
+          "start" : 105,
+          "length" : 264
+        },
+        {
+          "activity" : "generate1",
+          "start" : 121,
+          "length" : 40
+        },
+        {
+          "activity" : "generate2",
+          "start" : 128,
+          "length" : 57
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-BSJ-HypertensionDiagnosis.json",
+      "size" : 1804,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 81,
+          "length" : 84
+        },
+        {
+          "activity" : "validate",
+          "start" : 105,
+          "length" : 426
+        },
+        {
+          "activity" : "generate1",
+          "start" : 121,
+          "length" : 43
+        },
+        {
+          "activity" : "generate2",
+          "start" : 128,
+          "length" : 61
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-BSJ-KidneyDisease.json",
+      "size" : 1781,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 8
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 82,
+          "length" : 77
+        },
+        {
+          "activity" : "validate",
+          "start" : 106,
+          "length" : 147
+        },
+        {
+          "activity" : "generate1",
+          "start" : 121,
+          "length" : 41
+        },
+        {
+          "activity" : "generate2",
+          "start" : 128,
+          "length" : 62
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-BSJ-NauseaAndVomiting.json",
+      "size" : 1652,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 8
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 82,
+          "length" : 71
+        },
+        {
+          "activity" : "validate",
+          "start" : 106,
+          "length" : 346
+        },
+        {
+          "activity" : "generate1",
+          "start" : 121,
+          "length" : 42
+        },
+        {
+          "activity" : "generate2",
+          "start" : 129,
+          "length" : 51
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-BSJ-Neuropathy.json",
+      "size" : 1732,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 8
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 82,
+          "length" : 71
+        },
+        {
+          "activity" : "validate",
+          "start" : 106,
+          "length" : 209
+        },
+        {
+          "activity" : "generate1",
+          "start" : 122,
+          "length" : 41
+        },
+        {
+          "activity" : "generate2",
+          "start" : 129,
+          "length" : 55
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-BSJ-StrokeDiagnosis.json",
+      "size" : 2268,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 82,
+          "length" : 92
+        },
+        {
+          "activity" : "validate",
+          "start" : 106,
+          "length" : 277
+        },
+        {
+          "activity" : "generate1",
+          "start" : 122,
+          "length" : 46
+        },
+        {
+          "activity" : "generate2",
+          "start" : 129,
+          "length" : 53
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-BSJ-UndressingConcern.json",
+      "size" : 1726,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 8
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 82,
+          "length" : 74
+        },
+        {
+          "activity" : "validate",
+          "start" : 107,
+          "length" : 124
+        },
+        {
+          "activity" : "generate1",
+          "start" : 122,
+          "length" : 42
+        },
+        {
+          "activity" : "generate2",
+          "start" : 129,
+          "length" : 54
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-OT-ProblemList-Decondition.json",
+      "size" : 2672,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 82,
+          "length" : 117
+        },
+        {
+          "activity" : "validate",
+          "start" : 107,
+          "length" : 254
+        },
+        {
+          "activity" : "generate1",
+          "start" : 122,
+          "length" : 53
+        },
+        {
+          "activity" : "generate2",
+          "start" : 129,
+          "length" : 75
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-OT-ProblemList-RightWeak.json",
+      "size" : 2375,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 82,
+          "length" : 96
+        },
+        {
+          "activity" : "validate",
+          "start" : 107,
+          "length" : 145
+        },
+        {
+          "activity" : "generate1",
+          "start" : 122,
+          "length" : 65
+        },
+        {
+          "activity" : "generate2",
+          "start" : 129,
+          "length" : 60
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 260,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-org-Loc-Everyday-Community-Pharm.json",
+      "size" : 344,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 82,
+          "length" : 25
+        },
+        {
+          "activity" : "validate",
+          "start" : 107,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 122,
+          "length" : 39
+        },
+        {
+          "activity" : "generate2",
+          "start" : 129,
+          "length" : 39
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-org-Loc-NED-Contract-Pharm.json",
+      "size" : 370,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 82,
+          "length" : 22
+        },
+        {
+          "activity" : "validate",
+          "start" : 107,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 122,
+          "length" : 40
+        },
+        {
+          "activity" : "generate2",
+          "start" : 129,
+          "length" : 39
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-org-Loc-Neuro-Care-Inc.json",
+      "size" : 348,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 82,
+          "length" : 20
+        },
+        {
+          "activity" : "validate",
+          "start" : 107,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 122,
+          "length" : 34
+        },
+        {
+          "activity" : "generate2",
+          "start" : 129,
+          "length" : 41
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-org-Loc-PC-Primary-Care-Michigan.json",
+      "size" : 362,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 13
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 82,
+          "length" : 22
+        },
+        {
+          "activity" : "generate1",
+          "start" : 122,
+          "length" : 32
+        },
+        {
+          "activity" : "generate2",
+          "start" : 129,
+          "length" : 44
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-org-Loc-SNF-Happy-Nursing-Facility.json",
+      "size" : 355,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 79,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 82,
+          "length" : 20
+        },
+        {
+          "activity" : "validate",
+          "start" : 107,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 122,
+          "length" : 26
+        },
+        {
+          "activity" : "generate2",
+          "start" : 129,
+          "length" : 39
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-BSJ-MDS-Activities-PT1.json",
+      "size" : 1668,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 8
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 82,
+          "length" : 104
+        },
+        {
+          "activity" : "validate",
+          "start" : 107,
+          "length" : 112
+        },
+        {
+          "activity" : "generate1",
+          "start" : 122,
+          "length" : 47
+        },
+        {
+          "activity" : "generate2",
+          "start" : 129,
+          "length" : 76
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-BSJ-MDS-Doffing1.json",
+      "size" : 1836,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 82,
+          "length" : 59
+        },
+        {
+          "activity" : "validate",
+          "start" : 107,
+          "length" : 101
+        },
+        {
+          "activity" : "generate1",
+          "start" : 122,
+          "length" : 55
+        },
+        {
+          "activity" : "generate2",
+          "start" : 129,
+          "length" : 63
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-BSJ-MDS-Donning1.json",
+      "size" : 1832,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 82,
+          "length" : 59
+        },
+        {
+          "activity" : "validate",
+          "start" : 107,
+          "length" : 11017
+        },
+        {
+          "activity" : "generate1",
+          "start" : 122,
+          "length" : 63
+        },
+        {
+          "activity" : "generate2",
+          "start" : 129,
+          "length" : 58
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-BSJ-MDS-Mobility-PT1.json",
+      "size" : 1729,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 82,
+          "length" : 88
+        },
+        {
+          "activity" : "validate",
+          "start" : 119,
+          "length" : 95
+        },
+        {
+          "activity" : "generate1",
+          "start" : 122,
+          "length" : 57
+        },
+        {
+          "activity" : "generate2",
+          "start" : 129,
+          "length" : 88
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-BSJ-MDS-ShortWalk1.json",
+      "size" : 1812,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 11
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 83,
+          "length" : 71
+        },
+        {
+          "activity" : "validate",
+          "start" : 119,
+          "length" : 90
+        },
+        {
+          "activity" : "generate1",
+          "start" : 122,
+          "length" : 363
+        },
+        {
+          "activity" : "generate2",
+          "start" : 129,
+          "length" : 145
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-BSJ-MDS-SitStand1.json",
+      "size" : 1767,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 83,
+          "length" : 76
+        },
+        {
+          "activity" : "validate",
+          "start" : 119,
+          "length" : 759
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 43
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 60
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-BSJ-MDS-SitUp1.json",
+      "size" : 1857,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 83,
+          "length" : 80
+        },
+        {
+          "activity" : "validate",
+          "start" : 119,
+          "length" : 433
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 45
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 58
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Organization-org-Neuro-Care-Inc.json",
+      "size" : 461,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 9
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 83,
+          "length" : 27
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 25
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 39
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Organization-org-PC-Primary-Care-Michigan.json",
+      "size" : 475,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 11
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 83,
+          "length" : 27
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 30
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 30
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Organization-org-Pharm-Everyday-Community-Pharm.json",
+      "size" : 463,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 83,
+          "length" : 29
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 31
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 34
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Organization-org-Pharm-NED-Contract-Pharm.json",
+      "size" : 489,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 83,
+          "length" : 25
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 30
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 33
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Organization-org-SNF-Happy-Nursing-Facility.json",
+      "size" : 468,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 11
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 83,
+          "length" : 25
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 28
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 28
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Patient-Example-Smith-Johnson-Patient1.json",
+      "size" : 3289,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 83,
+          "length" : 3381
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 102,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 221
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 50
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 39
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Practitioner-Practioner-GeraldPark.json",
+      "size" : 680,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 86,
+          "length" : 29
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 27
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 37
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Practitioner-Practitioner-AnitaChu.json",
+      "size" : 670,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 11
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 86,
+          "length" : 29
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 30
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 32
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Practitioner-Practitioner-JenCadbury.json",
+      "size" : 684,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 86,
+          "length" : 29
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 28
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 34
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Practitioner-Practitioner-NuraMekel.json",
+      "size" : 693,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 14
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 86,
+          "length" : 28
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 29
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 37
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Practitioner-Practitioner-Phil-Chekhov.json",
+      "size" : 672,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 17
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 86,
+          "length" : 28
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 26
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 29
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Practitioner-Practitioner-Tracy-Count.json",
+      "size" : 699,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 11
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 86,
+          "length" : 28
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 31
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 36
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/PractitionerRole-Role-IMMD-AnitaChu.json",
+      "size" : 648,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 86,
+          "length" : 33
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 94
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 38
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 54
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/PractitionerRole-Role-Neuro-NuraMekel.json",
+      "size" : 596,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 11
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 87,
+          "length" : 36
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 15
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 28
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 75
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/PractitionerRole-Role-OT-JenCadbury.json",
+      "size" : 630,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 87,
+          "length" : 36
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 16
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 33
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 69
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/PractitionerRole-Role-Pharm-PhilChekhov.json",
+      "size" : 632,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 87,
+          "length" : 36
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 17
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 33
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 59
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/PractitionerRole-Role-Pharm-TracyCount.json",
+      "size" : 621,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 87,
+          "length" : 37
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 18
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 29
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 60
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/PractitionerRole-Role-SNFDoc-GeraldPark.json",
+      "size" : 638,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 87,
+          "length" : 37
+        },
+        {
+          "activity" : "validate",
+          "start" : 96,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 17
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 30
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 56
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ServiceRequest-BSJ-PCPFollowUp.json",
+      "size" : 897,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 87,
+          "length" : 58
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 31
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 39
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 61
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeCallOTRefer.json",
+      "size" : 1037,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 8
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 87,
+          "length" : 64
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 30
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 40
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 66
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeCallOrder.json",
+      "size" : 925,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 87,
+          "length" : 57
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 27
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 46
+        },
+        {
+          "activity" : "generate2",
+          "start" : 131,
+          "length" : 54
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeCallSLPRefer.json",
+      "size" : 937,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 87,
+          "length" : 58
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 27
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 42
+        },
+        {
+          "activity" : "generate2",
+          "start" : 131,
+          "length" : 55
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeDietProtein.json",
+      "size" : 1053,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 87,
+          "length" : 66
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 29
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 36
+        },
+        {
+          "activity" : "generate2",
+          "start" : 131,
+          "length" : 64
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeDietSalt.json",
+      "size" : 1098,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 87,
+          "length" : 74
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 34
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 40
+        },
+        {
+          "activity" : "generate2",
+          "start" : 131,
+          "length" : 66
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeLabOrderBMP.json",
+      "size" : 1179,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 12
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 87,
+          "length" : 86
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 40
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 34
+        },
+        {
+          "activity" : "generate2",
+          "start" : 131,
+          "length" : 74
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ServiceRequest-BSJ-SNFDischargeLabOrderCBC.json",
+      "size" : 1013,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 87,
+          "length" : 66
+        },
+        {
+          "activity" : "validate",
+          "start" : 121,
+          "length" : 30
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 34
+        },
+        {
+          "activity" : "generate2",
+          "start" : 131,
+          "length" : 64
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ServiceRequest-BSJ-SNFDischargePTRefer.json",
+      "size" : 1030,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 87,
+          "length" : 67
+        },
+        {
+          "activity" : "validate",
+          "start" : 121,
+          "length" : 32
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 35
+        },
+        {
+          "activity" : "generate2",
+          "start" : 131,
+          "length" : 57
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-TOC-Composition-Header.json",
+      "size" : 20603,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 15
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 80,
+          "length" : 23
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 80,
+          "length" : 282
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 87,
+          "length" : 266
+        },
+        {
+          "activity" : "validate",
+          "start" : 88,
+          "length" : 7624
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 100,
+          "length" : 1
+        },
+        {
+          "activity" : "checkConformanceResources2",
+          "start" : 100,
+          "length" : 1048
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 102,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 123,
+          "length" : 1986
+        },
+        {
+          "activity" : "generate2",
+          "start" : 131,
+          "length" : 6293
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 234,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 260,
+          "length" : 39
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 289,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-toc-reason-extension.json",
+      "size" : 3029,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 12
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 80,
+          "length" : 13
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 80,
+          "length" : 29
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 88,
+          "length" : 20
+        },
+        {
+          "activity" : "validate",
+          "start" : 96,
+          "length" : 689
+        },
+        {
+          "activity" : "generate1",
+          "start" : 125,
+          "length" : 181
+        },
+        {
+          "activity" : "generate2",
+          "start" : 137,
+          "length" : 456
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 260,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-toc-del-loinc-answered-by-LL5571-6-vs.json",
+      "size" : 1146,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 80,
+          "length" : 17
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 88,
+          "length" : 150
+        },
+        {
+          "activity" : "validate",
+          "start" : 88,
+          "length" : 135
+        },
+        {
+          "activity" : "generate1",
+          "start" : 126,
+          "length" : 36
+        },
+        {
+          "activity" : "generate2",
+          "start" : 138,
+          "length" : 85623
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-toc-del-loinc-vs.json",
+      "size" : 24233,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 14
+        },
+        {
+          "activity" : "load",
+          "start" : 80,
+          "length" : 23
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 88,
+          "length" : 44
+        },
+        {
+          "activity" : "validate",
+          "start" : 88,
+          "length" : 137
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 102,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 126,
+          "length" : 307
+        },
+        {
+          "activity" : "generate2",
+          "start" : 223,
+          "length" : 1913
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 260,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-toc-loinc-answered-by-LL5571-6-vs.json",
+      "size" : 5909,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 80,
+          "length" : 13
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 88,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 88,
+          "length" : 46
+        },
+        {
+          "activity" : "generate1",
+          "start" : 126,
+          "length" : 92
+        },
+        {
+          "activity" : "generate2",
+          "start" : 225,
+          "length" : 1605
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 260,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/CapabilityStatement-toc.json",
+      "size" : 78053,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 23
+        },
+        {
+          "activity" : "load",
+          "start" : 80,
+          "length" : 52
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 96,
+          "length" : 971
+        },
+        {
+          "activity" : "generate1",
+          "start" : 126,
+          "length" : 217
+        },
+        {
+          "activity" : "generate2",
+          "start" : 227,
+          "length" : 130
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 260,
+          "length" : 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Location xmlns="http://hl7.org/fhir">
+  <id value="org-Loc-Neuro-Care-Inc"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Location</b><a name="org-Loc-Neuro-Care-Inc"> </a><a name="hcorg-Loc-Neuro-Care-Inc"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Location &quot;org-Loc-Neuro-Care-Inc&quot; </p></div><p><b>status</b>: active</p><p><b>name</b>: Neuro Care Inc.</p><p><b>address</b>: 177 Branching Tree Blvd, Grand Rapids, MI 49509</p></div>
+  </text>
+  <status value="active"/>
+  <name value="Neuro Care Inc."/>
+  <address>
+    <text value="177 Branching Tree Blvd, Grand Rapids, MI 49509"/>
+    <line value="177 Branching Tree Blvd"/>
+    <city value="Grand Rapids"/>
+    <state value="MI"/>
+    <postalCode value="49509"/>
+    <country value="US"/>
+  </address>
+</Location>

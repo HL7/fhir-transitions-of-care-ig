@@ -1,0 +1,68 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-toc/ValueSet/toc-del-loinc-answered-by-LL5571-6-vs> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "toc-del-loinc-answered-by-LL5571-6-vs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Import all the codes that are contained in <a href=\"ValueSet-toc-loinc-answered-by-LL5571-6-vs.html\">Transitions of Care LOINC Terms Answered by LL5571-6 Answer List Value Set</a>, <a href=\"ValueSet-toc-del-loinc-vs.html\">Transitions of Care DEL LOINC Terms Value Set</a></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "pc" ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/us/pacio-toc/ValueSet/toc-del-loinc-answered-by-LL5571-6-vs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "TocDelLoincTermsAnsweredByLL5571"] ; # 
+  fhir:title [ fhir:v "Transitions of Care LOINC Terms Included in the DEL Answered by LL5571-6 Answer List Value Set"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-05-08T12:06:42-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 International / Patient Care"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 International / Patient Care" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/patientcare" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "patientcare@lists.HL7.org" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "PACIO project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/patientcare" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "info@pacioproject.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This value set includes those LOINC terms that included in the DEL which are defined to be answered by LOINC answer list LL5571-6."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "US" ] ;
+       fhir:display [ fhir:v "United States of America" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:valueSet ( [
+         fhir:v "http://hl7.org/fhir/us/pacio-toc/ValueSet/toc-loinc-answered-by-LL5571-6-vs"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/ValueSet/toc-loinc-answered-by-LL5571-6-vs>
+       ] [
+         fhir:v "http://hl7.org/fhir/us/pacio-toc/ValueSet/toc-del-loinc-vs"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/ValueSet/toc-del-loinc-vs>
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

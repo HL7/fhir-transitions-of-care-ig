@@ -1,0 +1,91 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Mobility-PT1> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BSJ-MDS-Mobility-PT1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-MDS-Mobility-PT1\"> </a><a name=\"hcBSJ-MDS-Mobility-PT1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-MDS-Mobility-PT1&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/us/pacio-pfe/STU1/StructureDefinition-pfe-collection.html\">Personal Functioning and Engagement Collection</a></p></div><p><b>Event Location</b>: <a href=\"Location-org-Loc-SNF-Happy-Nursing-Facility.html\">Location/org-Loc-SNF-Happy-Nursing-Facility</a> &quot;Happy Nursing Facility&quot;</p><p><b>status</b>: final</p><p><b>category</b>: Survey <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#survey)</span>, Functioning <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/pacio-pfe/STU1/CodeSystem-pfe-functioning-cs.html\">Personal Functioning and Engagement Functioning Category Code System</a>#functioning)</span>, Mobility <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/pacio-pfe/STU1/CodeSystem-pfe-category-cs.html\">Personal Functioning and Engagement Category</a>#blockl2-d41)</span></p><p><b>code</b>: MDS v3.0 - RAI v1.18.11 - Nursing home discharge (ND) item set during assessment period [CMS Assessment] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#101107-1)</span></p><p><b>subject</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>effective</b>: 2024-05-16 14:30:00-0400</p><p><b>performer</b>: <a href=\"PractitionerRole-Role-OT-JenCadbury.html\">PractitionerRole/Role-OT-JenCadbury</a></p><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-BSJ-MDS-ShortWalk1.html\">Observation/BSJ-MDS-ShortWalk1</a></li><li><a href=\"Observation-BSJ-MDS-SitStand1.html\">Observation/BSJ-MDS-SitStand1</a></li><li><a href=\"Observation-BSJ-MDS-SitUp1.html\">Observation/BSJ-MDS-SitUp1</a></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/event-location"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Reference ;
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-SNF-Happy-Nursing-Facility> ;
+       fhir:reference [ fhir:v "Location/org-Loc-SNF-Happy-Nursing-Facility" ]
+     ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "survey" ] ;
+       fhir:display [ fhir:v "Survey" ]
+     ] )
+  ] [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "functioning" ] ;
+       fhir:display [ fhir:v "Functioning" ]
+     ] )
+  ] [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "blockl2-d41" ] ;
+       fhir:display [ fhir:v "Mobility" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:101107-1 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "101107-1" ] ;
+       fhir:display [ fhir:v "MDS v3.0 - RAI v1.18.11 - Nursing home discharge (ND) item set during assessment period [CMS Assessment]" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Patient/Example-Smith-Johnson-Patient1> ;
+     fhir:reference [ fhir:v "Patient/Example-Smith-Johnson-Patient1" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2024-05-16T14:30:00-04:00"^^xsd:dateTime] ; # 
+  fhir:performer ( [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-OT-JenCadbury> ;
+     fhir:reference [ fhir:v "PractitionerRole/Role-OT-JenCadbury" ]
+  ] ) ; # 
+  fhir:hasMember ( [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-ShortWalk1> ;
+     fhir:reference [ fhir:v "Observation/BSJ-MDS-ShortWalk1" ]
+  ] [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitStand1> ;
+     fhir:reference [ fhir:v "Observation/BSJ-MDS-SitStand1" ]
+  ] [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitUp1> ;
+     fhir:reference [ fhir:v "Observation/BSJ-MDS-SitUp1" ]
+  ] ) . # 
+
+<http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-SNF-Happy-Nursing-Facility> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Patient/Example-Smith-Johnson-Patient1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-OT-JenCadbury> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-ShortWalk1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitStand1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitUp1> a fhir:us .
+
+# -------------------------------------------------------------------------------------
+

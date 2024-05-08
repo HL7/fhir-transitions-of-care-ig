@@ -1,0 +1,45 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-Neuro-NuraMekel> a fhir:PractitionerRole ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Role-Neuro-NuraMekel"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PractitionerRole</b><a name=\"Role-Neuro-NuraMekel\"> </a><a name=\"hcRole-Neuro-NuraMekel\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PractitionerRole &quot;Role-Neuro-NuraMekel&quot; </p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-NuraMekel.html\">Practitioner/Practitioner-NuraMekel: Nura Mekel</a> &quot; MEKEL&quot;</p><p><b>organization</b>: <a href=\"Organization-org-Neuro-Care-Inc.html\">Organization/org-Neuro-Care-Inc: Neuro Care Inc.</a> &quot;Neuro Care Inc.&quot;</p><p><b>code</b>: Neurology Physician <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#2084N0400X)</span></p><p><b>location</b>: <a href=\"Location-org-Loc-Neuro-Care-Inc.html\">Location/org-Loc-Neuro-Care-Inc</a> &quot;Neuro Care Inc.&quot;</p></div>"
+  ] ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:practitioner [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Practitioner/Practitioner-NuraMekel> ;
+     fhir:reference [ fhir:v "Practitioner/Practitioner-NuraMekel" ] ;
+     fhir:display [ fhir:v "Nura Mekel" ]
+  ] ; # 
+  fhir:organization [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Organization/org-Neuro-Care-Inc> ;
+     fhir:reference [ fhir:v "Organization/org-Neuro-Care-Inc" ] ;
+     fhir:display [ fhir:v "Neuro Care Inc." ]
+  ] ; # 
+  fhir:code ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://taxonomy.nucc.org/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "2084N0400X" ] ;
+       fhir:display [ fhir:v "Neurology Physician" ]
+     ] )
+  ] ) ; # 
+  fhir:location ( [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-Neuro-Care-Inc> ;
+     fhir:reference [ fhir:v "Location/org-Loc-Neuro-Care-Inc" ]
+  ] ) . # 
+
+<http://hl7.org/fhir/us/pacio-toc/Practitioner/Practitioner-NuraMekel> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Organization/org-Neuro-Care-Inc> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-Neuro-Care-Inc> a fhir:us .
+
+# -------------------------------------------------------------------------------------
+

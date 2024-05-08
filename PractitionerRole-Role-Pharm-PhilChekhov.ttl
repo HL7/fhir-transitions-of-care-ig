@@ -1,0 +1,45 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-Pharm-PhilChekhov> a fhir:PractitionerRole ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Role-Pharm-PhilChekhov"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PractitionerRole</b><a name=\"Role-Pharm-PhilChekhov\"> </a><a name=\"hcRole-Pharm-PhilChekhov\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PractitionerRole &quot;Role-Pharm-PhilChekhov&quot; </p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-Phil-Chekhov.html\">Practitioner/Practitioner-Phil-Chekhov: Phil Chekhov</a> &quot; CHEKHOV&quot;</p><p><b>organization</b>: <a href=\"Organization-org-Pharm-Everyday-Community-Pharm.html\">Organization/org-Pharm-Everyday-Community-Pharm: Everyday Community Pharmacy</a> &quot;Everyday Community Pharmacy&quot;</p><p><b>code</b>: Pharmacist <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#183500000X)</span></p><p><b>location</b>: <a href=\"Location-org-Loc-Everyday-Community-Pharm.html\">Location/org-Loc-Everyday-Community-Pharm</a> &quot;Everyday Community Pharmacy&quot;</p></div>"
+  ] ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:practitioner [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Practitioner/Practitioner-Phil-Chekhov> ;
+     fhir:reference [ fhir:v "Practitioner/Practitioner-Phil-Chekhov" ] ;
+     fhir:display [ fhir:v "Phil Chekhov" ]
+  ] ; # 
+  fhir:organization [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Organization/org-Pharm-Everyday-Community-Pharm> ;
+     fhir:reference [ fhir:v "Organization/org-Pharm-Everyday-Community-Pharm" ] ;
+     fhir:display [ fhir:v "Everyday Community Pharmacy" ]
+  ] ; # 
+  fhir:code ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://taxonomy.nucc.org/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "183500000X" ] ;
+       fhir:display [ fhir:v "Pharmacist" ]
+     ] )
+  ] ) ; # 
+  fhir:location ( [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-Everyday-Community-Pharm> ;
+     fhir:reference [ fhir:v "Location/org-Loc-Everyday-Community-Pharm" ]
+  ] ) . # 
+
+<http://hl7.org/fhir/us/pacio-toc/Practitioner/Practitioner-Phil-Chekhov> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Organization/org-Pharm-Everyday-Community-Pharm> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-Everyday-Community-Pharm> a fhir:us .
+
+# -------------------------------------------------------------------------------------
+

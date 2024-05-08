@@ -1,0 +1,31 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "Practitioner-NuraMekel",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"Practitioner-NuraMekel\"> </a><a name=\"hcPractitioner-NuraMekel\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;Practitioner-NuraMekel&quot; </p></div><p><b>identifier</b>: <a href=\"http://terminology.hl7.org/5.0.0/NamingSystem-npi.html\" title=\"National Provider Identifier\">NPI</a>/9395820218</p><p><b>active</b>: true</p><p><b>name</b>: Nura Mekel</p><p><b>telecom</b>: ph: (210) 555 5555</p><p><b>address</b>: 177 Branching Tree Blvd, Grand Rapids, MI 49509</p><p><b>gender</b>: female</p></div>"
+  },
+  "identifier" : [{
+    "system" : "http://hl7.org/fhir/sid/us-npi",
+    "value" : "9395820218"
+  }],
+  "active" : true,
+  "name" : [{
+    "text" : "Nura Mekel",
+    "family" : "Mekel",
+    "given" : ["Nura"]
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "(210) 555 5555"
+  }],
+  "address" : [{
+    "text" : "177 Branching Tree Blvd, Grand Rapids, MI 49509",
+    "line" : ["177 Branching Tree Blvd"],
+    "city" : "Grand Rapids",
+    "state" : "MI",
+    "postalCode" : "49509",
+    "country" : "US"
+  }],
+  "gender" : "female"
+}

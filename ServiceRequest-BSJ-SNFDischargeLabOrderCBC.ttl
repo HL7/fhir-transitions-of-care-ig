@@ -1,0 +1,60 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeLabOrderCBC> a fhir:ServiceRequest ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BSJ-SNFDischargeLabOrderCBC"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ServiceRequest</b><a name=\"BSJ-SNFDischargeLabOrderCBC\"> </a><a name=\"hcBSJ-SNFDischargeLabOrderCBC\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ServiceRequest &quot;BSJ-SNFDischargeLabOrderCBC&quot; </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request</code></p></div><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>category</b>: Laboratory procedure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SNOMED CT#108252007)</span></p><p><b>priority</b>: routine</p><p><b>code</b>: Complete blood count without differential (procedure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SNOMED CT#43789009)</span></p><p><b>subject</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>occurrence</b>: 2024-05-28</p><p><b>authoredOn</b>: 2024-05-18</p><p><b>requester</b>: <a href=\"PractitionerRole-Role-SNFDoc-GeraldPark.html\">PractitionerRole/Role-SNFDoc-GeraldPark</a></p><p><b>reasonReference</b>: <a href=\"Condition-BSJ-AnemiaDiagnosis.html\">Condition/BSJ-AnemiaDiagnosis</a></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:intent [ fhir:v "order"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://snomed.info/sct/731000124108"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "108252007" ] ;
+       fhir:display [ fhir:v "Laboratory procedure" ]
+     ] )
+  ] ) ; # 
+  fhir:priority [ fhir:v "routine"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://snomed.info/sct/731000124108"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "43789009" ] ;
+       fhir:display [ fhir:v "Complete blood count without differential (procedure)" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Patient/Example-Smith-Johnson-Patient1> ;
+     fhir:reference [ fhir:v "Patient/Example-Smith-Johnson-Patient1" ]
+  ] ; # 
+  fhir:occurrence [ fhir:v "2024-05-28"^^xsd:date] ; # 
+  fhir:authoredOn [ fhir:v "2024-05-18"^^xsd:date] ; # 
+  fhir:requester [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-SNFDoc-GeraldPark> ;
+     fhir:reference [ fhir:v "PractitionerRole/Role-SNFDoc-GeraldPark" ]
+  ] ; # 
+  fhir:reasonReference ( [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-AnemiaDiagnosis> ;
+     fhir:reference [ fhir:v "Condition/BSJ-AnemiaDiagnosis" ]
+  ] ) . # 
+
+<http://hl7.org/fhir/us/pacio-toc/Patient/Example-Smith-Johnson-Patient1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-SNFDoc-GeraldPark> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-AnemiaDiagnosis> a fhir:us .
+
+# -------------------------------------------------------------------------------------
+

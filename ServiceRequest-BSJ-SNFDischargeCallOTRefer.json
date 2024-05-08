@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ServiceRequest",
+  "id" : "BSJ-SNFDischargeCallOTRefer",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ServiceRequest</b><a name=\"BSJ-SNFDischargeCallOTRefer\"> </a><a name=\"hcBSJ-SNFDischargeCallOTRefer\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ServiceRequest &quot;BSJ-SNFDischargeCallOTRefer&quot; </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request</code></p></div><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>category</b>: Evaluation procedure (procedure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SNOMED CT#386053000)</span></p><p><b>priority</b>: routine</p><p><b>code</b>: Occupational therapy assessment (procedure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SNOMED CT#410155007)</span></p><p><b>subject</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>occurrence</b>: 2024-05-18 --&gt; (ongoing)</p><p><b>authoredOn</b>: 2024-05-18</p><p><b>requester</b>: <a href=\"PractitionerRole-Role-SNFDoc-GeraldPark.html\">PractitionerRole/Role-SNFDoc-GeraldPark</a></p><p><b>reasonReference</b>: <a href=\"Condition-BSJ-HemiparesisDiagnosis.html\">Condition/BSJ-HemiparesisDiagnosis</a></p></div>"
+  },
+  "status" : "active",
+  "intent" : "order",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct/731000124108",
+      "code" : "386053000",
+      "display" : "Evaluation procedure (procedure)"
+    }]
+  }],
+  "priority" : "routine",
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct/731000124108",
+      "code" : "410155007",
+      "display" : "Occupational therapy assessment (procedure"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/Example-Smith-Johnson-Patient1"
+  },
+  "occurrencePeriod" : {
+    "start" : "2024-05-18"
+  },
+  "authoredOn" : "2024-05-18",
+  "requester" : {
+    "reference" : "PractitionerRole/Role-SNFDoc-GeraldPark"
+  },
+  "reasonReference" : [{
+    "reference" : "Condition/BSJ-HemiparesisDiagnosis"
+  }]
+}
