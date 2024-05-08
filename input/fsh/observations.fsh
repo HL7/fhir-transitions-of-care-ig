@@ -6,7 +6,7 @@
 // InstanceOf: PFESingleObservation
 // Description: "Example TOC Observation: Functional mobility (most dependent performance) - toilet transfer"
 // * extension[http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/event-location].valueReference = Reference(PFEIG-Org-Loc-01)
-// * subject = Reference(PFEIG-patientBSJ1)
+// * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 // * status = #final
 // * category[functioning] = FUNCTIONINGCAT#functioning "Functioning"
 // * category[PFEDomain] = PFEDOMAINCAT#d420 "Transferring oneself"
