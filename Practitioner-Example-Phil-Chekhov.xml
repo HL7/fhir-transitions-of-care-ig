@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="Example-Phil-Chekhov"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Practitioner</b><a name="Example-Phil-Chekhov"> </a><a name="hcExample-Phil-Chekhov"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">ResourcePractitioner &quot;Example-Phil-Chekhov&quot; </p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-practitioner.html">US Core Practitioner Profile</a></p></div><p><b>identifier</b>: <a href="http://terminology.hl7.org/5.0.0/NamingSystem-npi.html" title="National Provider Identifier">NPI</a>/6096712826</p><p><b>active</b>: true</p><p><b>name</b>: Phil Chekhov</p><p><b>telecom</b>: ph: (610) 555 1893</p><p><b>address</b>: 125 Yew St, Grand Rapids, MI 49503</p><p><b>gender</b>: male</p></div>
+  </text>
+  <identifier>
+    <system value="http://hl7.org/fhir/sid/us-npi"/>
+    <value value="6096712826"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <text value="Phil Chekhov"/>
+    <family value="Chekhov"/>
+    <given value="Phil"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="(610) 555 1893"/>
+  </telecom>
+  <address>
+    <text value="125 Yew St, Grand Rapids, MI 49503"/>
+    <line value="125 Yew St"/>
+    <city value="Grand Rapids"/>
+    <state value="MI"/>
+    <postalCode value="49503"/>
+    <country value="US"/>
+  </address>
+  <gender value="male"/>
+</Practitioner>

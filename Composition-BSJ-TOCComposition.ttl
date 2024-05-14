@@ -1,0 +1,271 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-toc/Composition/BSJ-TOCComposition> a fhir:Composition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BSJ-TOCComposition"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en-US"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative: Composition</b><a name=\"BSJ-TOCComposition\"> </a><a name=\"hcBSJ-TOCComposition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceComposition &quot;BSJ-TOCComposition&quot;  (Language &quot;en-US&quot;) </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-TOC-Composition.html\">Transition of Care Composition</a></p></div><p><b>identifier</b>: <code>urn:oid:2.16.840.1.113883.4.823.1.7125</code>/20130607100315-CCDA-CCD</p><p><b>status</b>: final</p><p><b>type</b>: Discharge summary - recommended C-CDA R2.1 sections <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#81218-0)</span></p><p><b>date</b>: 2024-05-10 08:49:58-0400</p><p><b>author</b>: <a href=\"Practitioner-Example-JenCadbury.html\">Practitioner/Example-JenCadbury</a> &quot; CADBURY&quot;</p><p><b>title</b>: Transitions of Care Document for Betsy Smith-Johnson</p><p><b>custodian</b>: <a href=\"Organization-org-SNF-Happy-Nursing-Facility.html\">Organization/org-SNF-Happy-Nursing-Facility</a> &quot;Happy Nursing Facility&quot;</p></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:system [ fhir:v "urn:oid:2.16.840.1.113883.4.823.1.7125"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "20130607100315-CCDA-CCD" ]
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       a loinc:81218-0 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "81218-0" ] ;
+       fhir:display [ fhir:v "Discharge summary - recommended C-CDA R2.1 sections" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Patient/Example-Smith-Johnson-Patient1> ;
+     fhir:reference [ fhir:v "Patient/Example-Smith-Johnson-Patient1" ]
+  ] ; # 
+  fhir:date [ fhir:v "2024-05-10T08:49:58.313-04:00"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Practitioner/Example-JenCadbury> ;
+     fhir:reference [ fhir:v "Practitioner/Example-JenCadbury" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "Transitions of Care Document for Betsy Smith-Johnson"] ; # 
+  fhir:custodian [
+     fhir:link <http://hl7.org/fhir/us/pacio-toc/Organization/org-SNF-Happy-Nursing-Facility> ;
+     fhir:reference [ fhir:v "Organization/org-SNF-Happy-Nursing-Facility" ]
+  ] ; # 
+  fhir:section ( [
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Information sections for the transitions of care for Betsy Smith-Johnson</div>"
+     ]
+  ] [
+     fhir:title [ fhir:v "List of allergies for Betsy Smith-Johnson" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:48765-2 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "48765-2" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Allergies for Betsy Smith-Johnson</div>"
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/AllergyIntolerance/BSJ-AllergyACE> ;
+       fhir:reference [ fhir:v "AllergyIntolerance/BSJ-AllergyACE" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Functional status of Betsy Smith-Johnson" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:54522-8 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "54522-8" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Functional status of Betsy Smith-Johnson</div>"
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Activities-PT1> ;
+       fhir:reference [ fhir:v "Observation/BSJ-MDS-Activities-PT1" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Doffing1> ;
+       fhir:reference [ fhir:v "Observation/BSJ-MDS-Doffing1" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Donning1> ;
+       fhir:reference [ fhir:v "Observation/BSJ-MDS-Donning1" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Mobility-PT1> ;
+       fhir:reference [ fhir:v "Observation/BSJ-MDS-Mobility-PT1" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-ShortWalk1> ;
+       fhir:reference [ fhir:v "Observation/BSJ-MDS-ShortWalk1" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitStand1> ;
+       fhir:reference [ fhir:v "Observation/BSJ-MDS-SitStand1" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitUp1> ;
+       fhir:reference [ fhir:v "Observation/BSJ-MDS-SitUp1" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "List of medications prescribed for Betsy Smith-Johnson" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:52471-0 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "52471-0" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medications prescribed for Betsy Smith-Johnson</div>"
+     ]
+  ] [
+     fhir:title [ fhir:v "Discharge care plan for Betsy Smith-Johnson" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:74449-0 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "74449-0" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Discharge care plan for Betsy Smith-Johnson</div>"
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/CarePlan/BSJ-SNFDischargeCarePlan> ;
+       fhir:reference [ fhir:v "CarePlan/BSJ-SNFDischargeCarePlan" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "List of problem conditions and observations for Betsy Smith-Johnson" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:18776-5 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "18776-5" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of problem conditions and observations for Betsy Smith-Johnson</div>"
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-AnemiaDiagnosis> ;
+       fhir:reference [ fhir:v "Condition/BSJ-AnemiaDiagnosis" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-Constipation> ;
+       fhir:reference [ fhir:v "Condition/BSJ-Constipation" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-DepressionDiagnosis> ;
+       fhir:reference [ fhir:v "Condition/BSJ-DepressionDiagnosis" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-DiabetesDiagnosis> ;
+       fhir:reference [ fhir:v "Condition/BSJ-DiabetesDiagnosis" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-DressingConcern> ;
+       fhir:reference [ fhir:v "Condition/BSJ-DressingConcern" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-HeartDiseaseDiagnosis> ;
+       fhir:reference [ fhir:v "Condition/BSJ-HeartDiseaseDiagnosis" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-HemiparesisDiagnosis> ;
+       fhir:reference [ fhir:v "Condition/BSJ-HemiparesisDiagnosis" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-Hyperlipidemia> ;
+       fhir:reference [ fhir:v "Condition/BSJ-Hyperlipidemia" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-HypertensionDiagnosis> ;
+       fhir:reference [ fhir:v "Condition/BSJ-HypertensionDiagnosis" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-KidneyDisease> ;
+       fhir:reference [ fhir:v "Condition/BSJ-KidneyDisease" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-NauseaAndVomiting> ;
+       fhir:reference [ fhir:v "Condition/BSJ-NauseaAndVomiting" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-Neuropathy> ;
+       fhir:reference [ fhir:v "Condition/BSJ-Neuropathy" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-StrokeDiagnosis> ;
+       fhir:reference [ fhir:v "Condition/BSJ-StrokeDiagnosis" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-UndressingConcern> ;
+       fhir:reference [ fhir:v "Condition/BSJ-UndressingConcern" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/OT-ProblemList-Decondition> ;
+       fhir:reference [ fhir:v "Condition/OT-ProblemList-Decondition" ]
+     ] [
+       fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/OT-ProblemList-RightWeak> ;
+       fhir:reference [ fhir:v "Condition/OT-ProblemList-RightWeak" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "List of test results for Betsy Smith-Johnson" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:19146-0 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "19146-0" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of test results for Betsy Smith-Johnson</div>"
+     ]
+  ] ) . # 
+
+<http://hl7.org/fhir/us/pacio-toc/Patient/Example-Smith-Johnson-Patient1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Practitioner/Example-JenCadbury> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Organization/org-SNF-Happy-Nursing-Facility> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/AllergyIntolerance/BSJ-AllergyACE> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Activities-PT1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Doffing1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Donning1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Mobility-PT1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-ShortWalk1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitStand1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitUp1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/CarePlan/BSJ-SNFDischargeCarePlan> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-AnemiaDiagnosis> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-Constipation> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-DepressionDiagnosis> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-DiabetesDiagnosis> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-DressingConcern> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-HeartDiseaseDiagnosis> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-HemiparesisDiagnosis> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-Hyperlipidemia> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-HypertensionDiagnosis> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-KidneyDisease> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-NauseaAndVomiting> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-Neuropathy> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-StrokeDiagnosis> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-UndressingConcern> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/OT-ProblemList-Decondition> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/OT-ProblemList-RightWeak> a fhir:us .
+
+# -------------------------------------------------------------------------------------
+

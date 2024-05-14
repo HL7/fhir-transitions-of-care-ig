@@ -2,11 +2,11 @@
   "resourceType" : "Condition",
   "id" : "BSJ-KidneyDisease",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"]
+    "profile" : ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"]
   },
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"BSJ-KidneyDisease\"> </a><a name=\"hcBSJ-KidneyDisease\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;BSJ-KidneyDisease&quot; </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis</code></p></div><p><b>Condition Asserted Date</b>: 2021-04</p><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-condition-ver-status.html\">ConditionVerificationStatus</a>#confirmed)</span></p><p><b>category</b>: Urinary excretory functions <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ICF.html\">International Classification of Functioning, Disability and Health</a>#b610)</span>, Encounter Diagnosis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/core/STU6.1/CodeSystem-condition-category.html\">US Core Condition Category Extension Codes</a>#encounter-diagnosis)</span></p><p><b>code</b>: Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SNOMED CT#731000119105)</span></p><p><b>bodySite</b>: Both kidneys (body structure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SNOMED CT#17373004)</span></p><p><b>subject</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>recordedDate</b>: 2021-04-10 15:00:00-0400</p><p><b>asserter</b>: <a href=\"PractitionerRole-Role-IMMD-AnitaChu.html\">PractitionerRole/Role-IMMD-AnitaChu</a></p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"BSJ-KidneyDisease\"> </a><a name=\"hcBSJ-KidneyDisease\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceCondition &quot;BSJ-KidneyDisease&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-condition-encounter-diagnosis.html\">US Core Condition Encounter Diagnosis Profile</a></p></div><p><b>Condition Asserted Date</b>: 2021-04</p><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-condition-ver-status.html\">ConditionVerificationStatus</a>#confirmed)</span></p><p><b>category</b>: Urinary excretory functions <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ICF.html\">International Classification of Functioning, Disability and Health</a>#b610)</span>, Encounter Diagnosis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/core/STU6.1/CodeSystem-condition-category.html\">US Core Condition Category Extension Codes</a>#encounter-diagnosis)</span>, Encounter Diagnosis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-condition-category.html\">Condition Category Codes</a>#encounter-diagnosis)</span></p><p><b>code</b>: Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOWMED CT</a>#731000119105)</span></p><p><b>bodySite</b>: Both kidneys (body structure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOWMED CT</a>#17373004)</span></p><p><b>subject</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>recordedDate</b>: 2021-04-10 15:00:00-0400</p><p><b>asserter</b>: <a href=\"PractitionerRole-Role-IMMD-AnitaChu.html\">PractitionerRole/Role-IMMD-AnitaChu</a></p></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
@@ -37,17 +37,23 @@
       "code" : "encounter-diagnosis",
       "display" : "Encounter Diagnosis"
     }]
+  },
+  {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+      "code" : "encounter-diagnosis"
+    }]
   }],
   "code" : {
     "coding" : [{
-      "system" : "http://snomed.info/sct/731000124108",
+      "system" : "http://snomed.info/sct",
       "code" : "731000119105",
       "display" : "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
     }]
   },
   "bodySite" : [{
     "coding" : [{
-      "system" : "http://snomed.info/sct/731000124108",
+      "system" : "http://snomed.info/sct",
       "code" : "17373004",
       "display" : "Both kidneys (body structure)"
     }]

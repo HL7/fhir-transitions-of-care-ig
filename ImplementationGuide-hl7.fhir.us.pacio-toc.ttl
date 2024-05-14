@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "PACIOTransitionsOfCare"] ; # 
   fhir:title [ fhir:v "PACIO Transitions of Care Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-05-08T12:06:42-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-05-13T22:07:57-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International / Patient Care"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 International / Patient Care" ] ;
@@ -565,7 +565,8 @@
          fhir:link <http://hl7.org/fhir/us/pacio-toc/AllergyIntolerance/BSJ-AllergyACE> ;
          fhir:reference [ fhir:v "AllergyIntolerance/BSJ-AllergyACE" ]
        ] ;
-       fhir:name [ fhir:v "BSJ-AllergyACE" ] ;
+       fhir:name [ fhir:v "Allergy List" ] ;
+       fhir:description [ fhir:v "Allergies for fictional patient Betsy Smith-Johnson." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -576,7 +577,8 @@
          fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-AnemiaDiagnosis> ;
          fhir:reference [ fhir:v "Condition/BSJ-AnemiaDiagnosis" ]
        ] ;
-       fhir:name [ fhir:v "BSJ-AnemiaDiagnosis" ] ;
+       fhir:name [ fhir:v "Anemia Diagnosis" ] ;
+       fhir:description [ fhir:v "Anemia Diagnosis for fictional patient Betsy Smith-Johnson." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -587,7 +589,8 @@
          fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-Constipation> ;
          fhir:reference [ fhir:v "Condition/BSJ-Constipation" ]
        ] ;
-       fhir:name [ fhir:v "BSJ-Constipation" ] ;
+       fhir:name [ fhir:v "Constipation Diagnosis" ] ;
+       fhir:description [ fhir:v "Constipation Diagnosis for fictional patient Betsy Smith-Johnson." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -598,7 +601,8 @@
          fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-DepressionDiagnosis> ;
          fhir:reference [ fhir:v "Condition/BSJ-DepressionDiagnosis" ]
        ] ;
-       fhir:name [ fhir:v "BSJ-DepressionDiagnosis" ] ;
+       fhir:name [ fhir:v "Depression Diagnosis" ] ;
+       fhir:description [ fhir:v "Depression Diagnosis for fictional patient Betsy Smith-Johnson." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -609,238 +613,20 @@
          fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-DiabetesDiagnosis> ;
          fhir:reference [ fhir:v "Condition/BSJ-DiabetesDiagnosis" ]
        ] ;
-       fhir:name [ fhir:v "BSJ-DiabetesDiagnosis" ] ;
+       fhir:name [ fhir:v "Diabetes Diagnosis" ] ;
+       fhir:description [ fhir:v "Diabetes Diagnosis for fictional patient Betsy Smith-Johnson." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Condition" ]
+         fhir:value [ fhir:v "CarePlan" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-DressingConcern> ;
-         fhir:reference [ fhir:v "Condition/BSJ-DressingConcern" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/CarePlan/BSJ-SNFDischargeCarePlan> ;
+         fhir:reference [ fhir:v "CarePlan/BSJ-SNFDischargeCarePlan" ]
        ] ;
-       fhir:name [ fhir:v "BSJ-DressingConcern" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Condition" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-HeartDiseaseDiagnosis> ;
-         fhir:reference [ fhir:v "Condition/BSJ-HeartDiseaseDiagnosis" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-HeartDiseaseDiagnosis" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Condition" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-HemiparesisDiagnosis> ;
-         fhir:reference [ fhir:v "Condition/BSJ-HemiparesisDiagnosis" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-HemiparesisDiagnosis" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Condition" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-Hyperlipidemia> ;
-         fhir:reference [ fhir:v "Condition/BSJ-Hyperlipidemia" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-Hyperlipidemia" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Condition" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-HypertensionDiagnosis> ;
-         fhir:reference [ fhir:v "Condition/BSJ-HypertensionDiagnosis" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-HypertensionDiagnosis" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Condition" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-KidneyDisease> ;
-         fhir:reference [ fhir:v "Condition/BSJ-KidneyDisease" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-KidneyDisease" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Observation" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Activities-PT1> ;
-         fhir:reference [ fhir:v "Observation/BSJ-MDS-Activities-PT1" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-MDS-Activities-PT1" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Observation" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Doffing1> ;
-         fhir:reference [ fhir:v "Observation/BSJ-MDS-Doffing1" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-MDS-Doffing1" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Observation" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Donning1> ;
-         fhir:reference [ fhir:v "Observation/BSJ-MDS-Donning1" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-MDS-Donning1" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Observation" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Mobility-PT1> ;
-         fhir:reference [ fhir:v "Observation/BSJ-MDS-Mobility-PT1" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-MDS-Mobility-PT1" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Observation" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-ShortWalk1> ;
-         fhir:reference [ fhir:v "Observation/BSJ-MDS-ShortWalk1" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-MDS-ShortWalk1" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Observation" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitStand1> ;
-         fhir:reference [ fhir:v "Observation/BSJ-MDS-SitStand1" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-MDS-SitStand1" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Observation" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitUp1> ;
-         fhir:reference [ fhir:v "Observation/BSJ-MDS-SitUp1" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-MDS-SitUp1" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Condition" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-NauseaAndVomiting> ;
-         fhir:reference [ fhir:v "Condition/BSJ-NauseaAndVomiting" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-NauseaAndVomiting" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Condition" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-Neuropathy> ;
-         fhir:reference [ fhir:v "Condition/BSJ-Neuropathy" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-Neuropathy" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ServiceRequest" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-PCPFollowUp> ;
-         fhir:reference [ fhir:v "ServiceRequest/BSJ-PCPFollowUp" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-PCPFollowUp" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ServiceRequest" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeCallOrder> ;
-         fhir:reference [ fhir:v "ServiceRequest/BSJ-SNFDischargeCallOrder" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-SNFDischargeCallOrder" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ServiceRequest" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeCallOTRefer> ;
-         fhir:reference [ fhir:v "ServiceRequest/BSJ-SNFDischargeCallOTRefer" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-SNFDischargeCallOTRefer" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ServiceRequest" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeCallSLPRefer> ;
-         fhir:reference [ fhir:v "ServiceRequest/BSJ-SNFDischargeCallSLPRefer" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-SNFDischargeCallSLPRefer" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ServiceRequest" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeDietProtein> ;
-         fhir:reference [ fhir:v "ServiceRequest/BSJ-SNFDischargeDietProtein" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-SNFDischargeDietProtein" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ServiceRequest" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeDietSalt> ;
-         fhir:reference [ fhir:v "ServiceRequest/BSJ-SNFDischargeDietSalt" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-SNFDischargeDietSalt" ] ;
+       fhir:name [ fhir:v "Discharge Care Plan" ] ;
+       fhir:description [ fhir:v "Discharge Care Plan for fictional patient Betsy Smith-Johnson." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -851,7 +637,20 @@
          fhir:link <http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeLabOrderBMP> ;
          fhir:reference [ fhir:v "ServiceRequest/BSJ-SNFDischargeLabOrderBMP" ]
        ] ;
-       fhir:name [ fhir:v "BSJ-SNFDischargeLabOrderBMP" ] ;
+       fhir:name [ fhir:v "Discharge Service Request for blood chemistry procedure" ] ;
+       fhir:description [ fhir:v "Discharge Service Request for blood chemistry procedure for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ServiceRequest" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeCallOrder> ;
+         fhir:reference [ fhir:v "ServiceRequest/BSJ-SNFDischargeCallOrder" ]
+       ] ;
+       fhir:name [ fhir:v "Discharge Service Request for call order" ] ;
+       fhir:description [ fhir:v "Discharge Service Request for call order for fictional patient Betsy Smith-Johnson." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -862,7 +661,44 @@
          fhir:link <http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeLabOrderCBC> ;
          fhir:reference [ fhir:v "ServiceRequest/BSJ-SNFDischargeLabOrderCBC" ]
        ] ;
-       fhir:name [ fhir:v "BSJ-SNFDischargeLabOrderCBC" ] ;
+       fhir:name [ fhir:v "Discharge Service Request for complete blood count" ] ;
+       fhir:description [ fhir:v "Discharge Service Request for complete blood count for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ServiceRequest" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeCallSLPRefer> ;
+         fhir:reference [ fhir:v "ServiceRequest/BSJ-SNFDischargeCallSLPRefer" ]
+       ] ;
+       fhir:name [ fhir:v "Discharge Service Request for discharge SLP referral" ] ;
+       fhir:description [ fhir:v "Discharge Service Request for Speech Language Pathologist referral for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ServiceRequest" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeCallOTRefer> ;
+         fhir:reference [ fhir:v "ServiceRequest/BSJ-SNFDischargeCallOTRefer" ]
+       ] ;
+       fhir:name [ fhir:v "Discharge Service Request for OT referral" ] ;
+       fhir:description [ fhir:v "Discharge Service Request for Occupational Therapy referral for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ServiceRequest" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeDietProtein> ;
+         fhir:reference [ fhir:v "ServiceRequest/BSJ-SNFDischargeDietProtein" ]
+       ] ;
+       fhir:name [ fhir:v "Discharge Service Request for protein diet" ] ;
+       fhir:description [ fhir:v "Discharge Service Request for decreased protein and/or protein derivative diet for fictional patient Betsy Smith-Johnson." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -873,7 +709,92 @@
          fhir:link <http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargePTRefer> ;
          fhir:reference [ fhir:v "ServiceRequest/BSJ-SNFDischargePTRefer" ]
        ] ;
-       fhir:name [ fhir:v "BSJ-SNFDischargePTRefer" ] ;
+       fhir:name [ fhir:v "Discharge Service Request for PT referral" ] ;
+       fhir:description [ fhir:v "Discharge Service Request for physical therapy referral for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ServiceRequest" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeDietSalt> ;
+         fhir:reference [ fhir:v "ServiceRequest/BSJ-SNFDischargeDietSalt" ]
+       ] ;
+       fhir:name [ fhir:v "Discharge Service Request for reduced salt diet" ] ;
+       fhir:description [ fhir:v "Discharge Service Request for reduced salt diet for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Practitioner" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Practitioner/Example-AnitaChu> ;
+         fhir:reference [ fhir:v "Practitioner/Example-AnitaChu" ]
+       ] ;
+       fhir:name [ fhir:v "Dr. Anita Chu" ] ;
+       fhir:description [ fhir:v "Information about fictional practitioner Dr. Anita Chu." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Practitioner" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Practitioner/Example-GeraldPark> ;
+         fhir:reference [ fhir:v "Practitioner/Example-GeraldPark" ]
+       ] ;
+       fhir:name [ fhir:v "Dr. Gerald Park" ] ;
+       fhir:description [ fhir:v "Information about fictional practitioner Dr. Gerald Park." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Practitioner" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Practitioner/Example-JenCadbury> ;
+         fhir:reference [ fhir:v "Practitioner/Example-JenCadbury" ]
+       ] ;
+       fhir:name [ fhir:v "Dr. Jen Cadbury" ] ;
+       fhir:description [ fhir:v "Information about fictional practitioner Dr. Jen Cadbury." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Practitioner" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Practitioner/Example-NuraMekel> ;
+         fhir:reference [ fhir:v "Practitioner/Example-NuraMekel" ]
+       ] ;
+       fhir:name [ fhir:v "Dr. Nura Mekel" ] ;
+       fhir:description [ fhir:v "Information about fictional practitioner Dr. Nura Mekel." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Practitioner" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Practitioner/Example-Phil-Chekhov> ;
+         fhir:reference [ fhir:v "Practitioner/Example-Phil-Chekhov" ]
+       ] ;
+       fhir:name [ fhir:v "Dr. Phil Chekhov" ] ;
+       fhir:description [ fhir:v "Information about fictional practitioner Dr. Phil Chekhov." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Practitioner" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Practitioner/Example-Tracy-Count> ;
+         fhir:reference [ fhir:v "Practitioner/Example-Tracy-Count" ]
+       ] ;
+       fhir:name [ fhir:v "Dr. Tracy Count" ] ;
+       fhir:description [ fhir:v "Information about fictional practitioner Dr. Tracy Count." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -881,109 +802,11 @@
          fhir:value [ fhir:v "Condition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-StrokeDiagnosis> ;
-         fhir:reference [ fhir:v "Condition/BSJ-StrokeDiagnosis" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-DressingConcern> ;
+         fhir:reference [ fhir:v "Condition/BSJ-DressingConcern" ]
        ] ;
-       fhir:name [ fhir:v "BSJ-StrokeDiagnosis" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Condition" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-UndressingConcern> ;
-         fhir:reference [ fhir:v "Condition/BSJ-UndressingConcern" ]
-       ] ;
-       fhir:name [ fhir:v "BSJ-UndressingConcern" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Patient" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Patient/Example-Smith-Johnson-Patient1> ;
-         fhir:reference [ fhir:v "Patient/Example-Smith-Johnson-Patient1" ]
-       ] ;
-       fhir:name [ fhir:v "Example-Smith-Johnson-Patient1" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-Everyday-Community-Pharm> ;
-         fhir:reference [ fhir:v "Location/org-Loc-Everyday-Community-Pharm" ]
-       ] ;
-       fhir:name [ fhir:v "org-Loc-Everyday-Community-Pharm" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-NED-Contract-Pharm> ;
-         fhir:reference [ fhir:v "Location/org-Loc-NED-Contract-Pharm" ]
-       ] ;
-       fhir:name [ fhir:v "org-Loc-NED-Contract-Pharm" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-Neuro-Care-Inc> ;
-         fhir:reference [ fhir:v "Location/org-Loc-Neuro-Care-Inc" ]
-       ] ;
-       fhir:name [ fhir:v "org-Loc-Neuro-Care-Inc" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-PC-Primary-Care-Michigan> ;
-         fhir:reference [ fhir:v "Location/org-Loc-PC-Primary-Care-Michigan" ]
-       ] ;
-       fhir:name [ fhir:v "org-Loc-PC-Primary-Care-Michigan" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-SNF-Happy-Nursing-Facility> ;
-         fhir:reference [ fhir:v "Location/org-Loc-SNF-Happy-Nursing-Facility" ]
-       ] ;
-       fhir:name [ fhir:v "org-Loc-SNF-Happy-Nursing-Facility" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Organization" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Organization/org-Neuro-Care-Inc> ;
-         fhir:reference [ fhir:v "Organization/org-Neuro-Care-Inc" ]
-       ] ;
-       fhir:name [ fhir:v "org-Neuro-Care-Inc" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Organization" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Organization/org-PC-Primary-Care-Michigan> ;
-         fhir:reference [ fhir:v "Organization/org-PC-Primary-Care-Michigan" ]
-       ] ;
-       fhir:name [ fhir:v "org-PC-Primary-Care-Michigan" ] ;
+       fhir:name [ fhir:v "Dressing Concerns" ] ;
+       fhir:description [ fhir:v "Dressing Concerns for fictional patient Betsy Smith-Johnson." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -994,18 +817,8 @@
          fhir:link <http://hl7.org/fhir/us/pacio-toc/Organization/org-Pharm-Everyday-Community-Pharm> ;
          fhir:reference [ fhir:v "Organization/org-Pharm-Everyday-Community-Pharm" ]
        ] ;
-       fhir:name [ fhir:v "org-Pharm-Everyday-Community-Pharm" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Organization" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Organization/org-Pharm-NED-Contract-Pharm> ;
-         fhir:reference [ fhir:v "Organization/org-Pharm-NED-Contract-Pharm" ]
-       ] ;
-       fhir:name [ fhir:v "org-Pharm-NED-Contract-Pharm" ] ;
+       fhir:name [ fhir:v "Everyday Community Pharmacy Organization" ] ;
+       fhir:description [ fhir:v "Information about the Everyday Community Pharmacy Organization." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1016,7 +829,272 @@
          fhir:link <http://hl7.org/fhir/us/pacio-toc/Organization/org-SNF-Happy-Nursing-Facility> ;
          fhir:reference [ fhir:v "Organization/org-SNF-Happy-Nursing-Facility" ]
        ] ;
-       fhir:name [ fhir:v "org-SNF-Happy-Nursing-Facility" ] ;
+       fhir:name [ fhir:v "Happy Nursing Facility Organization" ] ;
+       fhir:description [ fhir:v "Information about the Happy Nursing Facility Organization." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Condition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-HeartDiseaseDiagnosis> ;
+         fhir:reference [ fhir:v "Condition/BSJ-HeartDiseaseDiagnosis" ]
+       ] ;
+       fhir:name [ fhir:v "Heart Disease Diagnosis" ] ;
+       fhir:description [ fhir:v "Heart Disease Diagnosis for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Condition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-HemiparesisDiagnosis> ;
+         fhir:reference [ fhir:v "Condition/BSJ-HemiparesisDiagnosis" ]
+       ] ;
+       fhir:name [ fhir:v "Hemiparesis Diagnosis" ] ;
+       fhir:description [ fhir:v "Hemiparesis Diagnosis for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Condition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-Hyperlipidemia> ;
+         fhir:reference [ fhir:v "Condition/BSJ-Hyperlipidemia" ]
+       ] ;
+       fhir:name [ fhir:v "Hyperlipidemia Diagnosis" ] ;
+       fhir:description [ fhir:v "hyperlipidemia Diagnosis for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Condition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-HypertensionDiagnosis> ;
+         fhir:reference [ fhir:v "Condition/BSJ-HypertensionDiagnosis" ]
+       ] ;
+       fhir:name [ fhir:v "Hypertension Diagnosis" ] ;
+       fhir:description [ fhir:v "Hypertension Diagnosis for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Condition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-KidneyDisease> ;
+         fhir:reference [ fhir:v "Condition/BSJ-KidneyDisease" ]
+       ] ;
+       fhir:name [ fhir:v "Kidney Disease Diagnosis" ] ;
+       fhir:description [ fhir:v "Kidney Disease Diagnosis for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-PC-Primary-Care-Michigan> ;
+         fhir:reference [ fhir:v "Location/org-Loc-PC-Primary-Care-Michigan" ]
+       ] ;
+       fhir:name [ fhir:v "Location of Michigan Primary Health Care Associates" ] ;
+       fhir:description [ fhir:v "Location of Michigan Primary Health Care Associates." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-Everyday-Community-Pharm> ;
+         fhir:reference [ fhir:v "Location/org-Loc-Everyday-Community-Pharm" ]
+       ] ;
+       fhir:name [ fhir:v "Location of the Everyday Community Pharmacy" ] ;
+       fhir:description [ fhir:v "Location of the Everyday Community Pharmacy." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-SNF-Happy-Nursing-Facility> ;
+         fhir:reference [ fhir:v "Location/org-Loc-SNF-Happy-Nursing-Facility" ]
+       ] ;
+       fhir:name [ fhir:v "Location of the Happy Nursing Facility" ] ;
+       fhir:description [ fhir:v "Location of the Happy Nursing Facility." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-Neuro-Care-Inc> ;
+         fhir:reference [ fhir:v "Location/org-Loc-Neuro-Care-Inc" ]
+       ] ;
+       fhir:name [ fhir:v "Location of the Neuro Care Inc. facility" ] ;
+       fhir:description [ fhir:v "Location of the Neuro Care Inc. facility." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-NED-Contract-Pharm> ;
+         fhir:reference [ fhir:v "Location/org-Loc-NED-Contract-Pharm" ]
+       ] ;
+       fhir:name [ fhir:v "Location of the Not Every Day Contract Pharmacy" ] ;
+       fhir:description [ fhir:v "Location of the Not Every Day Contract Pharmacy." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Organization" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Organization/org-PC-Primary-Care-Michigan> ;
+         fhir:reference [ fhir:v "Organization/org-PC-Primary-Care-Michigan" ]
+       ] ;
+       fhir:name [ fhir:v "Michigan Primary Health Care Associates Organization" ] ;
+       fhir:description [ fhir:v "Information about the Michigan Primary Health Care Associates Organization." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Donning1> ;
+         fhir:reference [ fhir:v "Observation/BSJ-MDS-Donning1" ]
+       ] ;
+       fhir:name [ fhir:v "Minimum Data Set (MDS) Discharge Assessment - Lower body dressing" ] ;
+       fhir:description [ fhir:v "Minimum Data Set (MDS) Discharge Assessment - Lower body dressing for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitUp1> ;
+         fhir:reference [ fhir:v "Observation/BSJ-MDS-SitUp1" ]
+       ] ;
+       fhir:name [ fhir:v "Minimum Data Set (MDS) Discharge Assessment - Lying to sitting on side of bed" ] ;
+       fhir:description [ fhir:v "Minimum Data Set (MDS) Discharge Assessment - Lying to sitting on side of bed for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitStand1> ;
+         fhir:reference [ fhir:v "Observation/BSJ-MDS-SitStand1" ]
+       ] ;
+       fhir:name [ fhir:v "Minimum Data Set (MDS) Discharge Assessment - Sit to stand" ] ;
+       fhir:description [ fhir:v "Minimum Data Set (MDS) Discharge Assessment - Sit to stand for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Doffing1> ;
+         fhir:reference [ fhir:v "Observation/BSJ-MDS-Doffing1" ]
+       ] ;
+       fhir:name [ fhir:v "Minimum Data Set (MDS) Discharge Assessment - Upper body dressing" ] ;
+       fhir:description [ fhir:v "Minimum Data Set (MDS) Discharge Assessment - Upper body dressing for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-ShortWalk1> ;
+         fhir:reference [ fhir:v "Observation/BSJ-MDS-ShortWalk1" ]
+       ] ;
+       fhir:name [ fhir:v "Minimum Data Set (MDS) Discharge Assessment - Walk 50 feet with 2 turns" ] ;
+       fhir:description [ fhir:v "Minimum Data Set (MDS) Discharge Assessment - Walk 50 feet with 2 turns for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Activities-PT1> ;
+         fhir:reference [ fhir:v "Observation/BSJ-MDS-Activities-PT1" ]
+       ] ;
+       fhir:name [ fhir:v "Minimum Data Set (MDS) Nursing Home Discharge Assessment for Activities Questions - Part 1" ] ;
+       fhir:description [ fhir:v "Minimum Data Set (MDS) Nursing Home Discharge Assessment for Activities Questions - Part 1 for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Mobility-PT1> ;
+         fhir:reference [ fhir:v "Observation/BSJ-MDS-Mobility-PT1" ]
+       ] ;
+       fhir:name [ fhir:v "Minimum Data Set (MDS) Nursing Home Discharge Assessment Questions - Mobility Part 1" ] ;
+       fhir:description [ fhir:v "Minimum Data Set (MDS) Nursing Home Discharge Assessment Questions - Mobility Part 1 for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Condition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-NauseaAndVomiting> ;
+         fhir:reference [ fhir:v "Condition/BSJ-NauseaAndVomiting" ]
+       ] ;
+       fhir:name [ fhir:v "Nausea and vomiting" ] ;
+       fhir:description [ fhir:v "Nausea and vomiting for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Organization" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Organization/org-Neuro-Care-Inc> ;
+         fhir:reference [ fhir:v "Organization/org-Neuro-Care-Inc" ]
+       ] ;
+       fhir:name [ fhir:v "Neuro Care Inc. Organization" ] ;
+       fhir:description [ fhir:v "Information about the Neuro Care Inc. Organization." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Condition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-Neuropathy> ;
+         fhir:reference [ fhir:v "Condition/BSJ-Neuropathy" ]
+       ] ;
+       fhir:name [ fhir:v "Neuropathy Diagnosis" ] ;
+       fhir:description [ fhir:v "Neuropathy Diagnosis for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Organization" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Organization/org-Pharm-NED-Contract-Pharm> ;
+         fhir:reference [ fhir:v "Organization/org-Pharm-NED-Contract-Pharm" ]
+       ] ;
+       fhir:name [ fhir:v "Not Every Day Contract Pharmacy Organization" ] ;
+       fhir:description [ fhir:v "Information about the Not Every Day Contract Pharmacy Organization." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1027,7 +1105,8 @@
          fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/OT-ProblemList-Decondition> ;
          fhir:reference [ fhir:v "Condition/OT-ProblemList-Decondition" ]
        ] ;
-       fhir:name [ fhir:v "OT-ProblemList-Decondition" ] ;
+       fhir:name [ fhir:v "OT Decondition Problem List" ] ;
+       fhir:description [ fhir:v "Occupational Therapy Decondition problem list for fictional patient Betsy Smith-Johnson." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1038,73 +1117,20 @@
          fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/OT-ProblemList-RightWeak> ;
          fhir:reference [ fhir:v "Condition/OT-ProblemList-RightWeak" ]
        ] ;
-       fhir:name [ fhir:v "OT-ProblemList-RightWeak" ] ;
+       fhir:name [ fhir:v "OT Right Weakness Problem List" ] ;
+       fhir:description [ fhir:v "Occupational Therapy Right Weakness problem list for fictional patient Betsy Smith-Johnson." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Practitioner" ]
+         fhir:value [ fhir:v "Patient" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Practitioner/Practioner-GeraldPark> ;
-         fhir:reference [ fhir:v "Practitioner/Practioner-GeraldPark" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Patient/Example-Smith-Johnson-Patient1> ;
+         fhir:reference [ fhir:v "Patient/Example-Smith-Johnson-Patient1" ]
        ] ;
-       fhir:name [ fhir:v "Practioner-GeraldPark" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Practitioner" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Practitioner/Practitioner-AnitaChu> ;
-         fhir:reference [ fhir:v "Practitioner/Practitioner-AnitaChu" ]
-       ] ;
-       fhir:name [ fhir:v "Practitioner-AnitaChu" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Practitioner" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Practitioner/Practitioner-JenCadbury> ;
-         fhir:reference [ fhir:v "Practitioner/Practitioner-JenCadbury" ]
-       ] ;
-       fhir:name [ fhir:v "Practitioner-JenCadbury" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Practitioner" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Practitioner/Practitioner-NuraMekel> ;
-         fhir:reference [ fhir:v "Practitioner/Practitioner-NuraMekel" ]
-       ] ;
-       fhir:name [ fhir:v "Practitioner-NuraMekel" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Practitioner" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Practitioner/Practitioner-Phil-Chekhov> ;
-         fhir:reference [ fhir:v "Practitioner/Practitioner-Phil-Chekhov" ]
-       ] ;
-       fhir:name [ fhir:v "Practitioner-Phil-Chekhov" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Practitioner" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/Practitioner/Practitioner-Tracy-Count> ;
-         fhir:reference [ fhir:v "Practitioner/Practitioner-Tracy-Count" ]
-       ] ;
-       fhir:name [ fhir:v "Practitioner-Tracy-Count" ] ;
+       fhir:name [ fhir:v "Patient - Betsy Smith-Johnson" ] ;
+       fhir:description [ fhir:v "Basic information for fictional patient Betsy Smith-Johnson." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1127,51 +1153,8 @@
          fhir:link <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-IMMD-AnitaChu> ;
          fhir:reference [ fhir:v "PractitionerRole/Role-IMMD-AnitaChu" ]
        ] ;
-       fhir:name [ fhir:v "Role-IMMD-AnitaChu" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "PractitionerRole" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-Neuro-NuraMekel> ;
-         fhir:reference [ fhir:v "PractitionerRole/Role-Neuro-NuraMekel" ]
-       ] ;
-       fhir:name [ fhir:v "Role-Neuro-NuraMekel" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "PractitionerRole" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-OT-JenCadbury> ;
-         fhir:reference [ fhir:v "PractitionerRole/Role-OT-JenCadbury" ]
-       ] ;
-       fhir:name [ fhir:v "Role-OT-JenCadbury" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "PractitionerRole" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-Pharm-PhilChekhov> ;
-         fhir:reference [ fhir:v "PractitionerRole/Role-Pharm-PhilChekhov" ]
-       ] ;
-       fhir:name [ fhir:v "Role-Pharm-PhilChekhov" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "PractitionerRole" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-Pharm-TracyCount> ;
-         fhir:reference [ fhir:v "PractitionerRole/Role-Pharm-TracyCount" ]
-       ] ;
-       fhir:name [ fhir:v "Role-Pharm-TracyCount" ] ;
+       fhir:name [ fhir:v "Role of Dr. Anita Chu" ] ;
+       fhir:description [ fhir:v "Dr. Anita Chu is a fictional Internal Medicine Physician at Michigan Primary Health Care Associates." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1182,7 +1165,80 @@
          fhir:link <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-SNFDoc-GeraldPark> ;
          fhir:reference [ fhir:v "PractitionerRole/Role-SNFDoc-GeraldPark" ]
        ] ;
-       fhir:name [ fhir:v "Role-SNFDoc-GeraldPark" ] ;
+       fhir:name [ fhir:v "Role of Dr. Gerald Park" ] ;
+       fhir:description [ fhir:v "Dr. Gerald Park is a fictional Geriatric Medicine Physician at the Happy Nursing Facility." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "PractitionerRole" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-OT-JenCadbury> ;
+         fhir:reference [ fhir:v "PractitionerRole/Role-OT-JenCadbury" ]
+       ] ;
+       fhir:name [ fhir:v "Role of Dr. Jen Cadbury" ] ;
+       fhir:description [ fhir:v "Dr. Jen Cadbury is a fictional Internal Medicine Physician at Neuro Care Inc." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "PractitionerRole" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-Neuro-NuraMekel> ;
+         fhir:reference [ fhir:v "PractitionerRole/Role-Neuro-NuraMekel" ]
+       ] ;
+       fhir:name [ fhir:v "Role of Dr. Nura Mekel" ] ;
+       fhir:description [ fhir:v "Dr. Nura Mekel is a fictional Internal Medicine Physician at Neuro Care Inc." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "PractitionerRole" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-Pharm-PhilChekhov> ;
+         fhir:reference [ fhir:v "PractitionerRole/Role-Pharm-PhilChekhov" ]
+       ] ;
+       fhir:name [ fhir:v "Role of Dr. Phil Chekhov" ] ;
+       fhir:description [ fhir:v "Dr. Phil Chekhov is a Pharmacist at Everyday Community Pharmacy." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "PractitionerRole" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-Pharm-TracyCount> ;
+         fhir:reference [ fhir:v "PractitionerRole/Role-Pharm-TracyCount" ]
+       ] ;
+       fhir:name [ fhir:v "Role of Dr. Tracy Count" ] ;
+       fhir:description [ fhir:v "Dr. Tracy Count is a fictional Pharmacist at Not Every Day Contract Pharmacy." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ServiceRequest" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-PCPFollowUp> ;
+         fhir:reference [ fhir:v "ServiceRequest/BSJ-PCPFollowUp" ]
+       ] ;
+       fhir:name [ fhir:v "Service Request to follow up with PCP" ] ;
+       fhir:description [ fhir:v "Service Request to follow up with PCP for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Condition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-StrokeDiagnosis> ;
+         fhir:reference [ fhir:v "Condition/BSJ-StrokeDiagnosis" ]
+       ] ;
+       fhir:name [ fhir:v "Stroke Diagnosis" ] ;
+       fhir:description [ fhir:v "Stroke Diagnosis for fictional patient Betsy Smith-Johnson." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1199,15 +1255,42 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Bundle" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Bundle/Example-Smith-Johnson-Bundle> ;
+         fhir:reference [ fhir:v "Bundle/Example-Smith-Johnson-Bundle" ]
+       ] ;
+       fhir:name [ fhir:v "Transition of Care Bundle" ] ;
+       fhir:description [ fhir:v "Example Transition of Care bundle for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition-Header> ;
-         fhir:reference [ fhir:v "StructureDefinition/TOC-Composition-Header" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition> ;
+         fhir:reference [ fhir:v "StructureDefinition/TOC-Composition" ]
        ] ;
-       fhir:name [ fhir:v "TOC Composition Header" ] ;
-       fhir:description [ fhir:v "This abstract profile defines constraints that represent common administrative and demographic concepts for transitions of care information used in US Realm clinical documents." ] ;
+       fhir:name [ fhir:v "Transition of Care Composition" ] ;
+       fhir:description [ fhir:v "This profile defines constraints that represent common administrative and demographic concepts for transitions of care information used in US Realm clinical documents." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Composition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Composition/BSJ-TOCComposition> ;
+         fhir:reference [ fhir:v "Composition/BSJ-TOCComposition" ]
+       ] ;
+       fhir:name [ fhir:v "Transitions of Care Clinical Document" ] ;
+       fhir:description [ fhir:v "Transitions of Care Clinical Document for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition>
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1244,6 +1327,18 @@
        fhir:name [ fhir:v "Transitions of Care LOINC Terms Included in the DEL Answered by LL5571-6 Answer List Value Set" ] ;
        fhir:description [ fhir:v "This value set includes those LOINC terms that included in the DEL which are defined to be answered by LOINC answer list LL5571-6." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Condition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-UndressingConcern> ;
+         fhir:reference [ fhir:v "Condition/BSJ-UndressingConcern" ]
+       ] ;
+       fhir:name [ fhir:v "Undressing Concern" ] ;
+       fhir:description [ fhir:v "Undressing Concern for fictional patient Betsy Smith-Johnson." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] ) ;
      fhir:page [
        fhir:extension ( [
@@ -1393,7 +1488,41 @@
 
 <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-DiabetesDiagnosis> a fhir:us .
 
+<http://hl7.org/fhir/us/pacio-toc/CarePlan/BSJ-SNFDischargeCarePlan> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeLabOrderBMP> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeCallOrder> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeLabOrderCBC> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeCallSLPRefer> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeCallOTRefer> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeDietProtein> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargePTRefer> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeDietSalt> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Practitioner/Example-AnitaChu> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Practitioner/Example-GeraldPark> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Practitioner/Example-JenCadbury> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Practitioner/Example-NuraMekel> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Practitioner/Example-Phil-Chekhov> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Practitioner/Example-Tracy-Count> a fhir:us .
+
 <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-DressingConcern> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Organization/org-Pharm-Everyday-Community-Pharm> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Organization/org-SNF-Happy-Nursing-Facility> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-HeartDiseaseDiagnosis> a fhir:us .
 
@@ -1405,107 +1534,79 @@
 
 <http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-KidneyDisease> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Activities-PT1> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Doffing1> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Donning1> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Mobility-PT1> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-ShortWalk1> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitStand1> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitUp1> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-NauseaAndVomiting> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-Neuropathy> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-PCPFollowUp> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeCallOrder> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeCallOTRefer> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeCallSLPRefer> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeDietProtein> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeDietSalt> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeLabOrderBMP> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargeLabOrderCBC> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-SNFDischargePTRefer> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-StrokeDiagnosis> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-UndressingConcern> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Patient/Example-Smith-Johnson-Patient1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-PC-Primary-Care-Michigan> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-Everyday-Community-Pharm> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-NED-Contract-Pharm> a fhir:us .
+<http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-SNF-Happy-Nursing-Facility> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-Neuro-Care-Inc> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-PC-Primary-Care-Michigan> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-SNF-Happy-Nursing-Facility> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Organization/org-Neuro-Care-Inc> a fhir:us .
+<http://hl7.org/fhir/us/pacio-toc/Location/org-Loc-NED-Contract-Pharm> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-toc/Organization/org-PC-Primary-Care-Michigan> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-toc/Organization/org-Pharm-Everyday-Community-Pharm> a fhir:us .
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Donning1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitUp1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-SitStand1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Doffing1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-ShortWalk1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Activities-PT1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Observation/BSJ-MDS-Mobility-PT1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-NauseaAndVomiting> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Organization/org-Neuro-Care-Inc> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-Neuropathy> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-toc/Organization/org-Pharm-NED-Contract-Pharm> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Organization/org-SNF-Happy-Nursing-Facility> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-toc/Condition/OT-ProblemList-Decondition> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-toc/Condition/OT-ProblemList-RightWeak> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-toc/Practitioner/Practioner-GeraldPark> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Practitioner/Practitioner-AnitaChu> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Practitioner/Practitioner-JenCadbury> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Practitioner/Practitioner-NuraMekel> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Practitioner/Practitioner-Phil-Chekhov> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-toc/Practitioner/Practitioner-Tracy-Count> a fhir:us .
+<http://hl7.org/fhir/us/pacio-toc/Patient/Example-Smith-Johnson-Patient1> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-toc/StructureDefinition/toc-reason-extension> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-IMMD-AnitaChu> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-Neuro-NuraMekel> a fhir:us .
+<http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-SNFDoc-GeraldPark> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-OT-JenCadbury> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-Neuro-NuraMekel> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-Pharm-PhilChekhov> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-Pharm-TracyCount> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-toc/PractitionerRole/Role-SNFDoc-GeraldPark> a fhir:us .
+<http://hl7.org/fhir/us/pacio-toc/ServiceRequest/BSJ-PCPFollowUp> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-StrokeDiagnosis> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-toc/CapabilityStatement/toc> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition-Header> a fhir:us .
+<http://hl7.org/fhir/us/pacio-toc/Bundle/Example-Smith-Johnson-Bundle> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Composition/BSJ-TOCComposition> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-toc/ValueSet/toc-del-loinc-vs> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-toc/ValueSet/toc-loinc-answered-by-LL5571-6-vs> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-toc/ValueSet/toc-del-loinc-answered-by-LL5571-6-vs> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-toc/Condition/BSJ-UndressingConcern> a fhir:us .
 
 # -------------------------------------------------------------------------------------
 

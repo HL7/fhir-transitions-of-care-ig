@@ -14,7 +14,7 @@
   "name" : "PACIOTransitionsOfCare",
   "title" : "PACIO Transitions of Care Implementation Guide",
   "status" : "draft",
-  "date" : "2024-05-08T12:06:42-04:00",
+  "date" : "2024-05-13T22:07:57-04:00",
   "publisher" : "HL7 International / Patient Care",
   "contact" : [{
     "name" : "HL7 International / Patient Care",
@@ -649,7 +649,8 @@
       "reference" : {
         "reference" : "AllergyIntolerance/BSJ-AllergyACE"
       },
-      "name" : "BSJ-AllergyACE",
+      "name" : "Allergy List",
+      "description" : "Allergies for fictional patient Betsy Smith-Johnson.",
       "exampleBoolean" : true
     },
     {
@@ -660,7 +661,8 @@
       "reference" : {
         "reference" : "Condition/BSJ-AnemiaDiagnosis"
       },
-      "name" : "BSJ-AnemiaDiagnosis",
+      "name" : "Anemia Diagnosis",
+      "description" : "Anemia Diagnosis for fictional patient Betsy Smith-Johnson.",
       "exampleBoolean" : true
     },
     {
@@ -671,7 +673,8 @@
       "reference" : {
         "reference" : "Condition/BSJ-Constipation"
       },
-      "name" : "BSJ-Constipation",
+      "name" : "Constipation Diagnosis",
+      "description" : "Constipation Diagnosis for fictional patient Betsy Smith-Johnson.",
       "exampleBoolean" : true
     },
     {
@@ -682,7 +685,8 @@
       "reference" : {
         "reference" : "Condition/BSJ-DepressionDiagnosis"
       },
-      "name" : "BSJ-DepressionDiagnosis",
+      "name" : "Depression Diagnosis",
+      "description" : "Depression Diagnosis for fictional patient Betsy Smith-Johnson.",
       "exampleBoolean" : true
     },
     {
@@ -693,238 +697,20 @@
       "reference" : {
         "reference" : "Condition/BSJ-DiabetesDiagnosis"
       },
-      "name" : "BSJ-DiabetesDiagnosis",
+      "name" : "Diabetes Diagnosis",
+      "description" : "Diabetes Diagnosis for fictional patient Betsy Smith-Johnson.",
       "exampleBoolean" : true
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
+        "valueString" : "CarePlan"
       }],
       "reference" : {
-        "reference" : "Condition/BSJ-DressingConcern"
+        "reference" : "CarePlan/BSJ-SNFDischargeCarePlan"
       },
-      "name" : "BSJ-DressingConcern",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/BSJ-HeartDiseaseDiagnosis"
-      },
-      "name" : "BSJ-HeartDiseaseDiagnosis",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/BSJ-HemiparesisDiagnosis"
-      },
-      "name" : "BSJ-HemiparesisDiagnosis",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/BSJ-Hyperlipidemia"
-      },
-      "name" : "BSJ-Hyperlipidemia",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/BSJ-HypertensionDiagnosis"
-      },
-      "name" : "BSJ-HypertensionDiagnosis",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/BSJ-KidneyDisease"
-      },
-      "name" : "BSJ-KidneyDisease",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/BSJ-MDS-Activities-PT1"
-      },
-      "name" : "BSJ-MDS-Activities-PT1",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/BSJ-MDS-Doffing1"
-      },
-      "name" : "BSJ-MDS-Doffing1",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/BSJ-MDS-Donning1"
-      },
-      "name" : "BSJ-MDS-Donning1",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/BSJ-MDS-Mobility-PT1"
-      },
-      "name" : "BSJ-MDS-Mobility-PT1",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/BSJ-MDS-ShortWalk1"
-      },
-      "name" : "BSJ-MDS-ShortWalk1",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/BSJ-MDS-SitStand1"
-      },
-      "name" : "BSJ-MDS-SitStand1",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/BSJ-MDS-SitUp1"
-      },
-      "name" : "BSJ-MDS-SitUp1",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/BSJ-NauseaAndVomiting"
-      },
-      "name" : "BSJ-NauseaAndVomiting",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/BSJ-Neuropathy"
-      },
-      "name" : "BSJ-Neuropathy",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ServiceRequest"
-      }],
-      "reference" : {
-        "reference" : "ServiceRequest/BSJ-PCPFollowUp"
-      },
-      "name" : "BSJ-PCPFollowUp",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ServiceRequest"
-      }],
-      "reference" : {
-        "reference" : "ServiceRequest/BSJ-SNFDischargeCallOrder"
-      },
-      "name" : "BSJ-SNFDischargeCallOrder",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ServiceRequest"
-      }],
-      "reference" : {
-        "reference" : "ServiceRequest/BSJ-SNFDischargeCallOTRefer"
-      },
-      "name" : "BSJ-SNFDischargeCallOTRefer",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ServiceRequest"
-      }],
-      "reference" : {
-        "reference" : "ServiceRequest/BSJ-SNFDischargeCallSLPRefer"
-      },
-      "name" : "BSJ-SNFDischargeCallSLPRefer",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ServiceRequest"
-      }],
-      "reference" : {
-        "reference" : "ServiceRequest/BSJ-SNFDischargeDietProtein"
-      },
-      "name" : "BSJ-SNFDischargeDietProtein",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ServiceRequest"
-      }],
-      "reference" : {
-        "reference" : "ServiceRequest/BSJ-SNFDischargeDietSalt"
-      },
-      "name" : "BSJ-SNFDischargeDietSalt",
+      "name" : "Discharge Care Plan",
+      "description" : "Discharge Care Plan for fictional patient Betsy Smith-Johnson.",
       "exampleBoolean" : true
     },
     {
@@ -935,7 +721,20 @@
       "reference" : {
         "reference" : "ServiceRequest/BSJ-SNFDischargeLabOrderBMP"
       },
-      "name" : "BSJ-SNFDischargeLabOrderBMP",
+      "name" : "Discharge Service Request for blood chemistry procedure",
+      "description" : "Discharge Service Request for blood chemistry procedure for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ServiceRequest"
+      }],
+      "reference" : {
+        "reference" : "ServiceRequest/BSJ-SNFDischargeCallOrder"
+      },
+      "name" : "Discharge Service Request for call order",
+      "description" : "Discharge Service Request for call order for fictional patient Betsy Smith-Johnson.",
       "exampleBoolean" : true
     },
     {
@@ -946,7 +745,44 @@
       "reference" : {
         "reference" : "ServiceRequest/BSJ-SNFDischargeLabOrderCBC"
       },
-      "name" : "BSJ-SNFDischargeLabOrderCBC",
+      "name" : "Discharge Service Request for complete blood count",
+      "description" : "Discharge Service Request for complete blood count for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ServiceRequest"
+      }],
+      "reference" : {
+        "reference" : "ServiceRequest/BSJ-SNFDischargeCallSLPRefer"
+      },
+      "name" : "Discharge Service Request for discharge SLP referral",
+      "description" : "Discharge Service Request for Speech Language Pathologist referral for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ServiceRequest"
+      }],
+      "reference" : {
+        "reference" : "ServiceRequest/BSJ-SNFDischargeCallOTRefer"
+      },
+      "name" : "Discharge Service Request for OT referral",
+      "description" : "Discharge Service Request for Occupational Therapy referral for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ServiceRequest"
+      }],
+      "reference" : {
+        "reference" : "ServiceRequest/BSJ-SNFDischargeDietProtein"
+      },
+      "name" : "Discharge Service Request for protein diet",
+      "description" : "Discharge Service Request for decreased protein and/or protein derivative diet for fictional patient Betsy Smith-Johnson.",
       "exampleBoolean" : true
     },
     {
@@ -957,7 +793,92 @@
       "reference" : {
         "reference" : "ServiceRequest/BSJ-SNFDischargePTRefer"
       },
-      "name" : "BSJ-SNFDischargePTRefer",
+      "name" : "Discharge Service Request for PT referral",
+      "description" : "Discharge Service Request for physical therapy referral for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ServiceRequest"
+      }],
+      "reference" : {
+        "reference" : "ServiceRequest/BSJ-SNFDischargeDietSalt"
+      },
+      "name" : "Discharge Service Request for reduced salt diet",
+      "description" : "Discharge Service Request for reduced salt diet for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/Example-AnitaChu"
+      },
+      "name" : "Dr. Anita Chu",
+      "description" : "Information about fictional practitioner Dr. Anita Chu.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/Example-GeraldPark"
+      },
+      "name" : "Dr. Gerald Park",
+      "description" : "Information about fictional practitioner Dr. Gerald Park.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/Example-JenCadbury"
+      },
+      "name" : "Dr. Jen Cadbury",
+      "description" : "Information about fictional practitioner Dr. Jen Cadbury.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/Example-NuraMekel"
+      },
+      "name" : "Dr. Nura Mekel",
+      "description" : "Information about fictional practitioner Dr. Nura Mekel.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/Example-Phil-Chekhov"
+      },
+      "name" : "Dr. Phil Chekhov",
+      "description" : "Information about fictional practitioner Dr. Phil Chekhov.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/Example-Tracy-Count"
+      },
+      "name" : "Dr. Tracy Count",
+      "description" : "Information about fictional practitioner Dr. Tracy Count.",
       "exampleBoolean" : true
     },
     {
@@ -966,108 +887,10 @@
         "valueString" : "Condition"
       }],
       "reference" : {
-        "reference" : "Condition/BSJ-StrokeDiagnosis"
+        "reference" : "Condition/BSJ-DressingConcern"
       },
-      "name" : "BSJ-StrokeDiagnosis",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/BSJ-UndressingConcern"
-      },
-      "name" : "BSJ-UndressingConcern",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/Example-Smith-Johnson-Patient1"
-      },
-      "name" : "Example-Smith-Johnson-Patient1",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Location"
-      }],
-      "reference" : {
-        "reference" : "Location/org-Loc-Everyday-Community-Pharm"
-      },
-      "name" : "org-Loc-Everyday-Community-Pharm",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Location"
-      }],
-      "reference" : {
-        "reference" : "Location/org-Loc-NED-Contract-Pharm"
-      },
-      "name" : "org-Loc-NED-Contract-Pharm",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Location"
-      }],
-      "reference" : {
-        "reference" : "Location/org-Loc-Neuro-Care-Inc"
-      },
-      "name" : "org-Loc-Neuro-Care-Inc",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Location"
-      }],
-      "reference" : {
-        "reference" : "Location/org-Loc-PC-Primary-Care-Michigan"
-      },
-      "name" : "org-Loc-PC-Primary-Care-Michigan",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Location"
-      }],
-      "reference" : {
-        "reference" : "Location/org-Loc-SNF-Happy-Nursing-Facility"
-      },
-      "name" : "org-Loc-SNF-Happy-Nursing-Facility",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Organization"
-      }],
-      "reference" : {
-        "reference" : "Organization/org-Neuro-Care-Inc"
-      },
-      "name" : "org-Neuro-Care-Inc",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Organization"
-      }],
-      "reference" : {
-        "reference" : "Organization/org-PC-Primary-Care-Michigan"
-      },
-      "name" : "org-PC-Primary-Care-Michigan",
+      "name" : "Dressing Concerns",
+      "description" : "Dressing Concerns for fictional patient Betsy Smith-Johnson.",
       "exampleBoolean" : true
     },
     {
@@ -1078,18 +901,8 @@
       "reference" : {
         "reference" : "Organization/org-Pharm-Everyday-Community-Pharm"
       },
-      "name" : "org-Pharm-Everyday-Community-Pharm",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Organization"
-      }],
-      "reference" : {
-        "reference" : "Organization/org-Pharm-NED-Contract-Pharm"
-      },
-      "name" : "org-Pharm-NED-Contract-Pharm",
+      "name" : "Everyday Community Pharmacy Organization",
+      "description" : "Information about the Everyday Community Pharmacy Organization.",
       "exampleBoolean" : true
     },
     {
@@ -1100,7 +913,272 @@
       "reference" : {
         "reference" : "Organization/org-SNF-Happy-Nursing-Facility"
       },
-      "name" : "org-SNF-Happy-Nursing-Facility",
+      "name" : "Happy Nursing Facility Organization",
+      "description" : "Information about the Happy Nursing Facility Organization.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/BSJ-HeartDiseaseDiagnosis"
+      },
+      "name" : "Heart Disease Diagnosis",
+      "description" : "Heart Disease Diagnosis for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/BSJ-HemiparesisDiagnosis"
+      },
+      "name" : "Hemiparesis Diagnosis",
+      "description" : "Hemiparesis Diagnosis for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/BSJ-Hyperlipidemia"
+      },
+      "name" : "Hyperlipidemia Diagnosis",
+      "description" : "hyperlipidemia Diagnosis for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/BSJ-HypertensionDiagnosis"
+      },
+      "name" : "Hypertension Diagnosis",
+      "description" : "Hypertension Diagnosis for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/BSJ-KidneyDisease"
+      },
+      "name" : "Kidney Disease Diagnosis",
+      "description" : "Kidney Disease Diagnosis for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Location"
+      }],
+      "reference" : {
+        "reference" : "Location/org-Loc-PC-Primary-Care-Michigan"
+      },
+      "name" : "Location of Michigan Primary Health Care Associates",
+      "description" : "Location of Michigan Primary Health Care Associates.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Location"
+      }],
+      "reference" : {
+        "reference" : "Location/org-Loc-Everyday-Community-Pharm"
+      },
+      "name" : "Location of the Everyday Community Pharmacy",
+      "description" : "Location of the Everyday Community Pharmacy.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Location"
+      }],
+      "reference" : {
+        "reference" : "Location/org-Loc-SNF-Happy-Nursing-Facility"
+      },
+      "name" : "Location of the Happy Nursing Facility",
+      "description" : "Location of the Happy Nursing Facility.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Location"
+      }],
+      "reference" : {
+        "reference" : "Location/org-Loc-Neuro-Care-Inc"
+      },
+      "name" : "Location of the Neuro Care Inc. facility",
+      "description" : "Location of the Neuro Care Inc. facility.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Location"
+      }],
+      "reference" : {
+        "reference" : "Location/org-Loc-NED-Contract-Pharm"
+      },
+      "name" : "Location of the Not Every Day Contract Pharmacy",
+      "description" : "Location of the Not Every Day Contract Pharmacy.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/org-PC-Primary-Care-Michigan"
+      },
+      "name" : "Michigan Primary Health Care Associates Organization",
+      "description" : "Information about the Michigan Primary Health Care Associates Organization.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/BSJ-MDS-Donning1"
+      },
+      "name" : "Minimum Data Set (MDS) Discharge Assessment - Lower body dressing",
+      "description" : "Minimum Data Set (MDS) Discharge Assessment - Lower body dressing for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/BSJ-MDS-SitUp1"
+      },
+      "name" : "Minimum Data Set (MDS) Discharge Assessment - Lying to sitting on side of bed",
+      "description" : "Minimum Data Set (MDS) Discharge Assessment - Lying to sitting on side of bed for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/BSJ-MDS-SitStand1"
+      },
+      "name" : "Minimum Data Set (MDS) Discharge Assessment - Sit to stand",
+      "description" : "Minimum Data Set (MDS) Discharge Assessment - Sit to stand for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/BSJ-MDS-Doffing1"
+      },
+      "name" : "Minimum Data Set (MDS) Discharge Assessment - Upper body dressing",
+      "description" : "Minimum Data Set (MDS) Discharge Assessment - Upper body dressing for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/BSJ-MDS-ShortWalk1"
+      },
+      "name" : "Minimum Data Set (MDS) Discharge Assessment - Walk 50 feet with 2 turns",
+      "description" : "Minimum Data Set (MDS) Discharge Assessment - Walk 50 feet with 2 turns for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/BSJ-MDS-Activities-PT1"
+      },
+      "name" : "Minimum Data Set (MDS) Nursing Home Discharge Assessment for Activities Questions - Part 1",
+      "description" : "Minimum Data Set (MDS) Nursing Home Discharge Assessment for Activities Questions - Part 1 for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/BSJ-MDS-Mobility-PT1"
+      },
+      "name" : "Minimum Data Set (MDS) Nursing Home Discharge Assessment Questions - Mobility Part 1",
+      "description" : "Minimum Data Set (MDS) Nursing Home Discharge Assessment Questions - Mobility Part 1 for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/BSJ-NauseaAndVomiting"
+      },
+      "name" : "Nausea and vomiting",
+      "description" : "Nausea and vomiting for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/org-Neuro-Care-Inc"
+      },
+      "name" : "Neuro Care Inc. Organization",
+      "description" : "Information about the Neuro Care Inc. Organization.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/BSJ-Neuropathy"
+      },
+      "name" : "Neuropathy Diagnosis",
+      "description" : "Neuropathy Diagnosis for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/org-Pharm-NED-Contract-Pharm"
+      },
+      "name" : "Not Every Day Contract Pharmacy Organization",
+      "description" : "Information about the Not Every Day Contract Pharmacy Organization.",
       "exampleBoolean" : true
     },
     {
@@ -1111,7 +1189,8 @@
       "reference" : {
         "reference" : "Condition/OT-ProblemList-Decondition"
       },
-      "name" : "OT-ProblemList-Decondition",
+      "name" : "OT Decondition Problem List",
+      "description" : "Occupational Therapy Decondition problem list for fictional patient Betsy Smith-Johnson.",
       "exampleBoolean" : true
     },
     {
@@ -1122,73 +1201,20 @@
       "reference" : {
         "reference" : "Condition/OT-ProblemList-RightWeak"
       },
-      "name" : "OT-ProblemList-RightWeak",
+      "name" : "OT Right Weakness Problem List",
+      "description" : "Occupational Therapy Right Weakness problem list for fictional patient Betsy Smith-Johnson.",
       "exampleBoolean" : true
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Practitioner"
+        "valueString" : "Patient"
       }],
       "reference" : {
-        "reference" : "Practitioner/Practioner-GeraldPark"
+        "reference" : "Patient/Example-Smith-Johnson-Patient1"
       },
-      "name" : "Practioner-GeraldPark",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Practitioner"
-      }],
-      "reference" : {
-        "reference" : "Practitioner/Practitioner-AnitaChu"
-      },
-      "name" : "Practitioner-AnitaChu",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Practitioner"
-      }],
-      "reference" : {
-        "reference" : "Practitioner/Practitioner-JenCadbury"
-      },
-      "name" : "Practitioner-JenCadbury",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Practitioner"
-      }],
-      "reference" : {
-        "reference" : "Practitioner/Practitioner-NuraMekel"
-      },
-      "name" : "Practitioner-NuraMekel",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Practitioner"
-      }],
-      "reference" : {
-        "reference" : "Practitioner/Practitioner-Phil-Chekhov"
-      },
-      "name" : "Practitioner-Phil-Chekhov",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Practitioner"
-      }],
-      "reference" : {
-        "reference" : "Practitioner/Practitioner-Tracy-Count"
-      },
-      "name" : "Practitioner-Tracy-Count",
+      "name" : "Patient - Betsy Smith-Johnson",
+      "description" : "Basic information for fictional patient Betsy Smith-Johnson.",
       "exampleBoolean" : true
     },
     {
@@ -1211,51 +1237,8 @@
       "reference" : {
         "reference" : "PractitionerRole/Role-IMMD-AnitaChu"
       },
-      "name" : "Role-IMMD-AnitaChu",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "PractitionerRole"
-      }],
-      "reference" : {
-        "reference" : "PractitionerRole/Role-Neuro-NuraMekel"
-      },
-      "name" : "Role-Neuro-NuraMekel",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "PractitionerRole"
-      }],
-      "reference" : {
-        "reference" : "PractitionerRole/Role-OT-JenCadbury"
-      },
-      "name" : "Role-OT-JenCadbury",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "PractitionerRole"
-      }],
-      "reference" : {
-        "reference" : "PractitionerRole/Role-Pharm-PhilChekhov"
-      },
-      "name" : "Role-Pharm-PhilChekhov",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "PractitionerRole"
-      }],
-      "reference" : {
-        "reference" : "PractitionerRole/Role-Pharm-TracyCount"
-      },
-      "name" : "Role-Pharm-TracyCount",
+      "name" : "Role of Dr. Anita Chu",
+      "description" : "Dr. Anita Chu is a fictional Internal Medicine Physician at Michigan Primary Health Care Associates.",
       "exampleBoolean" : true
     },
     {
@@ -1266,7 +1249,80 @@
       "reference" : {
         "reference" : "PractitionerRole/Role-SNFDoc-GeraldPark"
       },
-      "name" : "Role-SNFDoc-GeraldPark",
+      "name" : "Role of Dr. Gerald Park",
+      "description" : "Dr. Gerald Park is a fictional Geriatric Medicine Physician at the Happy Nursing Facility.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "PractitionerRole"
+      }],
+      "reference" : {
+        "reference" : "PractitionerRole/Role-OT-JenCadbury"
+      },
+      "name" : "Role of Dr. Jen Cadbury",
+      "description" : "Dr. Jen Cadbury is a fictional Internal Medicine Physician at Neuro Care Inc.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "PractitionerRole"
+      }],
+      "reference" : {
+        "reference" : "PractitionerRole/Role-Neuro-NuraMekel"
+      },
+      "name" : "Role of Dr. Nura Mekel",
+      "description" : "Dr. Nura Mekel is a fictional Internal Medicine Physician at Neuro Care Inc.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "PractitionerRole"
+      }],
+      "reference" : {
+        "reference" : "PractitionerRole/Role-Pharm-PhilChekhov"
+      },
+      "name" : "Role of Dr. Phil Chekhov",
+      "description" : "Dr. Phil Chekhov is a Pharmacist at Everyday Community Pharmacy.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "PractitionerRole"
+      }],
+      "reference" : {
+        "reference" : "PractitionerRole/Role-Pharm-TracyCount"
+      },
+      "name" : "Role of Dr. Tracy Count",
+      "description" : "Dr. Tracy Count is a fictional Pharmacist at Not Every Day Contract Pharmacy.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ServiceRequest"
+      }],
+      "reference" : {
+        "reference" : "ServiceRequest/BSJ-PCPFollowUp"
+      },
+      "name" : "Service Request to follow up with PCP",
+      "description" : "Service Request to follow up with PCP for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/BSJ-StrokeDiagnosis"
+      },
+      "name" : "Stroke Diagnosis",
+      "description" : "Stroke Diagnosis for fictional patient Betsy Smith-Johnson.",
       "exampleBoolean" : true
     },
     {
@@ -1284,14 +1340,38 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/Example-Smith-Johnson-Bundle"
+      },
+      "name" : "Transition of Care Bundle",
+      "description" : "Example Transition of Care bundle for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/TOC-Composition-Header"
+        "reference" : "StructureDefinition/TOC-Composition"
       },
-      "name" : "TOC Composition Header",
-      "description" : "This abstract profile defines constraints that represent common administrative and demographic concepts for transitions of care information used in US Realm clinical documents.",
+      "name" : "Transition of Care Composition",
+      "description" : "This profile defines constraints that represent common administrative and demographic concepts for transitions of care information used in US Realm clinical documents.",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/BSJ-TOCComposition"
+      },
+      "name" : "Transitions of Care Clinical Document",
+      "description" : "Transitions of Care Clinical Document for fictional patient Betsy Smith-Johnson.",
+      "exampleCanonical" : "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition"
     },
     {
       "extension" : [{
@@ -1328,6 +1408,18 @@
       "name" : "Transitions of Care LOINC Terms Included in the DEL Answered by LL5571-6 Answer List Value Set",
       "description" : "This value set includes those LOINC terms that included in the DEL which are defined to be answered by LOINC answer list LL5571-6.",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/BSJ-UndressingConcern"
+      },
+      "name" : "Undressing Concern",
+      "description" : "Undressing Concern for fictional patient Betsy Smith-Johnson.",
+      "exampleBoolean" : true
     }],
     "page" : {
       "extension" : [{

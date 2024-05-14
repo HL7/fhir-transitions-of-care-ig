@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CarePlan xmlns="http://hl7.org/fhir">
+  <id value="BSJ-SNFDischargeCarePlan"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: CarePlan</b><a name="BSJ-SNFDischargeCarePlan"> </a><a name="hcBSJ-SNFDischargeCarePlan"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">ResourceCarePlan &quot;BSJ-SNFDischargeCarePlan&quot; </p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careplan.html">US Core CarePlan Profile</a></p></div><p><b>status</b>: active</p><p><b>intent</b>: plan</p><p><b>category</b>: Rehabilitation care plan (record artifact) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOWMED CT</a>#736055001)</span>, Assessment and Plan of Treatment <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/us/core/STU6.1/CodeSystem-careplan-category.html">US Core CarePlan Category Extension Codes</a>#assess-plan)</span></p><p><b>subject</b>: <a href="Patient-Example-Smith-Johnson-Patient1.html">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><blockquote><p><b>activity</b></p><p><b>reference</b>: <a href="ServiceRequest-BSJ-PCPFollowUp.html">ServiceRequest/BSJ-PCPFollowUp</a></p></blockquote><blockquote><p><b>activity</b></p><p><b>reference</b>: <a href="ServiceRequest-BSJ-SNFDischargeCallOrder.html">ServiceRequest/BSJ-SNFDischargeCallOrder</a></p></blockquote><blockquote><p><b>activity</b></p><p><b>reference</b>: <a href="ServiceRequest-BSJ-SNFDischargeCallOTRefer.html">ServiceRequest/BSJ-SNFDischargeCallOTRefer</a></p></blockquote><blockquote><p><b>activity</b></p><p><b>reference</b>: <a href="ServiceRequest-BSJ-SNFDischargeCallSLPRefer.html">ServiceRequest/BSJ-SNFDischargeCallSLPRefer</a></p></blockquote><blockquote><p><b>activity</b></p><p><b>reference</b>: <a href="ServiceRequest-BSJ-SNFDischargeDietProtein.html">ServiceRequest/BSJ-SNFDischargeDietProtein</a></p></blockquote><blockquote><p><b>activity</b></p><p><b>reference</b>: <a href="ServiceRequest-BSJ-SNFDischargeDietSalt.html">ServiceRequest/BSJ-SNFDischargeDietSalt</a></p></blockquote><blockquote><p><b>activity</b></p><p><b>reference</b>: <a href="ServiceRequest-BSJ-SNFDischargeLabOrderBMP.html">ServiceRequest/BSJ-SNFDischargeLabOrderBMP</a></p></blockquote><blockquote><p><b>activity</b></p><p><b>reference</b>: <a href="ServiceRequest-BSJ-SNFDischargeLabOrderCBC.html">ServiceRequest/BSJ-SNFDischargeLabOrderCBC</a></p></blockquote><blockquote><p><b>activity</b></p><p><b>reference</b>: <a href="ServiceRequest-BSJ-SNFDischargePTRefer.html">ServiceRequest/BSJ-SNFDischargePTRefer</a></p></blockquote></div>
+  </text>
+  <status value="active"/>
+  <intent value="plan"/>
+  <category>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="736055001"/>
+    </coding>
+  </category>
+  <category>
+    <coding>
+      <system value="http://hl7.org/fhir/us/core/CodeSystem/careplan-category"/>
+      <code value="assess-plan"/>
+    </coding>
+  </category>
+  <subject>
+    <reference value="Patient/Example-Smith-Johnson-Patient1"/>
+  </subject>
+  <activity>
+    <reference>
+      <reference value="ServiceRequest/BSJ-PCPFollowUp"/>
+    </reference>
+  </activity>
+  <activity>
+    <reference>
+      <reference value="ServiceRequest/BSJ-SNFDischargeCallOrder"/>
+    </reference>
+  </activity>
+  <activity>
+    <reference>
+      <reference value="ServiceRequest/BSJ-SNFDischargeCallOTRefer"/>
+    </reference>
+  </activity>
+  <activity>
+    <reference>
+      <reference value="ServiceRequest/BSJ-SNFDischargeCallSLPRefer"/>
+    </reference>
+  </activity>
+  <activity>
+    <reference>
+      <reference value="ServiceRequest/BSJ-SNFDischargeDietProtein"/>
+    </reference>
+  </activity>
+  <activity>
+    <reference>
+      <reference value="ServiceRequest/BSJ-SNFDischargeDietSalt"/>
+    </reference>
+  </activity>
+  <activity>
+    <reference>
+      <reference value="ServiceRequest/BSJ-SNFDischargeLabOrderBMP"/>
+    </reference>
+  </activity>
+  <activity>
+    <reference>
+      <reference value="ServiceRequest/BSJ-SNFDischargeLabOrderCBC"/>
+    </reference>
+  </activity>
+  <activity>
+    <reference>
+      <reference value="ServiceRequest/BSJ-SNFDischargePTRefer"/>
+    </reference>
+  </activity>
+</CarePlan>

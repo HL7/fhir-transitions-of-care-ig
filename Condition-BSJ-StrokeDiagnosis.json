@@ -2,11 +2,11 @@
   "resourceType" : "Condition",
   "id" : "BSJ-StrokeDiagnosis",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"]
+    "profile" : ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"]
   },
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"BSJ-StrokeDiagnosis\"> </a><a name=\"hcBSJ-StrokeDiagnosis\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;BSJ-StrokeDiagnosis&quot; </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis</code></p></div><p><b>Condition Asserted Date</b>: 2024-04-17 15:40:00-0400</p><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-condition-ver-status.html\">ConditionVerificationStatus</a>#confirmed)</span></p><p><b>category</b>: Structure of cortical lobes, unspecified <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ICF.html\">International Classification of Functioning, Disability and Health</a>#s11009)</span>, Encounter Diagnosis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/core/STU6.1/CodeSystem-condition-category.html\">US Core Condition Category Extension Codes</a>#encounter-diagnosis)</span></p><p><b>code</b>: Ischemic Stroke (disorder) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SNOMED CT#422504002)</span></p><p><b>bodySite</b>: Structure of middle cerebral artery M1 segment (body structure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SNOMED CT#414722000)</span>, Left <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SNOMED CT#7771000)</span></p><p><b>subject</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>onset</b>: 2024-04-17 15:40:00-0400</p><p><b>recordedDate</b>: 2023-12-15 18:40:00-0400</p><p><b>asserter</b>: <a href=\"PractitionerRole-Role-Neuro-NuraMekel.html\">PractitionerRole/Role-Neuro-NuraMekel</a></p><p><b>note</b>: Partial occlusion of MCA. Stroke event witnessed. EMS response / patient arrived within 45 minutes of symptom onset. Verified by CT with contrast. tPA administered within 2 hours of symptom onset.</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"BSJ-StrokeDiagnosis\"> </a><a name=\"hcBSJ-StrokeDiagnosis\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceCondition &quot;BSJ-StrokeDiagnosis&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-condition-encounter-diagnosis.html\">US Core Condition Encounter Diagnosis Profile</a></p></div><p><b>Condition Asserted Date</b>: 2024-04-17 15:40:00-0400</p><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-condition-ver-status.html\">ConditionVerificationStatus</a>#confirmed)</span></p><p><b>category</b>: Structure of cortical lobes, unspecified <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ICF.html\">International Classification of Functioning, Disability and Health</a>#s11009)</span>, Encounter Diagnosis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/core/STU6.1/CodeSystem-condition-category.html\">US Core Condition Category Extension Codes</a>#encounter-diagnosis)</span>, Encounter Diagnosis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-condition-category.html\">Condition Category Codes</a>#encounter-diagnosis)</span></p><p><b>code</b>: Ischemic Stroke (disorder) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOWMED CT</a>#422504002)</span></p><p><b>bodySite</b>: Structure of middle cerebral artery M1 segment (body structure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOWMED CT</a>#414722000)</span>, Left <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOWMED CT</a>#7771000)</span></p><p><b>subject</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>onset</b>: 2024-04-17 15:40:00-0400</p><p><b>recordedDate</b>: 2023-12-15 18:40:00-0400</p><p><b>asserter</b>: <a href=\"PractitionerRole-Role-Neuro-NuraMekel.html\">PractitionerRole/Role-Neuro-NuraMekel</a></p><p><b>note</b>: Partial occlusion of MCA. Stroke event witnessed. EMS response / patient arrived within 45 minutes of symptom onset. Verified by CT with contrast. tPA administered within 2 hours of symptom onset.</p></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
@@ -37,24 +37,30 @@
       "code" : "encounter-diagnosis",
       "display" : "Encounter Diagnosis"
     }]
+  },
+  {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+      "code" : "encounter-diagnosis"
+    }]
   }],
   "code" : {
     "coding" : [{
-      "system" : "http://snomed.info/sct/731000124108",
+      "system" : "http://snomed.info/sct",
       "code" : "422504002",
       "display" : "Ischemic Stroke (disorder)"
     }]
   },
   "bodySite" : [{
     "coding" : [{
-      "system" : "http://snomed.info/sct/731000124108",
+      "system" : "http://snomed.info/sct",
       "code" : "414722000",
       "display" : "Structure of middle cerebral artery M1 segment (body structure)"
     }]
   },
   {
     "coding" : [{
-      "system" : "http://snomed.info/sct/731000124108",
+      "system" : "http://snomed.info/sct",
       "code" : "7771000",
       "display" : "Left"
     }]

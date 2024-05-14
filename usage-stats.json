@@ -66,8 +66,8 @@
   "profiles": {
     "Composition": [
       {
-        "url": "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition-Header",
-        "title": "TOC Composition Header"
+        "url": "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition",
+        "title": "Transition of Care Composition"
       }
     ]
   },
@@ -81,6 +81,7 @@
       "Composition"
     ],
     "http://hl7.org/fhir/StructureDefinition/condition-assertedDate": [
+      "Bundle.entry.resource",
       "Condition"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
@@ -96,6 +97,7 @@
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/event-location": [
+      "Bundle.entry.resource",
       "Observation"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
@@ -124,6 +126,7 @@
       "ImplementationGuide.definition.resource"
     ],
     "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race": [
+      "Bundle.entry.resource",
       "Patient"
     ],
     "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/toc-reason-extension": [

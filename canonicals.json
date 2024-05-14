@@ -14,11 +14,11 @@
     "name" : "PACIOTransitionsOfCare"
   },
   {
-    "id" : "TOC-Composition-Header",
+    "id" : "TOC-Composition",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition-Header",
+    "url" : "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition",
     "version" : "0.1.0",
-    "name" : "TOCCompositionHeader"
+    "name" : "TOCComposition"
   },
   {
     "id" : "toc-reason-extension",

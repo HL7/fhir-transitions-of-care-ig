@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="Example-GeraldPark"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Practitioner</b><a name="Example-GeraldPark"> </a><a name="hcExample-GeraldPark"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">ResourcePractitioner &quot;Example-GeraldPark&quot; </p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-practitioner.html">US Core Practitioner Profile</a></p></div><p><b>identifier</b>: <a href="http://terminology.hl7.org/5.0.0/NamingSystem-npi.html" title="National Provider Identifier">NPI</a>/8554084011</p><p><b>active</b>: true</p><p><b>name</b>: Gerald Park</p><p><b>telecom</b>: ph: (555) 566 3494</p><p><b>address</b>: 8100 Pinebrook Dr, Grand Rapids, MI 49504</p><p><b>gender</b>: male</p></div>
+  </text>
+  <identifier>
+    <system value="http://hl7.org/fhir/sid/us-npi"/>
+    <value value="8554084011"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <text value="Gerald Park"/>
+    <family value="Park"/>
+    <given value="Gerald"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="(555) 566 3494"/>
+  </telecom>
+  <address>
+    <text value="8100 Pinebrook Dr, Grand Rapids, MI 49504"/>
+    <line value="8100 Pinebrook Dr"/>
+    <city value="Grand Rapids"/>
+    <state value="MI"/>
+    <postalCode value="49504"/>
+    <country value="US"/>
+  </address>
+  <gender value="male"/>
+</Practitioner>

@@ -59,10 +59,10 @@
       "uses" : {
       },
       "ValueSet-toc-del-loinc-vs.html" : "Transitions of Care DEL LOINC Terms Value Set",
-      "http://hl7.org/fhir/R4/valueset-document-classcodes.html" : "Document Class Value Set",
-      "ValueSet-toc-loinc-answered-by-LL5571-6-vs.html" : "Transitions of Care LOINC Terms Answered by LL5571-6 Answer List Value Set",
+      "https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.11.20.9.69.4/expansion" : "Advance Directives Categories",
       "http://hl7.org/fhir/R4/valueset-doc-section-codes.html" : "Document Section Codes",
-      "https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.11.20.9.69.4/expansion" : "Advance Directives Categories"
+      "ValueSet-toc-loinc-answered-by-LL5571-6-vs.html" : "Transitions of Care LOINC Terms Answered by LL5571-6 Answer List Value Set",
+      "http://hl7.org/fhir/R4/valueset-document-classcodes.html" : "Document Class Value Set"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",

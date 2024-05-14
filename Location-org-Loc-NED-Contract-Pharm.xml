@@ -2,8 +2,11 @@
 
 <Location xmlns="http://hl7.org/fhir">
   <id value="org-Loc-NED-Contract-Pharm"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"/>
+  </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Location</b><a name="org-Loc-NED-Contract-Pharm"> </a><a name="hcorg-Loc-NED-Contract-Pharm"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Location &quot;org-Loc-NED-Contract-Pharm&quot; </p></div><p><b>status</b>: active</p><p><b>name</b>: Not Every Day Contract Pharmacy</p><p><b>address</b>: 155 Light Commercial Ave, Grand Rapids, MI 49509</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Location</b><a name="org-Loc-NED-Contract-Pharm"> </a><a name="hcorg-Loc-NED-Contract-Pharm"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">ResourceLocation &quot;org-Loc-NED-Contract-Pharm&quot; </p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-location.html">US Core Location Profile</a></p></div><p><b>status</b>: active</p><p><b>name</b>: Not Every Day Contract Pharmacy</p><p><b>address</b>: 155 Light Commercial Ave, Grand Rapids, MI 49509</p></div>
   </text>
   <status value="active"/>
   <name value="Not Every Day Contract Pharmacy"/>

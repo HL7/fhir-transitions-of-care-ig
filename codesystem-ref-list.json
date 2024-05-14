@@ -11,8 +11,8 @@
       "uses" : {
       },
       "ValueSet-toc-del-loinc-vs.html" : "Transitions of Care DEL LOINC Terms Value Set",
-      "ValueSet-toc-loinc-answered-by-LL5571-6-vs.html" : "Transitions of Care LOINC Terms Answered by LL5571-6 Answer List Value Set",
-      "https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.11.20.9.69.4/expansion" : "Advance Directives Categories"
+      "https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.11.20.9.69.4/expansion" : "Advance Directives Categories",
+      "ValueSet-toc-loinc-answered-by-LL5571-6-vs.html" : "Transitions of Care LOINC Terms Answered by LL5571-6 Answer List Value Set"
     }
   ]
 }

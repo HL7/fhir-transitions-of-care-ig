@@ -17,7 +17,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-MDS-SitStand1\"> </a><a name=\"hcBSJ-MDS-SitStand1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-MDS-SitStand1&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/us/pacio-pfe/STU1/StructureDefinition-pfe-observation-single.html\">Personal Functioning and Engagement Single Observation</a></p></div><p><b>Event Location</b>: <a href=\"Location-org-Loc-SNF-Happy-Nursing-Facility.html\">Location/org-Loc-SNF-Happy-Nursing-Facility</a> &quot;Happy Nursing Facility&quot;</p><p><b>status</b>: final</p><p><b>category</b>: Survey <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#survey)</span>, Functioning <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/pacio-pfe/STU1/CodeSystem-pfe-functioning-cs.html\">Personal Functioning and Engagement Functioning Category Code System</a>#functioning)</span>, Standing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/pacio-pfe/STU1/CodeSystem-pfe-category-cs.html\">Personal Functioning and Engagement Category</a>#d4014)</span></p><p><b>code</b>: Mobility (discharge performance) - sit to stand <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#89392-5)</span></p><p><b>subject</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>effective</b>: 2024-05-16 14:30:00-0400</p><p><b>performer</b>: <a href=\"PractitionerRole-Role-OT-JenCadbury.html\">PractitionerRole/Role-OT-JenCadbury</a></p><p><b>value</b>: Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort. <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA11759-0)</span></p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-MDS-SitStand1\"> </a><a name=\"hcBSJ-MDS-SitStand1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceObservation &quot;BSJ-MDS-SitStand1&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/us/pacio-pfe/STU1/StructureDefinition-pfe-observation-single.html\">Personal Functioning and Engagement Single Observation</a></p></div><p><b>Event Location</b>: <a href=\"Location-org-Loc-SNF-Happy-Nursing-Facility.html\">Location/org-Loc-SNF-Happy-Nursing-Facility</a> &quot;Happy Nursing Facility&quot;</p><p><b>status</b>: final</p><p><b>category</b>: Standing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/pacio-pfe/STU1/CodeSystem-pfe-category-cs.html\">Personal Functioning and Engagement Category</a>#d4014)</span>, Survey <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#survey)</span>, Functioning <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/pacio-pfe/STU1/CodeSystem-pfe-functioning-cs.html\">Personal Functioning and Engagement Functioning Category Code System</a>#functioning)</span></p><p><b>code</b>: Sit to stand - functional goal during assessment period [CMS Assessment] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#89392-5)</span></p><p><b>subject</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>effective</b>: 2024-05-16 14:30:00-0400</p><p><b>performer</b>: <a href=\"PractitionerRole-Role-OT-JenCadbury.html\">PractitionerRole/Role-OT-JenCadbury</a></p><p><b>value</b>: Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort. <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA11759-0)</span></p></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/event-location"^^xsd:anyURI ] ;
@@ -30,9 +30,14 @@
   fhir:status [ fhir:v "final"] ; # 
   fhir:category ( [
      fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "d4014" ] ;
+       fhir:display [ fhir:v "Standing" ]
+     ] )
+  ] [
+     fhir:coding ( [
        fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "survey" ] ;
-       fhir:display [ fhir:v "Survey" ]
+       fhir:code [ fhir:v "survey" ]
      ] )
   ] [
      fhir:coding ( [
@@ -40,19 +45,13 @@
        fhir:code [ fhir:v "functioning" ] ;
        fhir:display [ fhir:v "Functioning" ]
      ] )
-  ] [
-     fhir:coding ( [
-       fhir:system [ fhir:v "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "d4014" ] ;
-       fhir:display [ fhir:v "Standing" ]
-     ] )
   ] ) ; # 
   fhir:code [
      fhir:coding ( [
        a loinc:89392-5 ;
        fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "89392-5" ] ;
-       fhir:display [ fhir:v "Mobility (discharge performance) - sit to stand" ]
+       fhir:display [ fhir:v "Sit to stand - functional goal during assessment period [CMS Assessment]" ]
      ] )
   ] ; # 
   fhir:subject [

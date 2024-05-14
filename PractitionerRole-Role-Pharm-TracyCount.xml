@@ -2,12 +2,15 @@
 
 <PractitionerRole xmlns="http://hl7.org/fhir">
   <id value="Role-Pharm-TracyCount"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
+  </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PractitionerRole</b><a name="Role-Pharm-TracyCount"> </a><a name="hcRole-Pharm-TracyCount"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PractitionerRole &quot;Role-Pharm-TracyCount&quot; </p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-Practitioner-Tracy-Count.html">Practitioner/Practitioner-Tracy-Count: Tracy Count</a> &quot; COUNT&quot;</p><p><b>organization</b>: <a href="Organization-org-Pharm-NED-Contract-Pharm.html">Organization/org-Pharm-NED-Contract-Pharm: Not Every Day Contract Pharmacy</a> &quot;Not Every Day Contract Pharmacy&quot;</p><p><b>code</b>: Pharmacist <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#183500000X)</span></p><p><b>location</b>: <a href="Location-org-Loc-NED-Contract-Pharm.html">Location/org-Loc-NED-Contract-Pharm</a> &quot;Not Every Day Contract Pharmacy&quot;</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PractitionerRole</b><a name="Role-Pharm-TracyCount"> </a><a name="hcRole-Pharm-TracyCount"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">ResourcePractitionerRole &quot;Role-Pharm-TracyCount&quot; </p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-practitionerrole.html">US Core PractitionerRole Profile</a></p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-Example-Tracy-Count.html">Practitioner/Example-Tracy-Count: Tracy Count</a> &quot; COUNT&quot;</p><p><b>organization</b>: <a href="Organization-org-Pharm-NED-Contract-Pharm.html">Organization/org-Pharm-NED-Contract-Pharm: Not Every Day Contract Pharmacy</a> &quot;Not Every Day Contract Pharmacy&quot;</p><p><b>code</b>: Pharmacist <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#183500000X)</span></p><p><b>location</b>: <a href="Location-org-Loc-NED-Contract-Pharm.html">Location/org-Loc-NED-Contract-Pharm</a> &quot;Not Every Day Contract Pharmacy&quot;</p></div>
   </text>
   <active value="true"/>
   <practitioner>
-    <reference value="Practitioner/Practitioner-Tracy-Count"/>
+    <reference value="Practitioner/Example-Tracy-Count"/>
     <display value="Tracy Count"/>
   </practitioner>
   <organization>

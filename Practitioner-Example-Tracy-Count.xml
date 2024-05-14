@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="Example-Tracy-Count"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Practitioner</b><a name="Example-Tracy-Count"> </a><a name="hcExample-Tracy-Count"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">ResourcePractitioner &quot;Example-Tracy-Count&quot; </p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-practitioner.html">US Core Practitioner Profile</a></p></div><p><b>identifier</b>: <a href="http://terminology.hl7.org/5.0.0/NamingSystem-npi.html" title="National Provider Identifier">NPI</a>/2473724138</p><p><b>active</b>: true</p><p><b>name</b>: Tracy Count</p><p><b>telecom</b>: ph: (410) 588 4939</p><p><b>address</b>: 155 Light Commercial Ave, Grand Rapids, MI 49509</p><p><b>gender</b>: female</p></div>
+  </text>
+  <identifier>
+    <system value="http://hl7.org/fhir/sid/us-npi"/>
+    <value value="2473724138"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <text value="Tracy Count"/>
+    <family value="Count"/>
+    <given value="Tracy"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="(410) 588 4939"/>
+  </telecom>
+  <address>
+    <text value="155 Light Commercial Ave, Grand Rapids, MI 49509"/>
+    <line value="155 Light Commercial Ave"/>
+    <city value="Grand Rapids"/>
+    <state value="MI"/>
+    <postalCode value="49509"/>
+    <country value="US"/>
+  </address>
+  <gender value="female"/>
+</Practitioner>

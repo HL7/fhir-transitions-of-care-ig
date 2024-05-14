@@ -1,13 +1,16 @@
 {
   "resourceType" : "PractitionerRole",
   "id" : "Role-IMMD-AnitaChu",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"]
+  },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PractitionerRole</b><a name=\"Role-IMMD-AnitaChu\"> </a><a name=\"hcRole-IMMD-AnitaChu\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PractitionerRole &quot;Role-IMMD-AnitaChu&quot; </p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-AnitaChu.html\">Practitioner/Practitioner-AnitaChu: Dr. Anita Chu</a> &quot; CHU&quot;</p><p><b>organization</b>: <a href=\"Organization-org-PC-Primary-Care-Michigan.html\">Organization/org-PC-Primary-Care-Michigan: Michigan Primary Health Care Associates</a> &quot;Michigan Primary Health Care Associates&quot;</p><p><b>code</b>: Internal Medicine Physician <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#207R00000X)</span></p><p><b>location</b>: <a href=\"Location-org-Loc-PC-Primary-Care-Michigan.html\">Location/org-Loc-PC-Primary-Care-Michigan</a> &quot;Michigan Primary Health Care Associates&quot;</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PractitionerRole</b><a name=\"Role-IMMD-AnitaChu\"> </a><a name=\"hcRole-IMMD-AnitaChu\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourcePractitionerRole &quot;Role-IMMD-AnitaChu&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-practitionerrole.html\">US Core PractitionerRole Profile</a></p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Example-AnitaChu.html\">Practitioner/Example-AnitaChu: Dr. Anita Chu</a> &quot; CHU&quot;</p><p><b>organization</b>: <a href=\"Organization-org-PC-Primary-Care-Michigan.html\">Organization/org-PC-Primary-Care-Michigan: Michigan Primary Health Care Associates</a> &quot;Michigan Primary Health Care Associates&quot;</p><p><b>code</b>: Internal Medicine Physician <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#207R00000X)</span></p><p><b>location</b>: <a href=\"Location-org-Loc-PC-Primary-Care-Michigan.html\">Location/org-Loc-PC-Primary-Care-Michigan</a> &quot;Michigan Primary Health Care Associates&quot;</p></div>"
   },
   "active" : true,
   "practitioner" : {
-    "reference" : "Practitioner/Practitioner-AnitaChu",
+    "reference" : "Practitioner/Example-AnitaChu",
     "display" : "Dr. Anita Chu"
   },
   "organization" : {

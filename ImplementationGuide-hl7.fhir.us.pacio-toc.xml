@@ -13,7 +13,7 @@
   <name value="PACIOTransitionsOfCare"/>
   <title value="PACIO Transitions of Care Implementation Guide"/>
   <status value="draft"/>
-  <date value="2024-05-08T12:06:42-04:00"/>
+  <date value="2024-05-13T22:07:57-04:00"/>
   <publisher value="HL7 International / Patient Care"/>
   <contact>
     <name value="HL7 International / Patient Care"/>
@@ -489,7 +489,8 @@
       <reference>
         <reference value="AllergyIntolerance/BSJ-AllergyACE"/>
       </reference>
-      <name value="BSJ-AllergyACE"/>
+      <name value="Allergy List"/>
+      <description value="Allergies for fictional patient Betsy Smith-Johnson."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -499,7 +500,8 @@
       <reference>
         <reference value="Condition/BSJ-AnemiaDiagnosis"/>
       </reference>
-      <name value="BSJ-AnemiaDiagnosis"/>
+      <name value="Anemia Diagnosis"/>
+      <description value="Anemia Diagnosis for fictional patient Betsy Smith-Johnson."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -509,7 +511,8 @@
       <reference>
         <reference value="Condition/BSJ-Constipation"/>
       </reference>
-      <name value="BSJ-Constipation"/>
+      <name value="Constipation Diagnosis"/>
+      <description value="Constipation Diagnosis for fictional patient Betsy Smith-Johnson."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -519,7 +522,8 @@
       <reference>
         <reference value="Condition/BSJ-DepressionDiagnosis"/>
       </reference>
-      <name value="BSJ-DepressionDiagnosis"/>
+      <name value="Depression Diagnosis"/>
+      <description value="Depression Diagnosis for fictional patient Betsy Smith-Johnson."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -529,217 +533,19 @@
       <reference>
         <reference value="Condition/BSJ-DiabetesDiagnosis"/>
       </reference>
-      <name value="BSJ-DiabetesDiagnosis"/>
+      <name value="Diabetes Diagnosis"/>
+      <description value="Diabetes Diagnosis for fictional patient Betsy Smith-Johnson."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
+        <valueString value="CarePlan"/>
       </extension>
       <reference>
-        <reference value="Condition/BSJ-DressingConcern"/>
+        <reference value="CarePlan/BSJ-SNFDischargeCarePlan"/>
       </reference>
-      <name value="BSJ-DressingConcern"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/BSJ-HeartDiseaseDiagnosis"/>
-      </reference>
-      <name value="BSJ-HeartDiseaseDiagnosis"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/BSJ-HemiparesisDiagnosis"/>
-      </reference>
-      <name value="BSJ-HemiparesisDiagnosis"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/BSJ-Hyperlipidemia"/>
-      </reference>
-      <name value="BSJ-Hyperlipidemia"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/BSJ-HypertensionDiagnosis"/>
-      </reference>
-      <name value="BSJ-HypertensionDiagnosis"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/BSJ-KidneyDisease"/>
-      </reference>
-      <name value="BSJ-KidneyDisease"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/BSJ-MDS-Activities-PT1"/>
-      </reference>
-      <name value="BSJ-MDS-Activities-PT1"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/BSJ-MDS-Doffing1"/>
-      </reference>
-      <name value="BSJ-MDS-Doffing1"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/BSJ-MDS-Donning1"/>
-      </reference>
-      <name value="BSJ-MDS-Donning1"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/BSJ-MDS-Mobility-PT1"/>
-      </reference>
-      <name value="BSJ-MDS-Mobility-PT1"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/BSJ-MDS-ShortWalk1"/>
-      </reference>
-      <name value="BSJ-MDS-ShortWalk1"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/BSJ-MDS-SitStand1"/>
-      </reference>
-      <name value="BSJ-MDS-SitStand1"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/BSJ-MDS-SitUp1"/>
-      </reference>
-      <name value="BSJ-MDS-SitUp1"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/BSJ-NauseaAndVomiting"/>
-      </reference>
-      <name value="BSJ-NauseaAndVomiting"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/BSJ-Neuropathy"/>
-      </reference>
-      <name value="BSJ-Neuropathy"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ServiceRequest"/>
-      </extension>
-      <reference>
-        <reference value="ServiceRequest/BSJ-PCPFollowUp"/>
-      </reference>
-      <name value="BSJ-PCPFollowUp"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ServiceRequest"/>
-      </extension>
-      <reference>
-        <reference value="ServiceRequest/BSJ-SNFDischargeCallOrder"/>
-      </reference>
-      <name value="BSJ-SNFDischargeCallOrder"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ServiceRequest"/>
-      </extension>
-      <reference>
-        <reference value="ServiceRequest/BSJ-SNFDischargeCallOTRefer"/>
-      </reference>
-      <name value="BSJ-SNFDischargeCallOTRefer"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ServiceRequest"/>
-      </extension>
-      <reference>
-        <reference value="ServiceRequest/BSJ-SNFDischargeCallSLPRefer"/>
-      </reference>
-      <name value="BSJ-SNFDischargeCallSLPRefer"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ServiceRequest"/>
-      </extension>
-      <reference>
-        <reference value="ServiceRequest/BSJ-SNFDischargeDietProtein"/>
-      </reference>
-      <name value="BSJ-SNFDischargeDietProtein"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ServiceRequest"/>
-      </extension>
-      <reference>
-        <reference value="ServiceRequest/BSJ-SNFDischargeDietSalt"/>
-      </reference>
-      <name value="BSJ-SNFDischargeDietSalt"/>
+      <name value="Discharge Care Plan"/>
+      <description value="Discharge Care Plan for fictional patient Betsy Smith-Johnson."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -749,7 +555,19 @@
       <reference>
         <reference value="ServiceRequest/BSJ-SNFDischargeLabOrderBMP"/>
       </reference>
-      <name value="BSJ-SNFDischargeLabOrderBMP"/>
+      <name value="Discharge Service Request for blood chemistry procedure"/>
+      <description value="Discharge Service Request for blood chemistry procedure for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/BSJ-SNFDischargeCallOrder"/>
+      </reference>
+      <name value="Discharge Service Request for call order"/>
+      <description value="Discharge Service Request for call order for fictional patient Betsy Smith-Johnson."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -759,7 +577,41 @@
       <reference>
         <reference value="ServiceRequest/BSJ-SNFDischargeLabOrderCBC"/>
       </reference>
-      <name value="BSJ-SNFDischargeLabOrderCBC"/>
+      <name value="Discharge Service Request for complete blood count"/>
+      <description value="Discharge Service Request for complete blood count for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/BSJ-SNFDischargeCallSLPRefer"/>
+      </reference>
+      <name value="Discharge Service Request for discharge SLP referral"/>
+      <description value="Discharge Service Request for Speech Language Pathologist referral for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/BSJ-SNFDischargeCallOTRefer"/>
+      </reference>
+      <name value="Discharge Service Request for OT referral"/>
+      <description value="Discharge Service Request for Occupational Therapy referral for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/BSJ-SNFDischargeDietProtein"/>
+      </reference>
+      <name value="Discharge Service Request for protein diet"/>
+      <description value="Discharge Service Request for decreased protein and/or protein derivative diet for fictional patient Betsy Smith-Johnson."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -769,7 +621,85 @@
       <reference>
         <reference value="ServiceRequest/BSJ-SNFDischargePTRefer"/>
       </reference>
-      <name value="BSJ-SNFDischargePTRefer"/>
+      <name value="Discharge Service Request for PT referral"/>
+      <description value="Discharge Service Request for physical therapy referral for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/BSJ-SNFDischargeDietSalt"/>
+      </reference>
+      <name value="Discharge Service Request for reduced salt diet"/>
+      <description value="Discharge Service Request for reduced salt diet for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Example-AnitaChu"/>
+      </reference>
+      <name value="Dr. Anita Chu"/>
+      <description value="Information about fictional practitioner Dr. Anita Chu."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Example-GeraldPark"/>
+      </reference>
+      <name value="Dr. Gerald Park"/>
+      <description value="Information about fictional practitioner Dr. Gerald Park."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Example-JenCadbury"/>
+      </reference>
+      <name value="Dr. Jen Cadbury"/>
+      <description value="Information about fictional practitioner Dr. Jen Cadbury."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Example-NuraMekel"/>
+      </reference>
+      <name value="Dr. Nura Mekel"/>
+      <description value="Information about fictional practitioner Dr. Nura Mekel."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Example-Phil-Chekhov"/>
+      </reference>
+      <name value="Dr. Phil Chekhov"/>
+      <description value="Information about fictional practitioner Dr. Phil Chekhov."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Example-Tracy-Count"/>
+      </reference>
+      <name value="Dr. Tracy Count"/>
+      <description value="Information about fictional practitioner Dr. Tracy Count."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -777,99 +707,10 @@
         <valueString value="Condition"/>
       </extension>
       <reference>
-        <reference value="Condition/BSJ-StrokeDiagnosis"/>
+        <reference value="Condition/BSJ-DressingConcern"/>
       </reference>
-      <name value="BSJ-StrokeDiagnosis"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/BSJ-UndressingConcern"/>
-      </reference>
-      <name value="BSJ-UndressingConcern"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/Example-Smith-Johnson-Patient1"/>
-      </reference>
-      <name value="Example-Smith-Johnson-Patient1"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Location"/>
-      </extension>
-      <reference>
-        <reference value="Location/org-Loc-Everyday-Community-Pharm"/>
-      </reference>
-      <name value="org-Loc-Everyday-Community-Pharm"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Location"/>
-      </extension>
-      <reference>
-        <reference value="Location/org-Loc-NED-Contract-Pharm"/>
-      </reference>
-      <name value="org-Loc-NED-Contract-Pharm"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Location"/>
-      </extension>
-      <reference>
-        <reference value="Location/org-Loc-Neuro-Care-Inc"/>
-      </reference>
-      <name value="org-Loc-Neuro-Care-Inc"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Location"/>
-      </extension>
-      <reference>
-        <reference value="Location/org-Loc-PC-Primary-Care-Michigan"/>
-      </reference>
-      <name value="org-Loc-PC-Primary-Care-Michigan"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Location"/>
-      </extension>
-      <reference>
-        <reference value="Location/org-Loc-SNF-Happy-Nursing-Facility"/>
-      </reference>
-      <name value="org-Loc-SNF-Happy-Nursing-Facility"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/org-Neuro-Care-Inc"/>
-      </reference>
-      <name value="org-Neuro-Care-Inc"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/org-PC-Primary-Care-Michigan"/>
-      </reference>
-      <name value="org-PC-Primary-Care-Michigan"/>
+      <name value="Dressing Concerns"/>
+      <description value="Dressing Concerns for fictional patient Betsy Smith-Johnson."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -879,17 +720,8 @@
       <reference>
         <reference value="Organization/org-Pharm-Everyday-Community-Pharm"/>
       </reference>
-      <name value="org-Pharm-Everyday-Community-Pharm"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/org-Pharm-NED-Contract-Pharm"/>
-      </reference>
-      <name value="org-Pharm-NED-Contract-Pharm"/>
+      <name value="Everyday Community Pharmacy Organization"/>
+      <description value="Information about the Everyday Community Pharmacy Organization."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -899,7 +731,250 @@
       <reference>
         <reference value="Organization/org-SNF-Happy-Nursing-Facility"/>
       </reference>
-      <name value="org-SNF-Happy-Nursing-Facility"/>
+      <name value="Happy Nursing Facility Organization"/>
+      <description value="Information about the Happy Nursing Facility Organization."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/BSJ-HeartDiseaseDiagnosis"/>
+      </reference>
+      <name value="Heart Disease Diagnosis"/>
+      <description value="Heart Disease Diagnosis for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/BSJ-HemiparesisDiagnosis"/>
+      </reference>
+      <name value="Hemiparesis Diagnosis"/>
+      <description value="Hemiparesis Diagnosis for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/BSJ-Hyperlipidemia"/>
+      </reference>
+      <name value="Hyperlipidemia Diagnosis"/>
+      <description value="hyperlipidemia Diagnosis for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/BSJ-HypertensionDiagnosis"/>
+      </reference>
+      <name value="Hypertension Diagnosis"/>
+      <description value="Hypertension Diagnosis for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/BSJ-KidneyDisease"/>
+      </reference>
+      <name value="Kidney Disease Diagnosis"/>
+      <description value="Kidney Disease Diagnosis for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/org-Loc-PC-Primary-Care-Michigan"/>
+      </reference>
+      <name value="Location of Michigan Primary Health Care Associates"/>
+      <description value="Location of Michigan Primary Health Care Associates."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/org-Loc-Everyday-Community-Pharm"/>
+      </reference>
+      <name value="Location of the Everyday Community Pharmacy"/>
+      <description value="Location of the Everyday Community Pharmacy."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/org-Loc-SNF-Happy-Nursing-Facility"/>
+      </reference>
+      <name value="Location of the Happy Nursing Facility"/>
+      <description value="Location of the Happy Nursing Facility."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/org-Loc-Neuro-Care-Inc"/>
+      </reference>
+      <name value="Location of the Neuro Care Inc. facility"/>
+      <description value="Location of the Neuro Care Inc. facility."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/org-Loc-NED-Contract-Pharm"/>
+      </reference>
+      <name value="Location of the Not Every Day Contract Pharmacy"/>
+      <description value="Location of the Not Every Day Contract Pharmacy."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/org-PC-Primary-Care-Michigan"/>
+      </reference>
+      <name value="Michigan Primary Health Care Associates Organization"/>
+      <description value="Information about the Michigan Primary Health Care Associates Organization."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-MDS-Donning1"/>
+      </reference>
+      <name value="Minimum Data Set (MDS) Discharge Assessment - Lower body dressing"/>
+      <description value="Minimum Data Set (MDS) Discharge Assessment - Lower body dressing for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-MDS-SitUp1"/>
+      </reference>
+      <name value="Minimum Data Set (MDS) Discharge Assessment - Lying to sitting on side of bed"/>
+      <description value="Minimum Data Set (MDS) Discharge Assessment - Lying to sitting on side of bed for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-MDS-SitStand1"/>
+      </reference>
+      <name value="Minimum Data Set (MDS) Discharge Assessment - Sit to stand"/>
+      <description value="Minimum Data Set (MDS) Discharge Assessment - Sit to stand for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-MDS-Doffing1"/>
+      </reference>
+      <name value="Minimum Data Set (MDS) Discharge Assessment - Upper body dressing"/>
+      <description value="Minimum Data Set (MDS) Discharge Assessment - Upper body dressing for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-MDS-ShortWalk1"/>
+      </reference>
+      <name value="Minimum Data Set (MDS) Discharge Assessment - Walk 50 feet with 2 turns"/>
+      <description value="Minimum Data Set (MDS) Discharge Assessment - Walk 50 feet with 2 turns for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-MDS-Activities-PT1"/>
+      </reference>
+      <name value="Minimum Data Set (MDS) Nursing Home Discharge Assessment for Activities Questions - Part 1"/>
+      <description value="Minimum Data Set (MDS) Nursing Home Discharge Assessment for Activities Questions - Part 1 for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-MDS-Mobility-PT1"/>
+      </reference>
+      <name value="Minimum Data Set (MDS) Nursing Home Discharge Assessment Questions - Mobility Part 1"/>
+      <description value="Minimum Data Set (MDS) Nursing Home Discharge Assessment Questions - Mobility Part 1 for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/BSJ-NauseaAndVomiting"/>
+      </reference>
+      <name value="Nausea and vomiting"/>
+      <description value="Nausea and vomiting for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/org-Neuro-Care-Inc"/>
+      </reference>
+      <name value="Neuro Care Inc. Organization"/>
+      <description value="Information about the Neuro Care Inc. Organization."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/BSJ-Neuropathy"/>
+      </reference>
+      <name value="Neuropathy Diagnosis"/>
+      <description value="Neuropathy Diagnosis for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/org-Pharm-NED-Contract-Pharm"/>
+      </reference>
+      <name value="Not Every Day Contract Pharmacy Organization"/>
+      <description value="Information about the Not Every Day Contract Pharmacy Organization."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -909,7 +984,8 @@
       <reference>
         <reference value="Condition/OT-ProblemList-Decondition"/>
       </reference>
-      <name value="OT-ProblemList-Decondition"/>
+      <name value="OT Decondition Problem List"/>
+      <description value="Occupational Therapy Decondition problem list for fictional patient Betsy Smith-Johnson."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -919,67 +995,19 @@
       <reference>
         <reference value="Condition/OT-ProblemList-RightWeak"/>
       </reference>
-      <name value="OT-ProblemList-RightWeak"/>
+      <name value="OT Right Weakness Problem List"/>
+      <description value="Occupational Therapy Right Weakness problem list for fictional patient Betsy Smith-Johnson."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Practitioner"/>
+        <valueString value="Patient"/>
       </extension>
       <reference>
-        <reference value="Practitioner/Practioner-GeraldPark"/>
+        <reference value="Patient/Example-Smith-Johnson-Patient1"/>
       </reference>
-      <name value="Practioner-GeraldPark"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Practitioner"/>
-      </extension>
-      <reference>
-        <reference value="Practitioner/Practitioner-AnitaChu"/>
-      </reference>
-      <name value="Practitioner-AnitaChu"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Practitioner"/>
-      </extension>
-      <reference>
-        <reference value="Practitioner/Practitioner-JenCadbury"/>
-      </reference>
-      <name value="Practitioner-JenCadbury"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Practitioner"/>
-      </extension>
-      <reference>
-        <reference value="Practitioner/Practitioner-NuraMekel"/>
-      </reference>
-      <name value="Practitioner-NuraMekel"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Practitioner"/>
-      </extension>
-      <reference>
-        <reference value="Practitioner/Practitioner-Phil-Chekhov"/>
-      </reference>
-      <name value="Practitioner-Phil-Chekhov"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Practitioner"/>
-      </extension>
-      <reference>
-        <reference value="Practitioner/Practitioner-Tracy-Count"/>
-      </reference>
-      <name value="Practitioner-Tracy-Count"/>
+      <name value="Patient - Betsy Smith-Johnson"/>
+      <description value="Basic information for fictional patient Betsy Smith-Johnson."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -1000,47 +1028,8 @@
       <reference>
         <reference value="PractitionerRole/Role-IMMD-AnitaChu"/>
       </reference>
-      <name value="Role-IMMD-AnitaChu"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="PractitionerRole"/>
-      </extension>
-      <reference>
-        <reference value="PractitionerRole/Role-Neuro-NuraMekel"/>
-      </reference>
-      <name value="Role-Neuro-NuraMekel"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="PractitionerRole"/>
-      </extension>
-      <reference>
-        <reference value="PractitionerRole/Role-OT-JenCadbury"/>
-      </reference>
-      <name value="Role-OT-JenCadbury"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="PractitionerRole"/>
-      </extension>
-      <reference>
-        <reference value="PractitionerRole/Role-Pharm-PhilChekhov"/>
-      </reference>
-      <name value="Role-Pharm-PhilChekhov"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="PractitionerRole"/>
-      </extension>
-      <reference>
-        <reference value="PractitionerRole/Role-Pharm-TracyCount"/>
-      </reference>
-      <name value="Role-Pharm-TracyCount"/>
+      <name value="Role of Dr. Anita Chu"/>
+      <description value="Dr. Anita Chu is a fictional Internal Medicine Physician at Michigan Primary Health Care Associates."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -1050,7 +1039,74 @@
       <reference>
         <reference value="PractitionerRole/Role-SNFDoc-GeraldPark"/>
       </reference>
-      <name value="Role-SNFDoc-GeraldPark"/>
+      <name value="Role of Dr. Gerald Park"/>
+      <description value="Dr. Gerald Park is a fictional Geriatric Medicine Physician at the Happy Nursing Facility."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Role-OT-JenCadbury"/>
+      </reference>
+      <name value="Role of Dr. Jen Cadbury"/>
+      <description value="Dr. Jen Cadbury is a fictional Internal Medicine Physician at Neuro Care Inc."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Role-Neuro-NuraMekel"/>
+      </reference>
+      <name value="Role of Dr. Nura Mekel"/>
+      <description value="Dr. Nura Mekel is a fictional Internal Medicine Physician at Neuro Care Inc."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Role-Pharm-PhilChekhov"/>
+      </reference>
+      <name value="Role of Dr. Phil Chekhov"/>
+      <description value="Dr. Phil Chekhov is a Pharmacist at Everyday Community Pharmacy."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Role-Pharm-TracyCount"/>
+      </reference>
+      <name value="Role of Dr. Tracy Count"/>
+      <description value="Dr. Tracy Count is a fictional Pharmacist at Not Every Day Contract Pharmacy."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/BSJ-PCPFollowUp"/>
+      </reference>
+      <name value="Service Request to follow up with PCP"/>
+      <description value="Service Request to follow up with PCP for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/BSJ-StrokeDiagnosis"/>
+      </reference>
+      <name value="Stroke Diagnosis"/>
+      <description value="Stroke Diagnosis for fictional patient Betsy Smith-Johnson."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -1066,14 +1122,36 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Example-Smith-Johnson-Bundle"/>
+      </reference>
+      <name value="Transition of Care Bundle"/>
+      <description value="Example Transition of Care bundle for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/TOC-Composition-Header"/>
+        <reference value="StructureDefinition/TOC-Composition"/>
       </reference>
-      <name value="TOC Composition Header"/>
-      <description value="This abstract profile defines constraints that represent common administrative and demographic concepts for transitions of care information used in US Realm clinical documents."/>
+      <name value="Transition of Care Composition"/>
+      <description value="This profile defines constraints that represent common administrative and demographic concepts for transitions of care information used in US Realm clinical documents."/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/BSJ-TOCComposition"/>
+      </reference>
+      <name value="Transitions of Care Clinical Document"/>
+      <description value="Transitions of Care Clinical Document for fictional patient Betsy Smith-Johnson."/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1107,6 +1185,17 @@
       <name value="Transitions of Care LOINC Terms Included in the DEL Answered by LL5571-6 Answer List Value Set"/>
       <description value="This value set includes those LOINC terms that included in the DEL which are defined to be answered by LOINC answer list LL5571-6."/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/BSJ-UndressingConcern"/>
+      </reference>
+      <name value="Undressing Concern"/>
+      <description value="Undressing Concern for fictional patient Betsy Smith-Johnson."/>
+      <exampleBoolean value="true"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

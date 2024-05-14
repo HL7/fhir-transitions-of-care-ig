@@ -8,9 +8,15 @@
 <http://hl7.org/fhir/us/pacio-toc/Organization/org-SNF-Happy-Nursing-Facility> a fhir:Organization ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "org-SNF-Happy-Nursing-Facility"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization>
+     ] )
+  ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"org-SNF-Happy-Nursing-Facility\"> </a><a name=\"hcorg-SNF-Happy-Nursing-Facility\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;org-SNF-Happy-Nursing-Facility&quot; </p></div><p><b>active</b>: true</p><p><b>name</b>: Happy Nursing Facility</p><p><b>telecom</b>: ph: (210) 555 1871</p><p><b>address</b>: 8100 Pinebrook Dr, Grand Rapids, MI 49504</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"org-SNF-Happy-Nursing-Facility\"> </a><a name=\"hcorg-SNF-Happy-Nursing-Facility\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceOrganization &quot;org-SNF-Happy-Nursing-Facility&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-organization.html\">US Core Organization Profile</a></p></div><p><b>active</b>: true</p><p><b>name</b>: Happy Nursing Facility</p><p><b>telecom</b>: ph: (210) 555 1871</p><p><b>address</b>: 8100 Pinebrook Dr, Grand Rapids, MI 49504</p></div>"
   ] ; # 
   fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
   fhir:name [ fhir:v "Happy Nursing Facility"] ; # 

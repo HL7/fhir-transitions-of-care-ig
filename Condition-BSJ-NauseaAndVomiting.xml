@@ -3,10 +3,10 @@
 <Condition xmlns="http://hl7.org/fhir">
   <id value="BSJ-NauseaAndVomiting"/>
   <meta>
-    <profile value="http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"/>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"/>
   </meta>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Condition</b><a name="BSJ-NauseaAndVomiting"> </a><a name="hcBSJ-NauseaAndVomiting"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Condition &quot;BSJ-NauseaAndVomiting&quot; </p><p style="margin-bottom: 0px">Profile: <code>http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis</code></p></div><p><b>Condition Asserted Date</b>: 2024-04-18 16:30:00-0400</p><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.4.0/CodeSystem-condition-clinical.html">Condition Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.4.0/CodeSystem-condition-ver-status.html">ConditionVerificationStatus</a>#confirmed)</span></p><p><b>category</b>: Sensation of nausea <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-ICF.html">International Classification of Functioning, Disability and Health</a>#b5350)</span>, Encounter Diagnosis <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/us/core/STU6.1/CodeSystem-condition-category.html">US Core Condition Category Extension Codes</a>#encounter-diagnosis)</span></p><p><b>code</b>: Nausea and Vomiting (disorder) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SNOMED CT#16932000)</span></p><p><b>subject</b>: <a href="Patient-Example-Smith-Johnson-Patient1.html">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>onset</b>: 2024-04-18 16:30:00-0400</p><p><b>recordedDate</b>: 2024-04-18 16:30:00-0400</p><p><b>note</b>: Patient pressed call button for vomiting. She reports she started feeling nauseated about ten minutes ago.</p></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Condition</b><a name="BSJ-NauseaAndVomiting"> </a><a name="hcBSJ-NauseaAndVomiting"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">ResourceCondition &quot;BSJ-NauseaAndVomiting&quot; </p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-condition-encounter-diagnosis.html">US Core Condition Encounter Diagnosis Profile</a></p></div><p><b>Condition Asserted Date</b>: 2024-04-18 16:30:00-0400</p><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.4.0/CodeSystem-condition-clinical.html">Condition Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.4.0/CodeSystem-condition-ver-status.html">ConditionVerificationStatus</a>#confirmed)</span></p><p><b>category</b>: Sensation of nausea <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-ICF.html">International Classification of Functioning, Disability and Health</a>#b5350)</span>, Encounter Diagnosis <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/us/core/STU6.1/CodeSystem-condition-category.html">US Core Condition Category Extension Codes</a>#encounter-diagnosis)</span>, Encounter Diagnosis <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.4.0/CodeSystem-condition-category.html">Condition Category Codes</a>#encounter-diagnosis)</span></p><p><b>code</b>: Nausea and Vomiting (disorder) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOWMED CT</a>#16932000)</span></p><p><b>subject</b>: <a href="Patient-Example-Smith-Johnson-Patient1.html">Patient/Example-Smith-Johnson-Patient1</a> &quot; SMITH-JOHNSON&quot;</p><p><b>onset</b>: 2024-04-18 16:30:00-0400</p><p><b>recordedDate</b>: 2024-04-18 16:30:00-0400</p><p><b>note</b>: Patient pressed call button for vomiting. She reports she started feeling nauseated about ten minutes ago.</p></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/condition-assertedDate">
     <valueDateTime value="2024-04-18T16:30:00-04:00"/>
@@ -37,9 +37,15 @@
       <display value="Encounter Diagnosis"/>
     </coding>
   </category>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+      <code value="encounter-diagnosis"/>
+    </coding>
+  </category>
   <code>
     <coding>
-      <system value="http://snomed.info/sct/731000124108"/>
+      <system value="http://snomed.info/sct"/>
       <code value="16932000"/>
       <display value="Nausea and Vomiting (disorder)"/>
     </coding>
