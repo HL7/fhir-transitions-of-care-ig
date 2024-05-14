@@ -1,6 +1,9 @@
 Instance: org-SNF-Happy-Nursing-Facility
-InstanceOf: Organization
+InstanceOf: $USCoreOrganization
 Usage: #example
+Title: "Happy Nursing Facility Organization"
+Description: "Information about the Happy Nursing Facility Organization."
+
 * active = true
 * name = "Happy Nursing Facility"
 * telecom.system = #phone

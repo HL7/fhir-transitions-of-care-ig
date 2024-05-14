@@ -1,7 +1,10 @@
 Instance: BSJ-DepressionDiagnosis
-InstanceOf: Condition
+InstanceOf: $USCoreConditionEncounterDiagnosis // $PFEConditionEncounterDiagnosis
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+Title: "Depression Diagnosis"
+Description: "Depression Diagnosis for fictional patient Betsy Smith-Johnson."
+
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis" //"http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#35489007 "Depressive disorder (disorder)"

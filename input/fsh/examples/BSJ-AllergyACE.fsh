@@ -1,6 +1,9 @@
 Instance: BSJ-AllergyACE
-InstanceOf: AllergyIntolerance
+InstanceOf: $USCoreAllergyIntolerance
 Usage: #example
+Title: "Allergy List"
+Description: "Allergies for fictional patient Betsy Smith-Johnson."
+
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance"
 * code = $sct#372733002 "Substance with angiotensin-converting enzyme inhibitor mechanism of action (substance)"
 * patient = Reference(Patient/Example-Smith-Johnson-Patient1)

@@ -1,7 +1,10 @@
 Instance: BSJ-HeartDiseaseDiagnosis
-InstanceOf: Condition
+InstanceOf: $USCoreConditionEncounterDiagnosis // $PFEConditionEncounterDiagnosis
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+Title: "Heart Disease Diagnosis"
+Description: "Heart Disease Diagnosis for fictional patient Betsy Smith-Johnson."
+
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis" //"http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#414545008 "Ischemic heart disease (disorder)"

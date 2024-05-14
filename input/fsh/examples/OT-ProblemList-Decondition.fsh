@@ -1,7 +1,10 @@
 Instance: OT-ProblemList-Decondition
-InstanceOf: Condition
+InstanceOf: $USCoreConditionProblemsandHealthConcerns
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
+Title: "OT Decondition Problem List"
+Description: "Occupational Therapy Decondition problem list for fictional patient Betsy Smith-Johnson."
+
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#31031000119102 "Physical deconditioning (finding)"
@@ -17,5 +20,5 @@ Usage: #example
 * evidence[0].detail = Reference(Observation/BSJ-MDS-ShortWalk1)
 * evidence[+].detail = Reference(Observation/BSJ-MDS-SitStand1)
 * evidence[+].detail = Reference(Observation/BSJ-MDS-SitUp1)
-* asserter = Reference(Role-OT-JenCadbury)
+* asserter = Reference(PractitionerRole/Role-OT-JenCadbury)
 * note.text = "The weakness in the patient's lower extremities is secondary to deconditioning. According to the report from Neurology, patient did not have motor or sensory deficits below upper chest. High rehab potential."

@@ -1,6 +1,9 @@
 Instance: Example-Smith-Johnson-Patient1
-InstanceOf: Patient
+InstanceOf: $USCorePatient
 Usage: #example
+Title: "Patient - Betsy Smith-Johnson"
+Description: "Basic information for fictional patient Betsy Smith-Johnson."
+
 * meta.lastUpdated = "2021-03-29T14:25:34.001-05:00"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
 * language = #en-US

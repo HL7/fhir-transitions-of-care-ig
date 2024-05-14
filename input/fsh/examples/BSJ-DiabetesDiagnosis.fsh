@@ -1,7 +1,10 @@
 Instance: BSJ-DiabetesDiagnosis
-InstanceOf: Condition
+InstanceOf: $USCoreConditionEncounterDiagnosis // $PFEConditionEncounterDiagnosis
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+Title: "Diabetes Diagnosis"
+Description: "Diabetes Diagnosis for fictional patient Betsy Smith-Johnson."
+
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis" //"http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"

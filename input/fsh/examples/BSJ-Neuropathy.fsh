@@ -1,7 +1,10 @@
 Instance: BSJ-Neuropathy
-InstanceOf: Condition
+InstanceOf: $USCoreConditionEncounterDiagnosis // $PFEConditionEncounterDiagnosis
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+Title: "Neuropathy Diagnosis"
+Description: "Neuropathy Diagnosis for fictional patient Betsy Smith-Johnson."
+
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis" //"http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#193184006 "Chronic painful neuropathy due to diabetes mellitus (disorder)"
@@ -11,4 +14,4 @@ Usage: #example
 * bodySite = $sct#40927001 "Both lower legs (body structure)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2020-07"
-* asserter = Reference(Role-IMMD-AnitaChu)
+* asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)

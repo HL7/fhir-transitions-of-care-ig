@@ -1,5 +1,5 @@
 //USCore -
-//Alias:   $USCoreLocation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-location
+Alias:   $USCoreLocation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-location
 Alias:   $USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient
 Alias:   $USCorePractitioner = http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner
 Alias:   $USCorePractitionerRole = http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole
@@ -21,13 +21,18 @@ Alias:	 $USCoreProcedure = http://hl7.org/fhir/us/core/StructureDefinition/us-co
 Alias:	 $USCoreObservationClinicalResult = http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result
 Alias:	 $USCoreSmokingStatus = http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus
 Alias:	 $USCoreVitalSigns = http://hl7.org/fhir/us/core/StructureDefinition/us-core-vital-signs
+Alias:	 $USCoreServiceRequest = http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest
 
 Alias: $USRealmHeader = http://hl7.org/fhir/us/ccda/StructureDefinition/US-Realm-Header
 
 // PACIO Personal Functioning and Engagement (PFE)
 Alias: $PFECollection = http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection
+//Alias: $PFEConditionProblemsandHealthConcerns = http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns
+//Alias: $PFEConditionEncounterDiagnosis = http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis
 Alias: $PFEClinicalTestObservation = http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-clinicaltest
 Alias: $PFENarrativeHistoryOfStatus = http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-narrative-history-of-status
+//Alias: $PFEServiceRequest = http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request
+Alias: $PFESingleObservation = http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single
 
 // PACIO Advance Directives Interoperability (ADI)
 Alias: $ADIPACPComposition = http://hl7.org/fhir/us/pacio-adi/StructureDefinition/ADI-PACPComposition
@@ -45,7 +50,7 @@ Alias: $HL7ConsentCategoryVS = http://hl7.org/fhir/ValueSet/consent-category
 Alias: $HL7JurisdictionCodes = http://hl7.org/fhir/ValueSet/jurisdiction
 
 Alias: $LOINC = http://loinc.org
-Alias: $SNOMEDCT = http://snomed.info/sct/731000124108
+Alias: $SNOMEDCT = http://snomed.info/sct //http://snomed.info/sct/731000124108
 Alias: $OmbRaceCat = urn:oid:2.16.840.1.113883.6.238
 
 Alias: $HL7RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
@@ -70,7 +75,7 @@ Alias: $VSACADICareExperiencePreferences = http://cts.nlm.nih.gov/fhir/ValueSet/
 Alias: $data-absent-reason = http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 // From gofsh execution on FHIR JSON sample data
-Alias: $sct = http://snomed.info/sct/731000124108
+Alias: $sct = http://snomed.info/sct //http://snomed.info/sct/731000124108
 Alias: $allergyintolerance-clinical = http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical
 Alias: $allergyintolerance-verification = http://terminology.hl7.org/CodeSystem/allergyintolerance-verification
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm

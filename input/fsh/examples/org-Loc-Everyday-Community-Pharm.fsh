@@ -1,6 +1,9 @@
 Instance: org-Loc-Everyday-Community-Pharm
-InstanceOf: Location
+InstanceOf: $USCoreLocation
 Usage: #example
+Title: "Location of the Everyday Community Pharmacy"
+Description: "Location of the Everyday Community Pharmacy."
+
 * status = #active
 * name = "Everyday Community Pharmacy"
 * address.line = "125 Yew St"

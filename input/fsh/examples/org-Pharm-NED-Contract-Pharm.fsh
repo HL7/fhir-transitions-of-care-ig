@@ -1,6 +1,9 @@
 Instance: org-Pharm-NED-Contract-Pharm
-InstanceOf: Organization
+InstanceOf: $USCoreOrganization
 Usage: #example
+Title: "Not Every Day Contract Pharmacy Organization"
+Description: "Information about the Not Every Day Contract Pharmacy Organization."
+
 * active = true
 * name = "Not Every Day Contract Pharmacy"
 * telecom.system = #phone

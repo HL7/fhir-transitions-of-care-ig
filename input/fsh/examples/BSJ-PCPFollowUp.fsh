@@ -1,7 +1,10 @@
 Instance: BSJ-PCPFollowUp
-InstanceOf: ServiceRequest
+InstanceOf: $USCoreServiceRequest
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
+Title: "Service Request to follow up with PCP"
+Description: "Service Request to follow up with PCP for fictional patient Betsy Smith-Johnson."
+
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest"
 * status = #active
 * intent = #order
 * category = $sct#386053000 "Evaluation procedure (procedure)"
@@ -10,4 +13,4 @@ Usage: #example
 * priority = #routine
 * occurrenceDateTime = "2024-05-28"
 * authoredOn = "2024-05-18"
-* requester = Reference(Role-SNFDoc-GeraldPark)
+* requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)

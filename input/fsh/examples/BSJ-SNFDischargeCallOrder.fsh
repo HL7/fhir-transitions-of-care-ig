@@ -1,7 +1,10 @@
 Instance: BSJ-SNFDischargeCallOrder
-InstanceOf: ServiceRequest
+InstanceOf: $USCoreServiceRequest
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
+Title: "Discharge Service Request for call order"
+Description: "Discharge Service Request for call order for fictional patient Betsy Smith-Johnson."
+
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest"
 * status = #active
 * intent = #order
 * category = $sct#386053000 "Evaluation procedure (procedure)"
@@ -10,4 +13,4 @@ Usage: #example
 * priority = #routine
 * occurrencePeriod.start = "2024-05-18"
 * authoredOn = "2024-05-18"
-* requester = Reference(Role-SNFDoc-GeraldPark)
+* requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)

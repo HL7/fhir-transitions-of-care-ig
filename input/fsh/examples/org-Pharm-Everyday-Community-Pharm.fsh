@@ -1,6 +1,9 @@
 Instance: org-Pharm-Everyday-Community-Pharm
-InstanceOf: Organization
+InstanceOf: $USCoreOrganization
 Usage: #example
+Title: "Everyday Community Pharmacy Organization"
+Description: "Information about the Everyday Community Pharmacy Organization."
+
 * active = true
 * name = "Everyday Community Pharmacy"
 * telecom.system = #phone

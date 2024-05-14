@@ -1,6 +1,9 @@
 Instance: org-Neuro-Care-Inc
-InstanceOf: Organization
+InstanceOf: $USCoreOrganization
 Usage: #example
+Title: "Neuro Care Inc. Organization"
+Description: "Information about the Neuro Care Inc. Organization."
+
 * active = true
 * name = "Neuro Care Inc."
 * telecom.system = #phone

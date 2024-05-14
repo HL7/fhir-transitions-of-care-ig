@@ -1,7 +1,10 @@
 Instance: BSJ-StrokeDiagnosis
-InstanceOf: Condition
+InstanceOf: $USCoreConditionEncounterDiagnosis // $PFEConditionEncounterDiagnosis
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+Title: "Stroke Diagnosis"
+Description: "Stroke Diagnosis for fictional patient Betsy Smith-Johnson."
+
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis" //"http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#422504002 "Ischemic Stroke (disorder)"
@@ -14,5 +17,5 @@ Usage: #example
 * extension.valueDateTime = "2024-04-17T15:40:00-04:00"
 * onsetDateTime = "2024-04-17T15:40:00-04:00"
 * recordedDate = "2023-12-15T18:40:00-04:00"
-* asserter = Reference(Role-Neuro-NuraMekel)
+* asserter = Reference(PractitionerRole/Role-Neuro-NuraMekel)
 * note.text = "Partial occlusion of MCA. Stroke event witnessed. EMS response / patient arrived within 45 minutes of symptom onset. Verified by CT with contrast. tPA administered within 2 hours of symptom onset."

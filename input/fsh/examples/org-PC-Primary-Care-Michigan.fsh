@@ -1,6 +1,9 @@
 Instance: org-PC-Primary-Care-Michigan
-InstanceOf: Organization
+InstanceOf: $USCoreOrganization
 Usage: #example
+Title: "Michigan Primary Health Care Associates Organization"
+Description: "Information about the Michigan Primary Health Care Associates Organization."
+
 * active = true
 * name = "Michigan Primary Health Care Associates"
 * telecom.system = #phone

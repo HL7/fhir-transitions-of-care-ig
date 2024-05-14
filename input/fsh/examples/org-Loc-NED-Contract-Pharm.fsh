@@ -1,6 +1,9 @@
 Instance: org-Loc-NED-Contract-Pharm
-InstanceOf: Location
+InstanceOf: $USCoreLocation
 Usage: #example
+Title: "Location of the Not Every Day Contract Pharmacy"
+Description: "Location of the Not Every Day Contract Pharmacy."
+
 * status = #active
 * name = "Not Every Day Contract Pharmacy"
 * address.line = "155 Light Commercial Ave"

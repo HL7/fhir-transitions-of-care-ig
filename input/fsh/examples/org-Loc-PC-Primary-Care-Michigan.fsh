@@ -1,6 +1,9 @@
 Instance: org-Loc-PC-Primary-Care-Michigan
-InstanceOf: Location
+InstanceOf: $USCoreLocation
 Usage: #example
+Title: "Location of Michigan Primary Health Care Associates"
+Description: "Location of Michigan Primary Health Care Associates."
+
 * status = #active
 * name = "Michigan Primary Health Care Associates"
 * address.line = "123 Spruce Dr"

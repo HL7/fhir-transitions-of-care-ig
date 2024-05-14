@@ -1,8 +1,8 @@
-Profile: TOCCompositionHeader
+Profile: TOCComposition
 Parent: clinicaldocument
-Id: TOC-Composition-Header
-Title: "TOC Composition Header"
-Description: "This abstract profile defines constraints that represent common administrative and demographic concepts for transitions of care information used in US Realm clinical documents."
+Id: TOC-Composition
+Title: "Transition of Care Composition"
+Description: "This profile defines constraints that represent common administrative and demographic concepts for transitions of care information used in US Realm clinical documents."
 
 * language 1..1 MS
 * identifier 1..1 MS
@@ -22,7 +22,7 @@ Description: "This abstract profile defines constraints that represent common ad
 * confidentiality 0..0
 
 * custodian 1..1 MS
-* custodian only Reference ($USCoreOrganization)
+* custodian only Reference($USCoreOrganization)
 
 * section 1..*
 * section.text 1..1 MS
@@ -33,18 +33,18 @@ Description: "This abstract profile defines constraints that represent common ad
 * section ^slicing.description = "Slice based on $this value"
 * section contains
     advance_directives 0..1 MS and
-    allergies 0..1 MS and
+    allergies 1..1 MS and
     functional_status 0..1 MS and
     immunizations 0..1 MS and
     instructions 0..1 MS and
     medication_equipment 0..1 MS and
-    medications 0..1 MS and
+    medications 1..1 MS and
     plan_of_care 0..1 MS and
-    problem 0..1 MS and
+    problems 1..1 MS and
     procedures 0..1 MS and
     reason_for_referral 0..1 MS and
     reason_for_visit 0..1 MS and
-    results 0..1 MS and
+    results 1..1 MS and
     social_history 0..1 MS and
     vital_signs 0..1 MS
 
@@ -98,12 +98,19 @@ Description: "This abstract profile defines constraints that represent common ad
 * section[medications].entry 
 * section[medications].entry only Reference(Bundle) 
 
-* section[problem] ^short = "Problem"
-* section[problem].title 1..1 MS
-* section[problem].code 1..1 
-* section[problem].code = $LOINC#18776-5
-* section[problem].entry 
-* section[problem].entry only Reference($USCoreConditionEncounterDiagnosis or 
+* section[plan_of_care] ^short = "Plan of Care"
+* section[plan_of_care].title 1..1 MS
+* section[plan_of_care].code 1..1 
+* section[plan_of_care].code = $LOINC#74449-0
+* section[plan_of_care].entry 
+* section[plan_of_care].entry only Reference($USCoreCarePlan) 
+
+* section[problems] ^short = "Problem"
+* section[problems].title 1..1 MS
+* section[problems].code 1..1 
+* section[problems].code = $LOINC#18776-5
+* section[problems].entry 
+* section[problems].entry only Reference($USCoreConditionEncounterDiagnosis or 
                                             $USCoreConditionProblemsandHealthConcerns or
                                             $USCoreSimpleObservation)
 

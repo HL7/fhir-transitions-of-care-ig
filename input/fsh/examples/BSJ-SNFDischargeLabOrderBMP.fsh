@@ -1,7 +1,10 @@
 Instance: BSJ-SNFDischargeLabOrderBMP
-InstanceOf: ServiceRequest
+InstanceOf: $USCoreServiceRequest
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
+Title: "Discharge Service Request for blood chemistry procedure"
+Description: "Discharge Service Request for blood chemistry procedure for fictional patient Betsy Smith-Johnson."
+
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest"
 * status = #active
 * intent = #order
 * category = $sct#108252007 "Laboratory procedure"
@@ -10,8 +13,8 @@ Usage: #example
 * priority = #routine
 * occurrenceDateTime = "2024-05-28"
 * authoredOn = "2024-05-18"
-* requester = Reference(Role-SNFDoc-GeraldPark)
-* reasonReference[0] = Reference(BSJ-AnemiaDiagnosis)
-* reasonReference[+] = Reference(BSJ-Hyperlipidemia)
-* reasonReference[+] = Reference(BSJ-KidneyDisease)
-* reasonReference[+] = Reference(BSJ-DiabetesDiagnosis)
+* requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
+* reasonReference[+] = Reference(Condition/BSJ-AnemiaDiagnosis)
+* reasonReference[+] = Reference(Condition/BSJ-Hyperlipidemia)
+* reasonReference[+] = Reference(Condition/BSJ-KidneyDisease)
+* reasonReference[+] = Reference(Condition/BSJ-DiabetesDiagnosis)

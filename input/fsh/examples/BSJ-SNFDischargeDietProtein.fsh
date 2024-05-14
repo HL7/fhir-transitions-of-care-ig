@@ -1,7 +1,10 @@
 Instance: BSJ-SNFDischargeDietProtein
-InstanceOf: ServiceRequest
+InstanceOf: $USCoreServiceRequest
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
+Title: "Discharge Service Request for protein diet"
+Description: "Discharge Service Request for decreased protein and/or protein derivative diet for fictional patient Betsy Smith-Johnson."
+
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest"
 * status = #active
 * intent = #order
 * category = $sct#182922004 "Dietary regime (regime/therapy)"
@@ -10,5 +13,5 @@ Usage: #example
 * priority = #routine
 * occurrencePeriod.start = "2024-05-18"
 * authoredOn = "2024-05-18"
-* requester = Reference(Role-SNFDoc-GeraldPark)
-* reasonReference = Reference(BSJ-KidneyDisease)
+* requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
+* reasonReference = Reference(Condition/BSJ-KidneyDisease)

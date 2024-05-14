@@ -1,6 +1,9 @@
 Instance: org-Loc-SNF-Happy-Nursing-Facility
-InstanceOf: Location
+InstanceOf: $USCoreLocation
 Usage: #example
+Title: "Location of the Happy Nursing Facility"
+Description: "Location of the Happy Nursing Facility."
+
 * status = #active
 * name = "Happy Nursing Facility"
 * address.line = "8100 Pinebrook Dr"
