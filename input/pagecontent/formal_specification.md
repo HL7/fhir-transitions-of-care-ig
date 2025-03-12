@@ -29,4 +29,3 @@ The following rules apply to all Transitions of Care Profile elements marked as 
 - Data Consumer Systems **SHALL** interpret missing data elements within resources instances as not being present on the Data Sources system’s or as being withheld for privacy or business reasons.
 
 Profiles used by this IG, but defined in other IGs, inherit the definition of Must Support from their respective guides.
-
