@@ -48,7 +48,7 @@ The following only applies to servers supporting app launch:
             <tr>
                 <th style="margin-left: 5px; margin-right: 5px;">Element</th>
                 <th style="margin-left: 5px; margin-right: 5px;">Requirement</th>
-                <th style="margin-left: 5px; margin-right: 5xpx;">Reason</th>
+                <th style="margin-left: 5px; margin-right: 5px;">Reason</th>
             </tr>
             <tr>
                 <td>sso-openid-connect</td>

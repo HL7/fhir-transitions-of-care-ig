@@ -16,10 +16,6 @@ Before reading this implementation guide, it's important to be familiar with som
 
 This implementation guide supports the [R4]({{site.data.fhir.path}}index.html) version of the FHIR standard and builds on the [US Core Implementation Guide](http://hl7.org/fhir/us/core) and implementers need to familiarize themselves with the profiles in that guide. Implementers should also familiarize themselves with the FHIR resources used within the guide:
 
-<table>
-    <td>
-      <a href="{{site.data.fhir.path}}documentreference.html">DocumentReference</a><br/>
-      <a href="{{site.data.fhir.path}}composition.html">Composition</a><br/>
-      <a href="{{site.data.fhir.path}}observation.html">Observation</a><br/>
-    </td>
-</table>
+* [DocumentReference]({{site.data.fhir.path}}documentreference.html)
+* [Composition]({{site.data.fhir.path}}composition.html)
+* [Observation]({{site.data.fhir.path}}observation.html)
