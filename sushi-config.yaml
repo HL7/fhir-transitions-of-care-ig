@@ -52,6 +52,7 @@ menu:
   Home: index.html
   Table of Contents: toc.html
   Guidance:
+    Formal Specification: formal_specification.html
     Personas and Scenarios: personas.html
     Use Cases: usecases.html
     Discipline-Specific Information: disciplines.html
