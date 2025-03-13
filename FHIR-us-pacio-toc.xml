@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="" url="http://hl7.org/fhir/us/pacio-toc">
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="pc" url="http://hl7.org/fhir/us/pacio-toc">
 <version code="current" url=""/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
@@ -77,10 +77,9 @@
 <page key="formal_specification" name="Formal Specification"/>
 <page key="guidance" name="General Guidance"/>
 <page key="index" name="PACIO Transitions of Care Implementation Guide"/>
-<page key="personas" name="Personas and Scenarios"/>
 <page key="search_parameters" name="Recommended Search Parameters"/>
 <page key="security_privacy_consent" name="Security, Privacy, and Consent"/>
 <page key="toc" name="Table of Contents"/>
 <page key="underlying_technologies" name="Underlying Technologies"/>
-<page key="usecases" name="Use Cases"/>
+<page key="usecases_personas" name="Use Cases, Personas, and Scenarios"/>
 </specification>

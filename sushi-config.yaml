@@ -53,11 +53,9 @@ menu:
   Table of Contents: toc.html
   Guidance:
     Formal Specification: formal_specification.html
-    Personas and Scenarios: personas.html
-    Use Cases: usecases.html
-    Discipline-Specific Information: disciplines.html
+    Use Cases, Personas, and Scenarios: usecases_personas.html
     General Guidance: guidance.html
-    Formal Specification: formal_specification.html
+    Discipline-Specific Information: disciplines.html
     Underlying Technologies: underlying_technologies.html
     Security, Privacy, and Consent: security_privacy_consent.html
   FHIR Artifacts:
@@ -83,22 +81,18 @@ menu:
 pages:
   index.md:
     title: PACIO Transitions of Care Implementation Guide
-  personas.md:
-    title: Personas and Scenarios
-  usecases.md:
-    title: Use Cases
+  formal_specification.md:
+    title: Formal Specification
   usecases_personas.md:
     title: Use Cases, Personas, and Scenarios
   guidance.md:
     title: General Guidance
   disciplines.md:
     title: Discipline-Specific Required DEL Information
-  formal_specification.md:
-    title: Formal Specification
-  security_privacy_consent.md:
-    title: Security, Privacy, and Consent
   underlying_technologies.md:
     title: Underlying Technologies
+  security_privacy_consent.md:
+    title: Security, Privacy, and Consent
   search_parameters.md:
     title: Recommended Search Parameters
   artifacts.html:
