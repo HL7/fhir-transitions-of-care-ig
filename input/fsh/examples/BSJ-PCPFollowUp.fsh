@@ -4,7 +4,7 @@ Usage: #example
 Title: "Service Request to follow up with PCP"
 Description: "Service Request to follow up with PCP for fictional patient Betsy Smith-Johnson."
 
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest"
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest|6.1.0"
 * status = #active
 * intent = #order
 * category = $sct#386053000 "Evaluation procedure (procedure)"

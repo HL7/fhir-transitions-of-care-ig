@@ -4,13 +4,13 @@ Usage: #example
 Title: "Stroke Diagnosis"
 Description: "Stroke Diagnosis for fictional patient Betsy Smith-Johnson."
 
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis" //"http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis|6.1.0" //"http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#422504002 "Ischemic Stroke (disorder)"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
-* category[0] = $icf#s11009 "Structure of cortical lobes, unspecified"
-* category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
+//* category[0] = $icf#s11009 "Structure of cortical lobes, unspecified"
+* category[0] = $condition-category#problem "Problem"
 * bodySite[0] = $sct#414722000 "Structure of middle cerebral artery M1 segment (body structure)"
 * bodySite[+] = $sct#7771000 "Left"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"

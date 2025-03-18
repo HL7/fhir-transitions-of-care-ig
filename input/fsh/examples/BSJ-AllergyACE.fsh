@@ -4,7 +4,7 @@ Usage: #example
 Title: "Allergy List"
 Description: "Allergies for fictional patient Betsy Smith-Johnson."
 
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance"
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance|6.1.0"
 * code = $sct#372733002 "Substance with angiotensin-converting enzyme inhibitor mechanism of action (substance)"
 * patient = Reference(Patient/Example-Smith-Johnson-Patient1)
 * clinicalStatus = $allergyintolerance-clinical#active

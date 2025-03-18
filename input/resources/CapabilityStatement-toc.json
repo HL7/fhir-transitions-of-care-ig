@@ -670,7 +670,7 @@
                         }
                     ],
                     "supportedProfile": [
-                        "https://www.hl7.org/fhir/us/core/StructureDefinition-us-core-patient.html"
+                        "https://www.hl7.org/fhir/us/core/StructureDefinition-us-core-patient.html|6.1.0"
                     ],
                     "type": "Patient"
                 },

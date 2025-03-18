@@ -24,10 +24,10 @@ The TOC document defines 16 sections:
 			<td>Allergies</td>
 			<td>List of allergies the patient has</td>
 		</tr>
-  		<tr>
+  		<!--<tr>
 			<td>Behavioral Health</td>
 			<td>TODO</td>
-		</tr>
+		</tr>-->
 		<tr>
 			<td>Functional Status</td>
 			<td>Examples include assessments, mental status, mobility, activities of daily livings, swallowing, devices needed</td>

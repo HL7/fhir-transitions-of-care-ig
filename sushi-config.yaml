@@ -28,7 +28,7 @@ contact:
       - system: url
         value: http://www.hl7.org/Special/committees/patientcare
       - system: email
-        value: info@pacioproject.org
+        value: info@pacioproject.org  
         
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
@@ -36,8 +36,11 @@ contact:
 #
 dependencies:
   hl7.fhir.us.pacio-adi: 1.0.0
-  hl7.fhir.us.pacio-pfe: 1.0.0
+  hl7.fhir.us.pacio-pfe: 2.0.0-ballot
   hl7.fhir.us.core: 6.1.0
+  hl7.fhir.uv.ips: 2.0.0-ballot
+  hl7.fhir.us.dental-data-exchange: 1.0.0
+  hl7.fhir.us.ccda: 2.0.0-ballot
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │

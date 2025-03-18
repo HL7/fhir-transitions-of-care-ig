@@ -11,4 +11,6 @@ Context: Composition
 * extension[Code].value[x] only CodeableConcept
 * extension[Reference].value[x] 1..1
 * extension[Reference].value[x] only Reference
-* extension[Reference].valueReference only Reference($USCoreConditionProblemsandHealthConcerns or $USCoreConditionEncounterDiagnosis or $USCoreProcedure or Observation or ImmunizationRecommendation)
+* extension[Reference].valueReference only Reference($USCoreConditionProblemsandHealthConcerns or $USCoreConditionEncounterDiagnosis or 
+														$USCoreProcedure or Observation or ImmunizationRecommendation or 
+														$CCDAonFHIRDischargeSummary or $USCoreEncounter)

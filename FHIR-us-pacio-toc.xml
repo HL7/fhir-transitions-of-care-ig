@@ -6,7 +6,23 @@
 <artifactPageExtension value="-mappings"/>
 <artifact id="AllergyIntolerance/BSJ-AllergyACE" key="AllergyIntolerance-BSJ-AllergyACE" name="Allergy List"/>
 <artifact id="Condition/BSJ-AnemiaDiagnosis" key="Condition-BSJ-AnemiaDiagnosis" name="Anemia Diagnosis"/>
-<artifact id="Condition/BSJ-Constipation" key="Condition-BSJ-Constipation" name="Constipation Diagnosis"/>
+<artifact id="MedicationRequest/BSJ-SMPMedReq1" key="MedicationRequest-BSJ-SMPMedReq1" name="BSJ-SMPMedReq1"/>
+<artifact id="MedicationRequest/BSJ-SMPMedReq2" key="MedicationRequest-BSJ-SMPMedReq2" name="BSJ-SMPMedReq2"/>
+<artifact id="MedicationRequest/BSJ-SMPMedReq3" key="MedicationRequest-BSJ-SMPMedReq3" name="BSJ-SMPMedReq3"/>
+<artifact id="MedicationRequest/BSJ-SMPMedReq4" key="MedicationRequest-BSJ-SMPMedReq4" name="BSJ-SMPMedReq4"/>
+<artifact id="MedicationRequest/BSJ-SMPMedReq5" key="MedicationRequest-BSJ-SMPMedReq5" name="BSJ-SMPMedReq5"/>
+<artifact id="MedicationRequest/BSJ-SMPMedReq6" key="MedicationRequest-BSJ-SMPMedReq6" name="BSJ-SMPMedReq6"/>
+<artifact id="MedicationRequest/BSJ-SMPMedReq7" key="MedicationRequest-BSJ-SMPMedReq7" name="BSJ-SMPMedReq7"/>
+<artifact id="MedicationRequest/BSJ-SMPMedReq8" key="MedicationRequest-BSJ-SMPMedReq8" name="BSJ-SMPMedReq8"/>
+<artifact id="MedicationStatement/BSJ-SMPMedStmt1" key="MedicationStatement-BSJ-SMPMedStmt1" name="BSJ-SMPMedStmt1"/>
+<artifact id="MedicationStatement/BSJ-SMPMedStmt2" key="MedicationStatement-BSJ-SMPMedStmt2" name="BSJ-SMPMedStmt2"/>
+<artifact id="MedicationStatement/BSJ-SMPMedStmt3" key="MedicationStatement-BSJ-SMPMedStmt3" name="BSJ-SMPMedStmt3"/>
+<artifact id="MedicationStatement/BSJ-SMPMedStmt4" key="MedicationStatement-BSJ-SMPMedStmt4" name="BSJ-SMPMedStmt4"/>
+<artifact id="MedicationStatement/BSJ-SMPMedStmt5" key="MedicationStatement-BSJ-SMPMedStmt5" name="BSJ-SMPMedStmt5"/>
+<artifact id="MedicationStatement/BSJ-SMPMedStmt6" key="MedicationStatement-BSJ-SMPMedStmt6" name="BSJ-SMPMedStmt6"/>
+<artifact id="MedicationStatement/BSJ-SMPMedStmt7" key="MedicationStatement-BSJ-SMPMedStmt7" name="BSJ-SMPMedStmt7"/>
+<artifact id="MedicationStatement/BSJ-SMPMedStmt8" key="MedicationStatement-BSJ-SMPMedStmt8" name="BSJ-SMPMedStmt8"/>
+<artifact id="Condition/BSJ-ConstipationDiagnosis" key="Condition-BSJ-ConstipationDiagnosis" name="Constipation Diagnosis"/>
 <artifact id="Condition/BSJ-DepressionDiagnosis" key="Condition-BSJ-DepressionDiagnosis" name="Depression Diagnosis"/>
 <artifact id="Condition/BSJ-DiabetesDiagnosis" key="Condition-BSJ-DiabetesDiagnosis" name="Diabetes Diagnosis"/>
 <artifact id="CarePlan/BSJ-SNFDischargeCarePlan" key="CarePlan-BSJ-SNFDischargeCarePlan" name="Discharge Care Plan"/>
@@ -29,9 +45,10 @@
 <artifact id="Organization/org-SNF-Happy-Nursing-Facility" key="Organization-org-SNF-Happy-Nursing-Facility" name="Happy Nursing Facility Organization"/>
 <artifact id="Condition/BSJ-HeartDiseaseDiagnosis" key="Condition-BSJ-HeartDiseaseDiagnosis" name="Heart Disease Diagnosis"/>
 <artifact id="Condition/BSJ-HemiparesisDiagnosis" key="Condition-BSJ-HemiparesisDiagnosis" name="Hemiparesis Diagnosis"/>
-<artifact id="Condition/BSJ-Hyperlipidemia" key="Condition-BSJ-Hyperlipidemia" name="Hyperlipidemia Diagnosis"/>
+<artifact id="List/BSJ-SMPMedList" key="List-BSJ-SMPMedList" name="Home Medication List"/>
+<artifact id="Condition/BSJ-HyperlipidemiaDiagnosis" key="Condition-BSJ-HyperlipidemiaDiagnosis" name="Hyperlipidemia Diagnosis"/>
 <artifact id="Condition/BSJ-HypertensionDiagnosis" key="Condition-BSJ-HypertensionDiagnosis" name="Hypertension Diagnosis"/>
-<artifact id="Condition/BSJ-KidneyDisease" key="Condition-BSJ-KidneyDisease" name="Kidney Disease Diagnosis"/>
+<artifact id="Condition/BSJ-KidneyDiseaseDiagnosis" key="Condition-BSJ-KidneyDiseaseDiagnosis" name="Kidney Disease Diagnosis"/>
 <artifact id="Location/org-Loc-PC-Primary-Care-Michigan" key="Location-org-Loc-PC-Primary-Care-Michigan" name="Location of Michigan Primary Health Care Associates"/>
 <artifact id="Location/org-Loc-Everyday-Community-Pharm" key="Location-org-Loc-Everyday-Community-Pharm" name="Location of the Everyday Community Pharmacy"/>
 <artifact id="Location/org-Loc-SNF-Happy-Nursing-Facility" key="Location-org-Loc-SNF-Happy-Nursing-Facility" name="Location of the Happy Nursing Facility"/>
@@ -47,7 +64,7 @@
 <artifact id="Observation/BSJ-MDS-Activities-PT1" key="Observation-BSJ-MDS-Activities-PT1" name="Minimum Data Set (MDS) Nursing Home Discharge Assessment for Activities Questions - Part 1"/>
 <artifact id="Condition/BSJ-NauseaAndVomiting" key="Condition-BSJ-NauseaAndVomiting" name="Nausea and vomiting"/>
 <artifact id="Organization/org-Neuro-Care-Inc" key="Organization-org-Neuro-Care-Inc" name="Neuro Care Inc. Organization"/>
-<artifact id="Condition/BSJ-Neuropathy" key="Condition-BSJ-Neuropathy" name="Neuropathy Diagnosis"/>
+<artifact id="Condition/BSJ-NeuropathyDiagnosis" key="Condition-BSJ-NeuropathyDiagnosis" name="Neuropathy Diagnosis"/>
 <artifact id="Organization/org-Pharm-NED-Contract-Pharm" key="Organization-org-Pharm-NED-Contract-Pharm" name="Not Every Day Contract Pharmacy Organization"/>
 <artifact id="Condition/OT-ProblemList-Decondition" key="Condition-OT-ProblemList-Decondition" name="OT Decondition Problem List"/>
 <artifact id="Condition/OT-ProblemList-RightWeak" key="Condition-OT-ProblemList-RightWeak" name="OT Right Weakness Problem List"/>
