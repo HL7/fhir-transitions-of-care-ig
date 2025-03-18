@@ -34,6 +34,7 @@ Description: "This profile defines constraints that represent common administrat
 * section contains
     advance_directives 0..1 MS and
     allergies 1..1 MS and
+//  behavioral_health 0..1 MS and
     functional_status 0..1 MS and
     immunizations 0..1 MS and
     instructions 0..1 MS and
@@ -62,13 +63,21 @@ Description: "This profile defines constraints that represent common administrat
 * section[allergies].entry 
 * section[allergies].entry only Reference($USCoreAllergyIntolerance)
 
+//* section[behavioral_health] ^short = "Behavioral Health"
+//* section[behavioral_health].title 1..1 MS
+//* section[behavioral_health].code 1..1
+//* section[behavioral_health].code = $LOINC#54511-1 /* not sure this is the right code */
+//* section[behavioral_health].entry
+//* section[behavioral_health].entry only Reference()
+
 * section[functional_status] ^short = "Functional Status"
 * section[functional_status].title 1..1 MS
 * section[functional_status].code 1..1 
 * section[functional_status].code = $LOINC#54522-8 /* not sure this is the right code */
 * section[functional_status].entry 
-* section[functional_status].entry only Reference(Observation or 
-                                            $PFENarrativeHistoryOfStatus) 
+//* section[functional_status].entry only Reference($PFECollection or $PFEClinicalTestObservation or $PFESingleObservation or
+//                                                 $PFEUseOfDevice or $PFENarrativeHistoryOfStatus)
+* section[functional_status].entry only Reference(Observation or $PFEUseOfDevice or $PFENarrativeHistoryOfStatus)
 
 * section[immunizations] ^short = "Immunizations"
 * section[immunizations].title 1..1 MS
@@ -82,7 +91,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[instructions].code 1..1 
 * section[instructions].code = $LOINC#59271-7
 * section[instructions].entry 
-* section[instructions].entry only Reference(Bundle) 
+* section[instructions].entry only Reference($USCoreDiagnosticReportNotes or $USCoreDocumentReference) 
 
 * section[medication_equipment] ^short = "Medication Equipment"
 * section[medication_equipment].title 1..1 MS
@@ -96,7 +105,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[medications].code 1..1 
 * section[medications].code = $LOINC#52471-0
 * section[medications].entry 
-* section[medications].entry only Reference(Bundle) 
+* section[medications].entry only Reference(List) 
 
 * section[plan_of_care] ^short = "Plan of Care"
 * section[plan_of_care].title 1..1 MS
@@ -147,7 +156,9 @@ Description: "This profile defines constraints that represent common administrat
 * section[social_history].code 1..1 
 * section[social_history].code = $LOINC#10166-7
 * section[social_history].entry
-* section[social_history].entry only Reference($USCoreSimpleObservation or $USCoreSmokingStatus)
+* section[social_history].entry only Reference($USCoreSimpleObservation or $USCoreSmokingStatus or
+                                                    $IPSComposition or $PFENarrativeHistoryOfStatus or
+                                                    $USCoreCarePlan or $USCorePatient or $USCoreCoverage or $DDEDentalBundle)
 
 * section[vital_signs] ^short = "Vital Signs"
 * section[vital_signs].title 1..1 MS

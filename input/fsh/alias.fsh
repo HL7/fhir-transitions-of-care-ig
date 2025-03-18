@@ -1,27 +1,29 @@
 //USCore -
-Alias:   $USCoreLocation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-location
-Alias:   $USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient
-Alias:   $USCorePractitioner = http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner
-Alias:   $USCorePractitionerRole = http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole
-Alias:   $USCoreOrganization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization
-Alias:   $USCoreGoal = http://hl7.org/fhir/us/core/StructureDefinition/us-core-goal
-Alias:   $USCoreGoalDescription = http://hl7.org/fhir/us/core/ValueSet/us-core-goal-description|6.1.0
-Alias:   $USCoreEncounter = http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter
-Alias:   $USCoreProvenance = http://hl7.org/fhir/us/core/StructureDefinition/us-core-provenance
-Alias:   $USCoreCarePlan = http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan
-Alias:   $USCoreServiceRequest = http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest 
-Alias:   $USCoreRace = http://hl7.org/fhir/us/core/StructureDefinition/us-core-race
-Alias:   $USCoreEthnicity = http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity
-Alias:	 $USCoreConditionEncounterDiagnosis = http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis
-Alias:	 $USCoreConditionProblemsandHealthConcerns = http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns
-Alias:	 $USCoreSimpleObservation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation
-Alias:	 $USCoreAllergyIntolerance = http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance
-Alias:	 $USCoreImmunization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization
-Alias:	 $USCoreProcedure = http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure
-Alias:	 $USCoreObservationClinicalResult = http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result
-Alias:	 $USCoreSmokingStatus = http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus
-Alias:	 $USCoreVitalSigns = http://hl7.org/fhir/us/core/StructureDefinition/us-core-vital-signs
-Alias:	 $USCoreServiceRequest = http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest
+Alias: $USCoreAllergyIntolerance = http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance|6.1.0
+Alias: $USCoreCarePlan = http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan|6.1.0
+Alias: $USCoreConditionEncounterDiagnosis = http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis|6.1.0
+Alias: $USCoreConditionProblemsandHealthConcerns = http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns|6.1.0
+Alias: $USCoreCoverage = http://hl7.org/fhir/us/core/StructureDefinition/us-core-coverage|6.1.0
+Alias: $USCoreDiagnosticReportNotes = http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note|6.1.0
+Alias: $USCoreDocumentReference = http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference|6.1.0
+Alias: $USCoreEncounter = http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter|6.1.0
+Alias: $USCoreEthnicity = http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity|6.1.0
+Alias: $USCoreGoal = http://hl7.org/fhir/us/core/StructureDefinition/us-core-goal|6.1.0
+Alias: $USCoreGoalDescription = http://hl7.org/fhir/us/core/ValueSet/us-core-goal-description|6.1.0
+Alias: $USCoreImmunization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization|6.1.0
+Alias: $USCoreLocation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-location|6.1.0
+Alias: $USCoreObservationClinicalResult = http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result|6.1.0
+Alias: $USCoreOrganization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|6.1.0
+Alias: $USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|6.1.0
+Alias: $USCorePractitioner = http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|6.1.0
+Alias: $USCorePractitionerRole = http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole|6.1.0
+Alias: $USCoreProcedure = http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure|6.1.0
+Alias: $USCoreProvenance = http://hl7.org/fhir/us/core/StructureDefinition/us-core-provenance|6.1.0
+Alias: $USCoreServiceRequest = http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest|6.1.0 
+Alias: $USCoreSimpleObservation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation|6.1.0
+Alias: $USCoreRace = http://hl7.org/fhir/us/core/StructureDefinition/us-core-race|6.1.0
+Alias: $USCoreSmokingStatus = http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus|6.1.0
+Alias: $USCoreVitalSigns = http://hl7.org/fhir/us/core/StructureDefinition/us-core-vital-signs|6.1.0
 
 Alias: $USRealmHeader = http://hl7.org/fhir/us/ccda/StructureDefinition/US-Realm-Header
 
@@ -33,10 +35,21 @@ Alias: $PFEClinicalTestObservation = http://hl7.org/fhir/us/pacio-pfe/StructureD
 Alias: $PFENarrativeHistoryOfStatus = http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-narrative-history-of-status
 //Alias: $PFEServiceRequest = http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request
 Alias: $PFESingleObservation = http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single
+Alias: $PFEUseOfDevice = http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-use-of-device
 
 // PACIO Advance Directives Interoperability (ADI)
 Alias: $ADIPACPComposition = http://hl7.org/fhir/us/pacio-adi/StructureDefinition/ADI-PACPComposition
 
+// CCDA on FHIR
+Alias: $CCDAonFHIRDischargeSummary = http://hl7.org/fhir/us/ccda/StructureDefinition/Discharge-Summary
+
+// International Patient Summary
+Alias: $IPSComposition = http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
+
+// Dental Data Exchange
+Alias: $DDEDentalBundle = http://hl7.org/fhir/us/dental-data-exchange/StructureDefinition/dental-bundle
+
+// Terminology
 Alias: $HL7IdentifierType = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $HL7ProvenanceParticipantType = http://terminology.hl7.org/CodeSystem/provenance-participant-type|1.0.0
 Alias: $HL7NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
@@ -51,7 +64,9 @@ Alias: $HL7JurisdictionCodes = http://hl7.org/fhir/ValueSet/jurisdiction
 
 Alias: $LOINC = http://loinc.org
 Alias: $SNOMEDCT = http://snomed.info/sct //http://snomed.info/sct/731000124108
+Alias: $RXNORM = http://www.nlm.nih.gov/research/umls/rxnorm
 Alias: $OmbRaceCat = urn:oid:2.16.840.1.113883.6.238
+
 
 Alias: $HL7RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 Alias: $HL7RoleClass = http://terminology.hl7.org/CodeSystem/v3-RoleClass

@@ -1,16 +1,16 @@
-Instance: BSJ-Constipation
+Instance: BSJ-ConstipationDiagnosis
 InstanceOf: $USCoreConditionEncounterDiagnosis // $PFEConditionEncounterDiagnosis
 Usage: #example
 Title: "Constipation Diagnosis"
 Description: "Constipation Diagnosis for fictional patient Betsy Smith-Johnson."
 
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis" //"http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis|6.1.0" //"http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#21782001 "Drug-induced constipation (disorder)"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
-* category[0] = $icf#b5252 "Frequency of defecation"
-* category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
+//* category[0] = $icf#b5252 "Frequency of defecation"
+* category[0] = $condition-category#problem "Problem"
 * bodySite = $sct#71854001 "Colon structure (body structure)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2020-11"

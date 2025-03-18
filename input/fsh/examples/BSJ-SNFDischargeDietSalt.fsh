@@ -4,7 +4,7 @@ Usage: #example
 Title: "Discharge Service Request for reduced salt diet"
 Description: "Discharge Service Request for reduced salt diet for fictional patient Betsy Smith-Johnson."
 
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest"
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest|6.1.0"
 * status = #active
 * intent = #order
 * category = $sct#182922004 "Dietary regime (regime/therapy)"
@@ -15,4 +15,4 @@ Description: "Discharge Service Request for reduced salt diet for fictional pati
 * authoredOn = "2024-05-18"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
 * reasonReference[+] = Reference(Condition/BSJ-HeartDiseaseDiagnosis)
-* reasonReference[+] = Reference(Condition/BSJ-KidneyDisease)
+* reasonReference[+] = Reference(Condition/BSJ-KidneyDiseaseDiagnosis)

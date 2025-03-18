@@ -57,7 +57,7 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 //* section[medication_equipment].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medical equipment needed by Betsy Smith-Johnson</div>"
 
 * section[medications].title = "List of medications prescribed for Betsy Smith-Johnson"
-//* section[medications].entry[+] = 
+* section[medications].entry[+] = Reference(List/BSJ-SMPMedList)
 * section[medications].text.status = #additional
 * section[medications].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medications prescribed for Betsy Smith-Johnson</div>"
 
@@ -68,17 +68,17 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 
 * section[problems].title = "List of problem conditions and observations for Betsy Smith-Johnson"
 * section[problems].entry[+] = Reference(Condition/BSJ-AnemiaDiagnosis)
-* section[problems].entry[+] = Reference(Condition/BSJ-Constipation)
+* section[problems].entry[+] = Reference(Condition/BSJ-ConstipationDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-DepressionDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-DiabetesDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-DressingConcern)
 * section[problems].entry[+] = Reference(Condition/BSJ-HeartDiseaseDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-HemiparesisDiagnosis)
-* section[problems].entry[+] = Reference(Condition/BSJ-Hyperlipidemia)
+* section[problems].entry[+] = Reference(Condition/BSJ-HyperlipidemiaDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-HypertensionDiagnosis)
-* section[problems].entry[+] = Reference(Condition/BSJ-KidneyDisease)
+* section[problems].entry[+] = Reference(Condition/BSJ-KidneyDiseaseDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-NauseaAndVomiting)
-* section[problems].entry[+] = Reference(Condition/BSJ-Neuropathy)
+* section[problems].entry[+] = Reference(Condition/BSJ-NeuropathyDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-StrokeDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-UndressingConcern)
 * section[problems].entry[+] = Reference(Condition/OT-ProblemList-Decondition)

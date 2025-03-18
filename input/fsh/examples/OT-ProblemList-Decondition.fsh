@@ -4,14 +4,14 @@ Usage: #example
 Title: "OT Decondition Problem List"
 Description: "Occupational Therapy Decondition problem list for fictional patient Betsy Smith-Johnson."
 
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns"
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns|6.1.0"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#31031000119102 "Physical deconditioning (finding)"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
-* category[0] = $icf#b7303 "Power of muscles in lower half of the body"
-* category[+] = $condition-category#problem-list-item "Problem List Item"
-* category[+] = $us-core-category#functional-status "Functional Status"
+//* category[0] = $icf#b7303 "Power of muscles in lower half of the body"
+* category[0] = $condition-category#health-concern "Health Concern"
+//* category[+] = $us-core-category#functional-status "Functional Status"
 * bodySite = $sct#362875007 "Entire lower body (body structure)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2024-04-30T15:40:00-04:00"

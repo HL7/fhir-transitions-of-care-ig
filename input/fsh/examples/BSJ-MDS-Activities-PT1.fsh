@@ -6,7 +6,7 @@ Description: "Minimum Data Set (MDS) Nursing Home Discharge Assessment for Activ
 
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"
 * status = #final
-* category[PFEDomain] = $pfe-category-cs#blockl2-d51 "Self-care"
+* category[PFEDomain] = $pfe-category-cs#BlockL2-d51 "Self-care"
 * code = $loinc#101107-1 "MDS v3.0 - RAI v1.18.11 - Nursing home discharge (ND) item set during assessment period [CMS Assessment]"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 * effectiveDateTime = "2024-05-16T14:30:00-04:00"

@@ -12,10 +12,10 @@ This section defines additional requirements and guidance relevant to this IG as
 To claim conformance to a Profile in this IG, servers **SHALL**:
 
 - Be able to populate all Profile data elements that have a minimum cardinality >= 1 and/or flagged as Must Support as defined by that profile’s StructureDefinition.
-- Conform to the [Transitions of Care Capability Statement](CapabilityStatement-pacio-toc-cap.html) expectations for that Profile’s type.
+- Conform to the [Transitions of Care Capability Statement](CapabilityStatement-toc.html) expectations for that Profile’s type.
 
 ### Must Support
-The following rules apply to all Transitions of Care Profile elements marked as Must Support. A system that is incapable of ever sharing the element for a required profile, as defined in the [Transitions of Care Capability Statement](CapabilityStatement-pacio-toc-cap.html) is considered to be non-conformant to this implementation guide. Must Support on any profile data element **SHALL** be interpreted as follows:
+The following rules apply to all Transitions of Care Profile elements marked as Must Support. A system that is incapable of ever sharing the element for a required profile, as defined in the [Transitions of Care Capability Statement](CapabilityStatement-toc.html) is considered to be non-conformant to this implementation guide. Must Support on any profile data element **SHALL** be interpreted as follows:
 
 #### Data Source System Requirements
 
