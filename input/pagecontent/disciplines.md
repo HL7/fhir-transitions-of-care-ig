@@ -1,8 +1,8 @@
-The CMS Data Element Library (DEL) is a centralized repository that provides standardized definitions and mappings for data elements used in post-acute care (PAC) assessments, such as the Minimum Data Set (MDS), the Outcome and Assessment Information Set (OASIS), and the Inpatient Rehabilitation Facility Patient Assessment Instrument (IRF-PAI). By offering consistent terminology and interoperability standards, the DEL can significantly inform and improve transitions of care, particularly for patients moving between care settings. Below is an explanation of how the DEL contributes to transitions of care, supported by references:
+The Centers for Medicare & Medicaid Services (CMS) Data Element Library (DEL) is a centralized repository that provides standardized definitions and mappings for data elements used in post-acute care (PAC) assessments, such as the Minimum Data Set (MDS), the Outcome and Assessment Information Set (OASIS), and the Inpatient Rehabilitation Facility Patient Assessment Instrument (IRF-PAI). By offering consistent terminology and interoperability standards, the DEL can significantly inform and improve transitions of care, particularly for patients moving between care settings. Below is an explanation of how the DEL contributes to transitions of care, supported by references:
 
 ### Standardized Data for Continuity of Care ###
 
-The DEL ensures that PAC providers use standardized data elements, which are mapped to health IT standards such as Logical Observation Identifiers Names and Codes (LOINC) and SNOMED CT. This standardization allows for seamless communication and data exchange between different care settings, reducing the risk of errors or omissions during transitions of care.
+The DEL ensures that PAC providers use standardized data elements, which are mapped to health IT standards such as Logical Observation Identifiers Names and Codes (LOINC) and Systematized Medical Nomenclature for Medicine–Clinical Terminology (SNOMED CT). This standardization allows for seamless communication and data exchange between different care settings, reducing the risk of errors or omissions during transitions of care.
 
 Supporting Reference: CMS emphasizes that the DEL supports interoperability by aligning data elements with standards required for electronic health records (EHRs) under the 21st Century Cures Act. This alignment ensures that data can be shared across systems without loss of meaning or accuracy. (Centers for Medicare & Medicaid Services, 2023)
 
@@ -36,12 +36,12 @@ The CMS Data Element Library is a powerful tool for improving transitions of car
 
 The PACIO Community divided into several sub-groups, each representing a different medical discipline, to produce a minimum set of data elements that can support each discipline and provide comprehensive transitions of care information to a new facility receiving a patient.  The different groups included:
 
-* Doctors, Nurse Practitioners, Physician Assistants
-* Nurses
-* Occupational and Physical Therapists
+* Dieticians
+* Doctors, Nurse Practitioners, Physician Assistants (Doctor/NP/PA)
+* Occupational and Physical Therapists (OT/PT)
 * Speech and Language Pathologists
 * Pharmacists
-* Dieticians
+* Nurses
 * Behavioral Health Specialists
 
 Data elements from additional disciplines will be added as time and availability permits.  If you are interested in participating in this analysis, please contact us at [info (at) pacioproject.org](mailto:info@pacioproject.org).
