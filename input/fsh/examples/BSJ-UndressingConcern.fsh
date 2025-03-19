@@ -4,7 +4,7 @@ Usage: #example
 Title: "Undressing Concern"
 Description: "Undressing Concern for fictional patient Betsy Smith-Johnson."
 
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns|6.1.0"
+* meta.profile = Canonical(us-core-condition-problems-health-concerns|6.1.0)
 //* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed

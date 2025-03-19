@@ -4,6 +4,7 @@ Usage: #example
 Title: "Dr. Nura Mekel"
 Description: "Information about fictional practitioner Dr. Nura Mekel."
 
+* meta.profile = Canonical(us-core-practitioner|6.1.0)
 * name.given = "Nura"
 * name.family = "Mekel"
 * name.text = "Nura Mekel"

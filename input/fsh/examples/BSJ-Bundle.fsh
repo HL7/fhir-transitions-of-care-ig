@@ -11,7 +11,7 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 
 //-------------------------- Transition of Care Composition ---------------------------
 
-* entry[0].resource = BSJ-TOCComposition
+* entry[+].resource = BSJ-TOCComposition
 * entry[=].fullUrl = "http://www.example.org/fhir/Composition/BSJ-TOCComposition"
 
 //-------------------------- Patient ---------------------------

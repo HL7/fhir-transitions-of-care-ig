@@ -4,6 +4,7 @@ Usage: #example
 Title: "Everyday Community Pharmacy Organization"
 Description: "Information about the Everyday Community Pharmacy Organization."
 
+* meta.profile = Canonical(us-core-organization|6.1.0)
 * active = true
 * name = "Everyday Community Pharmacy"
 * telecom.system = #phone

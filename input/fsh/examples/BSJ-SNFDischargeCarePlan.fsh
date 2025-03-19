@@ -4,6 +4,7 @@ Usage: #example
 Title: "Discharge Care Plan"
 Description: "Discharge Care Plan for fictional patient Betsy Smith-Johnson."
 
+* meta.profile = Canonical(us-core-careplan|6.1.0)
 * status = #active
 * intent = #plan
 * category = $sct#736055001

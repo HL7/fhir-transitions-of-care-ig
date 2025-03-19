@@ -4,6 +4,7 @@ Usage: #example
 Title: "Location of the Everyday Community Pharmacy"
 Description: "Location of the Everyday Community Pharmacy."
 
+* meta.profile = Canonical(us-core-location|6.1.0)
 * status = #active
 * name = "Everyday Community Pharmacy"
 * address.line = "125 Yew St"

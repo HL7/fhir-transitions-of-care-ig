@@ -4,6 +4,7 @@ Usage: #example
 Title: "Happy Nursing Facility Organization"
 Description: "Information about the Happy Nursing Facility Organization."
 
+* meta.profile = Canonical(us-core-organization|6.1.0)
 * active = true
 * name = "Happy Nursing Facility"
 * telecom.system = #phone

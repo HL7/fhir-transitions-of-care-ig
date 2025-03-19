@@ -1,10 +1,10 @@
 Instance: BSJ-MDS-ShortWalk1
 InstanceOf: $PFESingleObservation
 Usage: #example
-Title: "Minimum Data Set (MDS) Discharge Assessment - Walk 50 feet with 2 turns"
+Title: "Discharge Assessment - Walk 50 feet with 2 turns"
 Description: "Minimum Data Set (MDS) Discharge Assessment - Walk 50 feet with 2 turns for fictional patient Betsy Smith-Johnson."
 
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+* meta.profile = Canonical($PFESingleObservation)
 * status = #final
 * category[PFEDomain] = $pfe-category-cs#d4600 "Moving Around Within the Home"
 * code = $loinc#89381-8 "Walk 50 feet with two turns - functional goal during assessment period [CMS Assessment]"

@@ -1,10 +1,10 @@
 Instance: BSJ-MDS-Donning1
 InstanceOf: $PFESingleObservation
 Usage: #example
-Title: "Minimum Data Set (MDS) Discharge Assessment - Lower body dressing"
+Title: "Discharge Assessment - Lower body dressing"
 Description: "Minimum Data Set (MDS) Discharge Assessment - Lower body dressing for fictional patient Betsy Smith-Johnson."
 
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+* meta.profile = Canonical($PFESingleObservation)
 * status = #final
 * category[PFEDomain] = $pfe-category-cs#d5400 "Putting On Clothes"
 * code = $loinc#89406-3 "Lower body dressing - functional goal during assessment period [CMS Assessment]"
