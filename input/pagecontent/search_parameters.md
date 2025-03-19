@@ -11,36 +11,36 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td><a href="{{site.data.fhir.path}}search.html">_id</a></td>
+			<td><a href="{{site.data.fhir.path}}search.html#id">_id</a></td>
 			<td><a href="{{site.data.fhir.path}}search.html#token">token</a></td>
 			<td><strong>SHOULD</strong></td>
 			<td>Search by FHIR resource ID</td>
-			<td><code class="highlighter-rouge">GET [base]/Bundle?_id=[id]</code></td>
+			<td><code class="highlighter-rouge">GET [base]/Bundle?_id=[id]</code></td> <!-- should this be Bundle?_id=[token] -->
 		</tr>
 		<tr>
-			<td><a href="SearchParameter-Bundle-composition.html">composition</a></td>
+			<td><a href="{{site.data.fhir.path}}bundle-search.html#Bundle-composition">composition</a></td>
 			<td><a href="{{site.data.fhir.path}}search.html#reference">reference</a></td>
 			<td><strong>SHOULD</strong></td>
 			<td>Search by reference to a composition</td>
 			<td><code class="highlighter-rouge">GET [base]/Bundle?composition=[reference]</code></td>
 		</tr>
   		<tr>
-			<td><a href="SearchParameter-Bundle-identifier.html">identifier</a></td>
+			<td><a href="{{site.data.fhir.path}}bundle-search.html#Bundle-identifier">identifier</a></td>
 			<td><a href="{{site.data.fhir.path}}search.html#token">token</a></td>
 			<td><strong>SHOULD</strong></td>
 			<td>Search by business identifier</td>
 			<td><code class="highlighter-rouge">GET [base]/Bundle?identifier=[token]</code></td>
 		</tr>
 		<tr>
-			<td><a href="SearchParameter-Bundle-timestamp.html">timestamp</a></td>
+			<td><a href="{{site.data.fhir.path}}bundle-search.html#Bundle-timestamp">timestamp</a></td>
 			<td><a href="{{site.data.fhir.path}}search.html#date">date</a></td>
 			<td><strong>SHOULD</strong></td>
 			<td>Search by a date in time</td>
 			<td><code class="highlighter-rouge">GET [base]/Bundle?timestamp=[date]</code></td>
 		</tr>
 		<tr>
-			<td><a href="SearchParameter-Bundle-type.html">type</a></td>
-			<td><a href="{{site.data.fhir.path}}search.html#code">token</a></td>
+			<td><a href="{{site.data.fhir.path}}bundle-search.html#Bundle-type">type</a></td>
+			<td><a href="{{site.data.fhir.path}}search.html#token">token</a></td>
 			<td><strong>SHOULD</strong></td>
 			<td>Search by type code</td>
 			<td><code class="highlighter-rouge">GET [base]/Bundle?type=[system]|[code]</code></td>
