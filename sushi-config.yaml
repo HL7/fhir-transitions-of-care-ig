@@ -95,7 +95,7 @@ pages:
   guidance.md:
     title: General Guidance
   disciplines.md:
-    title: Discipline-Specific Required DEL Information
+    title: Selecting Discipline-Specific Data Elements from the CMS Data Element Library
   underlying_technologies.md:
     title: Underlying Technologies
   security_privacy_consent.md:

@@ -34,7 +34,7 @@ Description: "This profile defines constraints that represent common administrat
 * section contains
     advance_directives 0..1 MS and
     allergies 1..1 MS and
-//  behavioral_health 0..1 MS and
+    behavioral_health 0..1 MS and
     functional_status 0..1 MS and
     immunizations 0..1 MS and
     instructions 0..1 MS and
@@ -63,12 +63,14 @@ Description: "This profile defines constraints that represent common administrat
 * section[allergies].entry 
 * section[allergies].entry only Reference($USCoreAllergyIntolerance)
 
-//* section[behavioral_health] ^short = "Behavioral Health"
-//* section[behavioral_health].title 1..1 MS
-//* section[behavioral_health].code 1..1
-//* section[behavioral_health].code = $LOINC#54511-1 "Behavior" /* not sure this is the right code */
-//* section[behavioral_health].entry
-//* section[behavioral_health].entry only Reference()
+* section[behavioral_health] ^short = "Behavioral Health"
+* section[behavioral_health].title 1..1 MS
+* section[behavioral_health].code 1..1
+* section[behavioral_health].code = $LOINC#54511-1 "Behavior" /* not sure this is the right code */
+* section[behavioral_health].entry
+* section[behavioral_health].entry only Reference($USCoreConditionEncounterDiagnosis or 
+                                            $USCoreConditionProblemsandHealthConcerns or
+                                            $USCoreSimpleObservation)
 
 * section[functional_status] ^short = "Functional Status"
 * section[functional_status].title 1..1 MS

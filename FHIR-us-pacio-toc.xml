@@ -89,7 +89,6 @@
 <artifact id="Parameters/exp-params" key="Parameters-exp-params" name="exp-params"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
-<page key="disciplines" name="Discipline-Specific Required DEL Information"/>
 <page key="downloads" name="Downloads"/>
 <page key="artifacts" name="FHIR Artifacts"/>
 <page key="formal_specification" name="Formal Specification"/>
@@ -97,6 +96,7 @@
 <page key="index" name="PACIO Transitions of Care Implementation Guide"/>
 <page key="search_parameters" name="Recommended Search Parameters"/>
 <page key="security_privacy_consent" name="Security, Privacy, and Consent"/>
+<page key="disciplines" name="Selecting Discipline-Specific Data Elements from the CMS Data Element Library"/>
 <page key="toc" name="Table of Contents"/>
 <page key="underlying_technologies" name="Underlying Technologies"/>
 <page key="usecases_personas" name="Use Cases, Personas, and Scenarios"/>
