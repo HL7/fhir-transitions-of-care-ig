@@ -4,7 +4,7 @@ Usage: #example
 Title: "Discharge Service Request for complete blood count"
 Description: "Discharge Service Request for complete blood count for fictional patient Betsy Smith-Johnson."
 
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest|6.1.0"
+* meta.profile = Canonical(us-core-servicerequest|6.1.0)
 * status = #active
 * intent = #order
 * category = $sct#108252007 "Laboratory procedure"

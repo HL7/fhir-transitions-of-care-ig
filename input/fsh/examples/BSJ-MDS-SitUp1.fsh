@@ -1,10 +1,10 @@
 Instance: BSJ-MDS-SitUp1
 InstanceOf: $PFESingleObservation
 Usage: #example
-Title: "Minimum Data Set (MDS) Discharge Assessment - Lying to sitting on side of bed"
+Title: "Discharge Assessment - Lying to sitting on side of bed"
 Description: "Minimum Data Set (MDS) Discharge Assessment - Lying to sitting on side of bed for fictional patient Betsy Smith-Johnson."
 
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+* meta.profile = Canonical($PFESingleObservation)
 * status = #final
 * category[PFEDomain] = $pfe-category-cs#d4100 "Lying Down"
 * code = $loinc#85927-2 "Lying to sitting on side of bed - functional goal during assessment period [CMS Assessment]"

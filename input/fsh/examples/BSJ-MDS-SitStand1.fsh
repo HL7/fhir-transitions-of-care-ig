@@ -1,12 +1,12 @@
 Instance: BSJ-MDS-SitStand1
 InstanceOf: $PFESingleObservation
 Usage: #example
-Title: "Minimum Data Set (MDS) Discharge Assessment - Sit to stand"
+Title: "Discharge Assessment - Sit to stand"
 Description: "Minimum Data Set (MDS) Discharge Assessment - Sit to stand for fictional patient Betsy Smith-Johnson."
 
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+* meta.profile = Canonical($PFESingleObservation)
 * status = #final
-* category[PFEDomain] = $pfe-category-cs#d4014 "Standing"
+* category[PFEDomain] = $pfe-category-cs#d4104 "Standing"
 * code = $loinc#89392-5 "Sit to stand - functional goal during assessment period [CMS Assessment]"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 * effectiveDateTime = "2024-05-16T14:30:00-04:00"

@@ -1,6 +1,9 @@
 Instance: BSJ-SMPMedList
 InstanceOf: List
+Title: "Home Medication List"
+Description: "Home medication list for Betsy Smith-Johnson"
 Usage: #example
+
 * status = #current
 * mode = #snapshot
 * title = "Home Medication List"
