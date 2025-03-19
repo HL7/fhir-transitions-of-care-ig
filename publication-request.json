@@ -1,0 +1,14 @@
+{
+    "package-id" : "hl7.fhir.us.pacio-toc",
+    "version" : "1.0.0-ballot",
+    "path" : "http://hl7.org/fhir/us/pacio-toc/STU1",
+    "status" : "ballot",
+    "sequence" : "STU 1",
+    "milestone": true,
+    "desc" : "Ballot version for STU1",
+    "descmd" : "Ballot version for STU1",
+    "title" : "PACIO Transitions of Care Implementation Guide",
+    "changes" : "change_log.html",
+    "first" : true, 
+    "mode" : "working"
+  }
