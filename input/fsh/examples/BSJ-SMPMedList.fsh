@@ -5,7 +5,7 @@ Description: "Home medication list for Betsy Smith-Johnson"
 Usage: #example
 
 * status = #current
-* mode = #snapshot
+* mode = #working
 * title = "Home Medication List"
 * code = $LOINC#104205-0 "Patient generated medication list [Identifier] Episode Pharmacy"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1) "Betsy Smith-Johnson"

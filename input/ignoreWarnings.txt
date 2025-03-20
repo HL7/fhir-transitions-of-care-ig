@@ -4,6 +4,8 @@
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
 
-WARNING: A definition for CodeSystem 'https://taxonomy.nucc.org/' could not be found, so the code cannot be validated
-
+# These package versions have been carefully considered and these are the versions we would like to use
 WARNING: The ImplementationGuide uses package hl7.fhir.us.pacio-pfe#2.0.0-ballot released on 2024-08-13, but the most recent appropriate version is 1.0.0. This reference is getting old and the more recent version should be considered
+WARNING: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 7.0.0. This reference is getting old and the more recent version should be considered
+WARNING: The ImplementationGuide uses package hl7.fhir.uv.ips#2.0.0-ballot released on 2024-08-12, but the most recent appropriate version is 1.1.0. This reference is getting old and the more recent version should be considered
+WARNING: The ImplementationGuide uses package hl7.fhir.us.ccda#2.0.0-ballot released on 2024-12-17, but the most recent appropriate version is 1.2.0. This reference is getting old and the more recent version should be considered
