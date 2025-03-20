@@ -41,7 +41,7 @@ Alias: $PFEUseOfDevice = http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pf
 Alias: $ADIPACPComposition = http://hl7.org/fhir/us/pacio-adi/StructureDefinition/ADI-PACPComposition
 
 // CCDA on FHIR
-Alias: $CCDAonFHIRDischargeSummary = http://hl7.org/fhir/us/ccda/StructureDefinition/Discharge-Summary
+Alias: $CCDAonFHIRDischargeSummary = http://hl7.org/fhir/us/ccda/StructureDefinition/Discharge-Summary|2.0.0-ballot
 
 // International Patient Summary
 Alias: $IPSComposition = http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips

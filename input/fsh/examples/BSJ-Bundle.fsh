@@ -4,8 +4,8 @@ Usage: #example
 Title: "Transition of Care Bundle"
 Description: "Example Transition of Care bundle for fictional patient Betsy Smith-Johnson."
 
-// * identifier.system = 
-// * identifier.value = 
+* identifier.system = "http://www.example.org/documents"
+* identifier.value = "12345"
 * type = #document
 * timestamp = "2024-05-10T14:25:34.001-05:00"
 

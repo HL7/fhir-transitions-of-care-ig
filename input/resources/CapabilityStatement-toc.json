@@ -380,7 +380,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/core/SearchParameter/us-core-patient-id",
+                            "definition": "http://hl7.org/fhir/us/core/SearchParameter/us-core-patient-id|6.1.0",
                             "documentation": "https://www.hl7.org/fhir/us/core/SearchParameter-us-core-patient-id.html",
                             "name": "_id",
                             "type": "token"
@@ -514,7 +514,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/core/SearchParameter/us-core-patient-family",
+                            "definition": "http://hl7.org/fhir/us/core/SearchParameter/us-core-patient-family|6.1.0",
                             "documentation": "https://www.hl7.org/fhir/us/core/SearchParameter-us-core-patient-family.html",
                             "name": "family",
                             "type": "string"
@@ -526,7 +526,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/core/SearchParameter/us-core-patient-gender",
+                            "definition": "http://hl7.org/fhir/us/core/SearchParameter/us-core-patient-gender|6.1.0",
                             "documentation": "https://www.hl7.org/fhir/us/core/SearchParameter-us-core-patient-given.html",
                             "name": "gender",
                             "type": "token"
@@ -549,7 +549,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/core/SearchParameter/us-core-patient-given",
+                            "definition": "http://hl7.org/fhir/us/core/SearchParameter/us-core-patient-given|6.1.0",
                             "documentation": "https://www.hl7.org/fhir/us/core/SearchParameter-us-core-patient-given.html",
                             "name": "given",
                             "type": "string"
@@ -561,7 +561,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/core/SearchParameter/us-core-patient-identifier",
+                            "definition": "http://hl7.org/fhir/us/core/SearchParameter/us-core-patient-identifier|6.1.0",
                             "documentation": "https://www.hl7.org/fhir/us/core/SearchParameter-us-core-patient-identifier.html",
                             "name": "identifier",
                             "type": "token"
@@ -595,7 +595,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/core/SearchParameter/us-core-patient-name",
+                            "definition": "http://hl7.org/fhir/us/core/SearchParameter/us-core-patient-name|6.1.0",
                             "documentation": "https://www.hl7.org/fhir/us/core/SearchParameter-us-core-patient-name.html",
                             "name": "name",
                             "type": "string"
@@ -651,7 +651,7 @@
                                     "valueCode": "MAY"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/core/SearchParameter/us-core-race",
+                            "definition": "http://hl7.org/fhir/us/core/SearchParameter/us-core-race|6.1.0",
                             "documentation": "https://www.hl7.org/fhir/us/core/SearchParameter-us-core-race.html",
                             "name": "race",
                             "type": "token"
@@ -663,7 +663,7 @@
                                     "valueCode": "MAY"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/core/SearchParameter/us-core-ethnicity",
+                            "definition": "http://hl7.org/fhir/us/core/SearchParameter/us-core-ethnicity|6.1.0",
                             "documentation": "https://www.hl7.org/fhir/us/core/SearchParameter-us-core-ethnicity.html",
                             "name": "ethnicity",
                             "type": "token"

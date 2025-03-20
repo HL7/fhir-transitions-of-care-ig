@@ -32,9 +32,14 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * section[allergies].text.status = #additional
 * section[allergies].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Allergies for Betsy Smith-Johnson</div>"
 
+//* section[behavioral_health].title = "Behavioral health information for Betsy Smith-Johnson"
+//* section[behavioral_health].code = $LOINC#54511-1 "Behavior"
+//* section[behavioral_health].entry[+] = 
+//* section[behavioral_health].text.status = #additional
+//* section[behavioral_health].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Behavioral health information for Betsy Smith-Johnson</div>"
+
 * section[functional_status].title = "Functional status of Betsy Smith-Johnson"
 * section[functional_status].code = $LOINC#54522-8 "Functional status"
-* section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Activities-PT1)
 * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Doffing1)
 * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Donning1)
 * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Mobility-PT1)

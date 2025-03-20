@@ -1,6 +1,5 @@
 {
   "resourceType" : "Parameters",
-  "description" : "Version of SNOMED-CT to use",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",

@@ -2,9 +2,9 @@ This section defines additional requirements and guidance relevant to this IG as
 
 ### System Role Definitions
 
-**Data Sources** are defined as systems that originate advance directive related documents & resources. These systems may be personal health records, clinical records, or even consumer-facing platforms.
+**Data Sources** are defined as systems that originate transition of care-related documents & resources. These systems may be personal health records, clinical records, or even consumer-facing platforms.
 
-**Data Consumers** are defined as systems retrieving or receiving advance directive information for direct use or integration into their application platform (as opposed to acting as a server or intermediary).
+**Data Consumers** are defined as systems retrieving or receiving transitions of care information for direct use or integration into their application platform (as opposed to acting as a server or intermediary).
 
 **Servers** are defined as systems that make transitions of care information available through query or retrieval.
 
