@@ -186,11 +186,11 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 
 //-------------------------- Locations ---------------------------
 
-* entry[+].resource = org-Loc-Everyday-Community-Pharm
-* entry[=].fullUrl = "http://www.example.org/fhir/Location/org-Loc-Everyday-Community-Pharm"
+// * entry[+].resource = org-Loc-Everyday-Community-Pharm
+// * entry[=].fullUrl = "http://www.example.org/fhir/Location/org-Loc-Everyday-Community-Pharm"
 
-* entry[+].resource = org-Loc-NED-Contract-Pharm
-* entry[=].fullUrl = "http://www.example.org/fhir/Location/org-Loc-NED-Contract-Pharm"
+// * entry[+].resource = org-Loc-NED-Contract-Pharm
+// * entry[=].fullUrl = "http://www.example.org/fhir/Location/org-Loc-NED-Contract-Pharm"
 
 * entry[+].resource = org-Loc-Neuro-Care-Inc
 * entry[=].fullUrl = "http://www.example.org/fhir/Location/org-Loc-Neuro-Care-Inc"
@@ -209,11 +209,11 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 * entry[+].resource = org-PC-Primary-Care-Michigan
 * entry[=].fullUrl = "http://www.example.org/fhir/Organization/org-PC-Primary-Care-Michigan"
 
-* entry[+].resource = org-Pharm-Everyday-Community-Pharm
-* entry[=].fullUrl = "http://www.example.org/fhir/Organization/org-Pharm-Everyday-Community-Pharm"
+// * entry[+].resource = org-Pharm-Everyday-Community-Pharm
+// * entry[=].fullUrl = "http://www.example.org/fhir/Organization/org-Pharm-Everyday-Community-Pharm"
 
-* entry[+].resource = org-Pharm-NED-Contract-Pharm
-* entry[=].fullUrl = "http://www.example.org/fhir/Organization/org-Pharm-NED-Contract-Pharm"
+// * entry[+].resource = org-Pharm-NED-Contract-Pharm
+// * entry[=].fullUrl = "http://www.example.org/fhir/Organization/org-Pharm-NED-Contract-Pharm"
 
 * entry[+].resource = org-SNF-Happy-Nursing-Facility
 * entry[=].fullUrl = "http://www.example.org/fhir/Organization/org-SNF-Happy-Nursing-Facility"
@@ -232,11 +232,11 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 * entry[+].resource = Example-NuraMekel
 * entry[=].fullUrl = "http://www.example.org/fhir/Practitioner/Example-NuraMekel"
 
-* entry[+].resource = Example-Phil-Chekhov
-* entry[=].fullUrl = "http://www.example.org/fhir/Practitioner/Example-Phil-Chekhov"
+// * entry[+].resource = Example-Phil-Chekhov
+// * entry[=].fullUrl = "http://www.example.org/fhir/Practitioner/Example-Phil-Chekhov"
 
-* entry[+].resource = Example-Tracy-Count
-* entry[=].fullUrl = "http://www.example.org/fhir/Practitioner/Example-Tracy-Count"
+// * entry[+].resource = Example-Tracy-Count
+// * entry[=].fullUrl = "http://www.example.org/fhir/Practitioner/Example-Tracy-Count"
 
 //-------------------------- Practitioner Roles ---------------------------
 
@@ -249,11 +249,11 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 * entry[+].resource = Role-OT-JenCadbury
 * entry[=].fullUrl = "http://www.example.org/fhir/PractitionerRole/Role-OT-JenCadbury"
 
-* entry[+].resource = Role-Pharm-PhilChekhov
-* entry[=].fullUrl = "http://www.example.org/fhir/PractitionerRole/Role-Pharm-PhilChekhov"
+// * entry[+].resource = Role-Pharm-PhilChekhov
+// * entry[=].fullUrl = "http://www.example.org/fhir/PractitionerRole/Role-Pharm-PhilChekhov"
 
-* entry[+].resource = Role-Pharm-TracyCount
-* entry[=].fullUrl = "http://www.example.org/fhir/PractitionerRole/Role-Pharm-TracyCount"
+// * entry[+].resource = Role-Pharm-TracyCount
+// * entry[=].fullUrl = "http://www.example.org/fhir/PractitionerRole/Role-Pharm-TracyCount"
 
 * entry[+].resource = Role-SNFDoc-GeraldPark
 * entry[=].fullUrl = "http://www.example.org/fhir/PractitionerRole/Role-SNFDoc-GeraldPark"
