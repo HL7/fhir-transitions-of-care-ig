@@ -10,7 +10,7 @@ Description: "Depression Diagnosis for fictional patient Betsy Smith-Johnson."
 * code = $sct#35489007 "Depressive disorder (disorder)"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 //* category[0] = $icf#b152 "Emotional functions"
-* category[0] = $condition-category#problem "Problem"
+* category[us-core] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#12738006 "Brain structure (body structure)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2005-02"

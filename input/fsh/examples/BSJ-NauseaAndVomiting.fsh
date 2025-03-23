@@ -10,7 +10,7 @@ Description: "Nausea and vomiting for fictional patient Betsy Smith-Johnson."
 * code = $sct#16932000 "Nausea and Vomiting (disorder)"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 //* category[0] = $icf#b5350 "Sensation of nausea"
-* category[0] = $condition-category#problem "Problem"
+* category[us-core] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2024-04-18T16:30:00-04:00"
 * onsetDateTime = "2024-04-18T16:30:00-04:00"

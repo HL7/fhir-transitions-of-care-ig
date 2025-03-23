@@ -10,7 +10,7 @@ Description: "Hypertension Diagnosis for fictional patient Betsy Smith-Johnson."
 * code = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 //* category[0] = $icf#b4202 "Maintenance of blood pressure"
-* category[0] = $condition-category#problem "Problem"
+* category[us-core] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#113257007 "Structure of cardiovascular system (body structure)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2011-09"
