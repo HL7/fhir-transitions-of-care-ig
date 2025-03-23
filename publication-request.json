@@ -5,10 +5,13 @@
     "status" : "ballot",
     "sequence" : "STU 1",
     "milestone": true,
-    "desc" : "Ballot version for STU1",
-    "descmd" : "Ballot version for STU1",
+    "desc" : "Ballot version for STU1 FHIR Transitions of Care",
+    "descmd" : "Ballot version for STU1 FHIR Transitions of Care",
     "title" : "PACIO Transitions of Care Implementation Guide",
     "changes" : "change_log.html",
     "first" : true, 
-    "mode" : "working"
+    "mode" : "working",
+    "ci-build" : "https://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig/",
+    "introduction" : "This Implementation Guide provides a standards-based solution to support care transitions and coordination for Long-Term Post-Acute Care (LTPAC) patients across all settings of care.",
+    "category": "Clinical Documents"
 }
