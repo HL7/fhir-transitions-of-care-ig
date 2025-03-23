@@ -6,6 +6,7 @@ Description: "Minimum Data Set (MDS) Discharge Assessment - Lower body dressing 
 
 * meta.profile = Canonical($PFESingleObservation)
 * status = #final
+* category[us-core] = $us-core-category#functional-status "Functional Status"
 * category[PFEDomain] = $pfe-category-cs#d5400 "Putting On Clothes"
 * code = $loinc#89406-3 "Lower body dressing - functional goal during assessment period [CMS Assessment]"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
