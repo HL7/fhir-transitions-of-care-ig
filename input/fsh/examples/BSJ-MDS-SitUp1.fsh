@@ -6,6 +6,7 @@ Description: "Minimum Data Set (MDS) Discharge Assessment - Lying to sitting on 
 
 * meta.profile = Canonical($PFESingleObservation)
 * status = #final
+* category[survey] = $observation-category#survey "Survey"
 * category[us-core] = $us-core-category#functional-status "Functional Status"
 * category[PFEDomain] = $pfe-category-cs#d4100 "Lying Down"
 * code = $loinc#85927-2 "Lying to sitting on side of bed - functional goal during assessment period [CMS Assessment]"

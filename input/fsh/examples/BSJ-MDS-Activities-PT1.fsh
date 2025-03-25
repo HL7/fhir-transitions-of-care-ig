@@ -6,7 +6,8 @@ Description: "Minimum Data Set (MDS) Nursing Home Discharge Assessment for Activ
 
 * meta.profile = Canonical($PFECollection)
 * status = #final
-* category[us-core] = $observation-category#activity "Activity"
+* category[survey] = $observation-category#survey "Survey"
+* category[us-core] = $us-core-category#activity "Activity"
 * category[PFEDomain] = $pfe-category-cs#BlockL2-d51 "Self-care"
 * code = $loinc#101107-1 "MDS v3.0 - RAI v1.18.11 - Nursing home discharge (ND) item set during assessment period [CMS Assessment]"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
