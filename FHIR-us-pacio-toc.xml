@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/us/pacio-toc/STU1" ciUrl="https://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig/" defaultVersion="1.0.0-ballot" defaultWorkgroup="pc" url="http://hl7.org/fhir/us/pacio-toc">
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/us/pacio-toc/2025May" ciUrl="https://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig/" defaultVersion="1.0.0-ballot" defaultWorkgroup="pc" url="http://hl7.org/fhir/us/pacio-toc">
 <version code="current" url="https://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig/"/>
-<version code="1.0.0-ballot" url="http://hl7.org/fhir/us/pacio-toc/STU1"/>
+<version code="1.0.0-ballot" url="http://hl7.org/fhir/us/pacio-toc/2025May"/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
@@ -86,7 +86,6 @@
 <artifact id="ValueSet/toc-loinc-answered-by-LL5571-6-vs" key="ValueSet-toc-loinc-answered-by-LL5571-6-vs" name="Transitions of Care LOINC Terms Answered by LL5571-6 Answer List Value Set"/>
 <artifact id="ValueSet/toc-del-loinc-answered-by-LL5571-6-vs" key="ValueSet-toc-del-loinc-answered-by-LL5571-6-vs" name="Transitions of Care LOINC Terms Included in the DEL Answered by LL5571-6 Answer List Value Set"/>
 <artifact id="Condition/BSJ-UndressingConcern" key="Condition-BSJ-UndressingConcern" name="Undressing Concern"/>
-<artifact id="Parameters/exp-params" key="Parameters-exp-params" name="exp-params"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="downloads" name="Downloads"/>
