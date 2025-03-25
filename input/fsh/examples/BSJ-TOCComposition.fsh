@@ -17,8 +17,8 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * title = "Transitions of Care Document for Betsy Smith-Johnson"
 * custodian = Reference(Organization/org-SNF-Happy-Nursing-Facility)
 
-* section.text.status = #additional
-* section.text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Information sections for the transitions of care for Betsy Smith-Johnson</div>"
+//* section.text.status = #additional
+//* section.text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Information sections for the transitions of care for Betsy Smith-Johnson</div>"
 
 //* section[advance_directives].title = "Advance directives for Betsy Smith-Johnson"
 //* section[advance_directives].code = $LOINC#42348-3
