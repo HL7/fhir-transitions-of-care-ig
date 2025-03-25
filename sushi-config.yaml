@@ -27,7 +27,7 @@ extension:
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
     valueInteger: 2
 parameters:
-  path-expansion-params: '../../input/resources/exp-params.json'  #path is relative to [base]/fsh-generated/resources
+  path-expansion-params: '../../input/exp-params.json'  #path is relative to [base]/fsh-generated/resources
 contact:
   - name: PACIO project
     telecom:
