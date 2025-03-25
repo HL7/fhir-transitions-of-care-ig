@@ -6,6 +6,8 @@ Description: "Minimum Data Set (MDS) Discharge Assessment - Walk 50 feet with 2 
 
 * meta.profile = Canonical($PFESingleObservation)
 * status = #final
+* category[survey] = $observation-category#survey "Survey"
+* category[us-core] = $us-core-category#functional-status "Functional Status"
 * category[PFEDomain] = $pfe-category-cs#d4600 "Moving Around Within the Home"
 * code = $loinc#89381-8 "Walk 50 feet with two turns - functional goal during assessment period [CMS Assessment]"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)

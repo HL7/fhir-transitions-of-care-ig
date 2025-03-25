@@ -10,7 +10,7 @@ Description: "Diabetes Diagnosis for fictional patient Betsy Smith-Johnson."
 * code = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 //* category[0] = $icf#b5401 "Carbohydrate metabolism"
-* category[0] = $condition-category#problem "Problem"
+* category[us-core] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#113331007 "Structure of endocrine system (body structure)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2017-06"

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="pc" url="http://hl7.org/fhir/us/pacio-toc">
-<version code="current" url=""/>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/us/pacio-toc/STU1" ciUrl="https://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig/" defaultVersion="1.0.0-ballot" defaultWorkgroup="pc" url="http://hl7.org/fhir/us/pacio-toc">
+<version code="current" url="https://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig/"/>
+<version code="1.0.0-ballot" url="http://hl7.org/fhir/us/pacio-toc/STU1"/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
@@ -65,7 +66,6 @@
 <artifact id="Condition/BSJ-NeuropathyDiagnosis" key="Condition-BSJ-NeuropathyDiagnosis" name="Neuropathy Diagnosis"/>
 <artifact id="Organization/org-Pharm-NED-Contract-Pharm" key="Organization-org-Pharm-NED-Contract-Pharm" name="Not Every Day Contract Pharmacy Organization"/>
 <artifact id="Observation/BSJ-MDS-Mobility-PT1" key="Observation-BSJ-MDS-Mobility-PT1" name="Nursing Home Discharge Assessment Questions - Mobility Part 1"/>
-<artifact id="Observation/BSJ-MDS-Activities-PT1" key="Observation-BSJ-MDS-Activities-PT1" name="Nursing Home Discharge Assessment for Activities Questions - Part 1"/>
 <artifact id="Condition/OT-ProblemList-Decondition" key="Condition-OT-ProblemList-Decondition" name="OT Decondition Problem List"/>
 <artifact id="Condition/OT-ProblemList-RightWeak" key="Condition-OT-ProblemList-RightWeak" name="OT Right Weakness Problem List"/>
 <artifact id="Patient/Example-Smith-Johnson-Patient1" key="Patient-Example-Smith-Johnson-Patient1" name="Patient - Betsy Smith-Johnson"/>

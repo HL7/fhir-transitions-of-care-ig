@@ -10,7 +10,7 @@ Description: "Stroke Diagnosis for fictional patient Betsy Smith-Johnson."
 * code = $sct#422504002 "Ischemic Stroke (disorder)"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 //* category[0] = $icf#s11009 "Structure of cortical lobes, unspecified"
-* category[0] = $condition-category#problem "Problem"
+* category[us-core] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite[0] = $sct#414722000 "Structure of middle cerebral artery M1 segment (body structure)"
 * bodySite[+] = $sct#7771000 "Left"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"

@@ -7,7 +7,7 @@ Description: "Discharge Service Request for decreased protein and/or protein der
 * meta.profile = Canonical(us-core-servicerequest|6.1.0)
 * status = #active
 * intent = #order
-* category = $sct#182922004 "Dietary regime (regime/therapy)"
+* category[us-core] = $sct#386053000 "Evaluation procedure (procedure)"
 * code = $sct#1055201009 "Decreased protein and/or protein derivative diet (regime/therapy)"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 * priority = #routine

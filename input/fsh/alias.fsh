@@ -41,7 +41,7 @@ Alias: $PFEUseOfDevice = http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pf
 Alias: $ADIPACPComposition = http://hl7.org/fhir/us/pacio-adi/StructureDefinition/ADI-PACPComposition
 
 // CCDA on FHIR
-Alias: $CCDAonFHIRDischargeSummary = http://hl7.org/fhir/us/ccda/StructureDefinition/Discharge-Summary
+Alias: $CCDAonFHIRDischargeSummary = http://hl7.org/fhir/us/ccda/StructureDefinition/Discharge-Summary|2.0.0-ballot
 
 // International Patient Summary
 Alias: $IPSComposition = http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
@@ -92,19 +92,20 @@ Alias: $data-absent-reason = http://terminology.hl7.org/CodeSystem/data-absent-r
 
 // From gofsh execution on FHIR JSON sample data
 Alias: $sct = http://snomed.info/sct //http://snomed.info/sct/731000124108
+Alias: $loinc = http://loinc.org
+Alias: $icf = http://hl7.org/fhir/sid/icf
 Alias: $allergyintolerance-clinical = http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical
 Alias: $allergyintolerance-verification = http://terminology.hl7.org/CodeSystem/allergyintolerance-verification
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
 Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
 Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-ver-status
-Alias: $icf = http://hl7.org/fhir/sid/icf
-Alias: $condition-category = http://hl7.org/fhir/us/core/CodeSystem/condition-category
 Alias: $us-core-category = http://hl7.org/fhir/us/core/CodeSystem/us-core-category
+Alias: $condition-category = http://terminology.hl7.org/CodeSystem/condition-category
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: $careplan-category = http://hl7.org/fhir/us/core/CodeSystem/careplan-category
 Alias: $pfe-functioning-cs = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs
 Alias: $pfe-category-cs = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs
-Alias: $loinc = http://loinc.org
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
-Alias: $taxonomy = https://taxonomy.nucc.org/
+Alias: $taxonomy = http://nucc.org/provider-taxonomy

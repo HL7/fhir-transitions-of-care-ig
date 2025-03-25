@@ -10,7 +10,7 @@ Description: "Occupational Therapy Decondition problem list for fictional patien
 * code = $sct#31031000119102 "Physical deconditioning (finding)"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 //* category[0] = $icf#b7303 "Power of muscles in lower half of the body"
-* category[0] = $condition-category#health-concern "Health Concern"
+* category[us-core] = $condition-category#problem-list-item "Problem List Item"
 //* category[+] = $us-core-category#functional-status "Functional Status"
 * bodySite = $sct#362875007 "Entire lower body (body structure)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"

@@ -26,7 +26,7 @@ Description: "This profile defines constraints that represent common administrat
 
 * section 1..*
 * section.text 1..1 MS
-* section ^slicing.discriminator.type = #pattern 
+* section ^slicing.discriminator.type = #value 
 * section ^slicing.discriminator.path = "code"
 * section ^slicing.rules = #open
 * section ^slicing.ordered = false   // can be omitted, since false is the default

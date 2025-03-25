@@ -7,7 +7,7 @@ Description: "Discharge Service Request for physical therapy referral for fictio
 * meta.profile = Canonical(us-core-servicerequest|6.1.0)
 * status = #active
 * intent = #order
-* category = $sct#386053000 "Evaluation procedure (procedure)"
+* category[us-core] = $sct#386053000 "Evaluation procedure (procedure)"
 * code = $sct#410158009 "Physical therapy assessment (procedure)"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 * priority = #routine

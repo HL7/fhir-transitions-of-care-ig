@@ -7,10 +7,10 @@ Description: "Occupational Therapy Right Weakness problem list for fictional pat
 * meta.profile = Canonical(us-core-condition-problems-health-concerns|6.1.0)
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#570961000124101 "Weakness of right upper limb (finding)"
+* code = $sct#713512009 "Muscle weakness of upper limb (finding)"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 //* category[0] = $icf#b7301 "Power of muscles of one limb"
-* category[0] = $condition-category#health-concern "Health Concern"
+* category[us-core] = $condition-category#problem-list-item "Problem List Item"
 //* category[+] = $us-core-category#functional-status "Functional Status"
 * bodySite = $sct#368209003 "Right upper arm structure (body structure)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"

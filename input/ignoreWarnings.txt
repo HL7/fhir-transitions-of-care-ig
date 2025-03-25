@@ -4,6 +4,21 @@
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
 
-WARNING: A definition for CodeSystem 'https://taxonomy.nucc.org/' could not be found, so the code cannot be validated
+# These package versions have been carefully considered and these are the versions we would like to use
+%The ImplementationGuide uses package hl7.fhir.us.pacio-pfe#2.0.0-ballot released on 2024-08-13%
+%The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30%
+%The ImplementationGuide uses package hl7.fhir.uv.ips#2.0.0-ballot released on 2024-08-12%
+%The ImplementationGuide uses package hl7.fhir.us.ccda#2.0.0-ballot released on 2024-12-17%
 
-WARNING: The ImplementationGuide uses package hl7.fhir.us.pacio-pfe#2.0.0-ballot released on 2024-08-13, but the most recent appropriate version is 1.0.0. This reference is getting old and the more recent version should be considered
+# These warnings are for dependency IGs, which we do not have direct control over
+%There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber'.%
+%There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-ActCode'.%
+%There are multiple different potential matches for the url 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure'.%
+%Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-category|4.2.0%
+%Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.2.0%
+%Reference to draft CodeSystem http://hl7.org/fhir/narrative-status|4.0.1%
+%Reference to draft ValueSet http://hl7.org/fhir/ValueSet/servicerequest-category|4.0.1%
+
+# The values for these category do come from the recommended value sets
+%None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set (codes = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs%
+%None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#functional-status)%
