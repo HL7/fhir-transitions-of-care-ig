@@ -7,7 +7,7 @@ Description: "Discharge Service Request for blood chemistry procedure for fictio
 * meta.profile = Canonical(us-core-servicerequest|6.1.0)
 * status = #active
 * intent = #order
-* category = $sct#108252007 "Laboratory procedure"
+* category[us-core] = $sct#108252007 "Laboratory procedure"
 * code = $sct#166312007 "Blood chemistry (procedure)"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 * priority = #routine

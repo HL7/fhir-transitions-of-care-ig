@@ -16,8 +16,9 @@
 %There are multiple different potential matches for the url 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure'.%
 %Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-category|4.2.0%
 %Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.2.0%
+%Reference to draft CodeSystem http://hl7.org/fhir/narrative-status|4.0.1%
+%Reference to draft ValueSet http://hl7.org/fhir/ValueSet/servicerequest-category|4.0.1%
 
 # The values for these category do come from the recommended value sets
 %None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set (codes = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs%
-%None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#activity)%
 %None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#functional-status)%
