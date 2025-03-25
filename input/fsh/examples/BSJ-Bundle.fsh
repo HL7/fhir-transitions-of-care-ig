@@ -76,8 +76,8 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 
 //-------------------------- Assessments ---------------------------
 
-* entry[+].resource = BSJ-MDS-Activities-PT1
-* entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-Activities-PT1"
+//* entry[+].resource = BSJ-MDS-Activities-PT1
+//* entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-Activities-PT1"
 
 * entry[+].resource = BSJ-MDS-Doffing1
 * entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-Doffing1"

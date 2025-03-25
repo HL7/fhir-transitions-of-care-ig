@@ -7,7 +7,7 @@ Description: "Discharge Care Plan for fictional patient Betsy Smith-Johnson."
 * meta.profile = Canonical(us-core-careplan|6.1.0)
 * status = #active
 * intent = #plan
-* category = $sct#736055001
+* category[AssessPlan] = $careplan-category#assess-plan "Assessment and Plan of Treatment"
 * subject = Reference(Example-Smith-Johnson-Patient1)
 
 * activity[+].reference = Reference(ServiceRequest/BSJ-PCPFollowUp)

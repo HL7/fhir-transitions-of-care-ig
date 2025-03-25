@@ -102,6 +102,7 @@ Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-v
 Alias: $us-core-category = http://hl7.org/fhir/us/core/CodeSystem/us-core-category
 Alias: $condition-category = http://terminology.hl7.org/CodeSystem/condition-category
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: $careplan-category = http://hl7.org/fhir/us/core/CodeSystem/careplan-category
 Alias: $pfe-functioning-cs = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs
 Alias: $pfe-category-cs = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
