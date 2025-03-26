@@ -70,7 +70,6 @@
 <artifact id="Condition/OT-ProblemList-Decondition" key="Condition-OT-ProblemList-Decondition" name="OT Decondition Problem List"/>
 <artifact id="Condition/OT-ProblemList-RightWeak" key="Condition-OT-ProblemList-RightWeak" name="OT Right Weakness Problem List"/>
 <artifact id="Patient/Example-Smith-Johnson-Patient1" key="Patient-Example-Smith-Johnson-Patient1" name="Patient - Betsy Smith-Johnson"/>
-<artifact id="StructureDefinition/toc-reason-extension" key="StructureDefinition-toc-reason-extension" name="Reason"/>
 <artifact id="PractitionerRole/Role-IMMD-AnitaChu" key="PractitionerRole-Role-IMMD-AnitaChu" name="Role of Dr. Anita Chu"/>
 <artifact id="PractitionerRole/Role-SNFDoc-GeraldPark" key="PractitionerRole-Role-SNFDoc-GeraldPark" name="Role of Dr. Gerald Park"/>
 <artifact id="PractitionerRole/Role-OT-JenCadbury" key="PractitionerRole-Role-OT-JenCadbury" name="Role of Dr. Jen Cadbury"/>
