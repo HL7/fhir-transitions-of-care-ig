@@ -70,7 +70,6 @@ menu:
   FHIR Artifacts:
     Capability Statement: artifacts.html#behavior-capability-statements
     Profiles: artifacts.html#structures-resource-profiles
-    Extension Definitions: artifacts.html#structures-extension-definitions
     Terminology: artifacts.html#terminology-value-sets
     Examples: artifacts.html#example-example-instances
     Search Parameters: search_parameters.html
