@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/us/pacio-toc/STU1" ciUrl="https://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig/" defaultVersion="1.0.0-ballot" defaultWorkgroup="pc" url="http://hl7.org/fhir/us/pacio-toc">
-<version code="current" url="https://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig/"/>
-<version code="1.0.0-ballot" url="http://hl7.org/fhir/us/pacio-toc/STU1"/>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/us/pacio-toc/2025May" ciUrl="https://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig" defaultVersion="1.0.0-ballot" defaultWorkgroup="pc" url="http://hl7.org/fhir/us/pacio-toc" gitUrl="https://github.com/HL7/fhir-transitions-of-care-ig">
+<version code="current" url="https://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig"/>
+<version code="1.0.0-ballot" url="http://hl7.org/fhir/us/pacio-toc/2025May"/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
@@ -31,6 +31,7 @@
 <artifact id="Practitioner/Example-Phil-Chekhov" key="Practitioner-Example-Phil-Chekhov" name="Dr. Phil Chekhov"/>
 <artifact id="Practitioner/Example-Tracy-Count" key="Practitioner-Example-Tracy-Count" name="Dr. Tracy Count"/>
 <artifact id="Condition/BSJ-DressingConcern" key="Condition-BSJ-DressingConcern" name="Dressing Concerns"/>
+<artifact id="Encounter/BSJ-Encounter" key="Encounter-BSJ-Encounter" name="Encounter"/>
 <artifact id="Organization/org-Pharm-Everyday-Community-Pharm" key="Organization-org-Pharm-Everyday-Community-Pharm" name="Everyday Community Pharmacy Organization"/>
 <artifact id="Organization/org-SNF-Happy-Nursing-Facility" key="Organization-org-SNF-Happy-Nursing-Facility" name="Happy Nursing Facility Organization"/>
 <artifact id="Condition/BSJ-HeartDiseaseDiagnosis" key="Condition-BSJ-HeartDiseaseDiagnosis" name="Heart Disease Diagnosis"/>
@@ -69,7 +70,6 @@
 <artifact id="Condition/OT-ProblemList-Decondition" key="Condition-OT-ProblemList-Decondition" name="OT Decondition Problem List"/>
 <artifact id="Condition/OT-ProblemList-RightWeak" key="Condition-OT-ProblemList-RightWeak" name="OT Right Weakness Problem List"/>
 <artifact id="Patient/Example-Smith-Johnson-Patient1" key="Patient-Example-Smith-Johnson-Patient1" name="Patient - Betsy Smith-Johnson"/>
-<artifact id="StructureDefinition/toc-reason-extension" key="StructureDefinition-toc-reason-extension" name="Reason"/>
 <artifact id="PractitionerRole/Role-IMMD-AnitaChu" key="PractitionerRole-Role-IMMD-AnitaChu" name="Role of Dr. Anita Chu"/>
 <artifact id="PractitionerRole/Role-SNFDoc-GeraldPark" key="PractitionerRole-Role-SNFDoc-GeraldPark" name="Role of Dr. Gerald Park"/>
 <artifact id="PractitionerRole/Role-OT-JenCadbury" key="PractitionerRole-Role-OT-JenCadbury" name="Role of Dr. Jen Cadbury"/>
@@ -86,7 +86,6 @@
 <artifact id="ValueSet/toc-loinc-answered-by-LL5571-6-vs" key="ValueSet-toc-loinc-answered-by-LL5571-6-vs" name="Transitions of Care LOINC Terms Answered by LL5571-6 Answer List Value Set"/>
 <artifact id="ValueSet/toc-del-loinc-answered-by-LL5571-6-vs" key="ValueSet-toc-del-loinc-answered-by-LL5571-6-vs" name="Transitions of Care LOINC Terms Included in the DEL Answered by LL5571-6 Answer List Value Set"/>
 <artifact id="Condition/BSJ-UndressingConcern" key="Condition-BSJ-UndressingConcern" name="Undressing Concern"/>
-<artifact id="Parameters/exp-params" key="Parameters-exp-params" name="exp-params"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="downloads" name="Downloads"/>

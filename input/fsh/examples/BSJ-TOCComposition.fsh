@@ -106,12 +106,13 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 //* section[procedures].text.status = #additional
 //* section[procedures].text.div = "<div>List of procedures prescribed for Betsy Smith-Johnson</div>"
 
-//* section[reason_for_referral].title = "Reason for referring Betsy Smith-Johnson"
-//* section[reason_for_referral].code = $LOINC#42349-1 "Reason for referral (narrative)"
-//* section[reason_for_referral].text.status = #additional
-//* section[reason_for_referral].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Reason for referring Betsy Smith-Johnson</div>"
-//* section[reason_for_referral].reason.code = 
-//* section[reason_for_referral].reason.reference = 
+* section[reason_for_referral].title = "Reason for referring Betsy Smith-Johnson"
+* section[reason_for_referral].code = $LOINC#42349-1 "Reason for referral (narrative)"
+* section[reason_for_referral].text.status = #additional
+* section[reason_for_referral].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Reason for referring Betsy Smith-Johnson</div>"
+* section[reason_for_referral].entry[+] = Reference(Encounter/BSJ-Encounter)
+// * section[reason_for_referral] extension[ReasonExtension].code = $sct#404684003 "Clinical finding (finding)"
+// * section[reason_for_referral] extension[ReasonExtension].reference = Reference(Encounter/BSJ-Encounter)
 
 //* section[reason_for_visit].title = "Reason for visit (ambulatory) for Betsy Smith-Johnson"
 //* section[reason_for_visit].code = $LOINC#29299-5 "Reason for visit Narrative"

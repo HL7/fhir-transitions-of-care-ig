@@ -136,15 +136,23 @@ Description: "This profile defines constraints that represent common administrat
 * section[reason_for_referral].title 1..1 MS
 * section[reason_for_referral].code 1..1 
 * section[reason_for_referral].code = $LOINC#42349-1 "Reason for referral (narrative)"
-* section[reason_for_referral].extension contains
-    toc-reason-extension named ReasonExtension 0..1
+* section[reason_for_referral].entry
+* section[reason_for_referral].entry only Reference($USCoreConditionProblemsandHealthConcerns or $USCoreConditionEncounterDiagnosis or 
+ 														$USCoreProcedure or Observation or ImmunizationRecommendation or 
+ 														$CCDAonFHIRDischargeSummary or $USCoreEncounter)
+// * section[reason_for_referral].extension contains
+//     transition-of-care-reason named ReasonExtension 0..1
 
 * section[reason_for_visit] ^short = "Reason for Visit (Ambulatory)"
 * section[reason_for_visit].title 1..1 MS
 * section[reason_for_visit].code 1..1 
 * section[reason_for_visit].code = $LOINC#29299-5 "Reason for visit Narrative"
-* section[reason_for_visit].extension contains
-    toc-reason-extension named ReasonExtension 0..1
+* section[reason_for_visit].entry
+* section[reason_for_visit].entry only Reference($USCoreConditionProblemsandHealthConcerns or $USCoreConditionEncounterDiagnosis or 
+ 														$USCoreProcedure or Observation or ImmunizationRecommendation or 
+ 														$CCDAonFHIRDischargeSummary or $USCoreEncounter)
+// * section[reason_for_visit].extension contains
+//     transition-of-care-reason named ReasonExtension 0..1
 
 * section[results] ^short = "Recent Test Results"
 * section[results].title 1..1 MS

@@ -437,9 +437,7 @@ Id: toc-del-loinc-vs
 
 ValueSet: TocLoincTermsAnsweredByLL5571
 Title: "Transitions of Care LOINC Terms Answered by LL5571-6 Answer List Value Set"
-Description: """This value set includes those LOINC terms that are defined to be answered by LOINC answer list LL5571-6.
-
-  Ideally, this could be intensionally defined as terms where the answer-list property is "LL5571-6", however at publication time, this property is not supported by the FHIR terminology server at tx.fhir.org."""
+Description: "This value set includes those LOINC terms that are defined to be answered by LOINC answer list LL5571-6.  Ideally, this could be intentionally defined as terms where the answer-list property is 'LL5571-6', however at publication time, this property is not supported by the FHIR terminology server at tx.fhir.org."
 Id: toc-loinc-answered-by-LL5571-6-vs
 * ^experimental = false
 * ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc."
@@ -1342,7 +1340,8 @@ Description: "This value set includes those LOINC terms that included in the DEL
 Id: toc-del-loinc-answered-by-LL5571-6-vs
 * ^experimental = false
 * ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc."
-* include codes from valueset TocLoincTermsAnsweredByLL5571 and TocDELItemsLOINC
+* include codes from valueset TocLoincTermsAnsweredByLL5571
+* include codes from valueset TocDELItemsLOINC
 
 
 // ValueSet: TocDelLoincTermsAnsweredByLL251
