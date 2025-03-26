@@ -31,6 +31,7 @@
 <artifact id="Practitioner/Example-Phil-Chekhov" key="Practitioner-Example-Phil-Chekhov" name="Dr. Phil Chekhov"/>
 <artifact id="Practitioner/Example-Tracy-Count" key="Practitioner-Example-Tracy-Count" name="Dr. Tracy Count"/>
 <artifact id="Condition/BSJ-DressingConcern" key="Condition-BSJ-DressingConcern" name="Dressing Concerns"/>
+<artifact id="Encounter/BSJ-Encounter" key="Encounter-BSJ-Encounter" name="Encounter"/>
 <artifact id="Organization/org-Pharm-Everyday-Community-Pharm" key="Organization-org-Pharm-Everyday-Community-Pharm" name="Everyday Community Pharmacy Organization"/>
 <artifact id="Organization/org-SNF-Happy-Nursing-Facility" key="Organization-org-SNF-Happy-Nursing-Facility" name="Happy Nursing Facility Organization"/>
 <artifact id="Condition/BSJ-HeartDiseaseDiagnosis" key="Condition-BSJ-HeartDiseaseDiagnosis" name="Heart Disease Diagnosis"/>

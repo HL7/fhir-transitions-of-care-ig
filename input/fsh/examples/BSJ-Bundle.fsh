@@ -19,6 +19,11 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 * entry[+].resource = Example-Smith-Johnson-Patient1
 * entry[=].fullUrl = "http://www.example.org/fhir/Patient/Example-Smith-Johnson-Patient1"
 
+//-------------------------- Encounters ---------------------------
+
+* entry[+].resource = BSJ-Encounter
+* entry[=].fullUrl = "http://www.example.org/fhir/Encounter/BSJ-Encounter"
+
 //-------------------------- Allergies ---------------------------
 
 * entry[+].resource = BSJ-AllergyACE
