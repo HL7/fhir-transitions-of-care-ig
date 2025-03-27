@@ -11,7 +11,7 @@
     "changes" : "change_log.html",
     "first" : true, 
     "mode" : "working",
-    "ci-build" : "https://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig/",
+    "ci-build" : "https://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig",
     "introduction" : "This Implementation Guide provides a standards-based solution to support care transitions and coordination for Long-Term Post-Acute Care (LTPAC) patients across all settings of care.",
     "category": "Clinical Documents"
 }
