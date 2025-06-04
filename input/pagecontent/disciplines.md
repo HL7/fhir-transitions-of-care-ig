@@ -1313,7 +1313,7 @@ The following table is the result of that analysis:
          <td>
             I5600
          </td>
-         <td>"Malnutrition (protein, calorie), risk of malnutrit"</td>
+         <td>"Malnutrition (protein, calorie), risk of malnutrition"</td>
          <td>Yes</td>
          <td>Yes</td>
          <td>Yes</td>
