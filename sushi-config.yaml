@@ -41,7 +41,7 @@ contact:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-  hl7.fhir.us.pacio-adi: 1.0.0
+  hl7.fhir.us.pacio-adi: current
   hl7.fhir.us.pacio-pfe: 2.0.0-ballot
   hl7.fhir.us.core: 6.1.0
   hl7.fhir.uv.ips: 2.0.0-ballot
