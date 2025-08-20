@@ -1,7 +1,7 @@
 Instance: Role-Neuro-NuraMekel
 InstanceOf: $USCorePractitionerRole
 Usage: #example
-Title: "Role of Dr. Nura Mekel"
+Title: "Example: Role of Dr. Nura Mekel"
 Description: "Dr. Nura Mekel is a fictional Internal Medicine Physician at Neuro Care Inc."
 
 * meta.profile = Canonical(us-core-practitionerrole|6.1.0)

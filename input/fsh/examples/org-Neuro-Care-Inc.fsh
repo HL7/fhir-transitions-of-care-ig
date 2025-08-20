@@ -1,7 +1,7 @@
 Instance: org-Neuro-Care-Inc
 InstanceOf: $USCoreOrganization
 Usage: #example
-Title: "Neuro Care Inc. Organization"
+Title: "Example: Neuro Care Inc. Organization"
 Description: "Information about the Neuro Care Inc. Organization."
 
 * meta.profile = Canonical(us-core-organization|6.1.0)

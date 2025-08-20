@@ -1,7 +1,7 @@
 Instance: BSJ-SNFDischargeLabOrderBMP
 InstanceOf: $USCoreServiceRequest
 Usage: #example
-Title: "Discharge Service Request for blood chemistry procedure"
+Title: "Example: Discharge Service Request for blood chemistry procedure"
 Description: "Discharge Service Request for blood chemistry procedure for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical(us-core-servicerequest|6.1.0)

@@ -1,7 +1,7 @@
 Instance: BSJ-SNFDischargeCarePlan
 InstanceOf: $USCoreCarePlan
 Usage: #example
-Title: "Discharge Care Plan"
+Title: "Example: Discharge Care Plan"
 Description: "Discharge Care Plan for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical(us-core-careplan|6.1.0)

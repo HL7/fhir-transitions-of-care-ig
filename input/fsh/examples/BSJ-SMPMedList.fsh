@@ -1,6 +1,6 @@
 Instance: BSJ-SMPMedList
 InstanceOf: List
-Title: "Home Medication List"
+Title: "Example: Home Medication List"
 Description: "Home medication list for Betsy Smith-Johnson"
 Usage: #example
 

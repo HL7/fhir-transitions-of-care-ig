@@ -1,7 +1,7 @@
 Instance: OT-ProblemList-Decondition
 InstanceOf: $USCoreConditionProblemsandHealthConcerns
 Usage: #example
-Title: "OT Decondition Problem List"
+Title: "Example: OT Decondition Problem List"
 Description: "Occupational Therapy Decondition problem list for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical(us-core-condition-problems-health-concerns|6.1.0)

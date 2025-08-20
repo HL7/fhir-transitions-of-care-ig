@@ -1,7 +1,7 @@
 Instance: Role-Pharm-TracyCount
 InstanceOf: $USCorePractitionerRole
 Usage: #example
-Title: "Role of Dr. Tracy Count"
+Title: "Example: Role of Dr. Tracy Count"
 Description: "Dr. Tracy Count is a fictional Pharmacist at Not Every Day Contract Pharmacy."
 
 * meta.profile = Canonical(us-core-practitionerrole|6.1.0)

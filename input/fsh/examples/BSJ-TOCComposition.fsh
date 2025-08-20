@@ -1,7 +1,7 @@
 Instance: BSJ-TOCComposition
 InstanceOf: TOCComposition
 Usage: #example
-Title: "Transitions of Care Clinical Document"
+Title: "Example: Transitions of Care Clinical Document"
 Description: "Transitions of Care Clinical Document for fictional patient Betsy Smith-Johnson."
 
 //* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/TOC-Composition"

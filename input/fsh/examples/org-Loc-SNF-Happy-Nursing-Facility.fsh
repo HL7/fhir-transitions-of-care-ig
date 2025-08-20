@@ -1,7 +1,7 @@
 Instance: org-Loc-SNF-Happy-Nursing-Facility
 InstanceOf: $USCoreLocation
 Usage: #example
-Title: "Location of the Happy Nursing Facility"
+Title: "Example: Location of the Happy Nursing Facility"
 Description: "Location of the Happy Nursing Facility."
 
 * meta.profile = Canonical(us-core-location|6.1.0)

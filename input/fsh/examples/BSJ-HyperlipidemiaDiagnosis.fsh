@@ -1,7 +1,7 @@
 Instance: BSJ-HyperlipidemiaDiagnosis
 InstanceOf: $USCoreConditionEncounterDiagnosis // $PFEConditionEncounterDiagnosis
 Usage: #example
-Title: "Hyperlipidemia Diagnosis"
+Title: "Example: Hyperlipidemia Diagnosis"
 Description: "hyperlipidemia Diagnosis for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical(us-core-condition-encounter-diagnosis|6.1.0)  //"http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"

@@ -1,7 +1,7 @@
 Instance: Role-IMMD-AnitaChu
 InstanceOf: $USCorePractitionerRole
 Usage: #example
-Title: "Role of Dr. Anita Chu"
+Title: "Example: Role of Dr. Anita Chu"
 Description: "Dr. Anita Chu is a fictional Internal Medicine Physician at Michigan Primary Health Care Associates."
 
 * meta.profile = Canonical(us-core-practitionerrole|6.1.0)

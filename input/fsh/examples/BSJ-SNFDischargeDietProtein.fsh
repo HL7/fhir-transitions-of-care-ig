@@ -1,7 +1,7 @@
 Instance: BSJ-SNFDischargeDietProtein
 InstanceOf: $USCoreServiceRequest
 Usage: #example
-Title: "Discharge Service Request for protein diet"
+Title: "Example: Discharge Service Request for protein diet"
 Description: "Discharge Service Request for decreased protein and/or protein derivative diet for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical(us-core-servicerequest|6.1.0)

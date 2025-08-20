@@ -1,7 +1,7 @@
 Instance: org-Loc-NED-Contract-Pharm
 InstanceOf: $USCoreLocation
 Usage: #example
-Title: "Location of the Not Every Day Contract Pharmacy"
+Title: "Example: Location of the Not Every Day Contract Pharmacy"
 Description: "Location of the Not Every Day Contract Pharmacy."
 
 * meta.profile = Canonical(us-core-location|6.1.0)

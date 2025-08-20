@@ -1,6 +1,6 @@
 Instance: org-Loc-Neuro-Care-Inc
 InstanceOf: $USCoreLocation
-Title: "Location of the Neuro Care Inc. facility"
+Title: "Example: Location of the Neuro Care Inc. facility"
 Description: "Location of the Neuro Care Inc. facility."
 Usage: #example
 

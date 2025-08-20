@@ -1,7 +1,7 @@
 Instance: BSJ-DressingConcern
 InstanceOf: $USCoreConditionProblemsandHealthConcerns // $PFEConditionProblemsandHealthConcerns
 Usage: #example
-Title: "Dressing Concerns"
+Title: "Example: Dressing Concerns"
 Description: "Dressing Concerns for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical(us-core-condition-problems-health-concerns|6.1.0)

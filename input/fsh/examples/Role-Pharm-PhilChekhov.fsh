@@ -1,7 +1,7 @@
 Instance: Role-Pharm-PhilChekhov
 InstanceOf: $USCorePractitionerRole
 Usage: #example
-Title: "Role of Dr. Phil Chekhov"
+Title: "Example: Role of Dr. Phil Chekhov"
 Description: "Dr. Phil Chekhov is a Pharmacist at Everyday Community Pharmacy."
 
 * meta.profile = Canonical(us-core-practitionerrole|6.1.0)

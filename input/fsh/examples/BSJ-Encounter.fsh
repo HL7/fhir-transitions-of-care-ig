@@ -1,7 +1,7 @@
 Instance: BSJ-Encounter
 InstanceOf: $USCoreEncounter
 Usage: #example
-Title: "Encounter"
+Title: "Example: Encounter"
 Description: "Home Health encounter for Betsy Smith-Johnson"
 
 * meta.profile = Canonical(us-core-encounter|6.1.0)

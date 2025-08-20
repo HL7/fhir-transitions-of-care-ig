@@ -1,7 +1,7 @@
 Instance: org-Loc-PC-Primary-Care-Michigan
 InstanceOf: $USCoreLocation
 Usage: #example
-Title: "Location of Michigan Primary Health Care Associates"
+Title: "Example: Location of Michigan Primary Health Care Associates"
 Description: "Location of Michigan Primary Health Care Associates."
 
 * meta.profile = Canonical(us-core-location|6.1.0)
