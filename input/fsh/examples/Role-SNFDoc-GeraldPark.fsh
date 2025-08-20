@@ -1,7 +1,7 @@
 Instance: Role-SNFDoc-GeraldPark
 InstanceOf: $USCorePractitionerRole
 Usage: #example
-Title: "Role of Dr. Gerald Park"
+Title: "Example: Role of Dr. Gerald Park"
 Description: "Dr. Gerald Park is a fictional Geriatric Medicine Physician at the Happy Nursing Facility."
 
 * meta.profile = Canonical(us-core-practitionerrole|6.1.0)

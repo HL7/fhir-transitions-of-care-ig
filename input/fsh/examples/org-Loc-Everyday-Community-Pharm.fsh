@@ -1,7 +1,7 @@
 Instance: org-Loc-Everyday-Community-Pharm
 InstanceOf: $USCoreLocation
 Usage: #example
-Title: "Location of the Everyday Community Pharmacy"
+Title: "Example: Location of the Everyday Community Pharmacy"
 Description: "Location of the Everyday Community Pharmacy."
 
 * meta.profile = Canonical(us-core-location|6.1.0)

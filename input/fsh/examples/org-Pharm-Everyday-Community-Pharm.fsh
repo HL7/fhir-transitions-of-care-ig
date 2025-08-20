@@ -1,7 +1,7 @@
 Instance: org-Pharm-Everyday-Community-Pharm
 InstanceOf: $USCoreOrganization
 Usage: #example
-Title: "Everyday Community Pharmacy Organization"
+Title: "Example: Everyday Community Pharmacy Organization"
 Description: "Information about the Everyday Community Pharmacy Organization."
 
 * meta.profile = Canonical(us-core-organization|6.1.0)

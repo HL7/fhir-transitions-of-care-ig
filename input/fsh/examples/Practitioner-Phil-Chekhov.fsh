@@ -1,7 +1,7 @@
 Instance: Example-Phil-Chekhov
 InstanceOf: $USCorePractitioner
 Usage: #example
-Title: "Dr. Phil Chekhov"
+Title: "Example: Dr. Phil Chekhov"
 Description: "Information about fictional practitioner Dr. Phil Chekhov."
 
 * meta.profile = Canonical(us-core-practitioner|6.1.0)

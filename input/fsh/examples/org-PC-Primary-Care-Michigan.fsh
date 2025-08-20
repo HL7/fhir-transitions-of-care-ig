@@ -1,7 +1,7 @@
 Instance: org-PC-Primary-Care-Michigan
 InstanceOf: $USCoreOrganization
 Usage: #example
-Title: "Michigan Primary Health Care Associates Organization"
+Title: "Example: Michigan Primary Health Care Associates Organization"
 Description: "Information about the Michigan Primary Health Care Associates Organization."
 
 * meta.profile = Canonical(us-core-organization|6.1.0)

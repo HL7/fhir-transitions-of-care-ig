@@ -1,7 +1,7 @@
 Instance: BSJ-MDS-SitUp1
 InstanceOf: $PFESingleObservation
 Usage: #example
-Title: "Discharge Assessment - Lying to sitting on side of bed"
+Title: "Example: Discharge Assessment - Lying to sitting on side of bed"
 Description: "Minimum Data Set (MDS) Discharge Assessment - Lying to sitting on side of bed for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical($PFESingleObservation)

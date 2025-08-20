@@ -1,7 +1,7 @@
 Instance: Example-GeraldPark
 InstanceOf: $USCorePractitioner
 Usage: #example
-Title: "Dr. Gerald Park"
+Title: "Example: Dr. Gerald Park"
 Description: "Information about fictional practitioner Dr. Gerald Park."
 
 * meta.profile = Canonical(us-core-practitioner|6.1.0)

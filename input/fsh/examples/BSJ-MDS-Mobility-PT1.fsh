@@ -1,7 +1,7 @@
 Instance: BSJ-MDS-Mobility-PT1
 InstanceOf: $PFECollection
 Usage: #example
-Title: "Nursing Home Discharge Assessment Questions - Mobility Part 1"
+Title: "Example: Nursing Home Discharge Assessment Questions - Mobility Part 1"
 Description: "Minimum Data Set (MDS) Nursing Home Discharge Assessment Questions - Mobility Part 1 for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical($PFECollection)

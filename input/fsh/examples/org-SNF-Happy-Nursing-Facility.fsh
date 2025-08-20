@@ -1,7 +1,7 @@
 Instance: org-SNF-Happy-Nursing-Facility
 InstanceOf: $USCoreOrganization
 Usage: #example
-Title: "Happy Nursing Facility Organization"
+Title: "Example: Happy Nursing Facility Organization"
 Description: "Information about the Happy Nursing Facility Organization."
 
 * meta.profile = Canonical(us-core-organization|6.1.0)

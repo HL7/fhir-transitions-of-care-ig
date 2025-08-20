@@ -1,7 +1,7 @@
 Instance: BSJ-HemiparesisDiagnosis
 InstanceOf: $USCoreConditionEncounterDiagnosis // $PFEConditionEncounterDiagnosis
 Usage: #example
-Title: "Hemiparesis Diagnosis"
+Title: "Example: Hemiparesis Diagnosis"
 Description: "Hemiparesis Diagnosis for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical(us-core-condition-encounter-diagnosis|6.1.0)  //"http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"

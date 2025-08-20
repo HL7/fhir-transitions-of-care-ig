@@ -91,7 +91,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[instructions] ^short = "Discharge Instructions"
 * section[instructions].title 1..1 MS
 * section[instructions].code 1..1 
-* section[instructions].code = $LOINC#59271-7 "Hospital discharge summary panel"
+* section[instructions].code = $LOINC#18842-5 "Discharge summary"
 * section[instructions].entry 
 * section[instructions].entry only Reference($USCoreDiagnosticReportNotes or $USCoreDocumentReference) 
 

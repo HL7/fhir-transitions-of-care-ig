@@ -1,7 +1,7 @@
 Instance: Example-Smith-Johnson-Bundle
 InstanceOf: Bundle
 Usage: #example
-Title: "Transition of Care Bundle"
+Title: "Example: Transition of Care Bundle"
 Description: "Example Transition of Care bundle for fictional patient Betsy Smith-Johnson."
 
 * identifier.system = "http://www.example.org/documents"

@@ -1,7 +1,7 @@
 Instance: BSJ-MDS-ShortWalk1
 InstanceOf: $PFESingleObservation
 Usage: #example
-Title: "Discharge Assessment - Walk 50 feet with 2 turns"
+Title: "Example: Discharge Assessment - Walk 50 feet with 2 turns"
 Description: "Minimum Data Set (MDS) Discharge Assessment - Walk 50 feet with 2 turns for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical($PFESingleObservation)

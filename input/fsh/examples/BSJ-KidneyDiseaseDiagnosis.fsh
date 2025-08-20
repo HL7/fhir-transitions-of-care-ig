@@ -1,7 +1,7 @@
 Instance: BSJ-KidneyDiseaseDiagnosis
 InstanceOf: $USCoreConditionEncounterDiagnosis // $PFEConditionEncounterDiagnosis
 Usage: #example
-Title: "Kidney Disease Diagnosis"
+Title: "Example: Kidney Disease Diagnosis"
 Description: "Kidney Disease Diagnosis for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical(us-core-condition-encounter-diagnosis|6.1.0)  //"http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"

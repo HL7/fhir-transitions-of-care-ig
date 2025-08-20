@@ -1,7 +1,7 @@
 Instance: BSJ-HeartDiseaseDiagnosis
 InstanceOf: $USCoreConditionEncounterDiagnosis // $PFEConditionEncounterDiagnosis
 Usage: #example
-Title: "Heart Disease Diagnosis"
+Title: "Example: Heart Disease Diagnosis"
 Description: "Heart Disease Diagnosis for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical(us-core-condition-encounter-diagnosis|6.1.0)  //"http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"

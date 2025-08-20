@@ -1,6 +1,6 @@
 Instance: BSJ-SMPMedStmt1
 InstanceOf: MedicationStatement
-Title: "Medication statement for Atorvastatin 40 MG Oral Tablet"
+Title: "Example: Medication statement for Atorvastatin 40 MG Oral Tablet"
 Description: "Medication statement for Atorvastatin 40 MG Oral Tablet for Betsy Smith-Johnson to treat Hyperlipidemia"
 Usage: #example
 * basedOn = Reference(MedicationRequest/BSJ-SMPMedReq1)
@@ -15,7 +15,7 @@ Usage: #example
 
 Instance: BSJ-SMPMedStmt2
 InstanceOf: MedicationStatement
-Title: "Medication statement for Sertraline 25 MG Oral Tablet"
+Title: "Example: Medication statement for Sertraline 25 MG Oral Tablet"
 Description: "Medication statement for Sertraline 25 MG Oral Tablet for Betsy Smith-Johnson to treat Depressive disorder"
 Usage: #example
 * basedOn = Reference(MedicationRequest/BSJ-SMPMedReq2)
@@ -30,7 +30,7 @@ Usage: #example
 
 Instance: BSJ-SMPMedStmt3
 InstanceOf: MedicationStatement
-Title: "Medication statement for Furosemide 20 MG Oral Tablet"
+Title: "Example: Medication statement for Furosemide 20 MG Oral Tablet"
 Description: "Medication statement for Furosemide 20 MG Oral Tablet for Betsy Smith-Johnson to treat chronic kidney disease"
 Usage: #example
 * basedOn = Reference(MedicationRequest/BSJ-SMPMedReq3)
@@ -45,7 +45,7 @@ Usage: #example
 
 Instance: BSJ-SMPMedStmt4
 InstanceOf: MedicationStatement
-Title: "Medication statement for Carvedilol 6.25 MG Oral Tablet"
+Title: "Example: Medication statement for Carvedilol 6.25 MG Oral Tablet"
 Description: "Medication statement for Carvedilol 6.25 MG Oral Tablet for Betsy Smith-Johnson to treat Hypertension"
 Usage: #example
 * basedOn = Reference(MedicationRequest/BSJ-SMPMedReq4)
@@ -60,7 +60,7 @@ Usage: #example
 
 Instance: BSJ-SMPMedStmt5
 InstanceOf: MedicationStatement
-Title: "Medication statement for Glipizide 2.5 MG Extended Release Oral Tablet"
+Title: "Example: Medication statement for Glipizide 2.5 MG Extended Release Oral Tablet"
 Description: "Medication statement for Glipizide 2.5 MG Extended Release Oral Tablet for Betsy Smith-Johnson to treat Diabetes"
 Usage: #example
 * basedOn = Reference(MedicationRequest/BSJ-SMPMedReq5)
@@ -75,7 +75,7 @@ Usage: #example
 
 Instance: BSJ-SMPMedStmt6
 InstanceOf: MedicationStatement
-Title: "Medication statement for Rosuvastatin calcium 5 MG Oral Tablet"
+Title: "Example: Medication statement for Rosuvastatin calcium 5 MG Oral Tablet"
 Description: "Medication statement for Rosuvastatin calcium 5 MG Oral Tablet for Betsy Smith-Johnson to treat Osteopenia"
 Usage: #example
 * basedOn = Reference(MedicationRequest/BSJ-SMPMedReq6)
@@ -90,7 +90,7 @@ Usage: #example
 
 Instance: BSJ-SMPMedStmt7
 InstanceOf: MedicationStatement
-Title: "Medication statement for Acetaminophen 650 MG Oral Tablet"
+Title: "Example: Medication statement for Acetaminophen 650 MG Oral Tablet"
 Description: "Medication statement for Acetaminophen 650 MG Oral Tablet for Betsy Smith-Johnson to treat Osteoarthritis"
 Usage: #example
 * basedOn = Reference(MedicationRequest/BSJ-SMPMedReq7)
@@ -105,7 +105,7 @@ Usage: #example
 
 Instance: BSJ-SMPMedStmt8
 InstanceOf: MedicationStatement
-Title: "Medication statement for Ferrous sulfate 325 MG (iron 65 MG) Oral Tablet"
+Title: "Example: Medication statement for Ferrous sulfate 325 MG (iron 65 MG) Oral Tablet"
 Description: "Medication statement for Ferrous sulfate 325 MG (iron 65 MG) Oral Tablet for Betsy Smith-Johnson to treat Anemia"
 Usage: #example
 * basedOn = Reference(MedicationRequest/BSJ-SMPMedReq8)

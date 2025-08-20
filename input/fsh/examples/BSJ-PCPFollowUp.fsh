@@ -1,7 +1,7 @@
 Instance: BSJ-PCPFollowUp
 InstanceOf: $USCoreServiceRequest
 Usage: #example
-Title: "Service Request to follow up with PCP"
+Title: "Example: Service Request to follow up with PCP"
 Description: "Service Request to follow up with PCP for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical(us-core-servicerequest|6.1.0)

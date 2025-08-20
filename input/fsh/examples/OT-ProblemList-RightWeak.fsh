@@ -1,7 +1,7 @@
 Instance: OT-ProblemList-RightWeak
 InstanceOf: $USCoreConditionProblemsandHealthConcerns
 Usage: #example
-Title: "OT Right Weakness Problem List"
+Title: "Example: OT Right Weakness Problem List"
 Description: "Occupational Therapy Right Weakness problem list for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical(us-core-condition-problems-health-concerns|6.1.0)

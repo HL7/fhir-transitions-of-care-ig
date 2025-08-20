@@ -1,7 +1,7 @@
 Instance: BSJ-AllergyACE
 InstanceOf: $USCoreAllergyIntolerance
 Usage: #example
-Title: "Allergy List"
+Title: "Example: Allergy List"
 Description: "Allergies for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical(us-core-allergyintolerance|6.1.0)

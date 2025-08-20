@@ -1,7 +1,7 @@
 Instance: BSJ-MDS-Doffing1
 InstanceOf: $PFESingleObservation
 Usage: #example
-Title: "Discharge Assessment - Upper body dressing"
+Title: "Example: Discharge Assessment - Upper body dressing"
 Description: "Minimum Data Set (MDS) Discharge Assessment - Upper body dressing for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical($PFESingleObservation)

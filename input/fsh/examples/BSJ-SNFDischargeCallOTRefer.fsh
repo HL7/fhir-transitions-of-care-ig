@@ -1,7 +1,7 @@
 Instance: BSJ-SNFDischargeCallOTRefer
 InstanceOf: $USCoreServiceRequest
 Usage: #example
-Title: "Discharge Service Request for OT referral"
+Title: "Example: Discharge Service Request for OT referral"
 Description: "Discharge Service Request for Occupational Therapy referral for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical(us-core-servicerequest|6.1.0)

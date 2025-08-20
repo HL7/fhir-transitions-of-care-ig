@@ -1,6 +1,6 @@
 Instance: BSJ-SMPMedReq1
 InstanceOf: MedicationRequest
-Title: "Medication request for Atorvastatin 40 MG Oral Tablet"
+Title: "Example: Medication request for Atorvastatin 40 MG Oral Tablet"
 Description: "Medication request for Atorvastatin 40 MG Oral Tablet for Betsy Smith-Johnson to treat Hyperlipidemia"
 Usage: #example
 * status = #active
@@ -14,7 +14,7 @@ Usage: #example
 
 Instance: BSJ-SMPMedReq2
 InstanceOf: MedicationRequest
-Title: "Medication request for Sertraline 25 MG Oral Tablet"
+Title: "Example: Medication request for Sertraline 25 MG Oral Tablet"
 Description: "Medication request for Sertraline 25 MG Oral Tablet for Betsy Smith-Johnson to treat Depressive disorder"
 Usage: #example
 * status = #active
@@ -28,7 +28,7 @@ Usage: #example
 
 Instance: BSJ-SMPMedReq3
 InstanceOf: MedicationRequest
-Title: "Medication request for Furosemide 20 MG Oral Tablet"
+Title: "Example: Medication request for Furosemide 20 MG Oral Tablet"
 Description: "Medication request for Furosemide 20 MG Oral Tablet for Betsy Smith-Johnson to treat chronic kidney disease"
 Usage: #example
 * status = #active
@@ -42,7 +42,7 @@ Usage: #example
 
 Instance: BSJ-SMPMedReq4
 InstanceOf: MedicationRequest
-Title: "Medication request for Carvedilol 6.25 MG Oral Tablet"
+Title: "Example: Medication request for Carvedilol 6.25 MG Oral Tablet"
 Description: "Medication request for Carvedilol 6.25 MG Oral Tablet for Betsy Smith-Johnson to treat Hypertension"
 Usage: #example
 * status = #active
@@ -56,7 +56,7 @@ Usage: #example
 
 Instance: BSJ-SMPMedReq5
 InstanceOf: MedicationRequest
-Title: "Medication request for Glipizide 2.5 MG Extended Release Oral Tablet"
+Title: "Example: Medication request for Glipizide 2.5 MG Extended Release Oral Tablet"
 Description: "Medication request for Glipizide 2.5 MG Extended Release Oral Tablet for Betsy Smith-Johnson to treat Diabetes"
 Usage: #example
 * status = #active
@@ -70,7 +70,7 @@ Usage: #example
 
 Instance: BSJ-SMPMedReq6
 InstanceOf: MedicationRequest
-Title: "Medication request for Rosuvastatin calcium 5 MG Oral Tablet"
+Title: "Example: Medication request for Rosuvastatin calcium 5 MG Oral Tablet"
 Description: "Medication request for Rosuvastatin calcium 5 MG Oral Tablet for Betsy Smith-Johnson to treat Osteopenia"
 Usage: #example
 * status = #active
@@ -84,7 +84,7 @@ Usage: #example
 
 Instance: BSJ-SMPMedReq7
 InstanceOf: MedicationRequest
-Title: "Medication request for Acetaminophen 650 MG Oral Tablet"
+Title: "Example: Medication request for Acetaminophen 650 MG Oral Tablet"
 Description: "Medication request for Acetaminophen 650 MG Oral Tablet for Betsy Smith-Johnson to treat Osteoarthritis"
 Usage: #example
 * status = #active
@@ -98,7 +98,7 @@ Usage: #example
 
 Instance: BSJ-SMPMedReq8
 InstanceOf: MedicationRequest
-Title: "Medication request for Ferrous sulfate 325 MG (iron 65 MG) Oral Tablet"
+Title: "Example: Medication request for Ferrous sulfate 325 MG (iron 65 MG) Oral Tablet"
 Description: "Medication request for Ferrous sulfate 325 MG (iron 65 MG) Oral Tablet for Betsy Smith-Johnson to treat Anemia"
 Usage: #example
 * status = #active

@@ -1,7 +1,7 @@
 Instance: BSJ-TOCComposition
 InstanceOf: TOCComposition
 Usage: #example
-Title: "Transitions of Care Clinical Document"
+Title: "Example: Transitions of Care Clinical Document"
 Description: "Transitions of Care Clinical Document for fictional patient Betsy Smith-Johnson."
 
 //* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/TOC-Composition"
@@ -56,7 +56,7 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 //* section[immunizations].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of immunizations for Betsy Smith-Johnson</div>"
 
 //* section[instructions].title = "Discharge instructions for Betsy Smith-Johnson"
-//* section[instructions].code = $LOINC#59271-7 "Hospital discharge summary panel"
+//* section[instructions].code = $LOINC#18842-5 "Discharge summary"
 //* section[instructions].entry[+] = 
 //* section[instructions].text.status = #additional
 //* section[instructions].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Discharge instructions for Betsy Smith-Johnson</div>"

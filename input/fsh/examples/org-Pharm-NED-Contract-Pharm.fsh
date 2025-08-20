@@ -1,7 +1,7 @@
 Instance: org-Pharm-NED-Contract-Pharm
 InstanceOf: $USCoreOrganization
 Usage: #example
-Title: "Not Every Day Contract Pharmacy Organization"
+Title: "Example: Not Every Day Contract Pharmacy Organization"
 Description: "Information about the Not Every Day Contract Pharmacy Organization."
 
 * meta.profile = Canonical(us-core-organization|6.1.0)

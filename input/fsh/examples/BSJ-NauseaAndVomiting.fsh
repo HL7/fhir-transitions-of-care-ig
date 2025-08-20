@@ -1,7 +1,7 @@
 Instance: BSJ-NauseaAndVomiting
 InstanceOf: $USCoreConditionEncounterDiagnosis // $PFEConditionEncounterDiagnosis
 Usage: #example
-Title: "Nausea and vomiting"
+Title: "Example: Nausea and vomiting"
 Description: "Nausea and vomiting for fictional patient Betsy Smith-Johnson."
 
 * meta.profile = Canonical(us-core-condition-encounter-diagnosis|6.1.0)  //"http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"

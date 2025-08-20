@@ -1,7 +1,7 @@
 Instance: Example-Smith-Johnson-Patient1
 InstanceOf: $USCorePatient
 Usage: #example
-Title: "Patient - Betsy Smith-Johnson"
+Title: "Example: Patient - Betsy Smith-Johnson"
 Description: "Basic information for fictional patient Betsy Smith-Johnson."
 
 * meta.lastUpdated = "2021-03-29T14:25:34.001-05:00"
