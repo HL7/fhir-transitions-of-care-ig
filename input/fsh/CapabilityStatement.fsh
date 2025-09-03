@@ -242,7 +242,6 @@ Usage: #definition
 * rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-organization"
 * rest.resource[=].searchParam[=].name = "organization"
 * rest.resource[=].searchParam[=].type = #reference
-// * rest.resource[=].searchParam[=].type = #token
 * rest.resource[=].supportedProfile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
 * rest.resource[=].searchParam[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
