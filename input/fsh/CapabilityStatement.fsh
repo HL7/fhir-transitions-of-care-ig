@@ -15,7 +15,7 @@ Usage: #definition
 * name = "PacioTocCapabilityStatement"
 * patchFormat = #application/json-patch+json
 * publisher = "HL7 Patient Care Working Group (PC WG)"
-* rest.documentation = "The TOC Server **SHALL**:\n\n1. Support all profiles defined in this Implementation Guide.\n2.  Implement the RESTful behavior according to the FHIR specification.\n3. Return the following response classes:\n   - (Status 400): invalid parameter\n   - (Status 401/4xx): unauthorized request\n   - (Status 403): insufficient scope\n   - (Status 404): unknown resource\n   - (Status 410): deleted resource.\n4. Support json source formats for all TOC interactions.\n5. Support the searchParameters on each profile  individually and in combination.\n\nThe TOC Server **SHOULD**:\n\n1. Support xml source formats for all TOC interactions."
+* rest.documentation = "The TOC Server **SHALL**:\n\n1. Support all profiles defined in this Implementation Guide.\n2.  Implement the RESTful behavior according to the FHIR specification.\n3. Return the following response classes:\n   - (Status 400): invalid parameter\n   - (Status 401/4xx): unauthorized request\n   - (Status 403): insufficient scope\n   - (Status 404): unknown resource.\n4. Support json source formats for all TOC interactions.\n5. Support the searchParameters on each profile  individually and in combination.\n\nThe TOC Server **SHOULD**:\n\n1. Support xml source formats for all TOC interactions."
 * rest.mode = #server
 * rest.resource[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].extension.valueCode = #SHALL
@@ -65,27 +65,27 @@ Usage: #definition
 * rest.resource[=].searchParam[=].type = #token
 * rest.resource[=].type = #Bundle
 * rest.resource[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
-* rest.resource[=].extension.valueCode = #MAY
+* rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
-* rest.resource[=].interaction[=].extension.valueCode = #MAY
+* rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
 * rest.resource[=].interaction[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #MAY
 * rest.resource[=].interaction[=].code = #search-type
 * rest.resource[=].interaction[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
-* rest.resource[=].interaction[=].extension.valueCode = #MAY
+* rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #read
 * rest.resource[=].interaction[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #vread
 * rest.resource[=].interaction[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
-* rest.resource[=].interaction[=].extension.valueCode = #MAY
+* rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #update
 * rest.resource[=].interaction[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #history-instance
 * rest.resource[=].referencePolicy = #resolves
-* rest.resource[=].supportedProfile = "https://hl7.org/fhir/us/pacio-toc/StructureDefinition-TOC-Composition-Header.html"
+* rest.resource[=].supportedProfile = "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition"
 * rest.resource[=].type = #Composition
 * rest.resource[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].extension.valueCode = #SHALL
@@ -242,7 +242,6 @@ Usage: #definition
 * rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-organization"
 * rest.resource[=].searchParam[=].name = "organization"
 * rest.resource[=].searchParam[=].type = #reference
-// * rest.resource[=].searchParam[=].type = #token
 * rest.resource[=].supportedProfile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
 * rest.resource[=].searchParam[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
@@ -274,7 +273,7 @@ Usage: #definition
 * rest.resource[=].supportedProfile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
 * rest.resource[=].type = #Patient
 * rest.resource[+].operation.name = "match"
-* rest.resource[=].operation.definition = "http://hl7.org/fhir/R4/patient-operation-match.html"
+* rest.resource[=].operation.definition = "http://hl7.org/fhir/OperationDefinition/Patient-match"
 * rest.resource[=].operation.documentation = "$match is a service used to manage patient identification in a context where multiple patient databases exist.To ask an MPI to match a patient, clients use the '$match' operation, which accepts a patient resource which may be only partially complete. The data provided is interpreted as an MPI input and processed by an algorithm of some kind that uses the data to determine the most appropriate matches in the patient set."
 * rest.resource[=].type = #OperationDefinition
 * rest.security.description = "1. See the [Guidance](security_privacy_consent.html) section for requirements and recommendations.\n1. A server **SHALL** reject any unauthorized requests by returning an HTTP 401 \"Unauthorized\", HTTP 403 \"Forbidden\", or HTTP 404 \"Not Found\" response code."
