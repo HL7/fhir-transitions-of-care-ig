@@ -15,7 +15,7 @@ Usage: #definition
 * name = "PacioTocCapabilityStatement"
 * patchFormat = #application/json-patch+json
 * publisher = "HL7 Patient Care Working Group (PC WG)"
-* rest.documentation = "The TOC Server **SHALL**:\n\n1. Support all profiles defined in this Implementation Guide.\n2.  Implement the RESTful behavior according to the FHIR specification.\n3. Return the following response classes:\n   - (Status 400): invalid parameter\n   - (Status 401/4xx): unauthorized request\n   - (Status 403): insufficient scope\n   - (Status 404): unknown resource\n   - (Status 410): deleted resource.\n4. Support json source formats for all TOC interactions.\n5. Support the searchParameters on each profile  individually and in combination.\n\nThe TOC Server **SHOULD**:\n\n1. Support xml source formats for all TOC interactions."
+* rest.documentation = "The TOC Server **SHALL**:\n\n1. Support all profiles defined in this Implementation Guide.\n2.  Implement the RESTful behavior according to the FHIR specification.\n3. Return the following response classes:\n   - (Status 400): invalid parameter\n   - (Status 401/4xx): unauthorized request\n   - (Status 403): insufficient scope\n   - (Status 404): unknown resource.\n4. Support json source formats for all TOC interactions.\n5. Support the searchParameters on each profile  individually and in combination.\n\nThe TOC Server **SHOULD**:\n\n1. Support xml source formats for all TOC interactions."
 * rest.mode = #server
 * rest.resource[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].extension.valueCode = #SHALL
