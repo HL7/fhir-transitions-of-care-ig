@@ -84,8 +84,8 @@
 <artifact id="CapabilityStatement/toc" key="CapabilityStatement-toc" name="TOC CapabilityStatement"/>
 <artifact id="StructureDefinition/TOC-Composition" key="StructureDefinition-TOC-Composition" name="Transition of Care Composition"/>
 <artifact id="ValueSet/toc-del-loinc-vs" key="ValueSet-toc-del-loinc-vs" name="Transitions of Care DEL LOINC Terms Value Set"/>
-<artifact id="ValueSet/toc-loinc-answered-by-LL5571-6-vs" key="ValueSet-toc-loinc-answered-by-LL5571-6-vs" name="Transitions of Care LOINC Terms Answered by LL5571-6 Answer List Value Set"/>
-<artifact id="ValueSet/toc-del-loinc-answered-by-LL5571-6-vs" key="ValueSet-toc-del-loinc-answered-by-LL5571-6-vs" name="Transitions of Care LOINC Terms Included in the DEL Answered by LL5571-6 Answer List Value Set"/>
+<artifact deprecated="true" id="ValueSet/toc-loinc-answered-by-LL5571-6-vs" key="ValueSet-toc-loinc-answered-by-LL5571-6-vs" name="Transitions of Care LOINC Terms Answered by LL5571-6 Answer List Value Set"/>
+<artifact deprecated="true" id="ValueSet/toc-del-loinc-answered-by-LL5571-6-vs" key="ValueSet-toc-del-loinc-answered-by-LL5571-6-vs" name="Transitions of Care LOINC Terms Included in the DEL Answered by LL5571-6 Answer List Value Set"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="downloads" name="Downloads"/>

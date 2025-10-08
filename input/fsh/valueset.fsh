@@ -435,99 +435,99 @@ Id: toc-del-loinc-vs
 // ----------
 
 
-ValueSet: TocLoincTermsAnsweredByLL5571
-Title: "Transitions of Care LOINC Terms Answered by LL5571-6 Answer List Value Set"
-Description: "This value set includes those LOINC terms that are defined to be answered by LOINC answer list LL5571-6.  Ideally, this could be intentionally defined as terms where the answer-list property is 'LL5571-6', however at publication time, this property is not supported by the FHIR terminology server at tx.fhir.org."
-Id: toc-loinc-answered-by-LL5571-6-vs
-* ^experimental = false
-* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc."
-// * include codes from system http://loinc.org where answer-list = "LL5571-6"
-* $LOINC#94933-9
-* $LOINC#94934-7
-* $LOINC#94935-4
-* $LOINC#94936-2
-* $LOINC#94937-0
-* $LOINC#94938-8
-* $LOINC#94939-6
-* $LOINC#94940-4
-* $LOINC#94941-2
-* $LOINC#94942-0
-* $LOINC#94943-8
-* $LOINC#94944-6
-* $LOINC#94945-3
-* $LOINC#94946-1
-* $LOINC#94947-9
-* $LOINC#94948-7
-* $LOINC#94949-5
-* $LOINC#94950-3
-* $LOINC#94951-1
-* $LOINC#94952-9
-* $LOINC#94953-7
-* $LOINC#94954-5
-* $LOINC#94955-2
-* $LOINC#94956-0
-* $LOINC#94957-8
-* $LOINC#94958-6
-* $LOINC#94959-4
-* $LOINC#94960-2
-* $LOINC#94961-0
-* $LOINC#94962-8
-* $LOINC#94963-6
-* $LOINC#94964-4
-* $LOINC#94965-1
-* $LOINC#94966-9
-* $LOINC#94967-7
-* $LOINC#94968-5
-* $LOINC#94969-3
-* $LOINC#94970-1
-* $LOINC#94971-9
-* $LOINC#94972-7
-* $LOINC#94973-5
-* $LOINC#94974-3
-* $LOINC#94976-8
-* $LOINC#94977-6
-* $LOINC#94978-4
-* $LOINC#94979-2
-* $LOINC#94980-0
-* $LOINC#94981-8
-* $LOINC#94982-6
-* $LOINC#94983-4
-* $LOINC#94984-2
-* $LOINC#94985-9
-* $LOINC#94986-7
-* $LOINC#94987-5
-* $LOINC#94989-1
-* $LOINC#94990-9
-* $LOINC#94991-7
-* $LOINC#94992-5
-* $LOINC#94993-3
-* $LOINC#94994-1
-* $LOINC#94995-8
-* $LOINC#94996-6
-* $LOINC#94997-4
-* $LOINC#94998-2
-* $LOINC#94999-0
-* $LOINC#95000-6
-* $LOINC#95001-4
-* $LOINC#95002-2
-* $LOINC#95003-0
-* $LOINC#95004-8
-* $LOINC#95005-5
-* $LOINC#95006-3
-* $LOINC#95007-1
-* $LOINC#95008-9
-* $LOINC#95009-7
-* $LOINC#95010-5
-* $LOINC#95011-3
-* $LOINC#95012-1
-* $LOINC#95013-9
-* $LOINC#95014-7
-* $LOINC#95015-4
-* $LOINC#95016-2
-* $LOINC#95017-0
-* $LOINC#95018-8
-* $LOINC#95019-6
-* $LOINC#95043-6
+// ValueSet: TocLoincTermsAnsweredByLL5571
+// Title: "Transitions of Care LOINC Terms Answered by LL5571-6 Answer List Value Set"
+// Description: "This value set includes those LOINC terms that are defined to be answered by LOINC answer list LL5571-6.  Ideally, this could be intentionally defined as terms where the answer-list property is 'LL5571-6', however at publication time, this property is not supported by the FHIR terminology server at tx.fhir.org."
+// Id: toc-loinc-answered-by-LL5571-6-vs
+// * ^experimental = false
+// * ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc."
+// // * include codes from system http://loinc.org where answer-list = "LL5571-6"
+// * $LOINC#94933-9
+// * $LOINC#94934-7
+// * $LOINC#94935-4
+// * $LOINC#94936-2
+// * $LOINC#94937-0
+// * $LOINC#94938-8
+// * $LOINC#94939-6
+// * $LOINC#94940-4
+// * $LOINC#94941-2
+// * $LOINC#94942-0
+// * $LOINC#94943-8
+// * $LOINC#94944-6
+// * $LOINC#94945-3
+// * $LOINC#94946-1
+// * $LOINC#94947-9
+// * $LOINC#94948-7
+// * $LOINC#94949-5
+// * $LOINC#94950-3
+// * $LOINC#94951-1
+// * $LOINC#94952-9
+// * $LOINC#94953-7
+// * $LOINC#94954-5
+// * $LOINC#94955-2
+// * $LOINC#94956-0
+// * $LOINC#94957-8
+// * $LOINC#94958-6
+// * $LOINC#94959-4
+// * $LOINC#94960-2
+// * $LOINC#94961-0
+// * $LOINC#94962-8
+// * $LOINC#94963-6
+// * $LOINC#94964-4
+// * $LOINC#94965-1
+// * $LOINC#94966-9
+// * $LOINC#94967-7
+// * $LOINC#94968-5
+// * $LOINC#94969-3
+// * $LOINC#94970-1
+// * $LOINC#94971-9
+// * $LOINC#94972-7
+// * $LOINC#94973-5
+// * $LOINC#94974-3
+// * $LOINC#94976-8
+// * $LOINC#94977-6
+// * $LOINC#94978-4
+// * $LOINC#94979-2
+// * $LOINC#94980-0
+// * $LOINC#94981-8
+// * $LOINC#94982-6
+// * $LOINC#94983-4
+// * $LOINC#94984-2
+// * $LOINC#94985-9
+// * $LOINC#94986-7
+// * $LOINC#94987-5
+// * $LOINC#94989-1
+// * $LOINC#94990-9
+// * $LOINC#94991-7
+// * $LOINC#94992-5
+// * $LOINC#94993-3
+// * $LOINC#94994-1
+// * $LOINC#94995-8
+// * $LOINC#94996-6
+// * $LOINC#94997-4
+// * $LOINC#94998-2
+// * $LOINC#94999-0
+// * $LOINC#95000-6
+// * $LOINC#95001-4
+// * $LOINC#95002-2
+// * $LOINC#95003-0
+// * $LOINC#95004-8
+// * $LOINC#95005-5
+// * $LOINC#95006-3
+// * $LOINC#95007-1
+// * $LOINC#95008-9
+// * $LOINC#95009-7
+// * $LOINC#95010-5
+// * $LOINC#95011-3
+// * $LOINC#95012-1
+// * $LOINC#95013-9
+// * $LOINC#95014-7
+// * $LOINC#95015-4
+// * $LOINC#95016-2
+// * $LOINC#95017-0
+// * $LOINC#95018-8
+// * $LOINC#95019-6
+// * $LOINC#95043-6
 
 
 // ValueSet: TocLoincTermsAnsweredByLL251
@@ -1334,14 +1334,14 @@ Id: toc-loinc-answered-by-LL5571-6-vs
 // ----
 
 
-ValueSet: TocDelLoincTermsAnsweredByLL5571
-Title: "Transitions of Care LOINC Terms Included in the DEL Answered by LL5571-6 Answer List Value Set"
-Description: "This value set includes those LOINC terms that included in the DEL which are defined to be answered by LOINC answer list LL5571-6."
-Id: toc-del-loinc-answered-by-LL5571-6-vs
-* ^experimental = false
-* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc."
-* include codes from valueset TocLoincTermsAnsweredByLL5571
-* include codes from valueset TocDELItemsLOINC
+// ValueSet: TocDelLoincTermsAnsweredByLL5571
+// Title: "Transitions of Care LOINC Terms Included in the DEL Answered by LL5571-6 Answer List Value Set"
+// Description: "This value set includes those LOINC terms that included in the DEL which are defined to be answered by LOINC answer list LL5571-6."
+// Id: toc-del-loinc-answered-by-LL5571-6-vs
+// * ^experimental = false
+// * ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc."
+// * include codes from valueset TocLoincTermsAnsweredByLL5571
+// * include codes from valueset TocDELItemsLOINC
 
 
 // ValueSet: TocDelLoincTermsAnsweredByLL251
