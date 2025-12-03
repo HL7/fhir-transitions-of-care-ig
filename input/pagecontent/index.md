@@ -74,13 +74,13 @@ This Guide is divided into several pages which are listed at the top of each pag
 * Downloads: This page provides links to downloadable artifacts.
 
 ### Global Profiles
-{% include globals-table-en.xhtml %}
+{% include globals-table.xhtml %}
  
 ### Package Dependencies
-{% include dependency-table-en.xhtml %}
+{% include dependency-table.xhtml %}
  
 ### Cross-Version Analysis
-{% include cross-version-analysis-en.xhtml %}
+{% include cross-version-analysis.xhtml %}
  
 ### Intellectual Property Considerations
-{% include ip-statements-en.xhtml %}
+{% include ip-statements.xhtml %}
