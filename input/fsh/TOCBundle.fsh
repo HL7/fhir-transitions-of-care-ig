@@ -1,8 +1,8 @@
 Profile: TOCBundle
 Parent: Bundle
 Id: TOC-Bundle
-Title: "Transitions of Care Bundle"
-Description: "This is a profile for a Transitions of Care Bundle, which includes the necessary resources for documenting a patient's transition from one care setting to another."
+Title: "Transition of Care Bundle"
+Description: "This is a profile for a Transition of Care Bundle, which includes the necessary resources for documenting a patient's transition from one care setting to another."
 
 * type = #collection
 * identifier 1..1 MS 

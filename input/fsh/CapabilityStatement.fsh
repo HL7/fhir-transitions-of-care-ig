@@ -63,6 +63,8 @@ Usage: #definition
 * rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Bundle-type"
 * rest.resource[=].searchParam[=].name = "type"
 * rest.resource[=].searchParam[=].type = #token
+* rest.resource[=].referencePolicy = #resolves
+* rest.resource[=].supportedProfile = "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Bundle"
 * rest.resource[=].type = #Bundle
 * rest.resource[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].extension.valueCode = #SHALL
