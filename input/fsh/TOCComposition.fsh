@@ -74,7 +74,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[functional_status] ^short = "Functional Status"
 * section[functional_status].title 1..1 MS
 * section[functional_status].code 1..1 
-* section[functional_status].code = $LOINC#54522-8 // "Functional status" /* not sure this is the right code */
+* section[functional_status].code = $LOINC#47420-5 // "Functional status" /* not sure this is the right code */
 * section[functional_status].entry 
 //* section[functional_status].entry only Reference($PFECollection or $PFEClinicalTestObservation or $PFESingleObservation or
 //                                                 $PFEUseOfDevice or $PFENarrativeHistoryOfStatus)
@@ -87,24 +87,24 @@ Description: "This profile defines constraints that represent common administrat
 * section[immunizations].entry 
 * section[immunizations].entry only Reference($USCoreImmunization)
 
-* section[instructions] ^short = "Discharge Instructions"
+* section[instructions] ^short = "Instructions"
 * section[instructions].title 1..1 MS
 * section[instructions].code 1..1 
-* section[instructions].code = $LOINC#18842-5 // "Discharge summary"
+* section[instructions].code = $LOINC#69730-0 // "Instructions"
 * section[instructions].entry 
 * section[instructions].entry only Reference($USCoreDiagnosticReportNotes or $USCoreDocumentReference) 
 
-* section[medication_equipment] ^short = "Medication Equipment"
+* section[medication_equipment] ^short = "Medical Devices"
 * section[medication_equipment].title 1..1 MS
 * section[medication_equipment].code 1..1 
-* section[medication_equipment].code = $LOINC#57829-4 // "Prescription for medical equipment or product"
+* section[medication_equipment].code = $LOINC#46264-8 // "History of medical device use"
 * section[medication_equipment].entry 
 * section[medication_equipment].entry only Reference(Device) 
 
 * section[medications] ^short = "Medications"
 * section[medications].title 1..1 MS
 * section[medications].code 1..1 
-* section[medications].code = $LOINC#52471-0 // "Medications"
+* section[medications].code = $LOINC#10160-0 // "History of Medication Use"
 * section[medications].entry 
 * section[medications].entry only Reference(List) 
 
@@ -115,10 +115,10 @@ Description: "This profile defines constraints that represent common administrat
 * section[plan_of_care].entry 
 * section[plan_of_care].entry only Reference($USCoreCarePlan) 
 
-* section[problems] ^short = "Problem"
+* section[problems] ^short = "Problems"
 * section[problems].title 1..1 MS
 * section[problems].code 1..1 
-* section[problems].code = $LOINC#46019-6 // "Diseases or conditions Set"
+* section[problems].code = $LOINC#11450-4 // "Problem list - Reported"
 * section[problems].entry 
 * section[problems].entry only Reference($USCoreConditionEncounterDiagnosis or 
                                             $USCoreConditionProblemsandHealthConcerns or
@@ -127,7 +127,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[procedures] ^short = "Procedures"
 * section[procedures].title 1..1 MS
 * section[procedures].code 1..1 
-* section[procedures].code = $LOINC#28570-0 // "Procedure note" /* not sure this is the right code */
+* section[procedures].code = $LOINC#47519-4 // "History of Procedures Document"
 * section[procedures].entry 
 * section[procedures].entry only Reference(USCoreProcedureProfile)
 
@@ -172,6 +172,6 @@ Description: "This profile defines constraints that represent common administrat
 * section[vital_signs] ^short = "Vital Signs"
 * section[vital_signs].title 1..1 MS
 * section[vital_signs].code 1..1 
-* section[vital_signs].code = $LOINC#LP30605-7 // "Vital signs"
+* section[vital_signs].code = $LOINC#8716-3 // "Vital signs"
 * section[vital_signs].entry 
 * section[vital_signs].entry only Reference($USCoreVitalSigns)
