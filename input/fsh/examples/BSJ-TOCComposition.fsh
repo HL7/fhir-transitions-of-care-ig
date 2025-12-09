@@ -27,7 +27,6 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 //* section[advance_directives].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Advance directives for Betsy Smith-Johnson</div>"
 
 * section[allergies].title = "List of allergies for Betsy Smith-Johnson"
-* section[allergies].code = $LOINC#48765-2 "Allergies and adverse reactions Document"
 * section[allergies].entry[+] = Reference(AllergyIntolerance/BSJ-AllergyACE)
 * section[allergies].text.status = #additional
 * section[allergies].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Allergies for Betsy Smith-Johnson</div>"
@@ -39,7 +38,6 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 //* section[behavioral_health].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Behavioral health information for Betsy Smith-Johnson</div>"
 
 * section[functional_status].title = "Functional status of Betsy Smith-Johnson"
-* section[functional_status].code = $LOINC#54522-8 "Functional status"
 * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Doffing1)
 * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Donning1)
 * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Mobility-PT1)
@@ -50,37 +48,31 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * section[functional_status].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Functional status of Betsy Smith-Johnson</div>"
 
 //* section[immunizations].title = "List of immunizations for Betsy Smith-Johnson"
-//* section[immunizations].code = $LOINC#82593-5 "Immunization summary report"
 //* section[immunizations].entry[+] = 
 //* section[immunizations].text.status = #additional
 //* section[immunizations].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of immunizations for Betsy Smith-Johnson</div>"
 
 //* section[instructions].title = "Discharge instructions for Betsy Smith-Johnson"
-//* section[instructions].code = $LOINC#18842-5 "Discharge summary"
 //* section[instructions].entry[+] = 
 //* section[instructions].text.status = #additional
 //* section[instructions].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Discharge instructions for Betsy Smith-Johnson</div>"
 
 //* section[medication_equipment].title = "List of medical equipment needed by Betsy Smith-Johnson"
-//* section[medication_equipment].code = $LOINC#57829-4 "Prescription for medical equipment or product"
 //* section[medication_equipment].entry[+] = 
 //* section[medication_equipment].text.status = #additional
 //* section[medication_equipment].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medical equipment needed by Betsy Smith-Johnson</div>"
 
 * section[medications].title = "List of medications prescribed for Betsy Smith-Johnson"
-* section[medications].code = $LOINC#52471-0 "Medications"
 * section[medications].entry[+] = Reference(List/BSJ-SMPMedList)
 * section[medications].text.status = #additional
 * section[medications].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medications prescribed for Betsy Smith-Johnson</div>"
 
 * section[plan_of_care].title = "Discharge care plan for Betsy Smith-Johnson"
-* section[plan_of_care].code = $LOINC#74449-0 "Patient plan of care - recommended IHE set"
 * section[plan_of_care].entry[+] = Reference(CarePlan/BSJ-SNFDischargeCarePlan)
 * section[plan_of_care].text.status = #additional
 * section[plan_of_care].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Discharge care plan for Betsy Smith-Johnson</div>"
 
 * section[problems].title = "List of problem conditions and observations for Betsy Smith-Johnson"
-* section[problems].code = $LOINC#46019-6 "Diseases or conditions Set"
 * section[problems].entry[+] = Reference(Condition/BSJ-AnemiaDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-ConstipationDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-DepressionDiagnosis)
@@ -107,7 +99,7 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 //* section[procedures].text.div = "<div>List of procedures prescribed for Betsy Smith-Johnson</div>"
 
 * section[reason_for_referral].title = "Reason for referring Betsy Smith-Johnson"
-* section[reason_for_referral].code = $LOINC#42349-1 "Reason for referral (narrative)"
+// * section[reason_for_referral].code = $LOINC#42349-1 "Reason for referral (narrative)"
 * section[reason_for_referral].text.status = #additional
 * section[reason_for_referral].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Reason for referring Betsy Smith-Johnson</div>"
 * section[reason_for_referral].entry[+] = Reference(Encounter/BSJ-Encounter)
@@ -122,7 +114,7 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 //* section[reason_for_visit].reason.reference = 
 
 * section[results].title = "List of test results for Betsy Smith-Johnson"
-* section[results].code = $LOINC#19146-0 "Referral lab test results"
+// * section[results].code = $LOINC#19146-0 "Referral lab test results"
 //* section[results].entry[+] = 
 * section[results].text.status = #additional
 * section[results].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of test results for Betsy Smith-Johnson</div>"
