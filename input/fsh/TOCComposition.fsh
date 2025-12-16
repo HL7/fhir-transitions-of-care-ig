@@ -37,8 +37,8 @@ Description: "This profile defines constraints that represent common administrat
     behavioral_health 0..1 MS and
     functional_status 0..1 MS and
     immunizations 0..1 MS and
-    instructions 0..1 MS and
-    medication_equipment 0..1 MS and
+    discharge_instructions 0..1 MS and
+    medical_devices 0..1 MS and
     medications 1..1 MS and
     plan_of_care 0..1 MS and
     problems 1..1 MS and
@@ -87,19 +87,19 @@ Description: "This profile defines constraints that represent common administrat
 * section[immunizations].entry 
 * section[immunizations].entry only Reference($USCoreImmunization)
 
-* section[instructions] ^short = "Instructions"
-* section[instructions].title 1..1 MS
-* section[instructions].code 1..1 
-* section[instructions].code = $LOINC#69730-0 // "Instructions"
-* section[instructions].entry 
-* section[instructions].entry only Reference($USCoreDiagnosticReportNotes or $USCoreDocumentReference) 
+* section[discharge_instructions] ^short = "Discharge Instructions"
+* section[discharge_instructions].title 1..1 MS
+* section[discharge_instructions].code 1..1 
+* section[discharge_instructions].code = $LOINC#69730-0 // "Discharge Instructions"
+* section[discharge_instructions].entry 
+* section[discharge_instructions].entry only Reference($USCoreDiagnosticReportNotes or $USCoreDocumentReference) 
 
-* section[medication_equipment] ^short = "Medical Devices"
-* section[medication_equipment].title 1..1 MS
-* section[medication_equipment].code 1..1 
-* section[medication_equipment].code = $LOINC#46264-8 // "History of medical device use"
-* section[medication_equipment].entry 
-* section[medication_equipment].entry only Reference(Device) 
+* section[medical_devices] ^short = "Medical Devices"
+* section[medical_devices].title 1..1 MS
+* section[medical_devices].code 1..1 
+* section[medical_devices].code = $LOINC#46264-8 // "History of medical device use"
+* section[medical_devices].entry 
+* section[medical_devices].entry only Reference(Device) 
 
 * section[medications] ^short = "Medications"
 * section[medications].title 1..1 MS
