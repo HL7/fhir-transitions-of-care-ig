@@ -44,7 +44,7 @@ Description: "This profile defines constraints that represent common administrat
     problems 1..1 MS and
     procedures 0..1 MS and
     reason_for_referral 0..1 MS and
-    reason_for_visit 0..1 MS and
+//    reason_for_visit 0..1 MS and
     results 1..1 MS and
     social_history 0..1 MS and
     vital_signs 0..1 MS
@@ -142,18 +142,18 @@ Description: "This profile defines constraints that represent common administrat
 // * section[reason_for_referral].extension contains
 //     transition-of-care-reason named ReasonExtension 0..1
 
-* section[reason_for_visit] ^short = "Reason for Visit (Ambulatory)"
-* section[reason_for_visit].title 1..1 MS
-* section[reason_for_visit].code 1..1 
-* section[reason_for_visit].code = $LOINC#29299-5 // "Reason for visit Narrative"
-* section[reason_for_visit].entry
-* section[reason_for_visit].entry only Reference($USCoreConditionProblemsandHealthConcerns or $USCoreConditionEncounterDiagnosis or 
- 														$USCoreProcedure or Observation or ImmunizationRecommendation or 
- 														$CCDAonFHIRDischargeSummary or $USCoreEncounter)
+// * section[reason_for_visit] ^short = "Reason for Visit (Ambulatory)"
+// * section[reason_for_visit].title 1..1 MS
+// * section[reason_for_visit].code 1..1 
+// * section[reason_for_visit].code = $LOINC#29299-5 // "Reason for visit Narrative"
+// * section[reason_for_visit].entry
+// * section[reason_for_visit].entry only Reference($USCoreConditionProblemsandHealthConcerns or $USCoreConditionEncounterDiagnosis or 
+//  														$USCoreProcedure or Observation or ImmunizationRecommendation or 
+//  														$CCDAonFHIRDischargeSummary or $USCoreEncounter)
 // * section[reason_for_visit].extension contains
 //     transition-of-care-reason named ReasonExtension 0..1
 
-* section[results] ^short = "Recent Test Results"
+* section[results] ^short = "Clinical Results"
 * section[results].title 1..1 MS
 * section[results].code 1..1 
 * section[results].code = $LOINC#19146-0 // "Referral lab test results"
@@ -172,6 +172,6 @@ Description: "This profile defines constraints that represent common administrat
 * section[vital_signs] ^short = "Vital Signs"
 * section[vital_signs].title 1..1 MS
 * section[vital_signs].code 1..1 
-* section[vital_signs].code = $LOINC#8716-3 // "Vital signs"
+* section[vital_signs].code = $LOINC#85353-1 // "Vital signs"
 * section[vital_signs].entry 
 * section[vital_signs].entry only Reference($USCoreVitalSigns)
