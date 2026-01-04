@@ -93,14 +93,14 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 * entry[+].resource = BSJ-MDS-Mobility-PT1
 * entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-Mobility-PT1"
 
-* entry[+].resource = BSJ-MDS-ShortWalk1
-* entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-ShortWalk1"
+// * entry[+].resource = BSJ-MDS-ShortWalk1
+// * entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-ShortWalk1"
 
 * entry[+].resource = BSJ-MDS-SitStand1
 * entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-SitStand1"
 
-* entry[+].resource = BSJ-MDS-SitUp1
-* entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-SitUp1"
+// * entry[+].resource = BSJ-MDS-SitUp1
+// * entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-SitUp1"
 
 //-------------------------- Medications ---------------------------
 

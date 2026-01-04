@@ -45,7 +45,7 @@ Description: "This profile defines constraints that represent common administrat
     procedures 0..1 MS and
     reason_for_referral 0..1 MS and
 //    reason_for_visit 0..1 MS and
-    results 1..1 MS and
+    clinical_results 1..1 MS and
     social_history 0..1 MS and
     vital_signs 0..1 MS
 
@@ -139,6 +139,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[reason_for_referral].entry only Reference($USCoreConditionProblemsandHealthConcerns or $USCoreConditionEncounterDiagnosis or 
  														$USCoreProcedure or Observation or ImmunizationRecommendation or 
  														$CCDAonFHIRDischargeSummary or $USCoreEncounter)
+// **** mlt20251231 - Reason for Visit Section removed based on ToC SME review.
 // * section[reason_for_referral].extension contains
 //     transition-of-care-reason named ReasonExtension 0..1
 
@@ -153,12 +154,12 @@ Description: "This profile defines constraints that represent common administrat
 // * section[reason_for_visit].extension contains
 //     transition-of-care-reason named ReasonExtension 0..1
 
-* section[results] ^short = "Clinical Results"
-* section[results].title 1..1 MS
-* section[results].code 1..1 
-* section[results].code = $LOINC#19146-0 // "Referral lab test results"
-* section[results].entry 
-* section[results].entry only Reference($USCoreObservationClinicalResult)
+* section[clinical_results] ^short = "Clinical Results"
+* section[clinical_results].title 1..1 MS
+* section[clinical_results].code 1..1 
+* section[clinical_results].code = $LOINC#19146-0 // "Referral lab test results"
+* section[clinical_results].entry 
+* section[clinical_results].entry only Reference($USCoreObservationClinicalResult or $USCoreDiagnosticReportNotes) // mlt20251231 - added DiagnosticReports based on ToC SME review
 
 * section[social_history] ^short = "Social History"
 * section[social_history].title 1..1 MS
@@ -166,8 +167,8 @@ Description: "This profile defines constraints that represent common administrat
 * section[social_history].code = $LOINC#10166-7 // "History of Social function Narrative"
 * section[social_history].entry
 * section[social_history].entry only Reference($USCoreSimpleObservation or $USCoreSmokingStatus or
-                                                    $IPSComposition or $PFENarrativeHistoryOfStatus or
-                                                    $USCoreCarePlan or $USCorePatient or $USCoreCoverage or $DDEDentalBundle)
+                                                    $PFENarrativeHistoryOfStatus or
+                                                    $USCoreCarePlan or $USCorePatient)
 
 * section[vital_signs] ^short = "Vital Signs"
 * section[vital_signs].title 1..1 MS

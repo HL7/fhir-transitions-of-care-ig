@@ -5,16 +5,16 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
+<artifact deprecated="true" id="Observation/BSJ-MDS-SitUp1" key="Observation-BSJ-MDS-SitUp1" name="Discharge Assessment - Lying to sitting on side of bed"/>
+<artifact deprecated="true" id="Observation/BSJ-MDS-ShortWalk1" key="Observation-BSJ-MDS-ShortWalk1" name="Discharge Assessment - Walk 50 feet with 2 turns"/>
 <artifact id="AllergyIntolerance/BSJ-AllergyACE" key="AllergyIntolerance-BSJ-AllergyACE" name="Example: Allergy List"/>
 <artifact id="Condition/BSJ-AnemiaDiagnosis" key="Condition-BSJ-AnemiaDiagnosis" name="Example: Anemia Diagnosis"/>
 <artifact id="Condition/BSJ-ConstipationDiagnosis" key="Condition-BSJ-ConstipationDiagnosis" name="Example: Constipation Diagnosis"/>
 <artifact id="Condition/BSJ-DepressionDiagnosis" key="Condition-BSJ-DepressionDiagnosis" name="Example: Depression Diagnosis"/>
 <artifact id="Condition/BSJ-DiabetesDiagnosis" key="Condition-BSJ-DiabetesDiagnosis" name="Example: Diabetes Diagnosis"/>
 <artifact id="Observation/BSJ-MDS-Donning1" key="Observation-BSJ-MDS-Donning1" name="Example: Discharge Assessment - Lower body dressing"/>
-<artifact id="Observation/BSJ-MDS-SitUp1" key="Observation-BSJ-MDS-SitUp1" name="Example: Discharge Assessment - Lying to sitting on side of bed"/>
 <artifact id="Observation/BSJ-MDS-SitStand1" key="Observation-BSJ-MDS-SitStand1" name="Example: Discharge Assessment - Sit to stand"/>
 <artifact id="Observation/BSJ-MDS-Doffing1" key="Observation-BSJ-MDS-Doffing1" name="Example: Discharge Assessment - Upper body dressing"/>
-<artifact id="Observation/BSJ-MDS-ShortWalk1" key="Observation-BSJ-MDS-ShortWalk1" name="Example: Discharge Assessment - Walk 50 feet with 2 turns"/>
 <artifact id="CarePlan/BSJ-SNFDischargeCarePlan" key="CarePlan-BSJ-SNFDischargeCarePlan" name="Example: Discharge Care Plan"/>
 <artifact id="ServiceRequest/BSJ-SNFDischargeCallOTRefer" key="ServiceRequest-BSJ-SNFDischargeCallOTRefer" name="Example: Discharge Service Request for OT referral"/>
 <artifact id="ServiceRequest/BSJ-SNFDischargePTRefer" key="ServiceRequest-BSJ-SNFDischargePTRefer" name="Example: Discharge Service Request for PT referral"/>

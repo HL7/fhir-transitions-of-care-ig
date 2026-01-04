@@ -13,8 +13,8 @@ Description: "Minimum Data Set (MDS) Nursing Home Discharge Assessment Questions
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 * effectiveDateTime = "2024-05-16T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
-* hasMember[0] = Reference(BSJ-MDS-ShortWalk1)
+// * hasMember[0] = Reference(BSJ-MDS-ShortWalk1)
 * hasMember[+] = Reference(BSJ-MDS-SitStand1)
-* hasMember[+] = Reference(BSJ-MDS-SitUp1)
+// * hasMember[+] = Reference(BSJ-MDS-SitUp1)
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
