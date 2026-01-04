@@ -41,9 +41,9 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Doffing1)
 * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Donning1)
 * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Mobility-PT1)
-* section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-ShortWalk1)
+// * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-ShortWalk1)
 * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-SitStand1)
-* section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-SitUp1)
+// * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-SitUp1)
 * section[functional_status].text.status = #additional
 * section[functional_status].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Functional status of Betsy Smith-Johnson</div>"
 
@@ -113,11 +113,11 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 //* section[reason_for_visit].reason.code = 
 //* section[reason_for_visit].reason.reference = 
 
-* section[results].title = "List of test results for Betsy Smith-Johnson"
+* section[clinical_results].title = "List of test results for Betsy Smith-Johnson"
 // * section[results].code = $LOINC#19146-0 "Referral lab test results"
 //* section[results].entry[+] = 
-* section[results].text.status = #additional
-* section[results].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of test results for Betsy Smith-Johnson</div>"
+* section[clinical_results].text.status = #additional
+* section[clinical_results].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of test results for Betsy Smith-Johnson</div>"
 
 //* section[social_history].title = "Social history for Betsy Smith-Johnson"
 //* section[social_history].code = $LOINC#10166-7 "History of Social function Narrative"
