@@ -17,7 +17,7 @@ Description: "This profile defines constraints that represent common administrat
 * encounter only Reference($USCoreEncounter)
 * date MS
 * author MS
-* author only Reference($USCorePractitioner or $USCorePractitionerRole or PractitionerRole or $USCorePatient or Device or RelatedPerson)
+* author only Reference($USCorePractitioner or $USCorePractitionerRole or PractitionerRole or $USCorePatient)
 * title MS
 * confidentiality 0..0
 
@@ -111,7 +111,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[plan_of_care] ^short = "Plan of Care"
 * section[plan_of_care].title 1..1 MS
 * section[plan_of_care].code 1..1 
-* section[plan_of_care].code = $LOINC#74449-0 // "Patient plan of care - recommended IHE set"
+* section[plan_of_care].code = $LOINC#18776-5 // "Plan of care note"
 * section[plan_of_care].entry 
 * section[plan_of_care].entry only Reference($USCoreCarePlan) 
 
@@ -157,14 +157,14 @@ Description: "This profile defines constraints that represent common administrat
 * section[clinical_results] ^short = "Clinical Results"
 * section[clinical_results].title 1..1 MS
 * section[clinical_results].code 1..1 
-* section[clinical_results].code = $LOINC#19146-0 // "Referral lab test results"
+* section[clinical_results].code = $LOINC#39054-2 // "Relevant diagnostic tests/laboratory data note"
 * section[clinical_results].entry 
 * section[clinical_results].entry only Reference($USCoreObservationClinicalResult or $USCoreDiagnosticReportNotes) // mlt20251231 - added DiagnosticReports based on ToC SME review
 
 * section[social_history] ^short = "Social History"
 * section[social_history].title 1..1 MS
 * section[social_history].code 1..1 
-* section[social_history].code = $LOINC#10166-7 // "History of Social function Narrative"
+* section[social_history].code = $LOINC#29762-2 // "Social history note"
 * section[social_history].entry
 * section[social_history].entry only Reference($USCoreSimpleObservation or $USCoreSmokingStatus or
                                                     $PFENarrativeHistoryOfStatus or
@@ -173,6 +173,6 @@ Description: "This profile defines constraints that represent common administrat
 * section[vital_signs] ^short = "Vital Signs"
 * section[vital_signs].title 1..1 MS
 * section[vital_signs].code 1..1 
-* section[vital_signs].code = $LOINC#85353-1 // "Vital signs"
+* section[vital_signs].code = $LOINC#8716-3 // "Vital signs note"
 * section[vital_signs].entry 
 * section[vital_signs].entry only Reference($USCoreVitalSigns)
