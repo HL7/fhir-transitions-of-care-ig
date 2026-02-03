@@ -84,6 +84,7 @@
 <artifact id="CapabilityStatement/toc" key="CapabilityStatement-toc" name="TOC CapabilityStatement"/>
 <artifact id="StructureDefinition/TOC-Bundle" key="Bundle-Example-Smith-Johnson-Bundle" name="Transition of Care Bundle"/>
 <artifact id="StructureDefinition/TOC-Composition" key="StructureDefinition-TOC-Composition" name="Transition of Care Composition"/>
+<artifact id="CodeSystem/toc-temp-cs" key="CodeSystem-toc-temp-cs" name="Transition of Care Temporary Code System"/>
 <artifact id="ValueSet/toc-del-loinc-vs" key="ValueSet-toc-del-loinc-vs" name="Transitions of Care DEL LOINC Terms Value Set"/>
 <artifact deprecated="true" id="ValueSet/toc-loinc-answered-by-LL5571-6-vs" key="ValueSet-toc-loinc-answered-by-LL5571-6-vs" name="Transitions of Care LOINC Terms Answered by LL5571-6 Answer List Value Set"/>
 <artifact deprecated="true" id="ValueSet/toc-del-loinc-answered-by-LL5571-6-vs" key="ValueSet-toc-del-loinc-answered-by-LL5571-6-vs" name="Transitions of Care LOINC Terms Included in the DEL Answered by LL5571-6 Answer List Value Set"/>

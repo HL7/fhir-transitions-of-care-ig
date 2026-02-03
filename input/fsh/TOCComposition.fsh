@@ -65,7 +65,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[behavioral_health] ^short = "Behavioral Health"
 * section[behavioral_health].title 1..1 MS
 * section[behavioral_health].code 1..1
-* section[behavioral_health].code = $LOINC#54511-1 // "Behavior" /* not sure this is the right code */
+* section[behavioral_health].code = $ToCTempCS#behavioral_health_summary // Temporary code that will be replaced once LOINC code is assigned.
 * section[behavioral_health].entry
 * section[behavioral_health].entry only Reference($USCoreConditionEncounterDiagnosis or 
                                             $USCoreConditionProblemsandHealthConcerns or
