@@ -83,7 +83,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[immunizations] ^short = "Immunizations"
 * section[immunizations].title 1..1 MS
 * section[immunizations].code 1..1 
-* section[immunizations].code = $LOINC#82593-5 // "Immunization summary report" /* not sure this is the right code */
+* section[immunizations].code = $LOINC#11369-6 // "History of Immunization note" 
 * section[immunizations].entry 
 * section[immunizations].entry only Reference($USCoreImmunization)
 
