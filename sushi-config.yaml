@@ -12,7 +12,7 @@ status: active # draft | active | retired | unknown
 version: 1.0.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
-releaseLabel: STU 1 Ballot # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: STU 1 # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
@@ -41,7 +41,7 @@ contact:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-  hl7.fhir.us.pacio-adi: current
+  hl7.fhir.us.pacio-adi: 1.0.0
   hl7.fhir.us.pacio-pfe: 2.0.0
   hl7.fhir.us.core: 8.0.0
   us.nlm.vsac:
@@ -77,6 +77,7 @@ menu:
     Terminology: artifacts.html#terminology-value-sets
     Examples: artifacts.html#example-example-instances
     Search Parameters: search_parameters.html
+  Change Log: change_log.html
   Downloads: downloads.html
 
 # The pages property corresponds to IG.definition.page. SUSHI can
@@ -109,6 +110,8 @@ pages:
     title: Recommended Search Parameters
   artifacts.html:
     title: FHIR Artifacts
+  change_log.md:
+    title: Change Log
   downloads.md:
     title: Downloads
 

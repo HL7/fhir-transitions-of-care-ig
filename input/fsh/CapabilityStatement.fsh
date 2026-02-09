@@ -9,7 +9,7 @@ Usage: #definition
 * fhirVersion = #4.0.1
 * format[0] = #xml
 * format[+] = #json
-* implementationGuide = "https://build.fhir.org/ig/HL7/pacio-toc/ImplementationGuide-hl7.fhir.us.pacio-toc"
+* implementationGuide = "http://hl7.org/fhir/us/pacio-toc/ImplementationGuide/hl7.fhir.us.pacio-toc"
 * jurisdiction = urn:iso:std:iso:3166#US
 * kind = #requirements
 * name = "PacioTocCapabilityStatement"
@@ -202,7 +202,7 @@ Usage: #definition
 * rest.resource[=].searchParam[=].type = #string
 * rest.resource[=].searchParam[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].searchParam[=].extension.valueCode = #SHALL
-* rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/us/core/SearchParameter/us-core-patient-gender|8.0.0"
+* rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/us/core/SearchParameter/us-core-patient-gender"
 * rest.resource[=].searchParam[=].documentation = "https://www.hl7.org/fhir/us/core/SearchParameter-us-core-patient-given.html"
 * rest.resource[=].searchParam[=].name = "gender"
 * rest.resource[=].searchParam[=].type = #token
