@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/us/pacio-toc/2025May" ciUrl="https://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig" defaultVersion="1.0.0-ballot" defaultWorkgroup="pc" gitUrl="https://github.com/HL7/fhir-transitions-of-care-ig" url="http://hl7.org/fhir/us/pacio-toc">
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/us/pacio-toc/2025May" ciUrl="https://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig" defaultVersion="1.0.0" defaultWorkgroup="pc" gitUrl="https://github.com/HL7/fhir-transitions-of-care-ig" url="http://hl7.org/fhir/us/pacio-toc">
 <version code="current" url="https://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig"/>
+<version code="1.0.0" url="http://hl7.org/fhir/us/pacio-toc/"/>
 <version code="1.0.0-ballot" url="http://hl7.org/fhir/us/pacio-toc/2025May"/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
@@ -90,6 +91,7 @@
 <artifact deprecated="true" id="ValueSet/toc-del-loinc-answered-by-LL5571-6-vs" key="ValueSet-toc-del-loinc-answered-by-LL5571-6-vs" name="Transitions of Care LOINC Terms Included in the DEL Answered by LL5571-6 Answer List Value Set"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
+<page key="change_log" name="Change Log"/>
 <page key="downloads" name="Downloads"/>
 <page key="artifacts" name="FHIR Artifacts"/>
 <page key="formal_specification" name="Formal Specification"/>

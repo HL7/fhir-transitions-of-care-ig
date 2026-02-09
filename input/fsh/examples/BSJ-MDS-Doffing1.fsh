@@ -8,7 +8,7 @@ Description: "Minimum Data Set (MDS) Discharge Assessment - Upper body dressing 
 * status = #final
 * category[survey] = $observation-category#survey "Survey"
 * category[us-core] = $us-core-category#functional-status "Functional Status"
-* category[PFEDomain] = $pfe-category-cs#d5401 "Taking Off Clothes"
+* category[PFEDomain] = $icf#d5401 "Taking Off Clothes"
 * code = $loinc#89387-5 "Upper body dressing - functional goal during assessment period [CMS Assessment]"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 * effectiveDateTime = "2024-05-16T14:30:00-04:00"

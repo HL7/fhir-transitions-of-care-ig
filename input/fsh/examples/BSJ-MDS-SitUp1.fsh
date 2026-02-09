@@ -8,7 +8,7 @@
 // * status = #final
 // * category[survey] = $observation-category#survey "Survey"
 // * category[us-core] = $us-core-category#functional-status "Functional Status"
-// * category[PFEDomain] = $pfe-category-cs#d4100 "Lying Down"
+// * category[PFEDomain] = $icf#d4100 "Lying Down"
 // * code = $loinc#85927-2 "Lying to sitting on side of bed - functional goal during assessment period [CMS Assessment]"
 // * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 // * effectiveDateTime = "2024-05-16T14:30:00-04:00"
