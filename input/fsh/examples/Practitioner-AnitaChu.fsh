@@ -4,7 +4,7 @@ Usage: #example
 Title: "Example: Dr. Anita Chu"
 Description: "Information about fictional practitioner Dr. Anita Chu."
 
-* meta.profile = Canonical(us-core-practitioner|6.1.0)
+* meta.profile = Canonical(us-core-practitioner|8.0.0)
 * name.given = "Anita"
 * name.family = "Chu"
 * name.text = "Anita Chu"

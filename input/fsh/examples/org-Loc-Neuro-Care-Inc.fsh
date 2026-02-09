@@ -4,7 +4,7 @@ Title: "Example: Location of the Neuro Care Inc. facility"
 Description: "Location of the Neuro Care Inc. facility."
 Usage: #example
 
-* meta.profile = Canonical(us-core-location|6.1.0)
+* meta.profile = Canonical(us-core-location|8.0.0)
 * status = #active
 * name = "Neuro Care Inc."
 * address.line = "177 Branching Tree Blvd"

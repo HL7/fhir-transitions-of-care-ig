@@ -4,7 +4,7 @@ Usage: #example
 Title: "Example: Location of the Happy Nursing Facility"
 Description: "Location of the Happy Nursing Facility."
 
-* meta.profile = Canonical(us-core-location|6.1.0)
+* meta.profile = Canonical(us-core-location|8.0.0)
 * status = #active
 * name = "Happy Nursing Facility"
 * address.line = "8100 Pinebrook Dr"

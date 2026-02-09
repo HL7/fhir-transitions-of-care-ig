@@ -4,7 +4,7 @@ Usage: #example
 Title: "Example: Discharge Service Request for OT referral"
 Description: "Discharge Service Request for Occupational Therapy referral for fictional patient Betsy Smith-Johnson."
 
-* meta.profile = Canonical(us-core-servicerequest|6.1.0)
+* meta.profile = Canonical(us-core-servicerequest|8.0.0)
 * status = #active
 * intent = #order
 * category = $sct#386053000 "Evaluation procedure (procedure)"

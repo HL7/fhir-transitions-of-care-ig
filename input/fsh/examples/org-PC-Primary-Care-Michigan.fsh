@@ -4,7 +4,7 @@ Usage: #example
 Title: "Example: Michigan Primary Health Care Associates Organization"
 Description: "Information about the Michigan Primary Health Care Associates Organization."
 
-* meta.profile = Canonical(us-core-organization|6.1.0)
+* meta.profile = Canonical(us-core-organization|8.0.0)
 * active = true
 * name = "Michigan Primary Health Care Associates"
 * telecom.system = #phone

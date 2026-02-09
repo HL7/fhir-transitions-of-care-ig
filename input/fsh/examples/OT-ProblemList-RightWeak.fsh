@@ -4,7 +4,7 @@ Usage: #example
 Title: "Example: OT Right Weakness Problem List"
 Description: "Occupational Therapy Right Weakness problem list for fictional patient Betsy Smith-Johnson."
 
-* meta.profile = Canonical(us-core-condition-problems-health-concerns|6.1.0)
+* meta.profile = Canonical(us-core-condition-problems-health-concerns|8.0.0)
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#713512009 "Muscle weakness of upper limb (finding)"

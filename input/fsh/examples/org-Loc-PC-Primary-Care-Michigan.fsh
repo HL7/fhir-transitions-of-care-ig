@@ -4,7 +4,7 @@ Usage: #example
 Title: "Example: Location of Michigan Primary Health Care Associates"
 Description: "Location of Michigan Primary Health Care Associates."
 
-* meta.profile = Canonical(us-core-location|6.1.0)
+* meta.profile = Canonical(us-core-location|8.0.0)
 * status = #active
 * name = "Michigan Primary Health Care Associates"
 * address.line = "123 Spruce Dr"

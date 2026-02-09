@@ -68,79 +68,87 @@ By focusing on these key aspects, healthcare providers can ensure smoother trans
     <object data="TOC-structure.svg" type="image/svg+xml" width="100%"></object>
 </p>
 
-The Transition of Care composition defines 16 sections:
+The Transition of Care composition defines the following sections:
 
-<table class="grid" style="width: 100%">
-	<thead>
-		<tr>
-			<th>Section</th>
-			<th>Description</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Advance Directives</td>
-			<td>Examples include Personal Advance Care Plans, Portable Medical Orders, Mental Health Advance Directives, Episodic Advance Directives</td>
-		</tr>
-		<tr>
-			<td>Allergies</td>
-			<td>List of allergies the patient has</td>
-		</tr>
-  		<tr>
-			<td>Behavioral Health</td>
-			<td>Examples include assessments, observations, drug education, medication review, self harm, family participation, legal participation</td>
-		</tr>
-		<tr>
-			<td>Functional Status</td>
-			<td>Examples include assessments, mental status, mobility, activities of daily livings, swallowing, devices needed</td>
-		</tr>
-		<tr>
-			<td>Immunizations</td>
-			<td>List of immunizations patient has received and when</td>
-		</tr>
-		<tr>
-			<td>Instructions</td>
-			<td>Narrative instructions and notes</td>
-		</tr>
-		<tr>
-			<td>Medication Equipment</td>
-			<td>List of equipment patient needs to take medications</td>
-		</tr>
-		<tr>
-			<td>Medications</td>
-			<td>List of medications prescribed for the patient.  Examples include medications received (administration lists, discharge lists, discontinued lists), high risk drug classes, opioids</td>
-		</tr>
-		<tr>
-			<td>Plan of Care</td>
-			<td>Care plan created for the patient.  Care plans can include conditions and their treatment, substance abuse, care management, and nutrition information</td>
-		</tr>
-		<tr>
-			<td>Problems</td>
-			<td>Examples include fever, vomiting, dehydration, internal bleeding, shortness of breath, pain</td>
-		</tr>
-		<tr>
-			<td>Procedures</td>
-			<td>List of procedures the patient has undergone</td>
-		</tr>
-		<tr>
-			<td>Reason for Referral</td>
-			<td>Examples include discharge summary (reason, destination, location, status, setting, admitted from)</td>
-		</tr>
-		<tr>
-			<td>Reason for Visit</td>
-			<td>Examples include referrals from encounters</td>
-		</tr>
-		<tr>
-			<td>Results</td>
-			<td>Examples include lab results</td>
-		</tr>
-		<tr>
-			<td>Social History</td>
-			<td>Examples include medical history, prior level of functioning, substance abuse, ethnicity, race, coverage (Medicare, Medicaid, private, self), transportation, demographics, dental</td>
-		</tr>
-		<tr>
-			<td>Vital Signs</td>
-			<td>Examples include height, weight, blood pressure, oxygen levels</td>
-		</tr>
-	</tbody>
-</table>
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ccc; padding: 6px; background-color: #f2f2f2;"><b>Section</b></th>
+      <th style="border: 1px solid #ccc; padding: 6px; background-color: #f2f2f2;"><b>Description</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Advance Directives</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">Declarations by individuals made in advance of a situation in which they may be incompetent to decide about or articulate their wishes for their own care, stating their treatment preferences and limitations on treatment. Examples include Personal Advance Care Plans, Portable Medical Orders, Mental Health Advance Directives, Episodic Advance Directives, POLST/MOLST forms.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Allergies and Adverse Reactions</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">List of any responses to medication, food, and topical. ingested or inhaled agent occuring with normal use that are unintended, potentially harmful, and unwanted by the individual. Allergic reactions involve the activation of the immune sysem in the response. Examples of adverse reactions include low blood pressure from opiates, confusrion and dry mouth from anticholinergics. Examples of allergic reactions include hives, rash, and anaphylaxis.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Behavioral Health</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">Observations, assessments, and interventions regarding the impact of behaviors on mental and physical well being. Examples of behaviors include reactions to stress, habbbits, substance use disorders, eating disorders, as well as mental health conditions such as anxiety, depression, psychosis, and personality disorders. Interventions include education, counseling, pharmacological and non-pharmalogical treatments. Impacts on physical and mental health include legal, social, and occupational issues, as well as physical impacts from behaviors such as sedentary lifestyles.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Competency</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">Observations and assessments of the ability to understand the nature and effect of the act in which the individual is engaged in particular the ability to consent to treatment. (See also: Substitued Judgement)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Functional Status</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">Observation, assessments, and interventions regarding basic physical and cognitive activities and their impact on mental and physical well being. Examples of observations and assessments include those of mental status, mobility, activities of daily living, speech, and swallowing. Examples of interventions include devices, therapy, and modification of the environment including personal assistance.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Immunizations</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">List of immunizations an individual has received and when. May also include a schedule for future immunizations.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Discharge Instructions</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">Directions given to an individual designed to teach about prevention, diagnosis, monitoring, or treatment of conditions or functional impairments.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Medical Devices</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">List of equipment the individual uses for prevention, diagnosis, monitoring, or treatment of conditions or functional impairment (disability). Examples included implanted pumps, lines, tubes and drains as well external devices including splints, mobillity aides, and ventilators.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Medications</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">List of medications prescribed for the individual for prevention, diagnosis, or treatment of one or more condition which includes indication, dose, frequency, duration,prescriber, and reason(s) to contact the prescriber. Examples include medications received (administration lists), medications active at discharge, discontinued medications, high risk drug, opioids, preadmission medication list, reconciled medication list.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Discharge Care Plan</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">A summary of conditions that require further intervention after discharge with plans for treatment, diagnosis, monitoring, prevention of adverse events, and the party responsible for the activity.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Problems</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">A list of conditions that require ongoing management including those that previously required management but are not active. Examples include diagnoses, potential for adverse events, concerns, symptoms, or signs.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Procedures</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">List of interventions undergone by the indivdual that required informed consent. Examples include surgery, exposure to radiation, experimental interventions.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Reason for Transfer Referral</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">Purpose to be served by moving the individual to a new site of care. Examples include: continued rehabilitation or treatment, treatment unavailable at the current site, preference of individual or substituted decision maker.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Clinical Results</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">The result of a laboratory, radiologic, or other clinical test performed to determine the presence, absence, or degree of a condition. Examples include lab, pathology, imaging results.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Social History</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">Documentation of the individual's personal, environmental, and behavioral factors that influence health. Examples include prior level of functioning, substance use, ethnicity, race, health insurance coverage (Medicare, Medicaid, private, self), level of education, marital status, SDOH, living situation, occupation.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Substituted Judgement</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">An individual designated to act on behalf of the individual who is incapable of acting on their own behalf. Examples include health care proxy, durable power of attorney.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Vital Signs</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">Significant measurements at the time of transfer. Examples include height, weight, blood pressure, oxygen level, temperature, pulse, respiration rate, pain level.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Goals, Preferences, and Priorities</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;">Documentation of the individual's priorities for health care outcomes and treatments, preferences for setting and types of treatments, and desired treatment outcomes.</td>
+    </tr>
+  </tbody>
+  </table>

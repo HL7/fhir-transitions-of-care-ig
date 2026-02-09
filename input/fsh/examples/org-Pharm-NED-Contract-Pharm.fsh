@@ -4,7 +4,7 @@ Usage: #example
 Title: "Example: Not Every Day Contract Pharmacy Organization"
 Description: "Information about the Not Every Day Contract Pharmacy Organization."
 
-* meta.profile = Canonical(us-core-organization|6.1.0)
+* meta.profile = Canonical(us-core-organization|8.0.0)
 * active = true
 * name = "Not Every Day Contract Pharmacy"
 * telecom.system = #phone
