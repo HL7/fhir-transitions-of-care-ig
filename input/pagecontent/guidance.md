@@ -127,7 +127,7 @@ The Transition of Care composition defines the following sections:
       <td style="border: 1px solid #ccc; padding: 6px;">List of interventions undergone by the indivdual that required informed consent. Examples include surgery, exposure to radiation, experimental interventions.</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Reason for Transfer Referral</b></td>
+      <td style="border: 1px solid #ccc; padding: 6px;"><b>Reason for Transfer</b></td>
       <td style="border: 1px solid #ccc; padding: 6px;">Purpose to be served by moving the individual to a new site of care. Examples include: continued rehabilitation or treatment, treatment unavailable at the current site, preference of individual or substituted decision maker.</td>
     </tr>
     <tr>

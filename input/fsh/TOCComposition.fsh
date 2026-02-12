@@ -55,7 +55,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[advance_directives].entry 
 * section[advance_directives].entry only Reference($ADIPACPComposition)
 
-* section[allergies] ^short = "Allergies"
+* section[allergies] ^short = "Allergies and Adverse Reactions"
 * section[allergies].title 1..1 MS
 * section[allergies].code 1..1 
 * section[allergies].code = $LOINC#48765-2 // "Allergies and adverse reactions Document"
@@ -108,7 +108,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[medications].entry 
 * section[medications].entry only Reference(List) 
 
-* section[plan_of_care] ^short = "Plan of Care"
+* section[plan_of_care] ^short = "Discharge Care Plan"
 * section[plan_of_care].title 1..1 MS
 * section[plan_of_care].code 1..1 
 * section[plan_of_care].code = $LOINC#18776-5 // "Plan of care note"
