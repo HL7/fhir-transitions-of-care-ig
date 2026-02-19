@@ -4,7 +4,7 @@ Usage: #example
 Title: "Example: Neuro Care Inc. Organization"
 Description: "Information about the Neuro Care Inc. Organization."
 
-* meta.profile = Canonical(us-core-organization|8.0.0)
+* meta.profile = Canonical(us-core-organization|8.0.1)
 * active = true
 * name = "Neuro Care Inc."
 * telecom.system = #phone

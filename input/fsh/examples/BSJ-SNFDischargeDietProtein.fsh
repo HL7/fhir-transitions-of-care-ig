@@ -4,7 +4,7 @@ Usage: #example
 Title: "Example: Discharge Service Request for protein diet"
 Description: "Discharge Service Request for decreased protein and/or protein derivative diet for fictional patient Betsy Smith-Johnson."
 
-* meta.profile = Canonical(us-core-servicerequest|8.0.0)
+* meta.profile = Canonical(us-core-servicerequest|8.0.1)
 * status = #active
 * intent = #order
 * category[us-core] = $sct#386053000 "Evaluation procedure (procedure)"

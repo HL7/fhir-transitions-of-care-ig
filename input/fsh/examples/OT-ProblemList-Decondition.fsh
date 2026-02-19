@@ -4,7 +4,7 @@ Usage: #example
 Title: "Example: OT Decondition Problem List"
 Description: "Occupational Therapy Decondition problem list for fictional patient Betsy Smith-Johnson."
 
-* meta.profile = Canonical(us-core-condition-problems-health-concerns|8.0.0)
+* meta.profile = Canonical(us-core-condition-problems-health-concerns|8.0.1)
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#31031000119102 "Physical deconditioning (finding)"
