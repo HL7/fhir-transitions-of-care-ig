@@ -70,85 +70,190 @@ By focusing on these key aspects, healthcare providers can ensure smoother trans
 
 The Transition of Care composition defines the following sections:
 
-<table style="border-collapse: collapse; width: 100%;">
-  <thead>
+#### Advance Directives
+
+**Section Code**: LOINC 42348-3 Advance healthcare directives
+
+**Description:**
+Declarations by individuals made in advance of a situation in which they may be incompetent to decide about or articulate their wishes for their own care, stating their treatment preferences and limitations on treatment. Examples include Personal Advance Care Plans, Portable Medical Orders, Mental Health Advance Directives, Episodic Advance Directives, POLST/MOLST forms.
+
+**Usage Notes:**
+
+
+#### Allergies and Adverse Reactions
+
+**Section Code**: LOINC 48765-2 Allergies and adverse reactions Document
+
+**Description:**
+List of any responses to medication, food, and topical. ingested or inhaled agent occuring with normal use that are unintended, potentially harmful, and unwanted by the individual. Allergic reactions involve the activation of the immune sysem in the response. Examples of adverse reactions include low blood pressure from opiates, confusrion and dry mouth from anticholinergics. Examples of allergic reactions include hives, rash, and anaphylaxis.
+
+**Usage Notes:**
+
+
+#### Behavioral Health
+
+**Section Code**: local code: Behavioral Health Summary 
+
+**Description:**
+Observations, assessments, and interventions regarding the impact of behaviors on mental and physical well being. Examples of behaviors include reactions to stress, habbbits, substance use disorders, eating disorders, as well as mental health conditions such as anxiety, depression, psychosis, and personality disorders. Interventions include education, counseling, pharmacological and non-pharmalogical treatments. Impacts on physical and mental health include legal, social, and occupational issues, as well as physical impacts from behaviors such as sedentary lifestyles.
+
+**Usage Notes:**
+
+
+#### Functional Status
+
+**Section Code**: LOINC 47420-5 Functional status assessment note
+
+**Description:**
+Observation, assessments, and interventions regarding basic physical and cognitive activities and their impact on mental and physical well being. Examples of observations and assessments include those of mental status, mobility, activities of daily living, speech, and swallowing. Examples of interventions include devices, therapy, and modification of the environment including personal assistance.
+
+**Usage Notes:**
+
+
+
+#### Immunizations
+
+**Section Code**: LOINC 82593-5 Immunization summary report
+
+**Description:**
+List of immunizations an individual has received and when. May also include a schedule for future immunizations.
+
+**Usage Notes:**
+
+
+#### Discharge Instructions
+
+**Section Code**: LOINC 69730-0 Instructions
+
+**Description:**
+Directions given to an individual designed to teach about prevention, diagnosis, monitoring, or treatment of conditions or functional impairments.
+
+**Usage Notes:**
+
+
+
+#### Medical Devices
+
+**Section Code**: LOINC 46264-8 History of medical device use
+
+**Description:**
+List of equipment the individual uses for prevention, diagnosis, monitoring, or treatment of conditions or functional impairment (disability). Examples included implanted pumps, lines, tubes and drains as well external devices including splints, mobillity aides, and ventilators.
+
+**Usage Notes:**
+
+
+#### Medications
+
+**Section Code**: LOINC 10160-0 History of Medication use Narrative
+
+**Description:**
+List of medications prescribed for the individual for prevention, diagnosis, or treatment of one or more condition which includes indication, dose, frequency, duration,prescriber, and reason(s) to contact the prescriber. Examples include medications received (administration lists), medications active at discharge, discontinued medications, high risk drug, opioids, preadmission medication list, reconciled medication list.
+
+**Usage Notes:**
+
+
+#### Discharge Care Plan
+
+**Section Code**: LOINC 18776-5 Plan of care note
+
+**Description:**
+A summary of conditions that require further intervention after discharge with plans for treatment, diagnosis, monitoring, prevention of adverse events, and the party responsible for the activity.
+
+**Usage Notes:**
+
+
+#### Problems
+
+**Section Code**: LOINC 11450-4 Problem list - Reported
+
+**Description:**
+A list of conditions that require ongoing management including those that previously required management but are not active. Examples include diagnoses, potential for adverse events, concerns, symptoms, or signs.
+
+**Usage Notes:**
+
+
+
+#### Procedures
+
+**Section Code**: LOINC 47519-4 History of Procedures Document
+
+**Description:**
+List of interventions undergone by the indivdual that required informed consent. Examples include surgery, exposure to radiation, experimental interventions.
+
+**Usage Notes:**
+
+
+#### Reason for Transfer
+
+**Section Code**: LOINC 42349-1 Reason for referral (narrative)
+
+**Description:**
+Purpose to be served by moving the individual to a new site of care. Examples include: continued rehabilitation or treatment, treatment unavailable at the current site, preference of individual or substituted decision maker.
+
+**Usage Notes:**
+
+
+#### Clinical Results
+
+**Section Code**: LOINC 30954-2 Relevant diagnostic tests/laboratory data note
+
+**Description:**
+The result of a laboratory, radiologic, or other clinical test performed to determine the presence, absence, or degree of a condition. Examples include lab, pathology, imaging results.
+
+**Usage Notes:**
+
+
+#### Social History
+
+**Section Code**: LOINC 29762-2 Social history note
+
+**Description:**
+Documentation of the individual's personal, environmental, and behavioral factors that influence health. Examples include prior level of functioning, substance use, ethnicity, race, health insurance coverage (Medicare, Medicaid, private, self), level of education, marital status, SDOH, living situation, occupation.
+
+**Usage Notes:**
+
+
+#### Vital Signs
+
+**Section Code**: LOINC 8716-3 Vital signs note
+
+**Description:**
+Significant measurements at the time of transfer. Examples include height, weight, blood pressure, oxygen level, temperature, pulse, respiration rate, pain level.
+
+**Usage Notes:**
+
+<br />
+<hr />
+<br />
+
+### Other Document Structures (Future)
+
+{% raw %}
+<blockquote class="stu-note">
+<p>
+We are evaluating the following sections for a future release and welcome feedback for use in real-world settings.
+</p>
+  <table class="grid" style="width: 100%">
     <tr>
-      <th style="border: 1px solid #ccc; padding: 6px; background-color: #f2f2f2;"><b>Section</b></th>
-      <th style="border: 1px solid #ccc; padding: 6px; background-color: #f2f2f2;"><b>Description</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Advance Directives</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">Declarations by individuals made in advance of a situation in which they may be incompetent to decide about or articulate their wishes for their own care, stating their treatment preferences and limitations on treatment. Examples include Personal Advance Care Plans, Portable Medical Orders, Mental Health Advance Directives, Episodic Advance Directives, POLST/MOLST forms.</td>
+        <th style="margin-left: 5px; margin-right: 5px;">Section Name</th>
+        <th style="margin-left: 5px; margin-right: 5px;">Description</th>
+        <th style="margin-left: 5px; margin-right: 5px;">Usage Notes</th>
     </tr>
     <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Allergies and Adverse Reactions</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">List of any responses to medication, food, and topical. ingested or inhaled agent occuring with normal use that are unintended, potentially harmful, and unwanted by the individual. Allergic reactions involve the activation of the immune sysem in the response. Examples of adverse reactions include low blood pressure from opiates, confusrion and dry mouth from anticholinergics. Examples of allergic reactions include hives, rash, and anaphylaxis.</td>
+        <td>Competency</td>
+        <td>Observations and assessments of the ability to understand the nature and effect of the act in which the individual is engaged in particular the ability to consent to treatment. (See also: Substitued Judgement)</td>
+        <td />
     </tr>
     <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Behavioral Health</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">Observations, assessments, and interventions regarding the impact of behaviors on mental and physical well being. Examples of behaviors include reactions to stress, habbbits, substance use disorders, eating disorders, as well as mental health conditions such as anxiety, depression, psychosis, and personality disorders. Interventions include education, counseling, pharmacological and non-pharmalogical treatments. Impacts on physical and mental health include legal, social, and occupational issues, as well as physical impacts from behaviors such as sedentary lifestyles.</td>
+        <td>Goals, Preferences, and Priorities</td>
+        <td>Documentation of the individual's priorities for health care outcomes and treatments, preferences for setting and types of treatments, and desired treatment outcomes.</td>
+        <td />
     </tr>
     <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Competency</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">Observations and assessments of the ability to understand the nature and effect of the act in which the individual is engaged in particular the ability to consent to treatment. (See also: Substitued Judgement)</td>
+        <td>Substituted Judgement</td>
+        <td>An individual designated to act on behalf of the individual who is incapable of acting on their own behalf. Examples include health care proxy, durable power of attorney.</td>
+        <td />
     </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Functional Status</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">Observation, assessments, and interventions regarding basic physical and cognitive activities and their impact on mental and physical well being. Examples of observations and assessments include those of mental status, mobility, activities of daily living, speech, and swallowing. Examples of interventions include devices, therapy, and modification of the environment including personal assistance.</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Immunizations</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">List of immunizations an individual has received and when. May also include a schedule for future immunizations.</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Discharge Instructions</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">Directions given to an individual designed to teach about prevention, diagnosis, monitoring, or treatment of conditions or functional impairments.</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Medical Devices</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">List of equipment the individual uses for prevention, diagnosis, monitoring, or treatment of conditions or functional impairment (disability). Examples included implanted pumps, lines, tubes and drains as well external devices including splints, mobillity aides, and ventilators.</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Medications</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">List of medications prescribed for the individual for prevention, diagnosis, or treatment of one or more condition which includes indication, dose, frequency, duration,prescriber, and reason(s) to contact the prescriber. Examples include medications received (administration lists), medications active at discharge, discontinued medications, high risk drug, opioids, preadmission medication list, reconciled medication list.</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Discharge Care Plan</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">A summary of conditions that require further intervention after discharge with plans for treatment, diagnosis, monitoring, prevention of adverse events, and the party responsible for the activity.</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Problems</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">A list of conditions that require ongoing management including those that previously required management but are not active. Examples include diagnoses, potential for adverse events, concerns, symptoms, or signs.</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Procedures</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">List of interventions undergone by the indivdual that required informed consent. Examples include surgery, exposure to radiation, experimental interventions.</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Reason for Transfer</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">Purpose to be served by moving the individual to a new site of care. Examples include: continued rehabilitation or treatment, treatment unavailable at the current site, preference of individual or substituted decision maker.</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Clinical Results</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">The result of a laboratory, radiologic, or other clinical test performed to determine the presence, absence, or degree of a condition. Examples include lab, pathology, imaging results.</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Social History</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">Documentation of the individual's personal, environmental, and behavioral factors that influence health. Examples include prior level of functioning, substance use, ethnicity, race, health insurance coverage (Medicare, Medicaid, private, self), level of education, marital status, SDOH, living situation, occupation.</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Substituted Judgement</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">An individual designated to act on behalf of the individual who is incapable of acting on their own behalf. Examples include health care proxy, durable power of attorney.</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Vital Signs</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">Significant measurements at the time of transfer. Examples include height, weight, blood pressure, oxygen level, temperature, pulse, respiration rate, pain level.</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 6px;"><b>Goals, Preferences, and Priorities</b></td>
-      <td style="border: 1px solid #ccc; padding: 6px;">Documentation of the individual's priorities for health care outcomes and treatments, preferences for setting and types of treatments, and desired treatment outcomes.</td>
-    </tr>
-  </tbody>
   </table>
+</blockquote>
+{% endraw %}

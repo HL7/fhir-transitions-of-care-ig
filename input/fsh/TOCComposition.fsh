@@ -157,7 +157,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[clinical_results] ^short = "Clinical Results"
 * section[clinical_results].title 1..1 MS
 * section[clinical_results].code 1..1 
-* section[clinical_results].code = $LOINC#39054-2 // "Relevant diagnostic tests/laboratory data note"
+* section[clinical_results].code = $LOINC#30954-2 // "Relevant diagnostic tests/laboratory data note"
 * section[clinical_results].entry 
 * section[clinical_results].entry only Reference($USCoreObservationClinicalResult or $USCoreDiagnosticReportNotes) // mlt20251231 - added DiagnosticReports based on ToC SME review
 
