@@ -1,29 +1,29 @@
 //USCore -
-Alias: $USCoreAllergyIntolerance = http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance|8.0.0
-Alias: $USCoreCarePlan = http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan|8.0.0
-Alias: $USCoreConditionEncounterDiagnosis = http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis|8.0.0
-Alias: $USCoreConditionProblemsandHealthConcerns = http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns|8.0.0
-Alias: $USCoreCoverage = http://hl7.org/fhir/us/core/StructureDefinition/us-core-coverage|8.0.0
-Alias: $USCoreDiagnosticReportNotes = http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note|8.0.0
-Alias: $USCoreDocumentReference = http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference|8.0.0
-Alias: $USCoreEncounter = http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter|8.0.0
-Alias: $USCoreEthnicity = http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity|8.0.0
-Alias: $USCoreGoal = http://hl7.org/fhir/us/core/StructureDefinition/us-core-goal|8.0.0
-Alias: $USCoreGoalDescription = http://hl7.org/fhir/us/core/ValueSet/us-core-goal-description|8.0.0
-Alias: $USCoreImmunization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization|8.0.0
-Alias: $USCoreLocation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-location|8.0.0
-Alias: $USCoreObservationClinicalResult = http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result|8.0.0
-Alias: $USCoreOrganization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|8.0.0
-Alias: $USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|8.0.0
-Alias: $USCorePractitioner = http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|8.0.0
-Alias: $USCorePractitionerRole = http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole|8.0.0
-Alias: $USCoreProcedure = http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure|8.0.0
-Alias: $USCoreProvenance = http://hl7.org/fhir/us/core/StructureDefinition/us-core-provenance|8.0.0
-Alias: $USCoreServiceRequest = http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest|8.0.0 
-Alias: $USCoreSimpleObservation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation|8.0.0
-Alias: $USCoreRace = http://hl7.org/fhir/us/core/StructureDefinition/us-core-race|8.0.0
-Alias: $USCoreSmokingStatus = http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus|8.0.0
-Alias: $USCoreVitalSigns = http://hl7.org/fhir/us/core/StructureDefinition/us-core-vital-signs|8.0.0
+Alias: $USCoreAllergyIntolerance = http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance|8.0.1
+Alias: $USCoreCarePlan = http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan|8.0.1
+Alias: $USCoreConditionEncounterDiagnosis = http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis|8.0.1
+Alias: $USCoreConditionProblemsandHealthConcerns = http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns|8.0.1
+Alias: $USCoreCoverage = http://hl7.org/fhir/us/core/StructureDefinition/us-core-coverage|8.0.1
+Alias: $USCoreDiagnosticReportNotes = http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note|8.0.1
+Alias: $USCoreDocumentReference = http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference|8.0.1
+Alias: $USCoreEncounter = http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter|8.0.1
+Alias: $USCoreEthnicity = http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity|8.0.1
+Alias: $USCoreGoal = http://hl7.org/fhir/us/core/StructureDefinition/us-core-goal|8.0.1
+Alias: $USCoreGoalDescription = http://hl7.org/fhir/us/core/ValueSet/us-core-goal-description|8.0.1
+Alias: $USCoreImmunization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization|8.0.1
+Alias: $USCoreLocation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-location|8.0.1
+Alias: $USCoreObservationClinicalResult = http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result|8.0.1
+Alias: $USCoreOrganization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|8.0.1
+Alias: $USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|8.0.1
+Alias: $USCorePractitioner = http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|8.0.1
+Alias: $USCorePractitionerRole = http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole|8.0.1
+Alias: $USCoreProcedure = http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure|8.0.1
+Alias: $USCoreProvenance = http://hl7.org/fhir/us/core/StructureDefinition/us-core-provenance|8.0.1
+Alias: $USCoreServiceRequest = http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest|8.0.1 
+Alias: $USCoreSimpleObservation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation|8.0.1
+Alias: $USCoreRace = http://hl7.org/fhir/us/core/StructureDefinition/us-core-race|8.0.1
+Alias: $USCoreSmokingStatus = http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus|8.0.1
+Alias: $USCoreVitalSigns = http://hl7.org/fhir/us/core/StructureDefinition/us-core-vital-signs|8.0.1
 
 Alias: $USRealmHeader = http://hl7.org/fhir/us/ccda/StructureDefinition/US-Realm-Header
 
@@ -64,7 +64,7 @@ Alias: $HL7JurisdictionCodes = http://hl7.org/fhir/ValueSet/jurisdiction
 Alias: $HL7DocTypeCodes = http://hl7.org/fhir/ValueSet/doc-typecodes
 
 Alias: $LOINC = http://loinc.org
-Alias: $SNOMEDCT = http://snomed.info/sct //http://snomed.info/sct/731000124108
+Alias: $SNOMEDCT = http://snomed.info/sct
 Alias: $RXNORM = http://www.nlm.nih.gov/research/umls/rxnorm
 Alias: $OmbRaceCat = urn:oid:2.16.840.1.113883.6.238
 
@@ -91,7 +91,7 @@ Alias: $VSACADICareExperiencePreferences = http://cts.nlm.nih.gov/fhir/ValueSet/
 Alias: $data-absent-reason = http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 // From gofsh execution on FHIR JSON sample data
-Alias: $sct = http://snomed.info/sct //http://snomed.info/sct/731000124108
+Alias: $sct = http://snomed.info/sct
 Alias: $loinc = http://loinc.org
 Alias: $icf = http://hl7.org/fhir/sid/icf
 Alias: $allergyintolerance-clinical = http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical

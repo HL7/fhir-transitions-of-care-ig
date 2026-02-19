@@ -4,7 +4,7 @@ Usage: #example
 Title: "Example: Nausea and vomiting"
 Description: "Nausea and vomiting for fictional patient Betsy Smith-Johnson."
 
-* meta.profile = Canonical(us-core-condition-encounter-diagnosis|8.0.0)  //"http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+* meta.profile = Canonical(us-core-condition-encounter-diagnosis|8.0.1)  //"http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#16932000 "Nausea and Vomiting (disorder)"

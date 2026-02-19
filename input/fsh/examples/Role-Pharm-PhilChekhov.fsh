@@ -4,7 +4,7 @@ Usage: #example
 Title: "Example: Role of Dr. Phil Chekhov"
 Description: "Dr. Phil Chekhov is a Pharmacist at Everyday Community Pharmacy."
 
-* meta.profile = Canonical(us-core-practitionerrole|8.0.0)
+* meta.profile = Canonical(us-core-practitionerrole|8.0.1)
 * active = true
 * code = $taxonomy#183500000X "Pharmacist"
 * practitioner = Reference(Practitioner/Example-Phil-Chekhov) "Phil Chekhov"

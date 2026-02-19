@@ -4,7 +4,7 @@ Usage: #example
 Title: "Example: Role of Dr. Tracy Count"
 Description: "Dr. Tracy Count is a fictional Pharmacist at Not Every Day Contract Pharmacy."
 
-* meta.profile = Canonical(us-core-practitionerrole|8.0.0)
+* meta.profile = Canonical(us-core-practitionerrole|8.0.1)
 * active = true
 * code = $taxonomy#183500000X "Pharmacist"
 * practitioner = Reference(Practitioner/Example-Tracy-Count) "Tracy Count"

@@ -27,7 +27,7 @@ extension:
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
     valueInteger: 2
 parameters:
-  path-expansion-params: '../../exp-params.json'  #path is relative to [base]/fsh-generated/resources
+  path-expansion-params: '../../input/_resources/exp-params.json'  # for using US ed of SNOMED
 contact:
   - name: PACIO project
     telecom:
@@ -43,10 +43,10 @@ contact:
 dependencies:
   hl7.fhir.us.pacio-adi: 1.0.0
   hl7.fhir.us.pacio-pfe: 2.0.0
-  hl7.fhir.us.core: 8.0.0
+  hl7.fhir.us.core: 8.0.1
   us.nlm.vsac:
     uri: 'http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac'
-    version: 0.22.0
+    version: 0.24.0
     id: vsac
   hl7.fhir.uv.ips: 2.0.0
   hl7.fhir.us.dental-data-exchange: 1.0.0
