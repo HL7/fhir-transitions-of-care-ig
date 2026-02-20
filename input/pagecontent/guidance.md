@@ -1,24 +1,24 @@
 This section provides additional guidance on the relationship between the associated profiles and the structure of the interoperable transitions of care document.
 
-### Purpose of Defining Transitions of Care Data Elements
+### Purpose of Defining Post-Acute Transitions of Care Data Elements
 
-Post-acute care transitions of care are critical for ensuring continuity, safety, and quality of care as patients move from one healthcare setting to another, such as from a hospital to a skilled nursing facility, home health care, or rehabilitation center. Effective transitions reduce the risk of adverse events, rehospitalizations, and gaps in care. Below are the important aspects of post-acute care transitions:
+Post-acute transitions of care are critical for ensuring continuity, safety, and quality of care as patients move from one healthcare setting to another, such as from a skilled nursing facility to home health care, or rehabilitation center. Effective PAC transitions reduce the risk of adverse events, rehospitalizations, and gaps in care. Below are the important aspects of post-acute care transitions:
 
 #### Comprehensive Discharge Planning ####
 
-Discharge planning is essential to ensure that patients leave the acute care setting with a clear plan for managing their health. This includes medication reconciliation, follow-up appointments, and instructions for self-care.
+LTPAC transition planning is essential to ensure that patients leaving one setting and transitioning to another have a clear plan for managing their health. This includes medication reconciliation, follow-up appointments, and instructions for self-care.
 
 * Evidence: A systematic review by Hansen et al. (2011) found that comprehensive discharge planning and follow-up interventions significantly reduced hospital readmissions. (Hansen LO, Young RS, Hinami K, Leung A, Williams MV. Ann Intern Med. 2011;155(8):520-528.)
 
 #### Effective Communication Between Providers ####
 
-Clear communication between healthcare providers across settings (e.g., hospital to skilled nursing facility) is critical to avoid information gaps that can lead to errors or delays in care.
+Clear communication between healthcare providers across settings is critical to avoid information gaps that can lead to errors or delays in care.
 
 * Evidence: Kripalani et al. (2007) emphasized that communication failures during transitions are a major contributor to adverse events. Structured communication tools, such as discharge summaries and standardized handoff protocols, improve outcomes. (Kripalani S, Jackson AT, Schnipper JL, Coleman EA. JAMA. 2007;297(8):831-841.)
 
 #### Medication Reconciliation ####
 
-Ensuring accurate medication lists and reconciling changes made during hospitalization is vital to prevent medication errors, which are common during transitions.
+Ensuring accurate medication lists and reconciling changes made prior to care transition is vital to prevent medication errors, which are common during transitions.
 
 * Evidence: A study by Coleman et al. (2005) highlighted that medication discrepancies during transitions are associated with adverse drug events. Implementing medication reconciliation processes reduces these risks. (Coleman EA, Smith JD, Raha D, Min SJ. Arch Intern Med. 2005;165(16):1842-1847.)
 
@@ -30,7 +30,7 @@ Patients and their caregivers must understand the care plan, including medicatio
 
 #### Follow-Up Care Coordination ####
 
-Timely follow-up appointments with primary care providers or specialists are crucial to monitor progress, address complications, and reinforce the care plan.
+Timely follow-up appointments with primary care providers or specialists are crucial to monitor progress, address complications, and reinforce the care plan. Interoperable exchange of patient data across the care team is essential for care team communication and follow up.
 
 * Evidence: The Care Transitions Intervention (CTI) model developed by Coleman et al. (2006) showed that structured follow-up care significantly reduced 30-day readmissions. (Coleman EA, Parry C, Chalmers S, Min SJ. Arch Intern Med. 2006;166(17):1822-1828.)
 
@@ -48,7 +48,7 @@ Social determinants such as transportation, housing, and access to food can impa
 
 #### Use of Technology and Telehealth ####
 
-Technology, such as electronic health records (EHRs) and telehealth, facilitates communication and monitoring during transitions, especially for patients in remote or underserved areas.
+Technology, such as electronic health records (EHRs) and telehealth, facilitates communication and monitoring during transitions, especially for patients in remote or underserved areas. Critically important technology and the impetus for this IG is human and machine readable interoperability form endpoint to endpoint across a national framework of networks such as TEFCA and the QHINs.
 
 * Evidence: A study by Lin et al. (2020) found that telehealth interventions during care transitions improved patient satisfaction and reduced hospital readmissions. (Lin MH, Yuan WL, Huang TC, et al. J Med Internet Res. 2020;22(10):e19099.)
 
@@ -58,9 +58,9 @@ Ongoing evaluation of transition processes, including patient outcomes and satis
 
 * Evidence: The National Transitions of Care Coalition (NTCC) emphasizes the importance of monitoring key metrics, such as readmission rates and patient satisfaction, to improve care transitions. (NTCC. Improving Transitions of Care: Findings and Considerations of the "Vision of the National Transitions of Care Coalition." 2008.)
 
-Effective post-acute care transitions require a multidisciplinary approach that emphasizes communication, patient education, medication safety, follow-up care, and addressing social determinants. Evidence-based models and interventions, such as the Transitional Care Model and Care Transitions Intervention, have demonstrated their ability to improve outcomes and reduce rehospitalizations.
+Effective post-acute care transitions requires interoperability across a national framework of networks, such as TEFCA, facilitating aa multidisciplinary approach that emphasizes communication (requiring human and machine readable interoperability), patient education, medication safety, follow-up care, and addressing social determinants. Evidence-based models and interventions, such as the Transitional Care Model and Care Transitions Intervention, have demonstrated their ability to improve outcomes and reduce rehospitalizations.
 
-By focusing on these key aspects, healthcare providers can ensure smoother transitions, better patient outcomes, and reduced healthcare costs.
+By defining a standard of human and machine readable interoperable documentation for post-acute care transitions this IG facilitates focusing on these key aspects, healthcare providers to ensure smoother transitions, better patient outcomes, and reduced healthcare costs.
 
 ### Transitions of Care Document Structure
 
