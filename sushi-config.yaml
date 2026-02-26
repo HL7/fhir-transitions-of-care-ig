@@ -50,7 +50,7 @@ dependencies:
     id: vsac
   hl7.fhir.uv.ips: 2.0.0
   hl7.fhir.us.dental-data-exchange: 1.0.0
-  hl7.fhir.us.ccda: 2.0.0-ballot
+  hl7.fhir.us.ccda: 1.2.0
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
