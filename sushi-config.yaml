@@ -27,7 +27,13 @@ extension:
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
     valueInteger: 2
 parameters:
+  shownav: 'true'
+  show-inherited-invariants: true
+  apply-jurisdiction: true
+  apply-publisher: true
   path-expansion-params: '../../input/_resources/exp-params.json'  # for using US ed of SNOMED
+  pin-canonicals: pin-multiples
+
 contact:
   - name: PACIO project
     telecom:
