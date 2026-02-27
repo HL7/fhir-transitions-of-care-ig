@@ -73,6 +73,17 @@ This Guide is divided into several pages which are listed at the top of each pag
 
 * Downloads: This page provides links to downloadable artifacts.
 
+### Authors and Contributors
+
+* Dave Hill - Global Alliant
+* Yolanda Liu - MITRE Corporation
+* Holly Miller, MD
+* Terrence O'Malley, MD 
+* James Patterson - MITRE Corporation
+* May Terry - MITRE Corporation
+
+The authors also recognize HL7 sponsorship and input from the HL7 Patient Care Working Group.
+
 ### Global Profiles
 {% include globals-table.xhtml %}
  
