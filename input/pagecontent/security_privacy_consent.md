@@ -1,5 +1,7 @@
 [//]: #  ## Security, Privacy, and Consent 
 
+All implementers of the Transitions of Care Implementation Guide (IG) SHOULD follow the FHIR Security guidance, Security and Privacy Module, and the FHIR Implementer’s Safety Checklist guidance as defined in the FHIR standard where applicable and not otherwise superseded by this Section of the TOC IG.
+
 ### General Considerations
 
 Transitions of Care (TOC) information contains patient specific information, which means that it needs to be protected with proper security and privacy protections to avoid malicious or unintentional exposure of such information. All Advance Directive Interoperability exchanges must be appropriately secured in transit and access limited only to authorized individuals.
