@@ -1,3 +1,5 @@
+This section defines additional requirements and guidance relevant to this guide as a whole. The conformance verbs - **SHALL**, **SHOULD**, **MAY** - used in this guide are defined in [FHIR Conformance Rules](http://hl7.org/fhir/R4/conformance-rules.html).
+
 ### Bundle
 <table class="grid" style="width: 100%">
 	<thead>
