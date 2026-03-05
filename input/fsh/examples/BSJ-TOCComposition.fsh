@@ -6,8 +6,8 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 
 //* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/TOC-Composition"
 * language = #en-US
-* identifier.system = "urn:oid:2.16.840.1.113883.4.823.1.7125"
-* identifier.value = "20130607100315-CCDA-CCD"
+* identifier.system = "http://example.org/GoodHealthClinic/id"
+* identifier.value = "76053988-543c-4681-9a90-2f2eb9a7836c-CCDA-CCD"
 * status = #final
 * type = $LOINC#11490-0 "Physician Discharge summary"
 //* category = $LOINC#??? ""
@@ -105,13 +105,6 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * section[reason_for_referral].entry[+] = Reference(Encounter/BSJ-Encounter)
 // * section[reason_for_referral] extension[ReasonExtension].code = $sct#404684003 "Clinical finding (finding)"
 // * section[reason_for_referral] extension[ReasonExtension].reference = Reference(Encounter/BSJ-Encounter)
-
-//* section[reason_for_visit].title = "Reason for visit (ambulatory) for Betsy Smith-Johnson"
-//* section[reason_for_visit].code = $LOINC#29299-5 "Reason for visit Narrative"
-//* section[reason_for_visit].text.status = #additional
-//* section[reason_for_visit].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Reason for visit (ambulatory) for Betsy Smith-Johnson</div>"
-//* section[reason_for_visit].reason.code = 
-//* section[reason_for_visit].reason.reference = 
 
 * section[clinical_results].title = "List of test results for Betsy Smith-Johnson"
 // * section[results].code = $LOINC#19146-0 "Referral lab test results"
