@@ -12,6 +12,7 @@ Alias: $USCoreGoal = http://hl7.org/fhir/us/core/StructureDefinition/us-core-goa
 Alias: $USCoreGoalDescription = http://hl7.org/fhir/us/core/ValueSet/us-core-goal-description|8.0.1
 Alias: $USCoreImmunization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization|8.0.1
 Alias: $USCoreLocation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-location|8.0.1
+Alias: $USCoreMedicationRequest = http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|8.0.1
 Alias: $USCoreObservationClinicalResult = http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result|8.0.1
 Alias: $USCoreOrganization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|8.0.1
 Alias: $USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|8.0.1
@@ -39,6 +40,9 @@ Alias: $PFEUseOfDevice = http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pf
 
 // PACIO Advance Directives Interoperability (ADI)
 Alias: $ADIPACPComposition = http://hl7.org/fhir/us/pacio-adi/StructureDefinition/ADI-PACPComposition
+
+// PACIO Standardized Medication Profiles (SMP)
+Alias: $SMPMedicationStatement = http://hl7.org/fhir/us/smp/StructureDefinition/smp-medicationstatement
 
 // CCDA on FHIR
 Alias: $CCDAonFHIRDischargeSummary = http://hl7.org/fhir/us/ccda/StructureDefinition/Discharge-Summary

@@ -106,7 +106,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[medications].code 1..1 
 * section[medications].code = $LOINC#10160-0 // "History of Medication Use"
 * section[medications].entry 
-* section[medications].entry only Reference(List) 
+* section[medications].entry only Reference(List or $USCoreMedicationRequest or SMPMedicationStatement) 
 
 * section[plan_of_care] ^short = "Discharge Care Plan"
 * section[plan_of_care].title 1..1 MS
@@ -129,7 +129,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[procedures].code 1..1 
 * section[procedures].code = $LOINC#47519-4 // "History of Procedures Document"
 * section[procedures].entry 
-* section[procedures].entry only Reference(USCoreProcedureProfile)
+* section[procedures].entry only Reference($USCoreProcedure or $USCoreServiceRequest)
 
 * section[reason_for_referral] ^short = "Reason for Referral"
 * section[reason_for_referral].title 1..1 MS

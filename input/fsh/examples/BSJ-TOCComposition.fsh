@@ -10,7 +10,6 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * identifier.value = "76053988-543c-4681-9a90-2f2eb9a7836c-CCDA-CCD"
 * status = #final
 * type = $LOINC#11490-0 "Physician Discharge summary"
-//* category = $LOINC#??? ""
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 * date = "2024-05-10T08:49:58.313-04:00"
 * author = Reference(Practitioner/Example-JenCadbury)
@@ -21,7 +20,6 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 //* section.text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Information sections for the transitions of care for Betsy Smith-Johnson</div>"
 
 //* section[advance_directives].title = "Advance directives for Betsy Smith-Johnson"
-//* section[advance_directives].code = $LOINC#42348-3
 //* section[advance_directives].entry[+] = 
 //* section[advance_directives].text.status = #additional
 //* section[advance_directives].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Advance directives for Betsy Smith-Johnson</div>"
@@ -32,14 +30,13 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * section[allergies].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Allergies for Betsy Smith-Johnson</div>"
 
 //* section[behavioral_health].title = "Behavioral health information for Betsy Smith-Johnson"
-//* section[behavioral_health].code = $LOINC#54511-1 "Behavior"
 //* section[behavioral_health].entry[+] = 
 //* section[behavioral_health].text.status = #additional
 //* section[behavioral_health].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Behavioral health information for Betsy Smith-Johnson</div>"
 
 * section[functional_status].title = "Functional status of Betsy Smith-Johnson"
-* section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Doffing1)
-* section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Donning1)
+// * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Doffing1)
+// * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Donning1)
 * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Mobility-PT1)
 // * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-ShortWalk1)
 * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-SitStand1)
@@ -63,7 +60,7 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 //* section[medication_equipment].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medical equipment needed by Betsy Smith-Johnson</div>"
 
 * section[medications].title = "List of medications prescribed for Betsy Smith-Johnson"
-* section[medications].entry[+] = Reference(List/BSJ-SMPMedList)
+* section[medications].entry[+] = Reference(MedicationRequest/BSJ-SMPMedReq3)
 * section[medications].text.status = #additional
 * section[medications].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medications prescribed for Betsy Smith-Johnson</div>"
 

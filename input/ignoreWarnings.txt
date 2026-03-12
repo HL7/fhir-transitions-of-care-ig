@@ -34,3 +34,10 @@ INFORMATION: StructureDefinition.differential.element[60].type[0].targetProfile[
 
 # These are local codes that are specific to the context of Transition of Care (ToC). Still, the PACIO ToC team intends to continue following the process to work with LOINC and SNOMED to add these codes.
 INFORMATION: CodeSystem/toc-temp-cs: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
+
+# Known issue with HL7 IG Tools. This error will be present until the IG publication team can address it. See Zulip chat: https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/IG.20Publisher.20QA.20error.20for.20expansion.20parameters/with/572018531
+ERROR: ImplementationGuide/hl7.fhir.us.pacio-toc: ImplementationGuide.definition.extension[29].url: No definition could be found for URL value 'http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters'
+WARNING: 5: The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
+
+# There is a version mismatch in the CCDA on FHIR IG where 1.8.0 is actually in an older release and the stated current version is 1.2.0 (see http://hl7.org/fhir/us/ccda/history.html). This needs to be addressed by Cross-Group Projects.
+WARNING: ImplementationGuide/hl7.fhir.us.pacio-toc: ImplementationGuide.dependsOn[8]: The ImplementationGuide uses package hl7.fhir.us.ccda#1.2.0 released on 2024-03-12, but the most recent appropriate version is 1.8.0. This reference is getting old and the more recent version should be considered

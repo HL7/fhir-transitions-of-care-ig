@@ -2,16 +2,14 @@
     "package-id" : "hl7.fhir.us.pacio-toc",
     "version" : "1.0.0",
     "path" : "http://hl7.org/fhir/us/pacio-toc/",
+    "mode" : "milestone",
     "status" : "trial-use",
-    "sequence" : "STU1, Release 1",
-    "milestone": true,
+    "sequence" : "STU1",
     "desc" : "Version for STU1 FHIR Transitions of Care",
     "descmd" : "Version for STU1 FHIR Transitions of Care",
     "title" : "PACIO Transitions of Care Implementation Guide",
-    "changes" : "change_log.html",
-    "first" : true, 
-    "mode" : "working",
-    "ci-build" : "https://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig",
     "introduction" : "This Implementation Guide provides a standards-based solution to support care transitions and coordination for Long-Term Post-Acute Care (LTPAC) patients across all settings of care.",
-    "category": "Clinical Documents"
+    "category": "Clinical Documents",
+    "changes": "change_log.html",
+    "first": false
 }

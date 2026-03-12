@@ -1,10 +1,11 @@
 Instance: BSJ-SMPMedReq1
-InstanceOf: MedicationRequest
+InstanceOf: $USCoreMedicationRequest
 Title: "Example: Medication request for Atorvastatin 40 MG Oral Tablet"
 Description: "Medication request for Atorvastatin 40 MG Oral Tablet for Betsy Smith-Johnson to treat Hyperlipidemia"
 Usage: #example
 * status = #active
 * intent = #order
+* requester = Reference(Example-JenCadbury)
 * medicationCodeableConcept = $RXNORM#617311 "atorvastatin 40 MG Oral Tablet"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1) "Betsy Smith-Johnson"
 * authoredOn = "2024-08-11"
@@ -13,12 +14,13 @@ Usage: #example
 * dosageInstruction.text = "po nightly"
 
 Instance: BSJ-SMPMedReq2
-InstanceOf: MedicationRequest
+InstanceOf: $USCoreMedicationRequest
 Title: "Example: Medication request for Sertraline 25 MG Oral Tablet"
 Description: "Medication request for Sertraline 25 MG Oral Tablet for Betsy Smith-Johnson to treat Depressive disorder"
 Usage: #example
 * status = #active
 * intent = #order
+* requester = Reference(Example-JenCadbury)
 * medicationCodeableConcept = $RXNORM#312940 "sertraline 25 MG Oral Tablet"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1) "Betsy Smith-Johnson"
 * authoredOn = "2024-08-11"
@@ -27,12 +29,13 @@ Usage: #example
 * dosageInstruction.text = "po nightly"
 
 Instance: BSJ-SMPMedReq3
-InstanceOf: MedicationRequest
+InstanceOf: $USCoreMedicationRequest
 Title: "Example: Medication request for Furosemide 20 MG Oral Tablet"
 Description: "Medication request for Furosemide 20 MG Oral Tablet for Betsy Smith-Johnson to treat chronic kidney disease"
 Usage: #example
 * status = #active
 * intent = #order
+* requester = Reference(Example-JenCadbury)
 * medicationCodeableConcept = $RXNORM#310429 "furosemide 20 MG Oral Tablet"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1) "Betsy Smith-Johnson"
 * authoredOn = "2024-08-11"
@@ -41,12 +44,13 @@ Usage: #example
 * dosageInstruction.text = "po daily"
 
 Instance: BSJ-SMPMedReq4
-InstanceOf: MedicationRequest
+InstanceOf: $USCoreMedicationRequest
 Title: "Example: Medication request for Carvedilol 6.25 MG Oral Tablet"
 Description: "Medication request for Carvedilol 6.25 MG Oral Tablet for Betsy Smith-Johnson to treat Hypertension"
 Usage: #example
 * status = #active
 * intent = #order
+* requester = Reference(Example-JenCadbury)
 * medicationCodeableConcept = $RXNORM#200031 "carvedilol 6.25 MG Oral Tablet"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1) "Betsy Smith-Johnson"
 * authoredOn = "2024-08-11"
@@ -55,12 +59,13 @@ Usage: #example
 * dosageInstruction.text = "po twice daily"
 
 Instance: BSJ-SMPMedReq5
-InstanceOf: MedicationRequest
+InstanceOf: $USCoreMedicationRequest
 Title: "Example: Medication request for Glipizide 2.5 MG Extended Release Oral Tablet"
 Description: "Medication request for Glipizide 2.5 MG Extended Release Oral Tablet for Betsy Smith-Johnson to treat Diabetes"
 Usage: #example
 * status = #active
 * intent = #order
+* requester = Reference(Example-JenCadbury)
 * medicationCodeableConcept = $RXNORM#310489 "24 HR glipizide 2.5 MG Extended Release Oral Tablet"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1) "Betsy Smith-Johnson"
 * authoredOn = "2024-08-11"
@@ -69,12 +74,13 @@ Usage: #example
 * dosageInstruction.text = "daily"
 
 Instance: BSJ-SMPMedReq6
-InstanceOf: MedicationRequest
+InstanceOf: $USCoreMedicationRequest
 Title: "Example: Medication request for Rosuvastatin calcium 5 MG Oral Tablet"
 Description: "Medication request for Rosuvastatin calcium 5 MG Oral Tablet for Betsy Smith-Johnson to treat Osteopenia"
 Usage: #example
 * status = #active
 * intent = #order
+* requester = Reference(Example-JenCadbury)
 * medicationCodeableConcept = $RXNORM#859424 "rosuvastatin calcium 5 MG Oral Tablet"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1) "Betsy Smith-Johnson"
 * authoredOn = "2024-08-11"
@@ -83,12 +89,13 @@ Usage: #example
 * dosageInstruction.text = "Calcium 500 mg"
 
 Instance: BSJ-SMPMedReq7
-InstanceOf: MedicationRequest
+InstanceOf: $USCoreMedicationRequest
 Title: "Example: Medication request for Acetaminophen 650 MG Oral Tablet"
 Description: "Medication request for Acetaminophen 650 MG Oral Tablet for Betsy Smith-Johnson to treat Osteoarthritis"
 Usage: #example
 * status = #active
 * intent = #order
+* requester = Reference(Example-JenCadbury)
 * medicationCodeableConcept = $RXNORM#198444 "acetaminophen 650 MG Oral Tablet"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1) "Betsy Smith-Johnson"
 * authoredOn = "2024-08-11"
@@ -97,12 +104,13 @@ Usage: #example
 * dosageInstruction.text = "every 6 hours or as needed for pain"
 
 Instance: BSJ-SMPMedReq8
-InstanceOf: MedicationRequest
+InstanceOf: $USCoreMedicationRequest
 Title: "Example: Medication request for Ferrous sulfate 325 MG (iron 65 MG) Oral Tablet"
 Description: "Medication request for Ferrous sulfate 325 MG (iron 65 MG) Oral Tablet for Betsy Smith-Johnson to treat Anemia"
 Usage: #example
 * status = #active
 * intent = #order
+* requester = Reference(Example-JenCadbury)
 * medicationCodeableConcept = $RXNORM#310325 "ferrous sulfate 325 MG (iron 65 MG) Oral Tablet"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1) "Betsy Smith-Johnson"
 * authoredOn = "2024-08-11"

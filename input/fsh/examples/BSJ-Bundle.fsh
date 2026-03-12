@@ -1,5 +1,5 @@
 Instance: Example-Smith-Johnson-Bundle
-InstanceOf: Bundle
+InstanceOf: TOCBundle
 Usage: #example
 Title: "Example: Transition of Care Bundle"
 Description: "Example Transition of Care bundle for fictional patient Betsy Smith-Johnson."
@@ -84,11 +84,11 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 //* entry[+].resource = BSJ-MDS-Activities-PT1
 //* entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-Activities-PT1"
 
-* entry[+].resource = BSJ-MDS-Doffing1
-* entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-Doffing1"
+// * entry[+].resource = BSJ-MDS-Doffing1
+// * entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-Doffing1"
 
-* entry[+].resource = BSJ-MDS-Donning1
-* entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-Donning1"
+// * entry[+].resource = BSJ-MDS-Donning1
+// * entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-Donning1"
 
 * entry[+].resource = BSJ-MDS-Mobility-PT1
 * entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-Mobility-PT1"

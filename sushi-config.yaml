@@ -12,7 +12,7 @@ status: active # draft | active | retired | unknown
 version: 1.0.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
-releaseLabel: STU 1 # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: STU 1 - release # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
@@ -31,9 +31,16 @@ parameters:
   show-inherited-invariants: true
   apply-jurisdiction: true
   apply-publisher: true
-#  path-expansion-params: '../../input/_resources/exp-params.json'  # for using US ed of SNOMED
+  path-expansion-params: '../../input/resources/exp-params.json'  # for using US ed of SNOMED
   pin-canonicals: pin-multiples
-
+resources:
+  Parameters/exp-params:
+    name: SNOMED CT Expansion Parameters
+    description: >-
+      Terminology expansion parameters specifying the US Edition of SNOMED CT
+      (module 731000124108) to be used when expanding SNOMED-based value sets
+      in this IG.
+    exampleBoolean: false
 contact:
   - name: PACIO project
     telecom:
@@ -49,6 +56,7 @@ contact:
 dependencies:
   hl7.fhir.us.pacio-adi: 1.0.0
   hl7.fhir.us.pacio-pfe: 2.0.0
+  hl7.fhir.us.smp: 1.0.0
   hl7.fhir.us.core: 8.0.1
   us.nlm.vsac:
     uri: 'http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac'
