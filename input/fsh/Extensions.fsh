@@ -1,3 +1,11 @@
+Extension: PointOfContactExtension
+Id: point-of-contact-extension
+Title: "Point of Contact"
+Description: "The Point of Contact Extension represents the individual or organization that can be contacted for information about the patient or their care."
+Context: Composition, CarePlan, DocumentReference
+* valueReference 1..1 MS
+* valueReference only Reference($USCoreRelatedPerson or $USCorePractitioner or $USCorePractitionerRole)
+
 // Extension: transition-of-care-reason
 // Id: TransitionOfCareReason
 // Title: "Transition of Care Reason"

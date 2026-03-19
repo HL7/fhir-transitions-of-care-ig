@@ -82,7 +82,9 @@
 <artifact id="Bundle/Example-Smith-Johnson-Bundle" key="Bundle-Example-Smith-Johnson-Bundle" name="Example: Transition of Care Bundle"/>
 <artifact id="Composition/BSJ-TOCComposition" key="Composition-BSJ-TOCComposition" name="Example: Transitions of Care Clinical Document"/>
 <artifact id="Condition/BSJ-UndressingConcern" key="Condition-BSJ-UndressingConcern" name="Example: Undressing Concern"/>
+<artifact id="StructureDefinition/point-of-contact-extension" key="StructureDefinition-point-of-contact-extension" name="Point of Contact"/>
 <artifact id="CapabilityStatement/toc" key="CapabilityStatement-toc" name="TOC CapabilityStatement"/>
+<artifact id="StructureDefinition/TOC-DocumentReference" key="StructureDefinition-TOC-DocumentReference" name="TOC Document Reference"/>
 <artifact id="StructureDefinition/TOC-Bundle" key="Bundle-Example-Smith-Johnson-Bundle" name="Transition of Care Bundle"/>
 <artifact id="StructureDefinition/TOC-Composition" key="StructureDefinition-TOC-Composition" name="Transition of Care Composition"/>
 <artifact id="CodeSystem/toc-temp-cs" key="CodeSystem-toc-temp-cs" name="Transition of Care Temporary Code System"/>
