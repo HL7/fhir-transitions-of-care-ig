@@ -270,4 +270,3 @@ Id: toc-del-loinc-vs
 // * $LOINC#83249-3
 // * $LOINC#87503-9
 // * $LOINC#95740-7
-

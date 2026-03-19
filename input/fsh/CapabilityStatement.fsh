@@ -175,7 +175,7 @@ Usage: #definition
 * rest.resource[=].searchParam[=].type = #token
 * rest.resource[=].searchParam[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].searchParam[=].extension.valueCode = #SHALL
-* rest.resource[=].searchParam[=].definition = "https://build.fhir.org/ig/HL7/pacio-toc/SearchParameter/patient-birthdate"
+* rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/us/core/SearchParameter/us-core-patient-birthdate"
 * rest.resource[=].searchParam[=].documentation = "https://www.hl7.org/fhir/us/core/SearchParameter-us-core-patient-birthdate.html"
 * rest.resource[=].searchParam[=].name = "birthdate"
 * rest.resource[=].searchParam[=].type = #date

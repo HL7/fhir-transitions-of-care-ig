@@ -19,6 +19,7 @@ Alias: $USCorePractitioner = http://hl7.org/fhir/us/core/StructureDefinition/us-
 Alias: $USCorePractitionerRole = http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole|8.0.1
 Alias: $USCoreProcedure = http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure|8.0.1
 Alias: $USCoreProvenance = http://hl7.org/fhir/us/core/StructureDefinition/us-core-provenance|8.0.1
+Alias: $USCoreRelatedPerson = http://hl7.org/fhir/us/core/StructureDefinition/us-core-relatedperson|8.0.1
 Alias: $USCoreServiceRequest = http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest|8.0.1 
 Alias: $USCoreSimpleObservation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation|8.0.1
 Alias: $USCoreRace = http://hl7.org/fhir/us/core/StructureDefinition/us-core-race|8.0.1

@@ -5,8 +5,6 @@
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
 
 # These warnings are for dependency IGs, which we do not have direct control over
-%Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-category|4.2.0%
-%Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.2.0%
 %Reference to draft CodeSystem http://hl7.org/fhir/narrative-status|4.0.1%
 %Reference to draft ValueSet http://hl7.org/fhir/ValueSet/servicerequest-category|4.0.1%
 %The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated%
@@ -34,3 +32,7 @@ INFORMATION: StructureDefinition.differential.element[60].type[0].targetProfile[
 
 # These are local codes that are specific to the context of Transition of Care (ToC). Still, the PACIO ToC team intends to continue following the process to work with LOINC and SNOMED to add these codes.
 INFORMATION: CodeSystem/toc-temp-cs: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
+
+# Known issue with HL7 IG Tools. This error will be present until the IG publication team can address it. See Zulip chat: https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/IG.20Publisher.20QA.20error.20for.20expansion.20parameters/with/572018531
+WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
+WARNING: 5: The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
