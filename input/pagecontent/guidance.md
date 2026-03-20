@@ -65,7 +65,7 @@ By defining a standard of human and machine readable interoperable documentation
 ### Transitions of Care Document Structure
 
 <p align="center">
-    <object data="TOC-structure-vertical.svg" type="image/svg+xml" width="50%"></object>
+    <object data="TOC-structure.svg" type="image/svg+xml" width="100%"></object>
 </p>
 
 The Transition of Care composition defines the following sections:

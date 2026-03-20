@@ -1,5 +1,5 @@
-Instance: Example-Smith-Johnson-Bundle
-InstanceOf: Bundle
+Instance: Example-Smith-Johnson-TOCBundle
+InstanceOf: TOCBundle
 Usage: #example
 Title: "Example: Transition of Care Bundle"
 Description: "Example Transition of Care bundle for fictional patient Betsy Smith-Johnson."

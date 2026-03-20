@@ -8,6 +8,7 @@
 <artifactPageExtension value="-mappings"/>
 <artifact deprecated="true" id="Observation/BSJ-MDS-SitUp1" key="Observation-BSJ-MDS-SitUp1" name="Discharge Assessment - Lying to sitting on side of bed"/>
 <artifact deprecated="true" id="Observation/BSJ-MDS-ShortWalk1" key="Observation-BSJ-MDS-ShortWalk1" name="Discharge Assessment - Walk 50 feet with 2 turns"/>
+<artifact id="DocumentReference/Example-Smith-Johnson-DocRef-Bundle" key="DocumentReference-Example-Smith-Johnson-DocRef-Bundle" name="Example-Smith-Johnson-DocRef-Bundle"/>
 <artifact id="AllergyIntolerance/BSJ-AllergyACE" key="AllergyIntolerance-BSJ-AllergyACE" name="Example: Allergy List"/>
 <artifact id="Condition/BSJ-AnemiaDiagnosis" key="Condition-BSJ-AnemiaDiagnosis" name="Example: Anemia Diagnosis"/>
 <artifact id="Condition/BSJ-ConstipationDiagnosis" key="Condition-BSJ-ConstipationDiagnosis" name="Example: Constipation Diagnosis"/>
@@ -79,7 +80,7 @@
 <artifact id="PractitionerRole/Role-Pharm-TracyCount" key="PractitionerRole-Role-Pharm-TracyCount" name="Example: Role of Dr. Tracy Count"/>
 <artifact id="ServiceRequest/BSJ-PCPFollowUp" key="ServiceRequest-BSJ-PCPFollowUp" name="Example: Service Request to follow up with PCP"/>
 <artifact id="Condition/BSJ-StrokeDiagnosis" key="Condition-BSJ-StrokeDiagnosis" name="Example: Stroke Diagnosis"/>
-<artifact id="Bundle/Example-Smith-Johnson-Bundle" key="Bundle-Example-Smith-Johnson-Bundle" name="Example: Transition of Care Bundle"/>
+<artifact id="Bundle/Example-Smith-Johnson-TOCBundle" key="Bundle-Example-Smith-Johnson-TOCBundle" name="Example: Transition of Care Bundle"/>
 <artifact id="Composition/BSJ-TOCComposition" key="Composition-BSJ-TOCComposition" name="Example: Transitions of Care Clinical Document"/>
 <artifact id="Condition/BSJ-UndressingConcern" key="Condition-BSJ-UndressingConcern" name="Example: Undressing Concern"/>
 <artifact id="StructureDefinition/point-of-contact-extension" key="StructureDefinition-point-of-contact-extension" name="Point of Contact"/>
