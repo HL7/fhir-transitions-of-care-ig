@@ -1,4 +1,4 @@
-//USCore -
+//USCore - StructureDefinition and ValueSet aliases
 Alias: $USCoreAllergyIntolerance = http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance|8.0.1
 Alias: $USCoreCarePlan = http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan|8.0.1
 Alias: $USCoreConditionEncounterDiagnosis = http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis|8.0.1
@@ -6,12 +6,16 @@ Alias: $USCoreConditionProblemsandHealthConcerns = http://hl7.org/fhir/us/core/S
 Alias: $USCoreCoverage = http://hl7.org/fhir/us/core/StructureDefinition/us-core-coverage|8.0.1
 Alias: $USCoreDiagnosticReportNotes = http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note|8.0.1
 Alias: $USCoreDocumentReference = http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference|8.0.1
+Alias: $USCoreDocumentReferenceCategory = http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category|8.0.1
 Alias: $USCoreEncounter = http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter|8.0.1
 Alias: $USCoreEthnicity = http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity|8.0.1
 Alias: $USCoreGoal = http://hl7.org/fhir/us/core/StructureDefinition/us-core-goal|8.0.1
 Alias: $USCoreGoalDescription = http://hl7.org/fhir/us/core/ValueSet/us-core-goal-description|8.0.1
 Alias: $USCoreImmunization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization|8.0.1
 Alias: $USCoreLocation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-location|8.0.1
+Alias: $USCoreMedication = http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication|8.0.1
+Alias: $USCoreMedicationRequest = http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|8.0.1
+Alias: $USCoreSimpleObservation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation|8.0.1
 Alias: $USCoreObservationClinicalResult = http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result|8.0.1
 Alias: $USCoreOrganization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|8.0.1
 Alias: $USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|8.0.1
@@ -44,6 +48,9 @@ Alias: $ADIPACPComposition = http://hl7.org/fhir/us/pacio-adi/StructureDefinitio
 // CCDA on FHIR
 Alias: $CCDAonFHIRDischargeSummary = http://hl7.org/fhir/us/ccda/StructureDefinition/Discharge-Summary
 
+// PACIO SMP
+Alias: $SMPBundle = http://hl7.org/fhir/us/smp/StructureDefinition/smp-bundle
+
 // International Patient Summary
 Alias: $IPSComposition = http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
 
@@ -56,6 +63,7 @@ Alias: $HL7ProvenanceParticipantType = http://terminology.hl7.org/CodeSystem/pro
 Alias: $HL7NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: $HL7YesNoVS = http://terminology.hl7.org/ValueSet/v2-0136
 Alias: $HL7YesNoCS = http://terminology.hl7.org/CodeSystem/v2-0532
+Alias: $HL7ListEmptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason
 
 Alias: $HL7CompositionAttestation = http://hl7.org/fhir/ValueSet/composition-attestation-mode
 Alias: $HL7ConsentScope = http://terminology.hl7.org/CodeSystem/consentscope
