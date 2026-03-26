@@ -23,5 +23,5 @@ Usage: #example
 * date = "2024-05-10T14:25:34.001-05:00"
 
 * content[0].attachment.contentType = #application/fhir+json
-* content[0].attachment.url = "http://hl7.org/fhir/us/pacio-adi/Bundle/Example-Smith-Johnson-TOCBundle"
+* content[0].attachment.url = "http://www.example.org/fhir/Bundle/Example-Smith-Johnson-TOCBundle"
 * content[0].attachment.creation = "2024-05-10T14:25:34.001-05:00"
