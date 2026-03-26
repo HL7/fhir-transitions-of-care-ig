@@ -72,7 +72,7 @@ The Transition of Care composition defines the following sections:
 
 #### Advance Directives
 
-**Section Code**: LOINC 42348-3 Advance healthcare directives
+**Section Code**: [LOINC 42348-3](https://loinc.org/42348-3/) Advance healthcare directives
 
 **Description:**
 Declarations by individuals made in advance of a situation in which they may be incompetent to decide about or articulate their wishes for their own care, stating their treatment preferences and limitations on treatment. Examples include Personal Advance Care Plans, Portable Medical Orders, Mental Health Advance Directives, Episodic Advance Directives, POLST/MOLST forms.
@@ -82,7 +82,7 @@ Declarations by individuals made in advance of a situation in which they may be 
 
 #### Allergies and Adverse Reactions
 
-**Section Code**: LOINC 48765-2 Allergies and adverse reactions Document
+**Section Code**: [LOINC 48765-2](https://loinc.org/48765-2/) Allergies and adverse reactions Document
 
 **Description:**
 List of any responses to medication, food, and topical. ingested or inhaled agent occuring with normal use that are unintended, potentially harmful, and unwanted by the individual. Allergic reactions involve the activation of the immune sysem in the response. Examples of adverse reactions include low blood pressure from opiates, confusrion and dry mouth from anticholinergics. Examples of allergic reactions include hives, rash, and anaphylaxis.
@@ -102,7 +102,7 @@ Observations, assessments, and interventions regarding the impact of behaviors o
 
 #### Functional Status
 
-**Section Code**: LOINC 47420-5 Functional status assessment note
+**Section Code**: [LOINC 47420-5](https://loinc.org/47420-5/) Functional status assessment note
 
 **Description:**
 Observation, assessments, and interventions regarding basic physical and cognitive activities and their impact on mental and physical well being. Examples of observations and assessments include those of mental status, mobility, activities of daily living, speech, and swallowing. Examples of interventions include devices, therapy, and modification of the environment including personal assistance.
@@ -113,7 +113,7 @@ Observation, assessments, and interventions regarding basic physical and cogniti
 
 #### Immunizations
 
-**Section Code**: LOINC 82593-5 Immunization summary report
+**Section Code**: [LOINC 82593-5](https://loinc.org/82593-5/) Immunization summary report
 
 **Description:**
 List of immunizations an individual has received and when. May also include a schedule for future immunizations.
@@ -123,7 +123,7 @@ List of immunizations an individual has received and when. May also include a sc
 
 #### Discharge Instructions
 
-**Section Code**: LOINC 69730-0 Instructions
+**Section Code**: [LOINC 69730-0](https://loinc.org/69730-0/) Instructions
 
 **Description:**
 Directions given to an individual designed to teach about prevention, diagnosis, monitoring, or treatment of conditions or functional impairments.
@@ -134,7 +134,7 @@ Directions given to an individual designed to teach about prevention, diagnosis,
 
 #### Medical Devices
 
-**Section Code**: LOINC 46264-8 History of medical device use
+**Section Code**: [LOINC 46264-8](https://loinc.org/46264-8/) History of medical device use
 
 **Description:**
 List of equipment the individual uses for prevention, diagnosis, monitoring, or treatment of conditions or functional impairment (disability). Examples included implanted pumps, lines, tubes and drains as well external devices including splints, mobillity aides, and ventilators.
@@ -144,7 +144,7 @@ List of equipment the individual uses for prevention, diagnosis, monitoring, or 
 
 #### Medications
 
-**Section Code**: LOINC 10160-0 History of Medication use Narrative
+**Section Code**: [LOINC 10160-0](https://loinc.org/10160-0/) History of Medication use Narrative
 
 **Description:**
 List of medications prescribed for the individual for prevention, diagnosis, or treatment of one or more condition which includes indication, dose, frequency, duration,prescriber, and reason(s) to contact the prescriber. Examples include medications received (administration lists), medications active at discharge, discontinued medications, high risk drug, opioids, preadmission medication list, reconciled medication list.
@@ -154,7 +154,7 @@ List of medications prescribed for the individual for prevention, diagnosis, or 
 
 #### Discharge Care Plan
 
-**Section Code**: LOINC 18776-5 Plan of care note
+**Section Code**: [LOINC 18776-5](https://loinc.org/18776-5/) Plan of care note
 
 **Description:**
 A summary of conditions that require further intervention after discharge with plans for treatment, diagnosis, monitoring, prevention of adverse events, and the party responsible for the activity.
@@ -164,7 +164,7 @@ A summary of conditions that require further intervention after discharge with p
 
 #### Problems
 
-**Section Code**: LOINC 11450-4 Problem list - Reported
+**Section Code**: [LOINC 11450-4](https://loinc.org/11450-4/) Problem list - Reported
 
 **Description:**
 A list of conditions that require ongoing management including those that previously required management but are not active. Examples include diagnoses, potential for adverse events, concerns, symptoms, or signs.
@@ -175,7 +175,7 @@ A list of conditions that require ongoing management including those that previo
 
 #### Procedures
 
-**Section Code**: LOINC 47519-4 History of Procedures Document
+**Section Code**: [LOINC 47519-4](https://loinc.org/47519-4/) History of Procedures Document
 
 **Description:**
 List of interventions undergone by the indivdual that required informed consent. Examples include surgery, exposure to radiation, experimental interventions.
@@ -185,7 +185,7 @@ List of interventions undergone by the indivdual that required informed consent.
 
 #### Reason for Transfer
 
-**Section Code**: LOINC 42349-1 Reason for referral (narrative)
+**Section Code**: [LOINC 42349-1](https://loinc.org/42349-1/) Reason for referral (narrative)
 
 **Description:**
 Purpose to be served by moving the individual to a new site of care. Examples include: continued rehabilitation or treatment, treatment unavailable at the current site, preference of individual or substituted decision maker.
@@ -195,7 +195,7 @@ Purpose to be served by moving the individual to a new site of care. Examples in
 
 #### Clinical Results
 
-**Section Code**: LOINC 30954-2 Relevant diagnostic tests/laboratory data note
+**Section Code**: [LOINC 30954-2](https://loinc.org/30954-2/) Relevant diagnostic tests/laboratory data note
 
 **Description:**
 The result of a laboratory, radiologic, or other clinical test performed to determine the presence, absence, or degree of a condition. Examples include lab, pathology, imaging results.
@@ -205,7 +205,7 @@ The result of a laboratory, radiologic, or other clinical test performed to dete
 
 #### Social History
 
-**Section Code**: LOINC 29762-2 Social history note
+**Section Code**: [LOINC 29762-2](https://loinc.org/29762-2/) Social history note
 
 **Description:**
 Documentation of the individual's personal, environmental, and behavioral factors that influence health. Examples include prior level of functioning, substance use, ethnicity, race, health insurance coverage (Medicare, Medicaid, private, self), level of education, marital status, SDOH, living situation, occupation.
@@ -215,7 +215,7 @@ Documentation of the individual's personal, environmental, and behavioral factor
 
 #### Vital Signs
 
-**Section Code**: LOINC 8716-3 Vital signs note
+**Section Code**: [LOINC 8716-3](https://loinc.org/8716-3/) Vital signs note
 
 **Description:**
 Significant measurements at the time of transfer. Examples include height, weight, blood pressure, oxygen level, temperature, pulse, respiration rate, pain level.
