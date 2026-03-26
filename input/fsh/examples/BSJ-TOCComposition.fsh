@@ -39,9 +39,7 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Doffing1)
 * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Donning1)
 * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Mobility-PT1)
-// * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-ShortWalk1)
 * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-SitStand1)
-// * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-SitUp1)
 * section[functional_status].text.status = #additional
 * section[functional_status].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Functional status of Betsy Smith-Johnson</div>"
 

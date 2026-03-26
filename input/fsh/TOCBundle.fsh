@@ -14,27 +14,27 @@ Description: "This is a profile for a Transition of Care Bundle, which includes 
 
 * entry contains toc-composition 1..* MS and
     patient 1..* MS and
-    advance-directives 1..* MS and
-    allergies 1..* MS and
-    simple-observation 1..* MS and
-//    functional-status 1..* MS and
-    immunizations 1..* MS and
-//    discharge-instructions 0..1 MS and
-    medical-devices 1..* MS and
-    medications 1..* MS and
-    plan-of-care 1..* MS and
-    problems 1..* MS and
-    procedures 1..* MS and
-    encounter 1..* MS and
-//    reason-for-visit 1..* MS and
-    clinical-results 1..* MS and
-    vital-signs 1..* MS
+    advance-directives 0..* MS and     // Optional: Composition section required; emptyReason used when no data
+    allergies 0..* MS and              // Optional: Composition section required; emptyReason used when no data
+    simple-observation 0..* MS and     // Optional: Composition section required; emptyReason used when no data
+//    functional-status 0..* MS and
+    immunizations 0..* MS and          // Optional: Composition section required; emptyReason used when no data
+//    discharge-instructions 0..* MS and
+    medical-devices 0..* MS and        // Optional: Composition section required; emptyReason used when no data
+    medications 0..* MS and            // Optional: Composition section required; emptyReason used when no data
+    plan-of-care 0..* MS and           // Optional: Composition section required; emptyReason used when no data
+    problems 0..* MS and               // Optional: Composition section required; emptyReason used when no data
+    procedures 0..* MS and             // Optional: Composition section required; emptyReason used when no data
+    encounter 0..* MS and              // Optional: Composition section required; emptyReason used when no data
+//    reason-for-visit 0..* MS and
+//    clinical-results 0..* MS and
+    vital-signs 0..* MS                // Optional: Composition section required; emptyReason used when no data
 
 * entry[toc-composition].resource only TOCComposition
 // * entry[toc-composition].^description = "The Composition resource that serves as the root document for the Transition of Care."
 * entry[patient].resource only $USCorePatient
 // * entry[patient].^description = "The patient resource representing the individual whose transition of care is being documented."
-* entry[advance-directives].resource only $ADIPACPComposition
+* entry[advance-directives].resource only $ADIDocumentReference
 * entry[allergies].resource only $USCoreAllergyIntolerance
 * entry[simple-observation].resource only $USCoreSimpleObservation
 // * entry[functional-status].resource only $USCoreObservationClinicalResult
@@ -46,5 +46,5 @@ Description: "This is a profile for a Transition of Care Bundle, which includes 
 * entry[problems].resource only $USCoreConditionProblemsandHealthConcerns
 * entry[procedures].resource only $USCoreProcedure or $USCoreServiceRequest
 * entry[encounter].resource only $USCoreEncounter
-* entry[clinical-results].resource only $USCoreObservationClinicalResult
+// * entry[clinical-results].resource only $USCoreObservationClinicalResult
 * entry[vital-signs].resource only $USCoreVitalSigns

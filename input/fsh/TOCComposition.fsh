@@ -32,15 +32,15 @@ Description: "This profile defines constraints that represent common administrat
 * section ^slicing.ordered = false   // can be omitted, since false is the default
 * section ^slicing.description = "Slice based on $this value"
 * section contains
-    advance_directives 0..1 MS and
+    advance_directives 1..1 MS and
     allergies 1..1 MS and
     behavioral_health 1..1 MS and
     functional_status 1..1 MS and
     immunizations 1..1 MS and
-    discharge_instructions 0..1 MS and
+    discharge_instructions 1..1 MS and
     medical_devices 1..1 MS and
     medications 1..1 MS and
-    plan_of_care 0..1 MS and
+    plan_of_care 1..1 MS and
     problems 1..1 MS and
     procedures 1..1 MS and
     reason_for_referral 1..1 MS and

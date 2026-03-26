@@ -43,6 +43,7 @@ Alias: $PFESingleObservation = http://hl7.org/fhir/us/pacio-pfe/StructureDefinit
 Alias: $PFEUseOfDevice = http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-use-of-device
 
 // PACIO Advance Directives Interoperability (ADI)
+Alias: $ADIDocumentReference = http://hl7.org/fhir/us/pacio-adi/StructureDefinition/ADI-DocumentReference
 Alias: $ADIPACPComposition = http://hl7.org/fhir/us/pacio-adi/StructureDefinition/ADI-PACPComposition
 
 // CCDA on FHIR
