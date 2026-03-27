@@ -82,7 +82,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[functional_status].entry 
 //* section[functional_status].entry only Reference($PFECollection or $PFEClinicalTestObservation or $PFESingleObservation or
 //                                                 $PFEUseOfDevice or $PFENarrativeHistoryOfStatus)
-* section[functional_status].entry only Reference(Observation or $PFEUseOfDevice or $PFENarrativeHistoryOfStatus)
+* section[functional_status].entry only Reference(Observation or $PFEUseOfDevice or $PFENarrativeHistoryOfStatus or $USCoreConditionProblemsandHealthConcerns)
 * section[functional_status].emptyReason 0..1 MS
 
 * section[immunizations] ^short = "Immunizations"
