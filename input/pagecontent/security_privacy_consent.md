@@ -1,6 +1,6 @@
 [//]: #  ## Security, Privacy, and Consent 
 
-All implementers of the Transitions of Care Implementation Guide (IG) SHOULD follow the FHIR Security guidance, Security and Privacy Module, and the FHIR Implementer’s Safety Checklist guidance as defined in the FHIR standard where applicable and not otherwise superseded by this Section of the TOC IG.
+All implementers of the Transitions of Care Implementation Guide (IG) should follow the FHIR Security guidance, Security and Privacy Module, and the FHIR Implementer’s Safety Checklist guidance as defined in the FHIR standard where applicable and not otherwise superseded by this Section of the TOC IG.
 
 ### General Considerations
 
