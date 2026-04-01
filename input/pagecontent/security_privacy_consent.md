@@ -1,17 +1,17 @@
 [//]: #  ## Security, Privacy, and Consent 
 
-All implementers of the Transitions of Care Implementation Guide (IG) should follow the FHIR Security guidance, Security and Privacy Module, and the FHIR Implementer’s Safety Checklist guidance as defined in the FHIR standard where applicable and not otherwise superseded by this Section of the TOC IG.
+All implementers of the LTPAC Transitions of Care (TOC) Implementation Guide (IG) should follow the FHIR Security guidance, Security and Privacy Module, and the FHIR Implementer’s Safety Checklist guidance as defined in the FHIR standard where applicable and not otherwise superseded by this Section of the TOC IG.
 
 ### General Considerations
 
-Transitions of Care (TOC) information contains patient specific information, which means that it needs to be protected with proper security and privacy protections to avoid malicious or unintentional exposure of such information. All Advance Directive Interoperability exchanges must be appropriately secured in transit and access limited only to authorized individuals.
+LTPAC TOC information contains patient specific information, which means that it needs to be protected with proper security and privacy protections to avoid malicious or unintentional exposure of such information and must be appropriately secured in transit and access limited only to authorized individuals.
 
-The TOC IG focuses on providing a structure to share data and information. Policy, legal, and regulatory differences across states and local areas may impact the workflow and requirements associated with Advance Directives Information. Implementors should review the current context for where this IG is expected to be used to ensure those requirements are met.
+The LTPAC TOC IG focuses on providing a structure to share data and information. Policy, legal, and regulatory differences across states and local areas may impact the workflow and requirements associated with certain data types. Implementors should review the current context for where this IG is expected to be used to ensure those requirements are met.
 
 
 #### Security Considerations and Guidance
 
-All implementers of the Transitions of Care Implementation Guide (IG) **SHOULD** follow the FHIR Security guidance, Security and Privacy Module, and the FHIR Implementer’s Safety Checklist guidance as defined in the FHIR standard where applicable and not otherwise superseded by this Section of the TOC IG.
+All implementers of the LTPAC FHIR IG **SHOULD** follow the FHIR Security guidance, Security and Privacy Module, and the FHIR Implementer’s Safety Checklist guidance as defined in the FHIR standard where applicable and not otherwise superseded by this Section of the LTPAC TOC IG.
 
 1.	The FHIR Security specification provides guidance related to communication security, authentication, authorization/access control, audit, digital signatures, attachments, labels, narrative, and input validation. The FHIR security specification is available [here](http://hl7.org/fhir/R4/security.html).
 2.	The FHIR Security and Privacy Module describes access control and authorization considerations to protect a FHIR server, how to document permissions granted, and hot to keep records of performed events. The FHIR Security and privacy module can be found [here](http://hl7.org/fhir/R4/secpriv-module.html).

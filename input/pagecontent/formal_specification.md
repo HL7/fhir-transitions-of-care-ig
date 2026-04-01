@@ -2,7 +2,7 @@ This section defines additional requirements and guidance relevant to this IG as
 
 ### System Role Definitions
 
-**Data Sources** are defined as systems that originate transition of care-related documents & resources. These systems may be personal health records, clinical records, or even consumer-facing platforms.
+**Data Sources** are defined as systems that originate transition of care-related documents & resources. These systems will be the sending organization.
 
 **Data Consumers** are defined as systems retrieving or receiving transitions of care information for direct use or integration into their application platform (as opposed to acting as a server or intermediary).
 
