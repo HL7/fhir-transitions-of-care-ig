@@ -1,18 +1,20 @@
 ### Background 
 
-The purpose of the LTPAC Transitions of Care (TOC) Implementation Guide is to provide a standards-based solution to support care transitions and coordination for LTPAC patients across all settings of care. The five traditional Post-Acute Care (PAC) settings, Hospice, Home Health, Skilled Nursing, Long Term Care Hospitals, and Inpatient Rehab facilities employ many types of clinicians, practitioners, therapists, and allied professionals who each require different information to provide the best and most efficient services to their patients. This information may include **standardized assessments, patient preferences, observations,** and other important data. Many of these items are valuable during a transition of care from one setting to another, including settings outside of Post-Acute Care such as Acute Inpatient, Emergency Department, and Home- and Community-Based Organizations (HCBOs). This critical information is often not exchanged, resulting in gaps in care information during initial assessments and reassessments in new or parallel settings, and the data are never available as a specific role-based data set. This leads directly to potentially unsafe transition and coordination of care for these most vulnerable patients as well as information overload, additional documentation, errors in the patient record, incorrectly reconciled data, and a burden on families and patients to carry physical records with them during transitions. 
+The purpose of the Post-Acute Care Interoperability (PACIO) Project’s Transitions of Care (ToC) Implementation Guide is to provide a standards-based solution to support care transitions and coordination for patients across Long-Term Post-Acute Care (LTPAC) settings. The traditional Post-Acute Care (PAC) settings, Home Health, Skilled Nursing, Long Term Care Hospitals, and Inpatient Rehab facilities employ many types of clinicians, practitioners, therapists, and allied professionals who each require different information to provide the highest value and most efficient services to their patients. This information may include **standardized assessments**, **patient preferences**, **observations**, and other important data. Many of these items are valuable during a transition of care from one setting to another, including settings outside of Post-Acute Care such as Acute Inpatient or the Emergency Department.. This critical information, when it has been documented, is often not exchanged, resulting in gaps in care information during initial assessments and reassessments in new or parallel settings. By documenting this data as discrete coded data elements that is human and machine readable at the transition of care it  can be exchanged and  consumed by the recipient system. This results is reduced provider burden, as well as minimized transcription and associated errors. In addition, some specific data is more relevant to certain care roles, however, patient data at transfer  are never available as a specific role-based data set. Coded data can be grouped in a specified role based fashion aiding the responsible caregivers at transition. When patient transition information is printed, faxed, or arrives electronically as human readable only, this leads directly to potentially unsafe transition and coordination of care for these most vulnerable patients.
 
-The CMS Data Element Library provides the reference data (questions and answers) for key quality instruments in post-acute care, notably the MDS and OASIS. Today, most if not all information that could help inform the completion of these assessments is captured at the referral source, but not in a manner that can be meaningfully presented to the post-acute provider. Without this context and properly mapped information, providers in Post-acute care settings are piecing together information from scratch through clinical observation or laborious review of narrative and other documentation that accompanies a referral. The challenge is similar outside of these instruments&mdash;stretching into areas like Advance Directives or Personal Care preferences.   
+The CMS Data Element Library provides the reference data (questions and answers) as coded data for key quality instruments in post-acute care, notably the Minimum Data Set (MDS) and Outcome and Assessment Information Set (OASIS). Today, most if not all information that could help inform the completion of these assessments is captured at the referral source but is either not transferred at all or is not transferred in a manner that can be meaningfully presented to the post-acute provider. Without this context and properly mapped information, providers in PAC settings are piecing together information through clinical observation or laborious review of narrative and other documentation that accompanies a referral. The challenge is similar outside of these instruments—stretching into areas like Advance Healthcare Directives or Personal Care preferences.
+  
 
 ### Why PACIO 
 
-The PACIO Project is a collaborative effort to advance interoperable health data exchange between PAC and other providers, patients, their caregivers, and key stakeholders across healthcare and to promote health data exchange in collaboration with policy makers, standards organizations, and industry through a consensus-based approach. 
+The PACIO Project [JP1.1]is a collaborative effort to advance interoperable health data exchange between PAC and other providers, patients, and key stakeholders across health care and to promote health data exchange in collaboration with policy makers, standards organizations, and industry through a consensus-based, use case-driven approach.
+The primary goal of the PACIO Project is to establish the technical foundation for data exchange within PAC and partner organizations across the spectrum of care. It seeks to do so by creating a framework for and community through the development of Fast Healthcare Interoperability Resource (FHIR®) technical implementation guides (IGs) and reference implementations that will facilitate health data exchange through standards-based use case-driven application programming interfaces (APIs).
+Information covered in this IG is relevant to providers across the spectrum of patient care, including acute, sub-acute, and long-term post-acute care (LTPAC), and specifically designed for all roles within healthcare.. The PACIO community brings together healthcare providers with a deep understanding of patient functioning, healthcare workflows and health information technology that makes them uniquely suited to author this IG. This understanding comes out of each author's:
 
-The primary goal of the PACIO Project is to establish the technical foundation for data exchange within PAC and partner organizations across the spectrum of care. It seeks to do so by creating a framework for and community through the development of Fast Healthcare Interoperability Resource (FHIR&copy;) technical implementation guides (IGs) and reference implementations that will facilitate health data exchange through standards-based use case-driven application programming interfaces (APIs). 
-
-Information covered in this IG is relevant to providers across the full spectrum of patient care, including acute, sub-acute, long-term post-acute care (LTPAC), community-based organizations, and private practice practitioners. The PACIO community brings together healthcare providers with a deep understanding of patient functioning that makes them uniquely suited to author this IG. This understanding comes out of each provider's: 
-* goal of helping individuals in these settings return to living in their homes and communities. 
-* knowledge of the activities that individuals need to perform and how to help them regain the ability to perform these activities by leveraging the necessary treatments and supports. 
+* goal of helping individuals in these settings return to living in their homes and communities.
+* knowledge of the activities that individuals need to perform and how to help them regain the ability to perform these activities by leveraging the necessary treatments and supports.
+* desire to decrease the burden of care and ineffective transitions while increasing the value of the patient care delivered.
+ 
 
 ### Domains 
 
@@ -24,17 +26,27 @@ The scope of this guide is intentionally broad, as the nature of specific condit
 
 ### The IMPACT act 
 
-One impetus for this IG is the amendment to the Social Security Act in 2014 to include the Improving Medicare Post-Acute Care Transformation (IMPACT) Act. The IMPACT Act requires the standardization and interoperability of patient assessments in specific categories for PAC settings, including long-term care hospitals (LTCHs), home health agencies (HHAs), SNFs, and inpatient rehabilitation facilities (IRFs). It focuses on the standardization of data elements in specified quality measure and patient assessment domains for cross-setting comparison and clinical information exchange, respectively. 
-
-The Act requires: 
-* Reporting of standardized patient assessment data through commonly used PAC assessment instruments: 
+One impetus for this IG is the amendment to the Social Security Act in 2014 to include the Improving Medicare Post-Acute Care Transformation (IMPACT) Act. The IMPACT Act requires the standardization and interoperability of patient assessments in specific categories for PAC settings, including long-term care hospitals (LTCHs), home health agencies (HHAs), skilled nursing facilities (SNFs), and inpatient rehabilitation facilities (IRFs). It focuses on the standardization of data elements in specified quality measure and patient assessment domains for cross-setting comparison and clinical information exchange.
+The Act requires:
+* Reporting of standardized patient assessment data through commonly used PAC assessment instruments:
   * Minimum Data Set (MDS) for SNFs
   * Inpatient Rehabilitation Facility – Patient Assessment Information (IRF – PAI) for IRFs
   * LTCH Continuity Assessment Record and Evaluation (CARE) Data Set (LCDS) for LTCHs
-  * Outcome and Assessment Information Set (OASIS) for HHAs 
-* Implementation of data elements specified in each domain using standardized data elements to be nested within the assessment instruments currently required for submission by LTCH, IRF, SNF, and HHA providers. 
+  * Outcome and Assessment Information Set (OASIS) for HHAs
+* Implementation of domain-specific data elements as standardized, coded, machine- and human-readable values nested within the PAC assessment instruments required for submission by SNF, IRF, LTCH, and HHA providers.
 
-Data to be standardized and interoperable to allow exchange of data between PAC providers, among others, using common standards and definitions to provide access to longitudinal information and facilitate coordinated care. 
+These standardization requirements enable interoperable data exchange among PAC providers and other care settings, using common standards and definitions to support access to longitudinal patient information and facilitate coordinated care transitions.
+ 
+ ### Scope
+
+ To represent Consolidated CDA Templates for Clinical Notes (C-CDA) 2.1 templates using FHIR profiles.
+
+ This first stage of the project defines all the C-CDA document-level profiles on the Composition resource and contained sections.
+
+ Any coded data used by sections will be represented using relevant U.S. Core FHIR profiles where they exist. FHIR profiles defined by other work groups or unconstrained FHIR resources may also be referenced if no appropriate US Core Profile exists.
+ 
+ For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.
+ 
 
 ### How to read this guide 
 This Guide is divided into several pages which are listed at the top of each page in the menu bar.
