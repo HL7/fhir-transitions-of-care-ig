@@ -6,14 +6,15 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
+<artifact deprecated="true" id="Condition/BSJ-AnemiaDiagnosis" key="Condition-BSJ-AnemiaDiagnosis" name="Anemia Diagnosis"/>
+<artifact deprecated="true" id="Condition/BSJ-ConstipationDiagnosis" key="Condition-BSJ-ConstipationDiagnosis" name="Constipation Diagnosis"/>
+<artifact deprecated="true" id="Condition/BSJ-DepressionDiagnosis" key="Condition-BSJ-DepressionDiagnosis" name="Depression Diagnosis"/>
+<artifact deprecated="true" id="Condition/BSJ-DiabetesDiagnosis" key="Condition-BSJ-DiabetesDiagnosis" name="Diabetes Diagnosis"/>
 <artifact deprecated="true" id="Observation/BSJ-MDS-SitUp1" key="Observation-BSJ-MDS-SitUp1" name="Discharge Assessment - Lying to sitting on side of bed"/>
 <artifact deprecated="true" id="Observation/BSJ-MDS-ShortWalk1" key="Observation-BSJ-MDS-ShortWalk1" name="Discharge Assessment - Walk 50 feet with 2 turns"/>
+<artifact deprecated="true" id="ServiceRequest/BSJ-SNFDischargeDietProtein" key="ServiceRequest-BSJ-SNFDischargeDietProtein" name="Discharge Service Request for protein diet"/>
 <artifact id="DocumentReference/Example-Smith-Johnson-DocRef-Bundle" key="DocumentReference-Example-Smith-Johnson-DocRef-Bundle" name="Example-Smith-Johnson-DocRef-Bundle"/>
 <artifact id="AllergyIntolerance/BSJ-AllergyACE" key="AllergyIntolerance-BSJ-AllergyACE" name="Example: Allergy List"/>
-<artifact id="Condition/BSJ-AnemiaDiagnosis" key="Condition-BSJ-AnemiaDiagnosis" name="Example: Anemia Diagnosis"/>
-<artifact id="Condition/BSJ-ConstipationDiagnosis" key="Condition-BSJ-ConstipationDiagnosis" name="Example: Constipation Diagnosis"/>
-<artifact id="Condition/BSJ-DepressionDiagnosis" key="Condition-BSJ-DepressionDiagnosis" name="Example: Depression Diagnosis"/>
-<artifact id="Condition/BSJ-DiabetesDiagnosis" key="Condition-BSJ-DiabetesDiagnosis" name="Example: Diabetes Diagnosis"/>
 <artifact id="Observation/BSJ-MDS-Donning1" key="Observation-BSJ-MDS-Donning1" name="Example: Discharge Assessment - Lower body dressing"/>
 <artifact id="Observation/BSJ-MDS-SitStand1" key="Observation-BSJ-MDS-SitStand1" name="Example: Discharge Assessment - Sit to stand"/>
 <artifact id="Observation/BSJ-MDS-Doffing1" key="Observation-BSJ-MDS-Doffing1" name="Example: Discharge Assessment - Upper body dressing"/>
@@ -24,7 +25,6 @@
 <artifact id="ServiceRequest/BSJ-SNFDischargeCallOrder" key="ServiceRequest-BSJ-SNFDischargeCallOrder" name="Example: Discharge Service Request for call order"/>
 <artifact id="ServiceRequest/BSJ-SNFDischargeLabOrderCBC" key="ServiceRequest-BSJ-SNFDischargeLabOrderCBC" name="Example: Discharge Service Request for complete blood count"/>
 <artifact id="ServiceRequest/BSJ-SNFDischargeCallSLPRefer" key="ServiceRequest-BSJ-SNFDischargeCallSLPRefer" name="Example: Discharge Service Request for discharge SLP referral"/>
-<artifact id="ServiceRequest/BSJ-SNFDischargeDietProtein" key="ServiceRequest-BSJ-SNFDischargeDietProtein" name="Example: Discharge Service Request for protein diet"/>
 <artifact id="ServiceRequest/BSJ-SNFDischargeDietSalt" key="ServiceRequest-BSJ-SNFDischargeDietSalt" name="Example: Discharge Service Request for reduced salt diet"/>
 <artifact id="Practitioner/Example-AnitaChu" key="Practitioner-Example-AnitaChu" name="Example: Dr. Anita Chu"/>
 <artifact id="Practitioner/Example-GeraldPark" key="Practitioner-Example-GeraldPark" name="Example: Dr. Gerald Park"/>
@@ -41,7 +41,6 @@
 <artifact id="List/BSJ-SMPMedList" key="List-BSJ-SMPMedList" name="Example: Home Medication List"/>
 <artifact id="Condition/BSJ-HyperlipidemiaDiagnosis" key="Condition-BSJ-HyperlipidemiaDiagnosis" name="Example: Hyperlipidemia Diagnosis"/>
 <artifact id="Condition/BSJ-HypertensionDiagnosis" key="Condition-BSJ-HypertensionDiagnosis" name="Example: Hypertension Diagnosis"/>
-<artifact id="Condition/BSJ-KidneyDiseaseDiagnosis" key="Condition-BSJ-KidneyDiseaseDiagnosis" name="Example: Kidney Disease Diagnosis"/>
 <artifact id="Location/org-Loc-PC-Primary-Care-Michigan" key="Location-org-Loc-PC-Primary-Care-Michigan" name="Example: Location of Michigan Primary Health Care Associates"/>
 <artifact id="Location/org-Loc-Everyday-Community-Pharm" key="Location-org-Loc-Everyday-Community-Pharm" name="Example: Location of the Everyday Community Pharmacy"/>
 <artifact id="Location/org-Loc-SNF-Happy-Nursing-Facility" key="Location-org-Loc-SNF-Happy-Nursing-Facility" name="Example: Location of the Happy Nursing Facility"/>
@@ -83,6 +82,7 @@
 <artifact id="Bundle/Example-Smith-Johnson-TOCBundle" key="Bundle-Example-Smith-Johnson-TOCBundle" name="Example: Transition of Care Bundle"/>
 <artifact id="Composition/BSJ-TOCComposition" key="Composition-BSJ-TOCComposition" name="Example: Transitions of Care Clinical Document"/>
 <artifact id="Condition/BSJ-UndressingConcern" key="Condition-BSJ-UndressingConcern" name="Example: Undressing Concern"/>
+<artifact deprecated="true" id="Condition/BSJ-KidneyDiseaseDiagnosis" key="Condition-BSJ-KidneyDiseaseDiagnosis" name="Kidney Disease Diagnosis"/>
 <artifact id="StructureDefinition/point-of-contact-extension" key="StructureDefinition-point-of-contact-extension" name="Point of Contact"/>
 <artifact id="CapabilityStatement/toc" key="CapabilityStatement-toc" name="TOC CapabilityStatement"/>
 <artifact id="StructureDefinition/TOC-DocumentReference" key="StructureDefinition-TOC-DocumentReference" name="TOC Document Reference"/>

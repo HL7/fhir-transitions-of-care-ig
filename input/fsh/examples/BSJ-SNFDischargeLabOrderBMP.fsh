@@ -14,7 +14,8 @@ Description: "Discharge Service Request for blood chemistry procedure for fictio
 * occurrenceDateTime = "2024-05-28"
 * authoredOn = "2024-05-18"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
-* reasonReference[+] = Reference(Condition/BSJ-AnemiaDiagnosis)
+// * reasonReference[+] = Reference(Condition/BSJ-AnemiaDiagnosis)
+* reasonReference[+] = Reference(Condition/BSJ-HeartDiseaseDiagnosis)
 * reasonReference[+] = Reference(Condition/BSJ-HyperlipidemiaDiagnosis)
-* reasonReference[+] = Reference(Condition/BSJ-KidneyDiseaseDiagnosis)
-* reasonReference[+] = Reference(Condition/BSJ-DiabetesDiagnosis)
+// * reasonReference[+] = Reference(Condition/BSJ-KidneyDiseaseDiagnosis)
+// * reasonReference[+] = Reference(Condition/BSJ-DiabetesDiagnosis)
