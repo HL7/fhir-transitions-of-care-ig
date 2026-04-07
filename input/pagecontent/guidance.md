@@ -201,7 +201,7 @@ Purpose to be served by moving the individual to a new site of care. Examples in
 The result of a laboratory, radiologic, or other clinical test performed to determine the presence, absence, or degree of a condition. Examples include lab, pathology, imaging results.
 
 **Usage Notes:**
-
+Inclusion: The most critical or trending results that may impact the patient's care in the new care setting. Knowing which data and context to know that identifies a change that needs to be addressed.
 
 #### Social History
 

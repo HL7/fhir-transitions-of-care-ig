@@ -14,4 +14,4 @@ Description: "Discharge Service Request for complete blood count for fictional p
 * occurrenceDateTime = "2024-05-28"
 * authoredOn = "2024-05-18"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
-* reasonReference = Reference(Condition/BSJ-AnemiaDiagnosis)
+* reasonReference = Reference(Condition/BSJ-HeartDiseaseDiagnosis)

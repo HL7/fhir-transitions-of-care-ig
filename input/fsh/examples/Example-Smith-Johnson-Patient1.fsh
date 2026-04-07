@@ -18,7 +18,7 @@ Description: "Basic information for fictional patient Betsy Smith-Johnson."
 * identifier[=].system = "http://hospital.example.org"
 * identifier[=].value = "1032702"
 * identifier[+].system = "http://hl7.org/fhir/sid/us-medicare"
-* identifier[=].value = "10A3D58WH1600"
+* identifier[=].value = "1AA3D58WH16"
 * active = true
 * name.use = #usual
 * name.text = "Smith-Johnson, Betsy"

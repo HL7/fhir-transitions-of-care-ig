@@ -14,7 +14,7 @@ Description: "Discharge Care Plan for fictional patient Betsy Smith-Johnson."
 * activity[+].reference = Reference(ServiceRequest/BSJ-SNFDischargeCallOrder)
 * activity[+].reference = Reference(ServiceRequest/BSJ-SNFDischargeCallOTRefer)
 * activity[+].reference = Reference(ServiceRequest/BSJ-SNFDischargeCallSLPRefer)
-* activity[+].reference = Reference(ServiceRequest/BSJ-SNFDischargeDietProtein)
+// * activity[+].reference = Reference(ServiceRequest/BSJ-SNFDischargeDietProtein)
 * activity[+].reference = Reference(ServiceRequest/BSJ-SNFDischargeDietSalt)
 * activity[+].reference = Reference(ServiceRequest/BSJ-SNFDischargeLabOrderBMP)
 * activity[+].reference = Reference(ServiceRequest/BSJ-SNFDischargeLabOrderCBC)

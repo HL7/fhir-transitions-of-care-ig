@@ -31,17 +31,17 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 
 //-------------------------- Conditions ---------------------------
 
-* entry[+].resource = BSJ-AnemiaDiagnosis
-* entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-AnemiaDiagnosis"
+// * entry[+].resource = BSJ-AnemiaDiagnosis
+// * entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-AnemiaDiagnosis"
 
-* entry[+].resource = BSJ-ConstipationDiagnosis
-* entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-ConstipationDiagnosis"
+// * entry[+].resource = BSJ-ConstipationDiagnosis
+// * entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-ConstipationDiagnosis"
 
-* entry[+].resource = BSJ-DepressionDiagnosis
-* entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-DepressionDiagnosis"
+// * entry[+].resource = BSJ-DepressionDiagnosis
+// * entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-DepressionDiagnosis"
 
-* entry[+].resource = BSJ-DiabetesDiagnosis
-* entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-DiabetesDiagnosis"
+// * entry[+].resource = BSJ-DiabetesDiagnosis
+// * entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-DiabetesDiagnosis"
 
 * entry[+].resource = BSJ-DressingConcern
 * entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-DressingConcern"
@@ -58,8 +58,8 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 * entry[+].resource = BSJ-HypertensionDiagnosis
 * entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-HypertensionDiagnosis"
 
-* entry[+].resource = BSJ-KidneyDiseaseDiagnosis
-* entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-KidneyDiseaseDiagnosis"
+// * entry[+].resource = BSJ-KidneyDiseaseDiagnosis
+// * entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-KidneyDiseaseDiagnosis"
 
 * entry[+].resource = BSJ-NauseaAndVomiting
 * entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-NauseaAndVomiting"
@@ -174,8 +174,8 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 * entry[+].resource = BSJ-SNFDischargeCallSLPRefer
 * entry[=].fullUrl = "http://www.example.org/fhir/ServiceRequest/BSJ-SNFDischargeCallSLPRefer"
 
-* entry[+].resource = BSJ-SNFDischargeDietProtein
-* entry[=].fullUrl = "http://www.example.org/fhir/ServiceRequest/BSJ-SNFDischargeDietProtein"
+// * entry[+].resource = BSJ-SNFDischargeDietProtein
+// * entry[=].fullUrl = "http://www.example.org/fhir/ServiceRequest/BSJ-SNFDischargeDietProtein"
 
 * entry[+].resource = BSJ-SNFDischargeDietSalt
 * entry[=].fullUrl = "http://www.example.org/fhir/ServiceRequest/BSJ-SNFDischargeDietSalt"

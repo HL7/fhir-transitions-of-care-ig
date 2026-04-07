@@ -23,7 +23,7 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * section[advance_directives].title = "Advance directives for Betsy Smith-Johnson"
 * section[advance_directives].text.status = #additional
 * section[advance_directives].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Advance directives for Betsy Smith-Johnson</div>"
-* section[advance_directives].emptyReason = $HL7ListEmptyReason#nilknown
+* section[advance_directives].emptyReason = $HL7ListEmptyReason#notasked
 
 * section[allergies].title = "List of allergies for Betsy Smith-Johnson"
 * section[allergies].entry[+] = Reference(AllergyIntolerance/BSJ-AllergyACE)
@@ -33,7 +33,7 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * section[behavioral_health].title = "Behavioral health information for Betsy Smith-Johnson" 
 * section[behavioral_health].text.status = #additional
 * section[behavioral_health].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Behavioral health information for Betsy Smith-Johnson</div>"
-* section[behavioral_health].emptyReason = $HL7ListEmptyReason#nilknown
+* section[behavioral_health].emptyReason = $HL7ListEmptyReason#withheld
 
 * section[functional_status].title = "Functional status of Betsy Smith-Johnson"
 * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Doffing1)
@@ -70,16 +70,16 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 
 
 * section[problems].title = "List of problem conditions and observations for Betsy Smith-Johnson"
-* section[problems].entry[+] = Reference(Condition/BSJ-AnemiaDiagnosis)
-* section[problems].entry[+] = Reference(Condition/BSJ-ConstipationDiagnosis)
-* section[problems].entry[+] = Reference(Condition/BSJ-DepressionDiagnosis)
-* section[problems].entry[+] = Reference(Condition/BSJ-DiabetesDiagnosis)
+// * section[problems].entry[+] = Reference(Condition/BSJ-AnemiaDiagnosis)
+// * section[problems].entry[+] = Reference(Condition/BSJ-ConstipationDiagnosis)
+// * section[problems].entry[+] = Reference(Condition/BSJ-DepressionDiagnosis)
+// * section[problems].entry[+] = Reference(Condition/BSJ-DiabetesDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-DressingConcern)
 * section[problems].entry[+] = Reference(Condition/BSJ-HeartDiseaseDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-HemiparesisDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-HyperlipidemiaDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-HypertensionDiagnosis)
-* section[problems].entry[+] = Reference(Condition/BSJ-KidneyDiseaseDiagnosis)
+// * section[problems].entry[+] = Reference(Condition/BSJ-KidneyDiseaseDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-NauseaAndVomiting)
 * section[problems].entry[+] = Reference(Condition/BSJ-NeuropathyDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-StrokeDiagnosis)

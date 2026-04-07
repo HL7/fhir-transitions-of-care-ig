@@ -8,11 +8,12 @@ Description: "Discharge Service Request for reduced salt diet for fictional pati
 * status = #active
 * intent = #order
 * category[us-core] = $sct#386053000 "Evaluation procedure (procedure)"
-* code = $sct#437421000124105 "Decreased sodium diet (regime/therapy)"
+* code = $sct#1055207008 "Decreased fat and oil diet (regime/therapy)"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 * priority = #routine
 * occurrencePeriod.start = "2024-05-18"
 * authoredOn = "2024-05-18"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
 * reasonReference[+] = Reference(Condition/BSJ-HeartDiseaseDiagnosis)
-* reasonReference[+] = Reference(Condition/BSJ-KidneyDiseaseDiagnosis)
+* reasonReference[+] = Reference(Condition/BSJ-HyperlipidemiaDiagnosis)
+// * reasonReference[+] = Reference(Condition/BSJ-KidneyDiseaseDiagnosis)
