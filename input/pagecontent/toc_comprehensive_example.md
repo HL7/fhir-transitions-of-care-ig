@@ -1,6 +1,3 @@
-
-**Note:** Example generated using Claude Sonnet 4.6 in accordance with MITRE's AI policies.
-
 ### Background
 
 This use case describes a single care transition for a fictional patient — the discharge of Betsy Smith-Johnson from a skilled nursing facility (SNF) to home health (HH) services. It is intended to illustrate how the PACIO Transitions of Care Implementation Guide supports the exchange of structured, coded, machine- and human-readable clinical data between a transferring care setting and a destination care setting.
