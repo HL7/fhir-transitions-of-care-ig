@@ -75,7 +75,7 @@ The Transition of Care composition defines the following sections:
 **Section Code**: [LOINC 42348-3](https://loinc.org/42348-3/) Advance healthcare directives
 
 **Description:**
-Declarations by individuals made in advance of a situation in which they may be incompetent to decide about or articulate their wishes for their own care, stating their treatment preferences and limitations on treatment. Examples include Personal Advance Care Plans, Portable Medical Orders, Mental Health Advance Directives, Episodic Advance Directives, POLST/MOLST forms.
+Declarations by individuals made in advance of a situation in which they may be unable to decide about or articulate their wishes for their own care, stating their treatment preferences and limitations on treatment. Examples include Personal Advance Care Plans, Portable Medical Orders, Mental Health Advance Directives, Episodic Advance Directives, POLST/MOLST forms.
 
 **Usage Notes:**
 
@@ -85,7 +85,7 @@ Declarations by individuals made in advance of a situation in which they may be 
 **Section Code**: [LOINC 48765-2](https://loinc.org/48765-2/) Allergies and adverse reactions Document
 
 **Description:**
-List of any responses to medication, food, and topical. ingested or inhaled agent occuring with normal use that are unintended, potentially harmful, and unwanted by the individual. Allergic reactions involve the activation of the immune sysem in the response. Examples of adverse reactions include low blood pressure from opiates, confusrion and dry mouth from anticholinergics. Examples of allergic reactions include hives, rash, and anaphylaxis.
+List of any responses to medication, food, and topical. ingested or inhaled agent occurring with normal use that are unintended, potentially harmful, and unwanted by the individual. Allergic reactions involve the activation of the immune system in the response. Examples of adverse reactions include low blood pressure from opiates, confusion and dry mouth from anticholinergics. Examples of allergic reactions include hives, rash, and anaphylaxis.
 
 **Usage Notes:**
 
@@ -95,10 +95,10 @@ List of any responses to medication, food, and topical. ingested or inhaled agen
 **Section Code**: local code: Behavioral Health Summary 
 
 **Description:**
-Observations, assessments, and interventions regarding the impact of behaviors on mental and physical well being. Examples of behaviors include reactions to stress, habbbits, substance use disorders, eating disorders, as well as mental health conditions such as anxiety, depression, psychosis, and personality disorders. Interventions include education, counseling, pharmacological and non-pharmalogical treatments. Impacts on physical and mental health include legal, social, and occupational issues, as well as physical impacts from behaviors such as sedentary lifestyles.
+Observations, assessments, and interventions regarding the impact of behaviors on mental and physical well being. Examples of behaviors include reactions to stress, habits, substance use disorders, eating disorders, as well as mental health conditions such as anxiety, depression, psychosis, and personality disorders. Interventions include education, counseling, pharmacological and non-pharmalogical treatments. Impacts on physical and mental health include legal, social, and occupational issues, as well as physical impacts from behaviors such as sedentary lifestyles.
 
 **Usage Notes:**
-
+This section should not include diagnoses or medications. Diagnoses should all be in the TOC `Problems` section. Medications should all be included in the TOC `Medications` section. Ideally, Medications should be linked to the problem for which they are indicated. The diagnosis “Depression” is listed in the US Core Plan, but should not be included here.
 
 #### Functional Status
 
@@ -108,7 +108,7 @@ Observations, assessments, and interventions regarding the impact of behaviors o
 Observation, assessments, and interventions regarding basic physical and cognitive activities and their impact on mental and physical well being. Examples of observations and assessments include those of mental status, mobility, activities of daily living, speech, and swallowing. Examples of interventions include devices, therapy, and modification of the environment including personal assistance.
 
 **Usage Notes:**
-
+This section should not include diagnoses or medications. Diagnoses should all be in the TOC `Problems` section. Medications should all be included in the TOC `Medications` section” Ideally, Medications should be linked to the problem for which they are indicated. Within the US Core Procedure several diagnoses are listed, “Delirium, Depression, Psychosis and should not be included.
 
 
 #### Immunizations
@@ -129,7 +129,7 @@ List of immunizations an individual has received and when. May also include a sc
 Directions given to an individual designed to teach about prevention, diagnosis, monitoring, or treatment of conditions or functional impairments.
 
 **Usage Notes:**
-
+Education/instructions provided at discharge should be included.
 
 
 #### Medical Devices
@@ -137,7 +137,7 @@ Directions given to an individual designed to teach about prevention, diagnosis,
 **Section Code**: [LOINC 46264-8](https://loinc.org/46264-8/) History of medical device use
 
 **Description:**
-List of equipment the individual uses for prevention, diagnosis, monitoring, or treatment of conditions or functional impairment (disability). Examples included implanted pumps, lines, tubes and drains as well external devices including splints, mobillity aides, and ventilators.
+List of equipment the individual uses for prevention, diagnosis, monitoring, or treatment of conditions or functional impairment (disability). Examples included implanted pumps, lines, tubes and drains as well external devices including splints, mobility aides, and ventilators.
 
 **Usage Notes:**
 
@@ -150,7 +150,7 @@ List of equipment the individual uses for prevention, diagnosis, monitoring, or 
 List of medications prescribed for the individual for prevention, diagnosis, or treatment of one or more condition which includes indication, dose, frequency, duration,prescriber, and reason(s) to contact the prescriber. Examples include medications received (administration lists), medications active at discharge, discontinued medications, high risk drug, opioids, preadmission medication list, reconciled medication list.
 
 **Usage Notes:**
-
+There should be an indication of whether the discharge medication list has been reconciled with both the medication list for the patient prior to treatment at the current organization as well as with the medication list during the treatment at the current organization.
 
 #### Discharge Care Plan
 
@@ -160,7 +160,7 @@ List of medications prescribed for the individual for prevention, diagnosis, or 
 A summary of conditions that require further intervention after discharge with plans for treatment, diagnosis, monitoring, prevention of adverse events, and the party responsible for the activity.
 
 **Usage Notes:**
-
+This section should not include diagnoses or medications. Diagnoses should all be in the TOC `Problems` section. Medications should all be included in the TOC `Medications` section. Ideally, Medications should be linked to the problem for which they are indicated. US Core CarePlan indicates inclusion of Conditions = Diagnoses and Treatments which would include medications. Also includes Substance Abuse which is also a diagnosis.
 
 #### Problems
 
@@ -170,7 +170,7 @@ A summary of conditions that require further intervention after discharge with p
 A list of conditions that require ongoing management including those that previously required management but are not active. Examples include diagnoses, potential for adverse events, concerns, symptoms, or signs.
 
 **Usage Notes:**
-
+Health concerns or symptoms that have been diagnosed using ICD 10 or SNOMED, as indicated within US Core Conditions/Observations should be included. Additionally, SDOH Z code diagnoses should be included. 
 
 
 #### Procedures
@@ -181,14 +181,14 @@ A list of conditions that require ongoing management including those that previo
 List of interventions undergone by the indivdual that required informed consent. Examples include surgery, exposure to radiation, experimental interventions.
 
 **Usage Notes:**
-
+There may be additional procedures that have been documented for which informed consent was not obtained.
 
 #### Reason for Transfer
 
 **Section Code**: [LOINC 42349-1](https://loinc.org/42349-1/) Reason for referral (narrative)
 
 **Description:**
-Purpose to be served by moving the individual to a new site of care. Examples include: continued rehabilitation or treatment, treatment unavailable at the current site, preference of individual or substituted decision maker.
+Purpose to be served by moving the individual to a new site of care. Examples include continued rehabilitation or treatment, treatment unavailable at the current site, preference of individual or substituted decision maker.
 
 **Usage Notes:**
 
@@ -202,16 +202,17 @@ The result of a laboratory, radiologic, or other clinical test performed to dete
 
 **Usage Notes:**
 Inclusion: The most critical or trending results that may impact the patient's care in the new care setting. Knowing which data and context to know that identifies a change that needs to be addressed.
+Ideally the Clinical Results section will be manageable from the system user interface, such that the end user might select a specific date range, or first and last, or all specific test results trended.
 
 #### Social History
 
 **Section Code**: [LOINC 29762-2](https://loinc.org/29762-2/) Social history note
 
 **Description:**
-Documentation of the individual's personal, environmental, and behavioral factors that influence health. Examples include prior level of functioning, substance use, ethnicity, race, health insurance coverage (Medicare, Medicaid, private, self), level of education, marital status, SDOH, living situation, occupation.
+Documentation of the individual's personal, environmental, and behavioral factors that influence health. Examples include sexual history and preferences, substance use, ethnicity, race, health insurance coverage (Medicare, Medicaid, private, self), level of education, marital status, SDOH, living situation, occupation.
 
 **Usage Notes:**
-
+Medical History is **NOT** part of the Social History. 
 
 #### Vital Signs
 
@@ -221,6 +222,7 @@ Documentation of the individual's personal, environmental, and behavioral factor
 Significant measurements at the time of transfer. Examples include height, weight, blood pressure, oxygen level, temperature, pulse, respiration rate, pain level.
 
 **Usage Notes:**
+Ideally the Vital Signs section will be manageable from the system user interface, such that the end user might select a specific date range, or first and last, or all of a specific vital sign results trended.
 
 <br />
 <hr />
