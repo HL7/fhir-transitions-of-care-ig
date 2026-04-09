@@ -84,6 +84,8 @@ menu:
     Terminology: artifacts.html#terminology-value-sets
     Examples: artifacts.html#example-example-instances
     Search Parameters: search_parameters.html
+  Examples:
+    TOC Example: toc_comprehensive_example.html
   Change Log: change_log.html
   Downloads: downloads.html
 
@@ -117,6 +119,8 @@ pages:
     title: Recommended Search Parameters
   artifacts.html:
     title: FHIR Artifacts
+  toc_comprehensive_example.md:
+    title: TOC Example
   change_log.md:
     title: Change Log
   downloads.md:
