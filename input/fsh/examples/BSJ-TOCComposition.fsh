@@ -44,9 +44,10 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * section[functional_status].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Functional status of Betsy Smith-Johnson</div>"
 
 * section[immunizations].title = "List of immunizations for Betsy Smith-Johnson"
+* section[immunizations].entry[+] = Reference(Immunization/BSJ-Immunization-CAPVAXIVE-PCV21)
+* section[immunizations].entry[+] = Reference(Immunization/BSJ-Immunization-Fluzone)
 * section[immunizations].text.status = #additional
 * section[immunizations].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of immunizations for Betsy Smith-Johnson</div>"
-* section[immunizations].emptyReason = $HL7ListEmptyReason#nilknown
 
 * section[discharge_instructions].title = "Discharge instructions for Betsy Smith-Johnson"
 * section[discharge_instructions].text.status = #additional

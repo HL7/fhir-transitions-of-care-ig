@@ -102,6 +102,15 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 // * entry[+].resource = BSJ-MDS-SitUp1
 // * entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-SitUp1"
 
+//-------------------------- Immunizations ---------------------------
+
+* entry[+].resource = BSJ-Immunization-CAPVAXIVE-PCV21
+* entry[=].fullUrl = "http://www.example.org/fhir/Immunization/BSJ-Immunization-CAPVAXIVE-PCV21"
+
+* entry[+].resource = BSJ-Immunization-Fluzone
+* entry[=].fullUrl = "http://www.example.org/fhir/Immunization/BSJ-Immunization-Fluzone"
+
+
 //-------------------------- Medications ---------------------------
 
 * entry[+].resource = BSJ-SMPMedList
@@ -174,9 +183,6 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 * entry[+].resource = BSJ-SNFDischargeCallSLPRefer
 * entry[=].fullUrl = "http://www.example.org/fhir/ServiceRequest/BSJ-SNFDischargeCallSLPRefer"
 
-// * entry[+].resource = BSJ-SNFDischargeDietProtein
-// * entry[=].fullUrl = "http://www.example.org/fhir/ServiceRequest/BSJ-SNFDischargeDietProtein"
-
 * entry[+].resource = BSJ-SNFDischargeDietSalt
 * entry[=].fullUrl = "http://www.example.org/fhir/ServiceRequest/BSJ-SNFDischargeDietSalt"
 
@@ -214,12 +220,6 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 * entry[+].resource = org-PC-Primary-Care-Michigan
 * entry[=].fullUrl = "http://www.example.org/fhir/Organization/org-PC-Primary-Care-Michigan"
 
-// * entry[+].resource = org-Pharm-Everyday-Community-Pharm
-// * entry[=].fullUrl = "http://www.example.org/fhir/Organization/org-Pharm-Everyday-Community-Pharm"
-
-// * entry[+].resource = org-Pharm-NED-Contract-Pharm
-// * entry[=].fullUrl = "http://www.example.org/fhir/Organization/org-Pharm-NED-Contract-Pharm"
-
 * entry[+].resource = org-SNF-Happy-Nursing-Facility
 * entry[=].fullUrl = "http://www.example.org/fhir/Organization/org-SNF-Happy-Nursing-Facility"
 
@@ -236,12 +236,6 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 
 * entry[+].resource = Example-NuraMekel
 * entry[=].fullUrl = "http://www.example.org/fhir/Practitioner/Example-NuraMekel"
-
-// * entry[+].resource = Example-Phil-Chekhov
-// * entry[=].fullUrl = "http://www.example.org/fhir/Practitioner/Example-Phil-Chekhov"
-
-// * entry[+].resource = Example-Tracy-Count
-// * entry[=].fullUrl = "http://www.example.org/fhir/Practitioner/Example-Tracy-Count"
 
 //-------------------------- Practitioner Roles ---------------------------
 

@@ -7,7 +7,7 @@ Description: "Stroke Diagnosis for fictional patient Betsy Smith-Johnson."
 * meta.profile = Canonical(us-core-condition-encounter-diagnosis|8.0.1) //"http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#422504002 "Ischemic Stroke (disorder)"
+* code = $sct#422504002 "Ischemic stroke (disorder)"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 //* category[0] = $icf#s11009 "Structure of cortical lobes, unspecified"
 * category[us-core] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
