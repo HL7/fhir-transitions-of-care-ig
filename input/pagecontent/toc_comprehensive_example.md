@@ -35,7 +35,7 @@ During her SNF stay, Betsy has received skilled nursing care, physical therapy (
 - [List: BSJ-SMPMedList](List-BSJ-SMPMedList.html)
 - [MedicationRequest: BSJ-SMPMedReq1](MedicationRequest-BSJ-SMPMedReq1.html) _(atorvastatin 40 mg)_
 - [MedicationRequest: BSJ-SMPMedReq4](MedicationRequest-BSJ-SMPMedReq4.html) _(losartan potassium 25 mg)_
-- [MedicationRequest: BSJ-SMPMedReq9](MedicationReqeust-BSJ-SMPMedReq9.html) _(clopidogrel 75 mg)_
+- [MedicationRequest: BSJ-SMPMedReq9](MedicationRequest-BSJ-SMPMedReq9.html) _(clopidogrel 75 mg)_
 - [Immunization: BSJ-Immunization-Pneumococcal](Immunization-BSJ-Immunization-CAPVAXIVE-PCV21.html)
 - [Immunization: BSJ-Immunization-Influenza](Immunization-BSJ-Immunization-Fluzone.html)
 - [Organization: org-SNF-Happy-Nursing-Facility](Organization-org-SNF-Happy-Nursing-Facility.html)
@@ -72,7 +72,7 @@ Dr. Anita Chu, the receiving physician responsible for Betsy's ongoing medical m
 - [List: BSJ-SMPMedList](List-BSJ-SMPMedList.html)
 - [MedicationRequest: BSJ-SMPMedReq1](MedicationRequest-BSJ-SMPMedReq1.html) _(atorvastatin 40 mg)_
 - [MedicationRequest: BSJ-SMPMedReq4](MedicationRequest-BSJ-SMPMedReq4.html) _(losartan potassium 25 mg)_
-- [MedicationRequest: BSJ-SMPMedReq9](MedicationReqeust-BSJ-SMPMedReq9.html) _(clopidogrel 75 mg)_
+- [MedicationRequest: BSJ-SMPMedReq9](MedicationRequest-BSJ-SMPMedReq9.html) _(clopidogrel 75 mg)_
 - [Immunization: BSJ-Immunization-Pneumococcal](Immunization-BSJ-Immunization-CAPVAXIVE-PCV21.html)
 - [Immunization: BSJ-Immunization-Influenza](Immunization-BSJ-Immunization-Fluzone.html)
 - [ServiceRequest: BSJ-SNFDischargeCallOTRefer](ServiceRequest-BSJ-SNFDischargeCallOTRefer.html)
