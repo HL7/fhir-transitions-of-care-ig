@@ -9,36 +9,35 @@ The example data presented here focuses on the four core PAMI data domains — P
 
 **Happy Nursing Facility** ([Organization](Organization-org-SNF-Happy-Nursing-Facility.html) | [Location](Location-org-Loc-SNF-Happy-Nursing-Facility.html)) is the skilled nursing facility from which Betsy is being discharged. Happy Nursing Facility is the transferring organization for this transition of care event.
 
-**Motown Home Health Grand Rapids** _(new Organization and Location resources required)_ is the home health agency to which Betsy is being discharged. Its address is 121 Spruce Dr. Grand Rapids, MI 49503 — adjacent to the Michigan Primary Health Care Associates practice at 123 Spruce Dr. In this example, Motown Home Health Grand Rapids is the destination organization for this transition of care event.
+**Motown Home Health Grand Rapids** ([Organization](Organization-org-SNF-HomeHealth-Motown.html) | [Location](Location-org-Loc-HomeHealth-Motown.html))is the home health agency to which Betsy is being discharged. Its address is 121 Spruce Dr. Grand Rapids, MI 49503 — adjacent to the Michigan Primary Health Care Associates practice at 123 Spruce Dr. In this example, Motown Home Health Grand Rapids is the destination organization for this transition of care event.
 
 ---
 
 ### Scene 0: Background
 
-Betsy Smith-Johnson is a 66-year-old Medicare-eligible woman who has been a resident of Happy Nursing Facility in Grand Rapids, Michigan, following a cerebral infarction ([BSJ-StrokeDiagnosis](Condition-BSJ-StrokeDiagnosis.html)). Prior to her admission, Betsy had a well-established history of hyperlipidemia ([BSJ-HyperlipidemiaDiagnosis](Condition-BSJ-HyperlipidemiaDiagnosis.html)), first diagnosed in June 2018, and heart disease ([BSJ-HeartDiseaseDiagnosis](Condition-BSJ-HeartDiseaseDiagnosis.html)), both actively managed prior to and throughout her SNF stay. The cerebral infarction resulted in residual left-sided hemiparesis ([BSJ-HemiparesisDiagnosis](Condition-BSJ-HemiparesisDiagnosis.html)), which has been the primary focus of rehabilitative therapy during her time at Happy Nursing Facility.
+Betsy Smith-Johnson is a 66-year-old Medicare-eligible woman who has been a resident of Happy Nursing Facility in Grand Rapids, Michigan, following a cerebral infarction ([BSJ-StrokeDiagnosis](Condition-BSJ-StrokeDiagnosis.html)). Prior to her admission, Betsy had a well-established history of hyperlipidemia ([BSJ-HyperlipidemiaDiagnosis](Condition-BSJ-HyperlipidemiaDiagnosis.html)), hypertension ([BSJ-HypertensionDiagnosis](Condition-BSJ-HypertensionDiagnosis.html)), and heart disease ([BSJ-HeartDiseaseDiagnosis](Condition-BSJ-HeartDiseaseDiagnosis.html)), actively managed prior to and throughout her SNF stay. The cerebral infarction resulted in residual left-sided hemiparesis ([BSJ-HemiparesisDiagnosis](Condition-BSJ-HemiparesisDiagnosis.html)), which has been the primary focus of rehabilitative therapy during her time at Happy Nursing Facility.
 
-Betsy has a documented, high-criticality allergy to ACE inhibitors (angiotensin-converting enzyme inhibitor class) ([BSJ-AllergyACE](AllergyIntolerance-BSJ-AllergyACE.html)), confirmed active with a last known occurrence in October 2011. Her documented reaction to captopril manifested as hyperkalemia. This allergy is clinically significant given her cardiovascular history and the range of antihypertensive agents that might otherwise be considered in her ongoing management.
+Betsy has a documented, high-criticality allergy to ACE inhibitors (angiotensin-converting enzyme inhibitor class) ([BSJ-AllergyACE](AllergyIntolerance-BSJ-AllergyACE.html)), confirmed active with a last known occurrence in October 2011. Her documented reaction to captopril manifested as hyperkalemia. 
 
-Betsy's current medication regimen, as reconciled at the SNF, includes atorvastatin 40 mg nightly for hyperlipidemia, carvedilol 6.25 mg for heart disease management, furosemide 20 mg for fluid balance in the setting of heart disease, and clopidogrel as antiplatelet therapy following her cerebral infarction (**we can add links to all of these medications if desired or just leave below**). Her immunization record documents administration of the pneumococcal vaccine (PCV20) and the recombinant zoster vaccine series (RZV/Shingrix, two-dose series complete), both appropriate for her age.
+Betsy's current medication regimen, as reconciled at the SNF, includes atorvastatin 40 mg nightly for hyperlipidemia, losartan 50 mg 1 po daily for hypertension, and clopidogrel as antiplatelet therapy following her cerebral infarction. Her immunization record includes pneumococcal vaccine (PCV21) ([Immunization: BSJ-Immunization-Pneumococcal](Immunization-BSJ-Immunization-CAPVAXIVE-PCV21.html)) and influenza ([BSJ-Immunization-Fluzone](Immunization-BSJ-Immunization-Fluzone.html)).
 
 During her SNF stay, Betsy has received skilled nursing care, physical therapy (PT), and occupational therapy (OT) under the oversight of Dr. Gerald Park. Her functional status has improved sufficiently that the Happy Nursing Facility care team has determined she meets criteria for discharge to home with continued home health support.
 
 #### Scene 0 FHIR Resources
 
 - [Patient: Example-Smith-Johnson-Patient1](Patient-Example-Smith-Johnson-Patient1.html)
-- [Condition: BSJ-StrokeDiagnosis](Condition-BSJ-StrokeDiagnosis.html) _(cerebral infarction — to be re-coded to SNOMED http://snomed.info/sct/731000124108)_
+- [Condition: BSJ-StrokeDiagnosis](Condition-BSJ-StrokeDiagnosis.html)
 - [Condition: BSJ-HyperlipidemiaDiagnosis](Condition-BSJ-HyperlipidemiaDiagnosis.html)
 - [Condition: BSJ-HeartDiseaseDiagnosis](Condition-BSJ-HeartDiseaseDiagnosis.html)
+- [Condition: BSJ-HypertensionDiagnosis](Condition-BSJ-HypertensionDiagnosis.html)
 - [Condition: BSJ-HemiparesisDiagnosis](Condition-BSJ-HemiparesisDiagnosis.html)
 - [AllergyIntolerance: BSJ-AllergyACE](AllergyIntolerance-BSJ-AllergyACE.html)
 - [List: BSJ-SMPMedList](List-BSJ-SMPMedList.html)
 - [MedicationRequest: BSJ-SMPMedReq1](MedicationRequest-BSJ-SMPMedReq1.html) _(atorvastatin 40 mg)_
-- MedicationRequest: BSJ-SMPMedReq-Carvedilol _(carvedilol 6.25 mg — to be retained from existing data)_
-	- **If you want these all linked, let me know and I'll update them**
-- MedicationRequest: BSJ-SMPMedReq-Furosemide _(furosemide 20 mg — to be retained from existing data)_
-- MedicationRequest: BSJ-SMPMedReq-Clopidogrel _(clopidogrel — to be retained from existing data)_**(CLAUDE Hallucination???)**
-- Immunization: BSJ-Immunization-Pneumococcal _(new resource required)_
-- Immunization: BSJ-Immunization-Zoster _(new resource required)_
+- MedicationRequest: BSJ-SMPMedReq-Losartan
+- MedicationRequest: BSJ-SMPMedReq-Clopidogrel
+- [Immunization: BSJ-Immunization-Pneumococcal](Immunization-BSJ-Immunization-CAPVAXIVE-PCV21.html)
+- [Immunization: BSJ-Immunization-Influenza](Immunization-BSJ-Immunization-Fluzone.html)
 - [Organization: org-SNF-Happy-Nursing-Facility](Organization-org-SNF-Happy-Nursing-Facility.html)
 - [Location: org-Loc-SNF-Happy-Nursing-Facility](Location-org-Loc-SNF-Happy-Nursing-Facility.html)
 
@@ -56,7 +55,7 @@ The Motown Home Health Grand Rapids clinical team, having already received and r
 
 The structured allergy record — specifically the documented high-criticality ACE inhibitor allergy with the confirmed reaction of hyperkalemia to captopril — is surfaced immediately within the receiving EHR, alerting the home health team and the receiving physician to the contraindication before any medication orders are placed. The reconciled medication list confirms that Betsy is continuing atorvastatin 40 mg nightly, carvedilol 6.25 mg, furosemide 20 mg, and clopidogrel from her SNF regimen, with no changes at the time of discharge.
 
-The home health team notes that Betsy's immunization record is current for her age group, with documented receipt of the pneumococcal vaccine (PCV20) and the complete two-dose recombinant zoster vaccine series (RZV/Shingrix). This record is incorporated directly into Motown Home Health Grand Rapids's EHR from the ToC bundle without requiring manual verification or re-entry.
+The home health team notes that Betsy's immunization record is current for her age group, with documented receipt of the pneumococcal vaccine (PCV21) and the complete two-dose recombinant zoster vaccine series (RZV/Shingrix). This record is incorporated directly into Motown Home Health Grand Rapids's EHR from the ToC bundle without requiring manual verification or re-entry.
 
 Dr. Anita Chu, the receiving physician responsible for Betsy's ongoing medical management in the home setting, reviews the ToC bundle and co-signs the home health plan of care. Ongoing OT and PT referrals, prepared by the SNF care team at discharge, are in place to address Betsy's residual hemiparesis and support her continued recovery at home.
 
@@ -66,22 +65,22 @@ Dr. Anita Chu, the receiving physician responsible for Betsy's ongoing medical m
 - [Composition: BSJ-TOCComposition](Composition-BSJ-TOCComposition.html)
 - [Condition: BSJ-StrokeDiagnosis](Condition-BSJ-StrokeDiagnosis.html)
 - [Condition: BSJ-HyperlipidemiaDiagnosis](Condition-BSJ-HyperlipidemiaDiagnosis.html)
+- [Condition: BSJ-HypertensionDiagnosis](Condition-BSJ-HypertensionDiagnosis.html)
 - [Condition: BSJ-HeartDiseaseDiagnosis](Condition-BSJ-HeartDiseaseDiagnosis.html)
 - [Condition: BSJ-HemiparesisDiagnosis](Condition-BSJ-HemiparesisDiagnosis.html)
 - [AllergyIntolerance: BSJ-AllergyACE](AllergyIntolerance-BSJ-AllergyACE.html)
 - [List: BSJ-SMPMedList](List-BSJ-SMPMedList.html)
 - [MedicationRequest: BSJ-SMPMedReq1](MedicationRequest-BSJ-SMPMedReq1.html) _(atorvastatin 40 mg)_
-- MedicationRequest: BSJ-SMPMedReq-Carvedilol _(carvedilol 6.25 mg)_
-- MedicationRequest: BSJ-SMPMedReq-Furosemide _(furosemide 20 mg)_
 - MedicationRequest: BSJ-SMPMedReq-Clopidogrel _(clopidogrel)_
-- Immunization: BSJ-Immunization-Pneumococcal _(new resource required)_
-- Immunization: BSJ-Immunization-Zoster _(new resource required)_
+- [Immunization: BSJ-Immunization-Pneumococcal](Immunization-BSJ-Immunization-CAPVAXIVE-PCV21.html)
+- [Immunization: BSJ-Immunization-Influenza](Immunization-BSJ-Immunization-Fluzone.html)
 - [ServiceRequest: BSJ-SNFDischargeCallOTRefer](ServiceRequest-BSJ-SNFDischargeCallOTRefer.html)
 - [ServiceRequest: BSJ-SNFDischargePTRefer](ServiceRequest-BSJ-SNFDischargePTRefer.html)
 - [ServiceRequest: BSJ-SNFDischargeCallOrder](ServiceRequest-BSJ-SNFDischargeCallOrder.html)
 - [CarePlan: BSJ-SNFDischargeCarePlan](CarePlan-BSJ-SNFDischargeCarePlan.html)
-- Organization: Motown Home Health Grand Rapids _(new resource required)_
-- Location: Motown Home Health Grand Rapids _(new resource required — 121 Spruce Dr, Grand Rapids, MI 49503)_
+- [Organization: org-SNF-Happy-Nursing-Facility](Organization-org-SNF-Happy-Nursing-Facility.html)
+- [Organization: org-SNF-HomeHealth-Motown](Organization-org-SNF-HomeHealth-Motown.html)
+- [Location: org-Loc-HomeHealth-Motown](Location-org-Loc-HomeHealth-Motown.html)
 
 ---
 
@@ -94,8 +93,8 @@ Dr. Anita Chu, the receiving physician responsible for Betsy's ongoing medical m
 - [PractitionerRole: Role-SNFDoc-GeraldPark](PractitionerRole-Role-SNFDoc-GeraldPark.html)
 - [PractitionerRole: Role-OT-JenCadbury](PractitionerRole-Role-OT-JenCadbury.html)
 
-- Organization: Motown Home Health Grand Rapids _(new resource required)_
-- Location: Motown Home Health Grand Rapids _(new resource required — 121 Spruce Dr, Grand Rapids, MI 49503)_
+- [Organization: org-SNF-HomeHealth-Motown](Organization-org-SNF-HomeHealth-Motown.html)
+- [Location: org-Loc-HomeHealth-Motown](Location-org-Loc-HomeHealth-Motown.html)
 - [PractitionerRole: Role-IMMD-AnitaChu](PractitionerRole-Role-IMMD-AnitaChu.html)
 
 ---

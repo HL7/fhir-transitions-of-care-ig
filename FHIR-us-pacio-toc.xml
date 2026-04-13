@@ -7,6 +7,8 @@
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
 <artifact deprecated="true" id="Condition/BSJ-AnemiaDiagnosis" key="Condition-BSJ-AnemiaDiagnosis" name="Anemia Diagnosis"/>
+<artifact id="Immunization/BSJ-Immunization-CAPVAXIVE-PCV21" key="Immunization-BSJ-Immunization-CAPVAXIVE-PCV21" name="BSJ-Immunization-CAPVAXIVE-PCV21"/>
+<artifact id="Immunization/BSJ-Immunization-Fluzone" key="Immunization-BSJ-Immunization-Fluzone" name="BSJ-Immunization-Fluzone"/>
 <artifact deprecated="true" id="Condition/BSJ-ConstipationDiagnosis" key="Condition-BSJ-ConstipationDiagnosis" name="Constipation Diagnosis"/>
 <artifact deprecated="true" id="Condition/BSJ-DepressionDiagnosis" key="Condition-BSJ-DepressionDiagnosis" name="Depression Diagnosis"/>
 <artifact deprecated="true" id="Condition/BSJ-DiabetesDiagnosis" key="Condition-BSJ-DiabetesDiagnosis" name="Diabetes Diagnosis"/>
@@ -44,6 +46,7 @@
 <artifact id="Location/org-Loc-PC-Primary-Care-Michigan" key="Location-org-Loc-PC-Primary-Care-Michigan" name="Example: Location of Michigan Primary Health Care Associates"/>
 <artifact id="Location/org-Loc-Everyday-Community-Pharm" key="Location-org-Loc-Everyday-Community-Pharm" name="Example: Location of the Everyday Community Pharmacy"/>
 <artifact id="Location/org-Loc-SNF-Happy-Nursing-Facility" key="Location-org-Loc-SNF-Happy-Nursing-Facility" name="Example: Location of the Happy Nursing Facility"/>
+<artifact id="Location/org-Loc-HomeHealth-Motown" key="Location-org-Loc-HomeHealth-Motown" name="Example: Location of the Motown Home Health Facility"/>
 <artifact id="Location/org-Loc-Neuro-Care-Inc" key="Location-org-Loc-Neuro-Care-Inc" name="Example: Location of the Neuro Care Inc. facility"/>
 <artifact id="Location/org-Loc-NED-Contract-Pharm" key="Location-org-Loc-NED-Contract-Pharm" name="Example: Location of the Not Every Day Contract Pharmacy"/>
 <artifact id="MedicationRequest/BSJ-SMPMedReq7" key="MedicationRequest-BSJ-SMPMedReq7" name="Example: Medication request for Acetaminophen 650 MG Oral Tablet"/>
@@ -63,6 +66,7 @@
 <artifact id="MedicationStatement/BSJ-SMPMedStmt6" key="MedicationStatement-BSJ-SMPMedStmt6" name="Example: Medication statement for Rosuvastatin calcium 5 MG Oral Tablet"/>
 <artifact id="MedicationStatement/BSJ-SMPMedStmt2" key="MedicationStatement-BSJ-SMPMedStmt2" name="Example: Medication statement for Sertraline 25 MG Oral Tablet"/>
 <artifact id="Organization/org-PC-Primary-Care-Michigan" key="Organization-org-PC-Primary-Care-Michigan" name="Example: Michigan Primary Health Care Associates Organization"/>
+<artifact id="Organization/org-SNF-HomeHealth-Motown" key="Organization-org-SNF-HomeHealth-Motown" name="Example: Motown Home Health Organization"/>
 <artifact id="Condition/BSJ-NauseaAndVomiting" key="Condition-BSJ-NauseaAndVomiting" name="Example: Nausea and vomiting"/>
 <artifact id="Organization/org-Neuro-Care-Inc" key="Organization-org-Neuro-Care-Inc" name="Example: Neuro Care Inc. Organization"/>
 <artifact id="Condition/BSJ-NeuropathyDiagnosis" key="Condition-BSJ-NeuropathyDiagnosis" name="Example: Neuropathy Diagnosis"/>
