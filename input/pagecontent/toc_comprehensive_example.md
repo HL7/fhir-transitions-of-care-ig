@@ -4,6 +4,14 @@ This use case describes a single care transition for a fictional patient — the
 
 The example data presented here focuses on the four core PAMI data domains — Problems, Allergies, Medications, and Immunizations — which represent the essential clinical information required by a receiving home health team to safely assume care at the point of transition. For any ToC section for which no data is present in this example must include an `emptyReason` code rather than omitting the section entirely. Several sections in this example are intentionally left empty to illustrate this requirement, using a variety of `emptyReason` codes drawn from the [HL7 List Empty Reasons value set](https://hl7.org/fhir/R4/valueset-list-empty-reason.html#expansion).
 
+The following diagram illustrates how a structured, coded transitions of care bundle is assembled by the transferring organization and transmitted electronically to the receiving home health agency ahead of the patient’s transition of care:
+
+
+<p align="center">
+    <object data="PACIO-TOC_Example-Data-Graphics-OV1.svg" type="image/svg+xml" width="75%"></object>
+</p>
+
+
 ---
 ### Organizations and Locations
 
