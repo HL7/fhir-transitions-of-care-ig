@@ -72,18 +72,18 @@ menu:
   Home: index.html
   Table of Contents: toc.html
   Guidance:
-    Formal Specification: formal_specification.html
-    Use Cases, Personas, and Scenarios: usecases_personas.html
     General Guidance: guidance.html
+    Use Cases, Personas, and Scenarios: usecases_personas.html
+    Formal Specification: formal_specification.html
     Discipline-Specific Information: disciplines.html
-    Underlying Technologies: underlying_technologies.html
     Security, Privacy, and Consent: security_privacy_consent.html
+    Underlying Technologies: underlying_technologies.html
   FHIR Artifacts:
-    Capability Statement: artifacts.html#behavior-capability-statements
     Profiles: artifacts.html#structures-resource-profiles
     Terminology: artifacts.html#terminology-value-sets
     Examples: artifacts.html#example-example-instances
     Search Parameters: search_parameters.html
+    Capability Statement: artifacts.html#behavior-capability-statements
   Examples:
     TOC Example: toc_comprehensive_example.html
   Change Log: change_log.html
@@ -103,22 +103,22 @@ menu:
 pages:
   index.md:
     title: PACIO Transitions of Care Implementation Guide
-  formal_specification.md:
-    title: Formal Specification
-  usecases_personas.md:
-    title: Use Cases, Personas, and Scenarios
   guidance.md:
     title: General Guidance
+  usecases_personas.md:
+    title: Use Cases, Personas, and Scenarios
   disciplines.md:
     title: Selecting Discipline-Specific Data Elements from the CMS Data Element Library
-  underlying_technologies.md:
-    title: Underlying Technologies
+  formal_specification.md:
+    title: Formal Specification
   security_privacy_consent.md:
     title: Security, Privacy, and Consent
-  search_parameters.md:
-    title: Recommended Search Parameters
+  underlying_technologies.md:
+    title: Underlying Technologies
   artifacts.html:
     title: FHIR Artifacts
+  search_parameters.md:
+    title: Recommended Search Parameters
   toc_comprehensive_example.md:
     title: TOC Example
   change_log.md:

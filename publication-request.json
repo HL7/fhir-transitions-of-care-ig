@@ -3,7 +3,7 @@
     "version" : "1.0.0",
     "path" : "http://hl7.org/fhir/us/pacio-toc/",
     "status" : "trial-use",
-    "sequence" : "STU1, Release 1",
+    "sequence" : "STU1",
     "milestone": true,
     "desc" : "Version for STU1 FHIR Transitions of Care",
     "descmd" : "Version for STU1 FHIR Transitions of Care",

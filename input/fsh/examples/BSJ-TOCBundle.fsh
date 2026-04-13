@@ -203,12 +203,6 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 
 //-------------------------- Locations ---------------------------
 
-// * entry[+].resource = org-Loc-Everyday-Community-Pharm
-// * entry[=].fullUrl = "http://www.example.org/fhir/Location/org-Loc-Everyday-Community-Pharm"
-
-// * entry[+].resource = org-Loc-NED-Contract-Pharm
-// * entry[=].fullUrl = "http://www.example.org/fhir/Location/org-Loc-NED-Contract-Pharm"
-
 * entry[+].resource = org-Loc-Neuro-Care-Inc
 * entry[=].fullUrl = "http://www.example.org/fhir/Location/org-Loc-Neuro-Care-Inc"
 
@@ -217,6 +211,10 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 
 * entry[+].resource = org-Loc-SNF-Happy-Nursing-Facility
 * entry[=].fullUrl = "http://www.example.org/fhir/Location/org-Loc-SNF-Happy-Nursing-Facility"
+
+* entry[+].resource = org-Loc-HomeHealth-Motown
+* entry[=].fullUrl = "http://www.example.org/fhir/Location/org-Loc-HomeHealth-Motown"
+
 
 //-------------------------- Organizations ---------------------------
 
@@ -228,6 +226,9 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 
 * entry[+].resource = org-SNF-Happy-Nursing-Facility
 * entry[=].fullUrl = "http://www.example.org/fhir/Organization/org-SNF-Happy-Nursing-Facility"
+
+* entry[+].resource = org-SNF-HomeHealth-Motown
+* entry[=].fullUrl = "http://www.example.org/fhir/Organization/org-SNF-HomeHealth-Motown"
 
 //-------------------------- Practitioners ---------------------------
 
@@ -253,12 +254,6 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 
 * entry[+].resource = Role-OT-JenCadbury
 * entry[=].fullUrl = "http://www.example.org/fhir/PractitionerRole/Role-OT-JenCadbury"
-
-// * entry[+].resource = Role-Pharm-PhilChekhov
-// * entry[=].fullUrl = "http://www.example.org/fhir/PractitionerRole/Role-Pharm-PhilChekhov"
-
-// * entry[+].resource = Role-Pharm-TracyCount
-// * entry[=].fullUrl = "http://www.example.org/fhir/PractitionerRole/Role-Pharm-TracyCount"
 
 * entry[+].resource = Role-SNFDoc-GeraldPark
 * entry[=].fullUrl = "http://www.example.org/fhir/PractitionerRole/Role-SNFDoc-GeraldPark"
