@@ -119,51 +119,57 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 * entry[+].resource = BSJ-SMPMedStmt1
 * entry[=].fullUrl = "http://www.example.org/fhir/MedicationStatement/BSJ-SMPMedStmt1"
 
-* entry[+].resource = BSJ-SMPMedStmt2
-* entry[=].fullUrl = "http://www.example.org/fhir/MedicationStatement/BSJ-SMPMedStmt2"
+// * entry[+].resource = BSJ-SMPMedStmt2
+// * entry[=].fullUrl = "http://www.example.org/fhir/MedicationStatement/BSJ-SMPMedStmt2"
 
-* entry[+].resource = BSJ-SMPMedStmt3
-* entry[=].fullUrl = "http://www.example.org/fhir/MedicationStatement/BSJ-SMPMedStmt3"
+// * entry[+].resource = BSJ-SMPMedStmt3
+// * entry[=].fullUrl = "http://www.example.org/fhir/MedicationStatement/BSJ-SMPMedStmt3"
 
 * entry[+].resource = BSJ-SMPMedStmt4
 * entry[=].fullUrl = "http://www.example.org/fhir/MedicationStatement/BSJ-SMPMedStmt4"
 
-* entry[+].resource = BSJ-SMPMedStmt5
-* entry[=].fullUrl = "http://www.example.org/fhir/MedicationStatement/BSJ-SMPMedStmt5"
+// * entry[+].resource = BSJ-SMPMedStmt5
+// * entry[=].fullUrl = "http://www.example.org/fhir/MedicationStatement/BSJ-SMPMedStmt5"
 
-* entry[+].resource = BSJ-SMPMedStmt6
-* entry[=].fullUrl = "http://www.example.org/fhir/MedicationStatement/BSJ-SMPMedStmt6"
+// * entry[+].resource = BSJ-SMPMedStmt6
+// * entry[=].fullUrl = "http://www.example.org/fhir/MedicationStatement/BSJ-SMPMedStmt6"
 
-* entry[+].resource = BSJ-SMPMedStmt7
-* entry[=].fullUrl = "http://www.example.org/fhir/MedicationStatement/BSJ-SMPMedStmt7"
+// * entry[+].resource = BSJ-SMPMedStmt7
+// * entry[=].fullUrl = "http://www.example.org/fhir/MedicationStatement/BSJ-SMPMedStmt7"
 
-* entry[+].resource = BSJ-SMPMedStmt8
-* entry[=].fullUrl = "http://www.example.org/fhir/MedicationStatement/BSJ-SMPMedStmt8"
+// * entry[+].resource = BSJ-SMPMedStmt8
+// * entry[=].fullUrl = "http://www.example.org/fhir/MedicationStatement/BSJ-SMPMedStmt8"
+
+* entry[+].resource = BSJ-SMPMedStmt9
+* entry[=].fullUrl = "http://www.example.org/fhir/MedicationStatement/BSJ-SMPMedStmt9"
+
 
 * entry[+].resource = BSJ-SMPMedReq1
 * entry[=].fullUrl = "http://www.example.org/fhir/MedicationRequest/BSJ-SMPMedReq1"
 
-* entry[+].resource = BSJ-SMPMedReq2
-* entry[=].fullUrl = "http://www.example.org/fhir/MedicationRequest/BSJ-SMPMedReq2"
+// * entry[+].resource = BSJ-SMPMedReq2
+// * entry[=].fullUrl = "http://www.example.org/fhir/MedicationRequest/BSJ-SMPMedReq2"
 
-* entry[+].resource = BSJ-SMPMedReq3
-* entry[=].fullUrl = "http://www.example.org/fhir/MedicationRequest/BSJ-SMPMedReq3"
+// * entry[+].resource = BSJ-SMPMedReq3
+// * entry[=].fullUrl = "http://www.example.org/fhir/MedicationRequest/BSJ-SMPMedReq3"
 
 * entry[+].resource = BSJ-SMPMedReq4
 * entry[=].fullUrl = "http://www.example.org/fhir/MedicationRequest/BSJ-SMPMedReq4"
 
-* entry[+].resource = BSJ-SMPMedReq5
-* entry[=].fullUrl = "http://www.example.org/fhir/MedicationRequest/BSJ-SMPMedReq5"
+// * entry[+].resource = BSJ-SMPMedReq5
+// * entry[=].fullUrl = "http://www.example.org/fhir/MedicationRequest/BSJ-SMPMedReq5"
 
-* entry[+].resource = BSJ-SMPMedReq6
-* entry[=].fullUrl = "http://www.example.org/fhir/MedicationRequest/BSJ-SMPMedReq6"
+// * entry[+].resource = BSJ-SMPMedReq6
+// * entry[=].fullUrl = "http://www.example.org/fhir/MedicationRequest/BSJ-SMPMedReq6"
 
-* entry[+].resource = BSJ-SMPMedReq7
-* entry[=].fullUrl = "http://www.example.org/fhir/MedicationRequest/BSJ-SMPMedReq7"
+// * entry[+].resource = BSJ-SMPMedReq7
+// * entry[=].fullUrl = "http://www.example.org/fhir/MedicationRequest/BSJ-SMPMedReq7"
 
-* entry[+].resource = BSJ-SMPMedReq8
-* entry[=].fullUrl = "http://www.example.org/fhir/MedicationRequest/BSJ-SMPMedReq8"
+// * entry[+].resource = BSJ-SMPMedReq8
+// * entry[=].fullUrl = "http://www.example.org/fhir/MedicationRequest/BSJ-SMPMedReq8"
 
+* entry[+].resource = BSJ-SMPMedReq9
+* entry[=].fullUrl = "http://www.example.org/fhir/MedicationRequest/BSJ-SMPMedReq9"
 //-------------------------- CarePlans ---------------------------
 
 * entry[+].resource = BSJ-SNFDischargeCarePlan
