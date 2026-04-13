@@ -49,22 +49,12 @@
 <artifact id="Location/org-Loc-HomeHealth-Motown" key="Location-org-Loc-HomeHealth-Motown" name="Example: Location of the Motown Home Health Facility"/>
 <artifact id="Location/org-Loc-Neuro-Care-Inc" key="Location-org-Loc-Neuro-Care-Inc" name="Example: Location of the Neuro Care Inc. facility"/>
 <artifact id="Location/org-Loc-NED-Contract-Pharm" key="Location-org-Loc-NED-Contract-Pharm" name="Example: Location of the Not Every Day Contract Pharmacy"/>
-<artifact id="MedicationRequest/BSJ-SMPMedReq7" key="MedicationRequest-BSJ-SMPMedReq7" name="Example: Medication request for Acetaminophen 650 MG Oral Tablet"/>
 <artifact id="MedicationRequest/BSJ-SMPMedReq1" key="MedicationRequest-BSJ-SMPMedReq1" name="Example: Medication request for Atorvastatin 40 MG Oral Tablet"/>
-<artifact id="MedicationRequest/BSJ-SMPMedReq4" key="MedicationRequest-BSJ-SMPMedReq4" name="Example: Medication request for Carvedilol 6.25 MG Oral Tablet"/>
-<artifact id="MedicationRequest/BSJ-SMPMedReq8" key="MedicationRequest-BSJ-SMPMedReq8" name="Example: Medication request for Ferrous sulfate 325 MG (iron 65 MG) Oral Tablet"/>
-<artifact id="MedicationRequest/BSJ-SMPMedReq3" key="MedicationRequest-BSJ-SMPMedReq3" name="Example: Medication request for Furosemide 20 MG Oral Tablet"/>
-<artifact id="MedicationRequest/BSJ-SMPMedReq5" key="MedicationRequest-BSJ-SMPMedReq5" name="Example: Medication request for Glipizide 2.5 MG Extended Release Oral Tablet"/>
-<artifact id="MedicationRequest/BSJ-SMPMedReq6" key="MedicationRequest-BSJ-SMPMedReq6" name="Example: Medication request for Rosuvastatin calcium 5 MG Oral Tablet"/>
-<artifact id="MedicationRequest/BSJ-SMPMedReq2" key="MedicationRequest-BSJ-SMPMedReq2" name="Example: Medication request for Sertraline 25 MG Oral Tablet"/>
-<artifact id="MedicationStatement/BSJ-SMPMedStmt7" key="MedicationStatement-BSJ-SMPMedStmt7" name="Example: Medication statement for Acetaminophen 650 MG Oral Tablet"/>
+<artifact id="MedicationRequest/BSJ-SMPMedReq4" key="MedicationRequest-BSJ-SMPMedReq4" name="Example: Medication request for Losartan 6.25 MG Oral Tablet"/>
+<artifact id="MedicationRequest/BSJ-SMPMedReq9" key="MedicationRequest-BSJ-SMPMedReq9" name="Example: Medication request for clopidogrel 75 MG Oral Tablet"/>
 <artifact id="MedicationStatement/BSJ-SMPMedStmt1" key="MedicationStatement-BSJ-SMPMedStmt1" name="Example: Medication statement for Atorvastatin 40 MG Oral Tablet"/>
-<artifact id="MedicationStatement/BSJ-SMPMedStmt4" key="MedicationStatement-BSJ-SMPMedStmt4" name="Example: Medication statement for Carvedilol 6.25 MG Oral Tablet"/>
-<artifact id="MedicationStatement/BSJ-SMPMedStmt8" key="MedicationStatement-BSJ-SMPMedStmt8" name="Example: Medication statement for Ferrous sulfate 325 MG (iron 65 MG) Oral Tablet"/>
-<artifact id="MedicationStatement/BSJ-SMPMedStmt3" key="MedicationStatement-BSJ-SMPMedStmt3" name="Example: Medication statement for Furosemide 20 MG Oral Tablet"/>
-<artifact id="MedicationStatement/BSJ-SMPMedStmt5" key="MedicationStatement-BSJ-SMPMedStmt5" name="Example: Medication statement for Glipizide 2.5 MG Extended Release Oral Tablet"/>
-<artifact id="MedicationStatement/BSJ-SMPMedStmt6" key="MedicationStatement-BSJ-SMPMedStmt6" name="Example: Medication statement for Rosuvastatin calcium 5 MG Oral Tablet"/>
-<artifact id="MedicationStatement/BSJ-SMPMedStmt2" key="MedicationStatement-BSJ-SMPMedStmt2" name="Example: Medication statement for Sertraline 25 MG Oral Tablet"/>
+<artifact id="MedicationStatement/BSJ-SMPMedStmt9" key="MedicationStatement-BSJ-SMPMedStmt9" name="Example: Medication statement for clopidogrel 75 MG Oral Tablet"/>
+<artifact id="MedicationStatement/BSJ-SMPMedStmt4" key="MedicationStatement-BSJ-SMPMedStmt4" name="Example: Medication statement for losartan potassium 25 MG Oral Tablet"/>
 <artifact id="Organization/org-PC-Primary-Care-Michigan" key="Organization-org-PC-Primary-Care-Michigan" name="Example: Michigan Primary Health Care Associates Organization"/>
 <artifact id="Organization/org-SNF-HomeHealth-Motown" key="Organization-org-SNF-HomeHealth-Motown" name="Example: Motown Home Health Organization"/>
 <artifact id="Condition/BSJ-NauseaAndVomiting" key="Condition-BSJ-NauseaAndVomiting" name="Example: Nausea and vomiting"/>
@@ -87,6 +77,18 @@
 <artifact id="Composition/BSJ-TOCComposition" key="Composition-BSJ-TOCComposition" name="Example: Transitions of Care Clinical Document"/>
 <artifact id="Condition/BSJ-UndressingConcern" key="Condition-BSJ-UndressingConcern" name="Example: Undressing Concern"/>
 <artifact deprecated="true" id="Condition/BSJ-KidneyDiseaseDiagnosis" key="Condition-BSJ-KidneyDiseaseDiagnosis" name="Kidney Disease Diagnosis"/>
+<artifact deprecated="true" id="MedicationRequest/BSJ-SMPMedReq7" key="MedicationRequest-BSJ-SMPMedReq7" name="Medication request for Acetaminophen 650 MG Oral Tablet"/>
+<artifact deprecated="true" id="MedicationRequest/BSJ-SMPMedReq8" key="MedicationRequest-BSJ-SMPMedReq8" name="Medication request for Ferrous sulfate 325 MG (iron 65 MG) Oral Tablet"/>
+<artifact deprecated="true" id="MedicationRequest/BSJ-SMPMedReq3" key="MedicationRequest-BSJ-SMPMedReq3" name="Medication request for Furosemide 20 MG Oral Tablet"/>
+<artifact deprecated="true" id="MedicationRequest/BSJ-SMPMedReq5" key="MedicationRequest-BSJ-SMPMedReq5" name="Medication request for Glipizide 2.5 MG Extended Release Oral Tablet"/>
+<artifact deprecated="true" id="MedicationRequest/BSJ-SMPMedReq6" key="MedicationRequest-BSJ-SMPMedReq6" name="Medication request for Rosuvastatin calcium 5 MG Oral Tablet"/>
+<artifact deprecated="true" id="MedicationRequest/BSJ-SMPMedReq2" key="MedicationRequest-BSJ-SMPMedReq2" name="Medication request for Sertraline 25 MG Oral Tablet"/>
+<artifact deprecated="true" id="MedicationStatement/BSJ-SMPMedStmt7" key="MedicationStatement-BSJ-SMPMedStmt7" name="Medication statement for Acetaminophen 650 MG Oral Tablet"/>
+<artifact deprecated="true" id="MedicationStatement/BSJ-SMPMedStmt8" key="MedicationStatement-BSJ-SMPMedStmt8" name="Medication statement for Ferrous sulfate 325 MG (iron 65 MG) Oral Tablet"/>
+<artifact deprecated="true" id="MedicationStatement/BSJ-SMPMedStmt3" key="MedicationStatement-BSJ-SMPMedStmt3" name="Medication statement for Furosemide 20 MG Oral Tablet"/>
+<artifact deprecated="true" id="MedicationStatement/BSJ-SMPMedStmt5" key="MedicationStatement-BSJ-SMPMedStmt5" name="Medication statement for Glipizide 2.5 MG Extended Release Oral Tablet"/>
+<artifact deprecated="true" id="MedicationStatement/BSJ-SMPMedStmt6" key="MedicationStatement-BSJ-SMPMedStmt6" name="Medication statement for Rosuvastatin calcium 5 MG Oral Tablet"/>
+<artifact deprecated="true" id="MedicationStatement/BSJ-SMPMedStmt2" key="MedicationStatement-BSJ-SMPMedStmt2" name="Medication statement for Sertraline 25 MG Oral Tablet"/>
 <artifact id="StructureDefinition/point-of-contact-extension" key="StructureDefinition-point-of-contact-extension" name="Point of Contact"/>
 <artifact id="CapabilityStatement/toc" key="CapabilityStatement-toc" name="TOC CapabilityStatement"/>
 <artifact id="StructureDefinition/TOC-DocumentReference" key="StructureDefinition-TOC-DocumentReference" name="TOC Document Reference"/>

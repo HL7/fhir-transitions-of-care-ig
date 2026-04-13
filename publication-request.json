@@ -10,7 +10,7 @@
     "title" : "PACIO Transitions of Care Implementation Guide",
     "changes" : "change_log.html",
     "first" : true, 
-    "mode" : "working",
+    "mode" : "milestone",
     "ci-build" : "https://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig",
     "introduction" : "This Implementation Guide provides a standards-based solution to support care transitions and coordination for patients across long-term post-acute care settings.",
     "category": "Clinical Documents"
