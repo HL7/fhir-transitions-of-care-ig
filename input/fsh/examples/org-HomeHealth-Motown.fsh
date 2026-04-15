@@ -1,4 +1,4 @@
-Instance: org-SNF-HomeHealth-Motown
+Instance: org-HomeHealth-Motown
 InstanceOf: $USCoreOrganization
 Usage: #example
 Title: "Example: Motown Home Health Organization"

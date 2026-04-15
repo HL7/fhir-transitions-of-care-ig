@@ -22,6 +22,8 @@ Usage: #example
 * subject = Reference(Example-Smith-Johnson-Patient1)
 * date = "2024-05-10T14:25:34.001-05:00"
 
+* extension[PointOfContactExtension].valueReference = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
+
 * content[0].attachment.contentType = #application/fhir+json
 * content[0].attachment.url = "http://www.example.org/fhir/Bundle/Example-Smith-Johnson-TOCBundle"
 * content[0].attachment.creation = "2024-05-10T14:25:34.001-05:00"
