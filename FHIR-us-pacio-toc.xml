@@ -7,14 +7,13 @@
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
 <artifact deprecated="true" id="Condition/BSJ-AnemiaDiagnosis" key="Condition-BSJ-AnemiaDiagnosis" name="Anemia Diagnosis"/>
-<artifact id="Immunization/BSJ-Immunization-CAPVAXIVE-PCV21" key="Immunization-BSJ-Immunization-CAPVAXIVE-PCV21" name="BSJ-Immunization-CAPVAXIVE-PCV21"/>
-<artifact id="Immunization/BSJ-Immunization-Fluzone" key="Immunization-BSJ-Immunization-Fluzone" name="BSJ-Immunization-Fluzone"/>
 <artifact deprecated="true" id="Condition/BSJ-ConstipationDiagnosis" key="Condition-BSJ-ConstipationDiagnosis" name="Constipation Diagnosis"/>
 <artifact deprecated="true" id="Condition/BSJ-DepressionDiagnosis" key="Condition-BSJ-DepressionDiagnosis" name="Depression Diagnosis"/>
 <artifact deprecated="true" id="Condition/BSJ-DiabetesDiagnosis" key="Condition-BSJ-DiabetesDiagnosis" name="Diabetes Diagnosis"/>
 <artifact deprecated="true" id="Observation/BSJ-MDS-SitUp1" key="Observation-BSJ-MDS-SitUp1" name="Discharge Assessment - Lying to sitting on side of bed"/>
 <artifact deprecated="true" id="Observation/BSJ-MDS-ShortWalk1" key="Observation-BSJ-MDS-ShortWalk1" name="Discharge Assessment - Walk 50 feet with 2 turns"/>
 <artifact deprecated="true" id="ServiceRequest/BSJ-SNFDischargeDietProtein" key="ServiceRequest-BSJ-SNFDischargeDietProtein" name="Discharge Service Request for protein diet"/>
+<artifact deprecated="true" id="Practitioner/Example-Phil-Chekhov" key="Practitioner-Example-Phil-Chekhov" name="Dr. Phil Chekhov"/>
 <artifact id="DocumentReference/Example-Smith-Johnson-DocRef-Bundle" key="DocumentReference-Example-Smith-Johnson-DocRef-Bundle" name="Example-Smith-Johnson-DocRef-Bundle"/>
 <artifact id="AllergyIntolerance/BSJ-AllergyACE" key="AllergyIntolerance-BSJ-AllergyACE" name="Example: Allergy List"/>
 <artifact id="Observation/BSJ-MDS-Donning1" key="Observation-BSJ-MDS-Donning1" name="Example: Discharge Assessment - Lower body dressing"/>
@@ -32,7 +31,6 @@
 <artifact id="Practitioner/Example-GeraldPark" key="Practitioner-Example-GeraldPark" name="Example: Dr. Gerald Park"/>
 <artifact id="Practitioner/Example-JenCadbury" key="Practitioner-Example-JenCadbury" name="Example: Dr. Jen Cadbury"/>
 <artifact id="Practitioner/Example-NuraMekel" key="Practitioner-Example-NuraMekel" name="Example: Dr. Nura Mekel"/>
-<artifact id="Practitioner/Example-Phil-Chekhov" key="Practitioner-Example-Phil-Chekhov" name="Example: Dr. Phil Chekhov"/>
 <artifact id="Practitioner/Example-Tracy-Count" key="Practitioner-Example-Tracy-Count" name="Example: Dr. Tracy Count"/>
 <artifact id="Condition/BSJ-DressingConcern" key="Condition-BSJ-DressingConcern" name="Example: Dressing Concerns"/>
 <artifact id="Encounter/BSJ-Encounter" key="Encounter-BSJ-Encounter" name="Example: Encounter"/>
@@ -43,8 +41,9 @@
 <artifact id="List/BSJ-SMPMedList" key="List-BSJ-SMPMedList" name="Example: Home Medication List"/>
 <artifact id="Condition/BSJ-HyperlipidemiaDiagnosis" key="Condition-BSJ-HyperlipidemiaDiagnosis" name="Example: Hyperlipidemia Diagnosis"/>
 <artifact id="Condition/BSJ-HypertensionDiagnosis" key="Condition-BSJ-HypertensionDiagnosis" name="Example: Hypertension Diagnosis"/>
+<artifact id="Immunization/BSJ-Immunization-Fluzone" key="Immunization-BSJ-Immunization-Fluzone" name="Example: Immunization - Influenza, high-dose, quadrivalent, PF (Fluzone)"/>
+<artifact id="Immunization/BSJ-Immunization-PCV20" key="Immunization-BSJ-Immunization-PCV20" name="Example: Immunization - Pneumococcal Conjugate Vaccine, 20 Valent (PCV20)"/>
 <artifact id="Location/org-Loc-PC-Primary-Care-Michigan" key="Location-org-Loc-PC-Primary-Care-Michigan" name="Example: Location of Michigan Primary Health Care Associates"/>
-<artifact id="Location/org-Loc-Everyday-Community-Pharm" key="Location-org-Loc-Everyday-Community-Pharm" name="Example: Location of the Everyday Community Pharmacy"/>
 <artifact id="Location/org-Loc-SNF-Happy-Nursing-Facility" key="Location-org-Loc-SNF-Happy-Nursing-Facility" name="Example: Location of the Happy Nursing Facility"/>
 <artifact id="Location/org-Loc-HomeHealth-Motown" key="Location-org-Loc-HomeHealth-Motown" name="Example: Location of the Motown Home Health Facility"/>
 <artifact id="Location/org-Loc-Neuro-Care-Inc" key="Location-org-Loc-Neuro-Care-Inc" name="Example: Location of the Neuro Care Inc. facility"/>
@@ -56,7 +55,7 @@
 <artifact id="MedicationStatement/BSJ-SMPMedStmt9" key="MedicationStatement-BSJ-SMPMedStmt9" name="Example: Medication statement for clopidogrel 75 MG Oral Tablet"/>
 <artifact id="MedicationStatement/BSJ-SMPMedStmt4" key="MedicationStatement-BSJ-SMPMedStmt4" name="Example: Medication statement for losartan potassium 25 MG Oral Tablet"/>
 <artifact id="Organization/org-PC-Primary-Care-Michigan" key="Organization-org-PC-Primary-Care-Michigan" name="Example: Michigan Primary Health Care Associates Organization"/>
-<artifact id="Organization/org-SNF-HomeHealth-Motown" key="Organization-org-SNF-HomeHealth-Motown" name="Example: Motown Home Health Organization"/>
+<artifact id="Organization/org-HomeHealth-Motown" key="Organization-org-HomeHealth-Motown" name="Example: Motown Home Health Organization"/>
 <artifact id="Condition/BSJ-NauseaAndVomiting" key="Condition-BSJ-NauseaAndVomiting" name="Example: Nausea and vomiting"/>
 <artifact id="Organization/org-Neuro-Care-Inc" key="Organization-org-Neuro-Care-Inc" name="Example: Neuro Care Inc. Organization"/>
 <artifact id="Condition/BSJ-NeuropathyDiagnosis" key="Condition-BSJ-NeuropathyDiagnosis" name="Example: Neuropathy Diagnosis"/>
@@ -69,7 +68,6 @@
 <artifact id="PractitionerRole/Role-SNFDoc-GeraldPark" key="PractitionerRole-Role-SNFDoc-GeraldPark" name="Example: Role of Dr. Gerald Park"/>
 <artifact id="PractitionerRole/Role-OT-JenCadbury" key="PractitionerRole-Role-OT-JenCadbury" name="Example: Role of Dr. Jen Cadbury"/>
 <artifact id="PractitionerRole/Role-Neuro-NuraMekel" key="PractitionerRole-Role-Neuro-NuraMekel" name="Example: Role of Dr. Nura Mekel"/>
-<artifact id="PractitionerRole/Role-Pharm-PhilChekhov" key="PractitionerRole-Role-Pharm-PhilChekhov" name="Example: Role of Dr. Phil Chekhov"/>
 <artifact id="PractitionerRole/Role-Pharm-TracyCount" key="PractitionerRole-Role-Pharm-TracyCount" name="Example: Role of Dr. Tracy Count"/>
 <artifact id="ServiceRequest/BSJ-PCPFollowUp" key="ServiceRequest-BSJ-PCPFollowUp" name="Example: Service Request to follow up with PCP"/>
 <artifact id="Condition/BSJ-StrokeDiagnosis" key="Condition-BSJ-StrokeDiagnosis" name="Example: Stroke Diagnosis"/>
@@ -77,6 +75,7 @@
 <artifact id="Composition/BSJ-TOCComposition" key="Composition-BSJ-TOCComposition" name="Example: Transitions of Care Clinical Document"/>
 <artifact id="Condition/BSJ-UndressingConcern" key="Condition-BSJ-UndressingConcern" name="Example: Undressing Concern"/>
 <artifact deprecated="true" id="Condition/BSJ-KidneyDiseaseDiagnosis" key="Condition-BSJ-KidneyDiseaseDiagnosis" name="Kidney Disease Diagnosis"/>
+<artifact deprecated="true" id="Location/org-Loc-Everyday-Community-Pharm" key="Location-org-Loc-Everyday-Community-Pharm" name="Location of the Everyday Community Pharmacy"/>
 <artifact deprecated="true" id="MedicationRequest/BSJ-SMPMedReq7" key="MedicationRequest-BSJ-SMPMedReq7" name="Medication request for Acetaminophen 650 MG Oral Tablet"/>
 <artifact deprecated="true" id="MedicationRequest/BSJ-SMPMedReq8" key="MedicationRequest-BSJ-SMPMedReq8" name="Medication request for Ferrous sulfate 325 MG (iron 65 MG) Oral Tablet"/>
 <artifact deprecated="true" id="MedicationRequest/BSJ-SMPMedReq3" key="MedicationRequest-BSJ-SMPMedReq3" name="Medication request for Furosemide 20 MG Oral Tablet"/>
@@ -90,6 +89,7 @@
 <artifact deprecated="true" id="MedicationStatement/BSJ-SMPMedStmt6" key="MedicationStatement-BSJ-SMPMedStmt6" name="Medication statement for Rosuvastatin calcium 5 MG Oral Tablet"/>
 <artifact deprecated="true" id="MedicationStatement/BSJ-SMPMedStmt2" key="MedicationStatement-BSJ-SMPMedStmt2" name="Medication statement for Sertraline 25 MG Oral Tablet"/>
 <artifact id="StructureDefinition/point-of-contact-extension" key="StructureDefinition-point-of-contact-extension" name="Point of Contact"/>
+<artifact deprecated="true" id="PractitionerRole/Role-Pharm-PhilChekhov" key="PractitionerRole-Role-Pharm-PhilChekhov" name="Role of Dr. Phil Chekhov"/>
 <artifact id="CapabilityStatement/toc" key="CapabilityStatement-toc" name="TOC CapabilityStatement"/>
 <artifact id="StructureDefinition/TOC-DocumentReference" key="StructureDefinition-TOC-DocumentReference" name="TOC Document Reference"/>
 <artifact id="StructureDefinition/TOC-Bundle" key="Bundle-Example-Smith-Johnson-Bundle" name="Transition of Care Bundle"/>

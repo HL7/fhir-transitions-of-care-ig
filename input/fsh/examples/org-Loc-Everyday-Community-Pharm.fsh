@@ -1,6 +1,6 @@
 Instance: org-Loc-Everyday-Community-Pharm
 InstanceOf: $USCoreLocation
-Usage: #example
+Usage: #inline
 Title: "Example: Location of the Everyday Community Pharmacy"
 Description: "Location of the Everyday Community Pharmacy."
 

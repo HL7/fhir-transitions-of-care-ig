@@ -17,7 +17,7 @@ The following diagram illustrates how a structured, coded transitions of care bu
 
 **Happy Nursing Facility** ([Organization](Organization-org-SNF-Happy-Nursing-Facility.html), [Location](Location-org-Loc-SNF-Happy-Nursing-Facility.html)) is the skilled nursing facility from which Betsy is being discharged. Happy Nursing Facility is the transferring organization for this transition of care event.
 
-**Motown Home Health Grand Rapids** ([Organization](Organization-org-SNF-HomeHealth-Motown.html), [Location](Location-org-Loc-HomeHealth-Motown.html)) is the home health agency to which Betsy is being discharged. Its address is 121 Spruce Dr. Grand Rapids, MI 49503 — adjacent to the Michigan Primary Health Care Associates practice at 123 Spruce Dr. In this example, Motown Home Health Grand Rapids is the destination organization for this transition of care event.
+**Motown Home Health Grand Rapids** ([Organization](Organization-org-HomeHealth-Motown.html), [Location](Location-org-Loc-HomeHealth-Motown.html)) is the home health agency to which Betsy is being discharged. Its address is 121 Spruce Dr. Grand Rapids, MI 49503 — adjacent to the Michigan Primary Health Care Associates practice at 123 Spruce Dr. In this example, Motown Home Health Grand Rapids is the destination organization for this transition of care event.
 
 ---
 
@@ -27,7 +27,7 @@ Betsy Smith-Johnson is a 66-year-old Medicare-eligible woman who has been a resi
 
 Betsy has a documented, high-criticality allergy to ACE inhibitors (angiotensin-converting enzyme inhibitor class) ([BSJ-AllergyACE](AllergyIntolerance-BSJ-AllergyACE.html)), confirmed active with a last known occurrence in October 2011. Her documented reaction to captopril manifested as hyperkalemia. 
 
-Betsy's current medication regimen, as reconciled at the SNF, includes atorvastatin 40 mg nightly for hyperlipidemia, losartan 25 mg 1 po daily for hypertension, and clopidogrel 75 mg once daily as antiplatelet therapy following her cerebral infarction. Her immunization record includes pneumococcal vaccine (PCV21) ([Immunization: BSJ-Immunization-Pneumococcal](Immunization-BSJ-Immunization-CAPVAXIVE-PCV21.html)) and influenza ([BSJ-Immunization-Fluzone](Immunization-BSJ-Immunization-Fluzone.html)).
+Betsy's current medication regimen, as reconciled at the SNF, includes atorvastatin 40 mg nightly for hyperlipidemia, losartan 25 mg 1 po daily for hypertension, and clopidogrel 75 mg once daily as antiplatelet therapy following her cerebral infarction. Her immunization record includes pneumococcal vaccine (PCV21) ([Immunization: BSJ-Immunization-Pneumococcal](Immunization-BSJ-Immunization-PCV20.html)) and influenza ([BSJ-Immunization-Fluzone](Immunization-BSJ-Immunization-Fluzone.html)).
 
 During her SNF stay, Betsy has received skilled nursing care, physical therapy (PT), and occupational therapy (OT) under the oversight of Dr. Gerald Park. Her functional status has improved sufficiently that the Happy Nursing Facility care team has determined she meets criteria for discharge to home with continued home health support.
 
@@ -44,7 +44,7 @@ During her SNF stay, Betsy has received skilled nursing care, physical therapy (
 - [MedicationRequest: BSJ-SMPMedReq1](MedicationRequest-BSJ-SMPMedReq1.html) _(atorvastatin 40 mg)_
 - [MedicationRequest: BSJ-SMPMedReq4](MedicationRequest-BSJ-SMPMedReq4.html) _(losartan potassium 25 mg)_
 - [MedicationRequest: BSJ-SMPMedReq9](MedicationRequest-BSJ-SMPMedReq9.html) _(clopidogrel 75 mg)_
-- [Immunization: BSJ-Immunization-Pneumococcal](Immunization-BSJ-Immunization-CAPVAXIVE-PCV21.html)
+- [Immunization: BSJ-Immunization-Pneumococcal](Immunization-BSJ-Immunization-PCV20.html)
 - [Immunization: BSJ-Immunization-Influenza](Immunization-BSJ-Immunization-Fluzone.html)
 - [Organization: org-SNF-Happy-Nursing-Facility](Organization-org-SNF-Happy-Nursing-Facility.html)
 - [Location: org-Loc-SNF-Happy-Nursing-Facility](Location-org-Loc-SNF-Happy-Nursing-Facility.html)
@@ -81,14 +81,14 @@ Dr. Anita Chu, the receiving physician responsible for Betsy's ongoing medical m
 - [MedicationRequest: BSJ-SMPMedReq1](MedicationRequest-BSJ-SMPMedReq1.html) _(atorvastatin 40 mg)_
 - [MedicationRequest: BSJ-SMPMedReq4](MedicationRequest-BSJ-SMPMedReq4.html) _(losartan potassium 25 mg)_
 - [MedicationRequest: BSJ-SMPMedReq9](MedicationRequest-BSJ-SMPMedReq9.html) _(clopidogrel 75 mg)_
-- [Immunization: BSJ-Immunization-Pneumococcal](Immunization-BSJ-Immunization-CAPVAXIVE-PCV21.html)
+- [Immunization: BSJ-Immunization-Pneumococcal](Immunization-BSJ-Immunization-PCV20.html)
 - [Immunization: BSJ-Immunization-Influenza](Immunization-BSJ-Immunization-Fluzone.html)
 - [ServiceRequest: BSJ-SNFDischargeCallOTRefer](ServiceRequest-BSJ-SNFDischargeCallOTRefer.html)
 - [ServiceRequest: BSJ-SNFDischargePTRefer](ServiceRequest-BSJ-SNFDischargePTRefer.html)
 - [ServiceRequest: BSJ-SNFDischargeCallOrder](ServiceRequest-BSJ-SNFDischargeCallOrder.html)
 - [CarePlan: BSJ-SNFDischargeCarePlan](CarePlan-BSJ-SNFDischargeCarePlan.html)
 - [Organization: org-SNF-Happy-Nursing-Facility](Organization-org-SNF-Happy-Nursing-Facility.html)
-- [Organization: org-SNF-HomeHealth-Motown](Organization-org-SNF-HomeHealth-Motown.html)
+- [Organization: org-HomeHealth-Motown](Organization-org-HomeHealth-Motown.html)
 - [Location: org-Loc-HomeHealth-Motown](Location-org-Loc-HomeHealth-Motown.html)
 
 ---
@@ -102,7 +102,7 @@ Dr. Anita Chu, the receiving physician responsible for Betsy's ongoing medical m
 - [PractitionerRole: Role-SNFDoc-GeraldPark](PractitionerRole-Role-SNFDoc-GeraldPark.html)
 - [PractitionerRole: Role-OT-JenCadbury](PractitionerRole-Role-OT-JenCadbury.html)
 
-- [Organization: org-SNF-HomeHealth-Motown](Organization-org-SNF-HomeHealth-Motown.html)
+- [Organization: org-HomeHealth-Motown](Organization-org-HomeHealth-Motown.html)
 - [Location: org-Loc-HomeHealth-Motown](Location-org-Loc-HomeHealth-Motown.html)
 - [PractitionerRole: Role-IMMD-AnitaChu](PractitionerRole-Role-IMMD-AnitaChu.html)
 

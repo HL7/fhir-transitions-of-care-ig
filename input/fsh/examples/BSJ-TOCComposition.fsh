@@ -4,7 +4,7 @@ Usage: #example
 Title: "Example: Transitions of Care Clinical Document"
 Description: "Transitions of Care Clinical Document for fictional patient Betsy Smith-Johnson."
 
-//* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/TOC-Composition"
+* meta.profile = Canonical(TOCComposition)
 * language = #en-US
 * identifier.system = "http://example.org/GoodHealthClinic/id"
 * identifier.value = "76053988-543c-4681-9a90-2f2eb9a7836c-CCDA-CCD"
@@ -44,7 +44,7 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * section[functional_status].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Functional status of Betsy Smith-Johnson</div>"
 
 * section[immunizations].title = "List of immunizations for Betsy Smith-Johnson"
-* section[immunizations].entry[+] = Reference(Immunization/BSJ-Immunization-CAPVAXIVE-PCV21)
+* section[immunizations].entry[+] = Reference(Immunization/BSJ-Immunization-PCV20)
 * section[immunizations].entry[+] = Reference(Immunization/BSJ-Immunization-Fluzone)
 * section[immunizations].text.status = #additional
 * section[immunizations].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of immunizations for Betsy Smith-Johnson</div>"

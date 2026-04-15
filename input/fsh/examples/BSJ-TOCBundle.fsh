@@ -104,8 +104,8 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 
 //-------------------------- Immunizations ---------------------------
 
-* entry[+].resource = BSJ-Immunization-CAPVAXIVE-PCV21
-* entry[=].fullUrl = "http://www.example.org/fhir/Immunization/BSJ-Immunization-CAPVAXIVE-PCV21"
+* entry[+].resource = BSJ-Immunization-PCV20
+* entry[=].fullUrl = "http://www.example.org/fhir/Immunization/BSJ-Immunization-PCV20"
 
 * entry[+].resource = BSJ-Immunization-Fluzone
 * entry[=].fullUrl = "http://www.example.org/fhir/Immunization/BSJ-Immunization-Fluzone"
@@ -227,8 +227,8 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 * entry[+].resource = org-SNF-Happy-Nursing-Facility
 * entry[=].fullUrl = "http://www.example.org/fhir/Organization/org-SNF-Happy-Nursing-Facility"
 
-* entry[+].resource = org-SNF-HomeHealth-Motown
-* entry[=].fullUrl = "http://www.example.org/fhir/Organization/org-SNF-HomeHealth-Motown"
+* entry[+].resource = org-HomeHealth-Motown
+* entry[=].fullUrl = "http://www.example.org/fhir/Organization/org-HomeHealth-Motown"
 
 //-------------------------- Practitioners ---------------------------
 

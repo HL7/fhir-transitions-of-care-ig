@@ -1,5 +1,3 @@
-This section defines additional requirements and guidance relevant to this IG as a whole. The FHIR Conformance Rules define the conformance verbs - `SHALL`, `SHOULD`, `MAY` - used in this IG.
-
 ### System Role Definitions
 
 **Data Sources** are defined as systems that originate transition of care-related documents & resources. These systems will be the sending organization.

@@ -13,4 +13,4 @@ Description: "Location of the Motown Home Health Facility."
 * address.postalCode = "49503"
 * address.country = "US"
 * address.text = "121 Spruce Dr. Grand Rapids, MI 49503"
-* managingOrganization = Reference(Organization/org-SNF-HomeHealth-Motown)
+* managingOrganization = Reference(Organization/org-HomeHealth-Motown)
