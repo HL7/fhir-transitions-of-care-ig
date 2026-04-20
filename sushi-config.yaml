@@ -7,12 +7,12 @@ id: hl7.fhir.us.pacio-toc
 canonical: http://hl7.org/fhir/us/pacio-toc
 name: PACIOTransitionsOfCare
 title: PACIO Transitions of Care Implementation Guide
-description: Implementation Guide for exchanging Transitions of Care minimum data set for patients transitioning between health organizations.
+description: The PACIO Project’s Transitions of Care Implementation Guide provides a standards‑based solution for patient care transitions and coordination across Long‑Term Post‑Acute Care (LTPAC) settings.
 status: active # draft | active | retired | unknown
 version: 1.0.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
-releaseLabel: STU 1 # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: STU 1 - trial-use # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
@@ -80,8 +80,9 @@ menu:
     Underlying Technologies: underlying_technologies.html
   FHIR Artifacts:
     Profiles: artifacts.html#structures-resource-profiles
-    Terminology: artifacts.html#terminology-value-sets
-    Examples: artifacts.html#example-example-instances
+    Terminology Value Sets: artifacts.html#terminology-value-sets
+    Terminology Local Code Systems: artifacts.html#terminology-code-systems
+#    Examples: artifacts.html#example-example-instances
     Search Parameters: search_parameters.html
     Capability Statement: artifacts.html#behavior-capability-statements
   Examples:
