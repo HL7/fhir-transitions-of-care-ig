@@ -2,7 +2,7 @@ Instance: Role-OT-JenCadbury
 InstanceOf: $USCorePractitionerRole
 Usage: #example
 Title: "Example: Role of Dr. Jen Cadbury"
-Description: "Dr. Jen Cadbury is a fictional Internal Medicine Physician at Neuro Care Inc."
+Description: "Dr. Jen Cadbury is a fictional Occupational Therapist at Happy Nursing Facility."
 
 * meta.profile = Canonical(us-core-practitionerrole|8.0.1)
 * active = true

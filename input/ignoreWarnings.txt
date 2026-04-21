@@ -5,9 +5,7 @@
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
 
 # These warnings are for dependency IGs, which we do not have direct control over
-# %Reference to draft CodeSystem http://hl7.org/fhir/narrative-status|4.0.1%
-# %Reference to draft ValueSet http://hl7.org/fhir/ValueSet/servicerequest-category|4.0.1%
-# %The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated%
+
 INFORMATION: Bundle/Example-Smith-Johnson-TOCBundle: Bundle.entry[28].resource/*CarePlan/BSJ-SNFDischargeCarePlan*/.text.status: Reference to draft CodeSystem http://hl7.org/fhir/narrative-status|4.0.1
 INFORMATION: Bundle/Example-Smith-Johnson-TOCBundle: Bundle.entry[34].resource/*ServiceRequest/BSJ-SNFDischargeLabOrderBMP*/.category[0]: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/servicerequest-category|4.0.1
 INFORMATION: Bundle/Example-Smith-Johnson-TOCBundle: Bundle.entry[35].resource/*ServiceRequest/BSJ-SNFDischargeLabOrderCBC*/.category[0]: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/servicerequest-category|4.0.1
@@ -89,17 +87,11 @@ WARNING: 5: The HTML fragment 'expansion-params.xhtml' is not included anywhere 
 # There is no hl7.fhir.us.ccda#1.8.0 listed in the CCDA IG. The most current version listed is 1.2.0: https://hl7.org/fhir/us/ccda/history.html
 WARNING: ImplementationGuide/hl7.fhir.us.pacio-toc: ImplementationGuide.dependsOn[9]: The ImplementationGuide uses package hl7.fhir.us.ccda#1.2.0 released on 2024-03-12, but the most recent appropriate version is 1.8.0. This reference is getting old and the more recent version should be considered
 
-# MedicationStatement and List resources are valid unsliced entries in the TOC Bundle (open slicing).
-# These types have no US Core 8.0.1 profiles, so they cannot be used with the #profile discriminator
-# without creating ambiguous multi-slice matches. Open slicing allows them as valid unsliced entries.
-
-# %This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Bundle%
-
 # PACIO PFE observations include an ICF domain category (category[PFEDomain]) that is required
 # by the pfe-observation-single profile. This category uses codes from http://hl7.org/fhir/sid/icf,
 # which are not in the us-core-simple-observation-category value set. US Core uses open slicing on
 # category, so this extra category is valid. The INFORMATION message is expected and safe to suppress.
-# %This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation%
+
 INFORMATION: Bundle/Example-Smith-Johnson-TOCBundle: Bundle.entry[21]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Bundle|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Bundle/Example-Smith-Johnson-TOCBundle: Bundle.entry[22]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Bundle|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Bundle/Example-Smith-Johnson-TOCBundle: Bundle.entry[23]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Bundle|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)

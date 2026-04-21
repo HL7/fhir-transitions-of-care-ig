@@ -1,6 +1,21 @@
+<div style="width: 60%;" >
+<h3 id="plain-language-summary-about-this-guide"><a class="anchorjs-link " href="#plain-language-summary-about-this-guide" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a>
+  <button class="btn btn-info btn-lg collapsed" type="button" title="Click to Open or Close the Plain Language Summary" data-toggle="collapse" data-target="#plain-lang-summary" aria-expanded="false" aria-controls="collapseExample">
+    Click Here to see the Plain Language Summary
+  </button>
+</h3>
+</div>
+<div class="collapse" id="plain-lang-summary" aria-expanded="false" style="height: 0px;">
+  <div class="card card-body" style="border:1px solid;border-color:#cccccc;padding:10px">
+
+<p>The PACIO Transitions of Care IG defines a FHIR R4-based standard for exchanging patient information when post-acute care (PAC) patients move between PAC settings — such as from a rehabilitation facility to a skilled nursing facility or home health. It specifies machine-readable FHIR resources for the most essential PAC data needed for patient care, including standardized assessments, problems, medications, allergies, immunizations, functional status, social history, and advance directives. The goal is to reduce care gaps, provider burden, and transcription errors during handoffs in the patient journey.</p>
+
+  </div>
+</div>
+
 ### Background 
 
-The purpose of the Post-Acute Care Interoperability (PACIO) Project’s Transitions of Care (ToC) Implementation Guide is to provide a standards-based solution to support care transitions and coordination for patients across Long-Term Post-Acute Care (LTPAC) settings. The traditional Post-Acute Care (PAC) settings, Home Health, Skilled Nursing, Long Term Care Hospitals, and Inpatient Rehab facilities employ many types of clinicians, practitioners, therapists, and allied professionals who each require different information to provide the highest value and most efficient services to their patients. This information may include **standardized assessments**, **patient preferences**, **observations**, and other important data. Many of these items are valuable during a transition of care from one setting to another, including settings outside of Post-Acute Care such as Acute Inpatient or the Emergency Department. This critical information, when it has been documented, is often not exchanged, resulting in gaps in care information during initial assessments and reassessments in new or parallel settings. By documenting this data as discrete coded data elements that is human and machine readable at the transition of care it  can be exchanged and  consumed by the recipient system. This results is reduced provider burden, as well as minimized transcription and associated errors. In addition, some specific data is more relevant to certain care roles, however, patient data at transfer  are never available as a specific role-based data set. Coded data can be grouped in a specified role based fashion aiding the responsible caregivers at transition. When patient transition information is printed, faxed, or arrives electronically as human readable only, this leads directly to potentially unsafe transition and coordination of care for these most vulnerable patients.
+The purpose of the Post-Acute Care Interoperability (PACIO) Project’s Transitions of Care (ToC) Implementation Guide is to provide a standards-based solution to support care transitions and coordination for patients across Long-Term Post-Acute Care (LTPAC) settings. The traditional Post-Acute Care (PAC) settings, Home Health, Skilled Nursing, Long Term Care Hospitals, and Inpatient Rehab facilities employ many types of clinicians, practitioners, therapists, and allied professionals who each require different information to provide the highest value and most efficient services to their patients. This information may include **standardized assessments**, **patient preferences**, **observations**, and other important data. Many of these items are valuable during a transition of care from one setting to another, including settings outside of Post-Acute Care such as Acute Inpatient or the Emergency Department. This critical information, when it has been documented, is often not exchanged, resulting in gaps in care information during initial assessments and reassessments in new or parallel settings. By documenting this data as discrete coded data elements that is human and machine readable at the transition of care it  can be exchanged and  consumed by the recipient system. This results in reduced provider burden, as well as minimized transcription and associated errors. In addition, some specific data is more relevant to certain care roles, however, patient data at transfer  are never available as a specific role-based data set. Coded data can be grouped in a specified role based fashion aiding the responsible caregivers at transition. When patient transition information is printed, faxed, or arrives electronically as human readable only, this leads directly to potentially unsafe transition and coordination of care for these most vulnerable patients.
 
 The CMS Data Element Library provides the reference data (questions and answers) as coded data for key quality instruments in post-acute care, notably the Minimum Data Set (MDS) and Outcome and Assessment Information Set (OASIS). Today, most if not all information that could help inform the completion of these assessments is captured at the referral source but is either not transferred at all or is not transferred in a manner that can be meaningfully presented to the post-acute provider. Without this context and properly mapped information, providers in PAC settings are piecing together information through clinical observation or laborious review of narrative and other documentation that accompanies a referral. The challenge is similar outside of these instruments—stretching into areas like Advance Healthcare Directives or Personal Care preferences.
   
@@ -70,7 +85,7 @@ This Guide is divided into several pages which are listed at the top of each pag
 
   * Underlying Technologies: Information about the terminologies, notations, and design principles, specific to FHIR, that this specification uses.
 
-  * Security, Privacy, and Consent: General security requirements and recommendations for Transitions of Care mplementation Guide actors, including authentication, authorization, and logging requirements and guidance.
+  * Security, Privacy, and Consent: General security requirements and recommendations for Transitions of Care implementation Guide actors, including authentication, authorization, and logging requirements and guidance.
 
 * FHIR Artifacts: These sections provide detailed descriptions and formal definitions for all the FHIR objects defined in this guide.
 
@@ -80,11 +95,11 @@ This Guide is divided into several pages which are listed at the top of each pag
 
   * Extension Definitions: This section lists the set of Extensions defined in and used by the Profiles in this guide. Each linked Extension page includes a formal definition.
   
-  * Terminology: This section lists the value sets and code system defined for  Transtions of Care Implementation Guide profiles.
+  * Terminology: This section lists the value sets and code system defined for  Transitions of Care Implementation Guide profiles.
 
   * Examples: The section that contains examples of transitions of care information that is conformant to the profiles of this guide.
 
-  * Search Parameters and Operations: This section lists the Transtions of Care Implementation Guide defined Operations and Search Parameters that are used in TOC transactions.
+  * Search Parameters and Operations: This section lists the Transitions of Care Implementation Guide defined Operations and Search Parameters that are used in TOC transactions.
 
 * Downloads: This page provides links to downloadable artifacts.
 

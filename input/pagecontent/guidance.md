@@ -48,7 +48,7 @@ Social determinants such as transportation, housing, and access to food can impa
 
 #### Use of Technology and Telehealth ####
 
-Technology, such as electronic health records (EHRs) and telehealth, facilitates communication and monitoring during transitions, especially for patients in remote or underserved areas. Critically important technology and the impetus for this IG is human and machine readable interoperability form endpoint to endpoint across a national framework of networks such as TEFCA and the QHINs.
+Technology, such as electronic health records (EHRs) and telehealth, facilitates communication and monitoring during transitions, especially for patients in remote or underserved areas. Critically important technology and the impetus for this IG is human and machine readable interoperability from endpoint to endpoint across a national framework of networks such as TEFCA and the QHINs.
 
 * Evidence: A study by Lin et al. (2020) found that telehealth interventions during care transitions improved patient satisfaction and reduced hospital readmissions. (Lin MH, Yuan WL, Huang TC, et al. J Med Internet Res. 2020;22(10):e19099.)
 
@@ -58,9 +58,9 @@ Ongoing evaluation of transition processes, including patient outcomes and satis
 
 * Evidence: The National Transitions of Care Coalition (NTCC) emphasizes the importance of monitoring key metrics, such as readmission rates and patient satisfaction, to improve care transitions. (NTCC. Improving Transitions of Care: Findings and Considerations of the "Vision of the National Transitions of Care Coalition." 2008.)
 
-Effective post-acute care transitions requires interoperability across a national framework of networks, such as TEFCA, facilitating aa multidisciplinary approach that emphasizes communication (requiring human and machine readable interoperability), patient education, medication safety, follow-up care, and addressing social determinants. Evidence-based models and interventions, such as the Transitional Care Model and Care Transitions Intervention, have demonstrated their ability to improve outcomes and reduce rehospitalizations.
+Effective post-acute care transitions requires interoperability across a national framework of networks, such as TEFCA, facilitating a multidisciplinary approach that emphasizes communication (requiring human and machine readable interoperability), patient education, medication safety, follow-up care, and addressing social determinants. Evidence-based models and interventions, such as the Transitional Care Model and Care Transitions Intervention, have demonstrated their ability to improve outcomes and reduce rehospitalizations.
 
-By defining a standard of human and machine readable interoperable documentation for post-acute care transitions this IG facilitates focusing on these key aspects, healthcare providers to ensure smoother transitions, better patient outcomes, and reduced healthcare costs.
+By defining a standard of human and machine readable interoperable documentation for post-acute care transitions this IG enables healthcare providers to ensure smoother transitions, better patient outcomes, and reduced healthcare costs.
 
 ### Transitions of Care Document Structure
 
@@ -78,24 +78,24 @@ The Transition of Care composition defines the following sections:
 Declarations by individuals made in advance of a situation in which they may be unable to decide about or articulate their wishes for their own care, stating their treatment preferences and limitations on treatment. Examples include Personal Advance Care Plans, Portable Medical Orders, Mental Health Advance Directives, Episodic Advance Directives, POLST/MOLST forms.
 
 **Usage Notes:**
-
+No additional guidance beyond the description above.
 
 #### Allergies and Adverse Reactions
 
 **Section Code**: [LOINC 48765-2](https://loinc.org/48765-2/) Allergies and adverse reactions Document
 
 **Description:**
-List of any responses to medication, food, and topical. ingested or inhaled agent occurring with normal use that are unintended, potentially harmful, and unwanted by the individual. Allergic reactions involve the activation of the immune system in the response. Examples of adverse reactions include low blood pressure from opiates, confusion and dry mouth from anticholinergics. Examples of allergic reactions include hives, rash, and anaphylaxis.
+List of any responses to medication, food, and topical, ingested or inhaled agent occurring with normal use that are unintended, potentially harmful, and unwanted by the individual. Allergic reactions involve the activation of the immune system in the response. Examples of adverse reactions include low blood pressure from opiates, confusion and dry mouth from anticholinergics. Examples of allergic reactions include hives, rash, and anaphylaxis.
 
 **Usage Notes:**
-
+No additional guidance beyond the description above.
 
 #### Behavioral Health
 
 **Section Code**: local code: Behavioral Health Summary 
 
 **Description:**
-Observations, assessments, and interventions regarding the impact of behaviors on mental and physical well being. Examples of behaviors include reactions to stress, habits, substance use disorders, eating disorders, as well as mental health conditions such as anxiety, depression, psychosis, and personality disorders. Interventions include education, counseling, pharmacological and non-pharmalogical treatments. Impacts on physical and mental health include legal, social, and occupational issues, as well as physical impacts from behaviors such as sedentary lifestyles.
+Observations, assessments, and interventions regarding the impact of behaviors on mental and physical well being. Examples of behaviors include reactions to stress, habits, substance use disorders, eating disorders, as well as mental health conditions such as anxiety, depression, psychosis, and personality disorders. Interventions include education, counseling, pharmacological and non-pharmacological treatments. Impacts on physical and mental health include legal, social, and occupational issues, as well as physical impacts from behaviors such as sedentary lifestyles.
 
 **Usage Notes:**
 This section should not include diagnoses or medications. Diagnoses should all be in the TOC `Problems` section. Medications should all be included in the TOC `Medications` section. Ideally, Medications should be linked to the problem for which they are indicated. The diagnosis “Depression” is listed in the US Core Plan, but should not be included here.
@@ -108,7 +108,7 @@ This section should not include diagnoses or medications. Diagnoses should all b
 Observation, assessments, and interventions regarding basic physical and cognitive activities and their impact on mental and physical well being. Examples of observations and assessments include those of mental status, mobility, activities of daily living, speech, and swallowing. Examples of interventions include devices, therapy, and modification of the environment including personal assistance.
 
 **Usage Notes:**
-This section should not include diagnoses or medications. Diagnoses should all be in the TOC `Problems` section. Medications should all be included in the TOC `Medications` section” Ideally, Medications should be linked to the problem for which they are indicated. Within the US Core Procedure several diagnoses are listed, “Delirium, Depression, Psychosis and should not be included.
+This section should not include diagnoses or medications. Diagnoses should all be in the TOC `Problems` section. Medications should all be included in the TOC `Medications` section. Ideally, Medications should be linked to the problem for which they are indicated. Within the US Core Procedure, several diagnoses are listed — Delirium, Depression, and Psychosis — and should not be included.
 
 
 #### Immunizations
@@ -119,7 +119,7 @@ This section should not include diagnoses or medications. Diagnoses should all b
 List of immunizations an individual has received and when. May also include a schedule for future immunizations.
 
 **Usage Notes:**
-
+No additional guidance beyond the description above.
 
 #### Discharge Instructions
 
@@ -140,7 +140,7 @@ Education/instructions provided at discharge should be included.
 List of equipment the individual uses for prevention, diagnosis, monitoring, or treatment of conditions or functional impairment (disability). Examples included implanted pumps, lines, tubes and drains as well external devices including splints, mobility aides, and ventilators.
 
 **Usage Notes:**
-
+No additional guidance beyond the description above.
 
 #### Medications
 
@@ -178,7 +178,7 @@ Health concerns or symptoms that have been diagnosed using ICD 10 or SNOMED, as 
 **Section Code**: [LOINC 47519-4](https://loinc.org/47519-4/) History of Procedures Document
 
 **Description:**
-List of interventions undergone by the indivdual that required informed consent. Examples include surgery, exposure to radiation, experimental interventions.
+List of interventions undergone by the individual that required informed consent. Examples include surgery, exposure to radiation, experimental interventions.
 
 **Usage Notes:**
 There may be additional procedures that have been documented for which informed consent was not obtained.
@@ -191,7 +191,7 @@ There may be additional procedures that have been documented for which informed 
 Purpose to be served by moving the individual to a new site of care. Examples include continued rehabilitation or treatment, treatment unavailable at the current site, preference of individual or substituted decision maker.
 
 **Usage Notes:**
-
+No additional guidance beyond the description above.
 
 #### Clinical Results
 
@@ -243,7 +243,7 @@ We are evaluating the following sections for a future release and welcome feedba
     </tr>
     <tr>
         <td>Competency</td>
-        <td>Observations and assessments of the ability to understand the nature and effect of the act in which the individual is engaged in particular the ability to consent to treatment. (See also: Substitued Judgement)</td>
+        <td>Observations and assessments of the ability to understand the nature and effect of the act in which the individual is engaged in particular the ability to consent to treatment. (See also: Substituted Judgement)</td>
         <td />
     </tr>
     <tr>
