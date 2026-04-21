@@ -24,6 +24,6 @@ The following rules apply to all Transitions of Care Profile elements marked as 
 - Data Consumer Systems **SHALL** be capable of displaying the data elements for human use.
 - Data Consumer Systems **SHOULD** be capable of storing the data elements for other uses (such as record keeping of data used for clinical use).
 - Data Consumer Systems **SHALL** be capable of processing resource instances containing the data element without generating an error or causing the application to fail.
-- Data Consumer Systems **SHALL** interpret missing data elements within resources instances as not being present on the Data Sources system’s or as being withheld for privacy or business reasons.
+- Data Consumer Systems **SHALL** interpret missing data elements within resource instances as not being present on the Data Source systems or as being withheld for privacy or business reasons.
 
 Profiles used by this IG, but defined in other IGs, inherit the definition of Must Support from their respective guides.

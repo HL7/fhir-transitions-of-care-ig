@@ -2,7 +2,7 @@ The Centers for Medicare & Medicaid Services (CMS) Data Element Library (DEL) is
 
 ### Standardized Data for Continuity of Care ###
 
-The DEL ensures that PAC providers use standardized data elements, which are mapped to health IT standards such as Logical Observation Identifiers Names and Codes (LOINC) and Systematized Medical Nomenclature for Medicine–Clinical Terminology (SNOMED CT). This standardization allows for seamless communication and data exchange between different care settings, reducing the risk of errors or omissions during transitions of care.
+The DEL ensures that PAC providers use standardized data elements, which are mapped to health IT standards such as Logical Observation Identifiers Names and Codes (LOINC) and Systematized Nomenclature of Medicine–Clinical Terms (SNOMED CT). This standardization allows for seamless communication and data exchange between different care settings, reducing the risk of errors or omissions during transitions of care.
 
 Supporting Reference: CMS emphasizes that the DEL supports interoperability by aligning data elements with standards required for electronic health records (EHRs) under the 21st Century Cures Act. This alignment ensures that data can be shared across systems without loss of meaning or accuracy. (Centers for Medicare & Medicaid Services, 2023)
 
