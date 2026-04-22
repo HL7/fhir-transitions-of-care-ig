@@ -36,12 +36,13 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * section[behavioral_health].emptyReason = $HL7ListEmptyReason#withheld
 
 * section[functional_status].title = "Functional status of Betsy Smith-Johnson"
-* section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Doffing1)
-* section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Donning1)
-* section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Mobility-PT1)
-* section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-SitStand1)
+// * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Doffing1)
+// * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Donning1)
+// * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-Mobility-PT1)
+// * section[functional_status].entry[+] = Reference(Observation/BSJ-MDS-SitStand1)
 * section[functional_status].text.status = #additional
 * section[functional_status].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Functional status of Betsy Smith-Johnson</div>"
+* section[functional_status].emptyReason = $HL7ListEmptyReason#nilknown
 
 * section[immunizations].title = "List of immunizations for Betsy Smith-Johnson"
 * section[immunizations].entry[+] = Reference(Immunization/BSJ-Immunization-PCV20)
@@ -81,11 +82,11 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * section[problems].entry[+] = Reference(Condition/BSJ-HyperlipidemiaDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-HypertensionDiagnosis)
 // * section[problems].entry[+] = Reference(Condition/BSJ-KidneyDiseaseDiagnosis)
-* section[problems].entry[+] = Reference(Condition/BSJ-NauseaAndVomiting)
-* section[problems].entry[+] = Reference(Condition/BSJ-NeuropathyDiagnosis)
+// * section[problems].entry[+] = Reference(Condition/BSJ-NauseaAndVomiting)
+// * section[problems].entry[+] = Reference(Condition/BSJ-NeuropathyDiagnosis)
 * section[problems].entry[+] = Reference(Condition/BSJ-StrokeDiagnosis)
-* section[problems].entry[+] = Reference(Condition/BSJ-UndressingConcern)
-* section[problems].entry[+] = Reference(Condition/OT-ProblemList-Decondition)
+// * section[problems].entry[+] = Reference(Condition/BSJ-UndressingConcern)
+// * section[problems].entry[+] = Reference(Condition/OT-ProblemList-Decondition)
 * section[problems].entry[+] = Reference(Condition/OT-ProblemList-RightWeak)
 * section[problems].text.status = #additional
 * section[problems].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of problem conditions and observations for Betsy Smith-Johnson</div>"

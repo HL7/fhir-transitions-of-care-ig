@@ -15,14 +15,14 @@
 
 ### Background 
 
-The purpose of the Post-Acute Care Interoperability (PACIO) Project’s Transitions of Care (ToC) Implementation Guide is to provide a standards-based solution to support care transitions and coordination for patients across Long-Term Post-Acute Care (LTPAC) settings. The traditional Post-Acute Care (PAC) settings, Home Health, Skilled Nursing, Long Term Care Hospitals, and Inpatient Rehab facilities employ many types of clinicians, practitioners, therapists, and allied professionals who each require different information to provide the highest value and most efficient services to their patients. This information may include **standardized assessments**, **patient preferences**, **observations**, and other important data. Many of these items are valuable during a transition of care from one setting to another, including settings outside of Post-Acute Care such as Acute Inpatient or the Emergency Department. This critical information, when it has been documented, is often not exchanged, resulting in gaps in care information during initial assessments and reassessments in new or parallel settings. By documenting this data as discrete coded data elements that is human and machine readable at the transition of care it  can be exchanged and  consumed by the recipient system. This results in reduced provider burden, as well as minimized transcription and associated errors. In addition, some specific data is more relevant to certain care roles, however, patient data at transfer  are never available as a specific role-based data set. Coded data can be grouped in a specified role based fashion aiding the responsible caregivers at transition. When patient transition information is printed, faxed, or arrives electronically as human readable only, this leads directly to potentially unsafe transition and coordination of care for these most vulnerable patients.
+The purpose of the Post-Acute Care Interoperability (PACIO) Project’s Transitions of Care (ToC) Implementation Guide is to provide a standards-based solution to support care transitions and coordination for patients across Long-Term Post-Acute Care (LTPAC) settings. The traditional Post-Acute Care (PAC) settings, Home Health, Skilled Nursing, Long Term Care Hospitals, and Inpatient Rehab facilities employ many types of clinicians, practitioners, therapists, and allied professionals who each require different information to provide the highest value and most efficient services to their patients. This information may include **standardized assessments**, **patient preferences**, **observations**, and other important data. Many of these items are valuable during a transition of care from one setting to another, including settings outside of Post-Acute Care such as Acute Inpatient or the Emergency Department. This critical information, when it has been documented, is often not exchanged, resulting in gaps in care information during initial assessments and reassessments in new or parallel settings. By documenting this information as discrete coded data elements that is human- and machine-readable at the transition of care it  can be exchanged and  consumed by the recipient system. This results in reduced provider burden, as well as minimized transcription and associated errors. In addition, some specific data is more relevant to certain care roles, however, patient data at transfer  are never available as a specific role-based data set. Coded data can be grouped in a specified role based fashion aiding the responsible caregivers at transition. When patient transition information is printed, faxed, or arrives electronically as human-readable only, this leads directly to potentially unsafe transition and coordination of care for these most vulnerable patients.
 
-The CMS Data Element Library provides the reference data (questions and answers) as coded data for key quality instruments in post-acute care, notably the Minimum Data Set (MDS) and Outcome and Assessment Information Set (OASIS). Today, most if not all information that could help inform the completion of these assessments is captured at the referral source but is either not transferred at all or is not transferred in a manner that can be meaningfully presented to the post-acute provider. Without this context and properly mapped information, providers in PAC settings are piecing together information through clinical observation or laborious review of narrative and other documentation that accompanies a referral. The challenge is similar outside of these instruments—stretching into areas like Advance Healthcare Directives or Personal Care preferences.
+The Centers for Medicare and Medicaid Services (CMS) Data Element Library (DEL) provides the reference data (questions and answers) as coded data for key quality instruments in post-acute care, notably the Minimum Data Set ([MDS](https://www.cms.gov/medicare/quality/nursing-home-improvement/resident-assessment-instrument-manual)) and Outcome and Assessment Information Set ([OASIS](https://www.cms.gov/medicare/quality/home-health/oasis-data-sets)). Today, most if not all information that could help inform the completion of these assessments is captured at the referral source but is either not transferred at all or is not transferred in a manner that can be meaningfully presented to the post-acute provider. Without this context and properly mapped information, providers in PAC settings are piecing together information through clinical observation or laborious review of narrative and other documentation that accompanies a referral. The challenge is similar outside of these instruments—stretching into areas like Advance Healthcare Directives or Personal Care preferences.
   
 
 ### Why PACIO 
 
-The PACIO Project is a collaborative effort to advance interoperable health data exchange between PAC and other providers, patients, and key stakeholders across health care and to promote health data exchange in collaboration with policy makers, standards organizations, and industry through a consensus-based, use case-driven approach.
+The [PACIO Project](https://pacioproject.org) is a collaborative effort to advance interoperable health data exchange between PAC and other providers, patients, and key stakeholders across health care and to promote health data exchange in collaboration with policy makers, standards organizations, and industry through a consensus-based, use case-driven approach.
 The primary goal of the PACIO Project is to establish the technical foundation for data exchange within PAC and partner organizations across the spectrum of care. It seeks to do so by creating a framework for and community through the development of Fast Healthcare Interoperability Resource (FHIR®) technical implementation guides (IGs) and reference implementations that will facilitate health data exchange through standards-based use case-driven application programming interfaces (APIs).
 Information covered in this IG is relevant to providers across the spectrum of patient care, including acute, sub-acute, and long-term post-acute care (LTPAC), and specifically designed for all roles within healthcare. The PACIO community brings together healthcare providers with a deep understanding of patient functioning, healthcare workflows and health information technology that makes them uniquely suited to author this IG. This understanding comes out of each author's:
 
@@ -37,7 +37,7 @@ Information covered in this IG is relevant to providers across the spectrum of p
 #### Scope
 
 
-The scope of this guide is intentionally broad, as the nature of specific conditions and the disciplines required to care for them require varying sets of information. This guide relies predominantly upon the existing body of work supported by the PACIO project using CMS’s data element library and using these structures to define key pieces of information needed by a post-acute provider receiving a referral.  
+The scope of this guide is intentionally broad, as the nature of specific conditions and the disciplines required to care for them require varying sets of information. This guide relies predominantly upon the existing body of work supported by the PACIO Project using CMS’s data element library and using these structures to define key pieces of information needed by a post-acute provider receiving a referral.  
 * [CMS Data Element Library](https://del.cms.gov/DELWeb/pubHome)
 * [PACIO Personal Functioning and Engagement](https://hl7.org/fhir/us/pacio-pfe)
 * [Personal Health Records](https://build.fhir.org/ig/HL7/personal-health-record-format-ig/)
@@ -49,7 +49,7 @@ The scope of this guide is intentionally broad, as the nature of specific condit
 * To represent Consolidated CDA Templates for Clinical Notes (C-CDA) 2.1 templates using FHIR profiles.
 * This first stage of the project defines all the C-CDA document-level profiles on the Composition resource and contained sections.
 * Any coded data used by sections will be represented using relevant U.S. Core FHIR profiles where they exist. FHIR profiles defined by other work groups or unconstrained FHIR resources may also be referenced if no appropriate US Core Profile exists.
-* For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.
+* For further information see the latest C-CDA (HL7 CDA® R2 Implementation Guide: Consolidated CDA Templates for Clinical Notes, Edition 4 - US Realm) [here](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=492).
 
 
 ### The IMPACT act 
@@ -71,35 +71,37 @@ This Guide is divided into several pages which are listed at the top of each pag
 
 * Home: The home page provides the introduction and background information to set context for the use of the HL7 FHIR® Transitions of Care Implementation Guide.
 
-* Guidance: These pages provide overall guidance in using the profiles and transactions defined in this guide.
+* Guidance:
 
-  * Personas and Scenarios: Personas and scenarios give context to the data exchange standards detailed in the technical areas of the guide. They allow the non-technical reader to envision situations in which the implementation guide provisions would apply, and ensure that the guide meets the intended needs for exchange of this type of information.
+  * General Guidance: This section describes the purpose and structure of the transitions of care document. It provides evidence-based context for why standardized post-acute care transitions matter, and defines each section of the Transitions of Care composition — including its clinical scope, applicable LOINC code, and usage notes to guide implementers in populating it correctly.
 
-  * Use Cases: A use case is a list of technical actions or event steps typically defining the interactions between a role and a system to achieve a goal. The actor can be a human or other external system. Technical scenarios that describe systems interactions between technical actors to implement the use case.
-
-  * Discipline-Specific Information: The discipline-specific information contains the select list of Centers for Medicare and Medicaid Services (CMS) data element library (DEL) information that is rated high importance by seven different role types across post-acute care settings. 
-
-  * General Guidance: Information about the structure and relationships between the profiles in this guide.
+  * Use Cases, Personas, and Scenarios: This section grounds the technical standards in real-world context by describing the roles, situations, and goals that this guide is designed to support. Personas represent the key people involved in post-acute care transitions — such as intake staff, care team members, and medical records teams — while scenarios illustrate how those transitions unfold in practice, for example when a patient moves from a skilled nursing facility to a home health agency. Use cases then translate these real-world situations into the specific technical interactions between systems and actors needed to achieve a successful transition of care.
 
   * Formal Specification: Information about conformance to the guide including Must Support requirements, document signatures, and document workflow.
+  
+  * Discipline-Specific Information: The discipline-specific information contains the select list of Centers for Medicare and Medicaid Services (CMS) data element library (DEL) information that is rated high importance by seven different role types across post-acute care settings. 
+
+  * Security, Privacy, and Consent: General security requirements and recommendations for ToC IG actors.
 
   * Underlying Technologies: Information about the terminologies, notations, and design principles, specific to FHIR, that this specification uses.
 
-  * Security, Privacy, and Consent: General security requirements and recommendations for Transitions of Care implementation Guide actors, including authentication, authorization, and logging requirements and guidance.
-
 * FHIR Artifacts: These sections provide detailed descriptions and formal definitions for all the FHIR objects defined in this guide.
 
-  * Capability Statement: This artifact defines the specific capabilities that different types of systems are expected to have in order to comply with this guide. Systems conforming to this guide are expected to declare conformance with this capability statement.
+  * Profiles: This section lists the set of Profiles that are defined in this guide to exchange TOC information. Each linked Profile page includes a narrative introduction and a formal definition.
 
-  * Profiles: This section lists the set of Profiles that are defined in this guide to exchange transitions of care information. Each linked Profile page includes a narrative introduction and a formal definition.
+  * Terminology Value Sets: This section lists the value sets and code system defined for TOC Implementation Guide profiles.
 
-  * Extension Definitions: This section lists the set of Extensions defined in and used by the Profiles in this guide. Each linked Extension page includes a formal definition.
-  
-  * Terminology: This section lists the value sets and code system defined for  Transitions of Care Implementation Guide profiles.
-
-  * Examples: The section that contains examples of transitions of care information that is conformant to the profiles of this guide.
+  * Terminology Local Code Systems: This section includes local codes assigned to specific TOC CodeableConcepts where no suitable term exists in standard healthcare terminologies or controlled vocabularies. These codes will be replaced once new term requests are approved by the relevant terminology standard organization.
 
   * Search Parameters and Operations: This section lists the Transitions of Care Implementation Guide defined Operations and Search Parameters that are used in TOC transactions.
+
+  * Capability Statement: This artifact defines the specific capabilities that different types of systems are expected to have in order to comply with this guide. Systems conforming to this guide are expected to declare conformance with this capability statement.
+  
+* Examples: The section that contains examples of transitions of care information that is conformant to the profiles of this guide.
+
+  * ToC Example: This example provides a narrative description of a patient scenario and associates FHIR resources for ease of use.
+
+* Change Log: A summary of IG changes and resolved ballot issues.
 
 * Downloads: This page provides links to downloadable artifacts.
 

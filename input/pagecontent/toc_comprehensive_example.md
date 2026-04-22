@@ -27,7 +27,7 @@ Betsy Smith-Johnson is a 66-year-old Medicare-eligible woman who has been a resi
 
 Betsy has a documented, high-criticality allergy to ACE inhibitors (angiotensin-converting enzyme inhibitor class) ([BSJ-AllergyACE](AllergyIntolerance-BSJ-AllergyACE.html)), confirmed active with a last known occurrence in October 2011. Her documented reaction to captopril manifested as hyperkalemia. 
 
-Betsy's current medication regimen, as reconciled at the SNF, includes atorvastatin 40 mg nightly for hyperlipidemia, losartan 25 mg 1 po daily for hypertension, and clopidogrel 75 mg once daily as antiplatelet therapy following her cerebral infarction. Her immunization record includes pneumococcal vaccine (PCV20) ([Immunization: BSJ-Immunization-Pneumococcal](Immunization-BSJ-Immunization-PCV20.html)) and influenza ([BSJ-Immunization-Fluzone](Immunization-BSJ-Immunization-Fluzone.html)).
+Betsy's current medication regimen, as reconciled at the SNF, includes atorvastatin 40 mg nightly for hyperlipidemia, losartan 6.25 mg 1 po daily for hypertension, and clopidogrel 75 mg once daily as antiplatelet therapy following her cerebral infarction. Her immunization record includes pneumococcal vaccine (PCV20) ([Immunization: BSJ-Immunization-Pneumococcal](Immunization-BSJ-Immunization-PCV20.html)) and influenza ([BSJ-Immunization-Fluzone](Immunization-BSJ-Immunization-Fluzone.html)).
 
 During her SNF stay, Betsy has received skilled nursing care, physical therapy (PT), and occupational therapy (OT) under the oversight of Dr. Gerald Park. Her functional status has improved sufficiently that the Happy Nursing Facility care team has determined she meets criteria for discharge to home with continued home health support.
 
@@ -42,7 +42,7 @@ During her SNF stay, Betsy has received skilled nursing care, physical therapy (
 - [AllergyIntolerance: BSJ-AllergyACE](AllergyIntolerance-BSJ-AllergyACE.html)
 - [List: BSJ-SMPMedList](List-BSJ-SMPMedList.html)
 - [MedicationRequest: BSJ-SMPMedReq1](MedicationRequest-BSJ-SMPMedReq1.html) _(atorvastatin 40 mg)_
-- [MedicationRequest: BSJ-SMPMedReq4](MedicationRequest-BSJ-SMPMedReq4.html) _(losartan potassium 25 mg)_
+- [MedicationRequest: BSJ-SMPMedReq4](MedicationRequest-BSJ-SMPMedReq4.html) _(losartan potassium 6.25 MG)_
 - [MedicationRequest: BSJ-SMPMedReq9](MedicationRequest-BSJ-SMPMedReq9.html) _(clopidogrel 75 mg)_
 - [Immunization: BSJ-Immunization-Pneumococcal](Immunization-BSJ-Immunization-PCV20.html)
 - [Immunization: BSJ-Immunization-Influenza](Immunization-BSJ-Immunization-Fluzone.html)
@@ -53,19 +53,19 @@ During her SNF stay, Betsy has received skilled nursing care, physical therapy (
 
 ### Scene 1: Betsy is discharged from the SNF to Home Health
 
-The Happy Nursing Facility care team, led by Dr. Gerald Park, determines that Betsy has achieved sufficient functional recovery to transition safely to home with home health support. In preparation for discharge, the medical records and care coordination staff at Happy Nursing Facility assemble a transitions of care (ToC) bundle containing the structured and coded data like problems, medications, allergies, and immunization (PAMI) that the receiving home health team will need to assume care on the day of arrival. The ToC bundle captures Betsy's active problem list, her confirmed ACE inhibitor allergy, her reconciled discharge medication list, and her current immunization history — each expressed as discrete coded data elements that are both machine- and human-readable.
+The Happy Nursing Facility care team, led by Dr. Gerald Park ([PractitionerRole: Role-SNFDoc-GeraldPark](PractitionerRole-Role-SNFDoc-GeraldPark.html)), determines that Betsy has achieved sufficient functional recovery to transition safely to home with home health support. In preparation for discharge, the medical records and care coordination staff at Happy Nursing Facility assemble a transitions of care (ToC) bundle ([Bundle: Example-Smith-Johnson-TOCBundle](Bundle-Example-Smith-Johnson-TOCBundle.html)) containing the structured and coded data like problems, medications, allergies, and immunization (PAMI) that the receiving home health team will need to assume care on the day of arrival. The ToC bundle captures Betsy's active problem list, her confirmed ACE inhibitor allergy, her reconciled discharge medication list, and her current immunization history — each expressed as discrete coded data elements that are both machine- and human-readable.
 
-The ToC bundle is transmitted electronically from Happy Nursing Facility's electronic health record (EHR) to Motown Home Health Grand Rapids ahead of the discharge date, enabling the home health intake team to review Betsy's clinical information and begin care planning before she arrives home. This advance transmission reduces the need for the receiving team to piece together Betsy's history from unstructured fax documentation and phone communication, which remain the dominant modes of care transition information exchange in the absence of structured interoperability.
+The ToC bundle is transmitted electronically from Happy Nursing Facility's electronic health record (EHR) to Motown Home Health Grand Rapids ([org-HomeHealth-Motown](Organization-org-HomeHealth-Motown.html)) ahead of the discharge date, enabling the home health intake team to review Betsy's clinical information and begin care planning before she arrives home. This advance transmission reduces the need for the receiving team to piece together Betsy's history from unstructured fax documentation and phone communication, which remain the dominant modes of care transition information exchange in the absence of structured interoperability.
 
 On the day of discharge, Charles Johnson arrives at Happy Nursing Facility to accompany his mother home. Dr. Park reviews the discharge plan, medication regimen, and follow-up instructions with Betsy and Charles before she is formally discharged. Betsy departs Happy Nursing Facility and arrives home at 111 Maple Ct, Grand Rapids, MI 49503 with Charles.
 
 The Motown Home Health Grand Rapids clinical team, having already received and reviewed the ToC bundle, conducts an initial home visit the same day. The admitting clinician uses the structured problem list, allergy record, medication list, and immunization history from the ToC bundle to inform the completion of the OASIS admission assessment. Because this information arrives as discrete coded data rather than as narrative text, it can be directly consumed by the receiving EHR, eliminating manual re-entry and reducing the risk of transcription error at the transition.
 
-The structured allergy record — specifically the documented high-criticality ACE inhibitor allergy with the confirmed reaction of hyperkalemia to captopril — is surfaced immediately within the receiving EHR, alerting the home health team and the receiving physician to the contraindication before any medication orders are placed. The reconciled medication list confirms that Betsy is continuing her current orders for atorvastatin, losartan, and clopidogrel from her SNF regimen, with no changes at the time of discharge.
+The structured allergy record — specifically the documented high-criticality [ACE inhibitor](AllergyIntolerance-BSJ-AllergyACE.html) allergy with the confirmed reaction of hyperkalemia to captopril — is surfaced immediately within the receiving EHR, alerting the home health team and the receiving physician to the contraindication before any medication orders are placed. The reconciled medication list confirms that Betsy is continuing her current orders for atorvastatin, losartan, and clopidogrel from her SNF regimen, with no changes at the time of discharge.
 
 The home health team notes that Betsy's immunization record is current for her age group, with documented receipt of the pneumococcal vaccine (PCV20) and influenza vaccines. This record is incorporated directly into Motown Home Health Grand Rapids's EHR from the ToC bundle without requiring manual verification or re-entry.
 
-Dr. Anita Chu, the receiving physician responsible for Betsy's ongoing medical management in the home setting, reviews the ToC bundle and co-signs the home health plan of care. Ongoing OT and PT referrals, prepared by the SNF care team at discharge, are in place to address Betsy's residual hemiparesis and support her continued recovery at home.
+Dr. Anita Chu ([PractitionerRole: Role-IMMD-AnitaChu](PractitionerRole-Role-IMMD-AnitaChu.html)), the receiving physician responsible for Betsy's ongoing medical management in the home setting, reviews the ToC bundle and co-signs the home health plan of care ([BSJ-SNFDischargeCarePlan](CarePlan-BSJ-SNFDischargeCarePlan.html)). Ongoing OT ([BSJ-SNFDischargeCallOTRefer](ServiceRequest-BSJ-SNFDischargeCallOTRefer.html)) and PT ([BSJ-SNFDischargePTRefer](ServiceRequest-BSJ-SNFDischargePTRefer.html)) referrals, prepared by the SNF care team at discharge, are in place to address Betsy's residual hemiparesis and support her continued recovery at home.
 
 #### Scene 1 FHIR Resources
 
@@ -79,7 +79,7 @@ Dr. Anita Chu, the receiving physician responsible for Betsy's ongoing medical m
 - [AllergyIntolerance: BSJ-AllergyACE](AllergyIntolerance-BSJ-AllergyACE.html)
 - [List: BSJ-SMPMedList](List-BSJ-SMPMedList.html)
 - [MedicationRequest: BSJ-SMPMedReq1](MedicationRequest-BSJ-SMPMedReq1.html) _(atorvastatin 40 mg)_
-- [MedicationRequest: BSJ-SMPMedReq4](MedicationRequest-BSJ-SMPMedReq4.html) _(losartan potassium 25 mg)_
+- [MedicationRequest: BSJ-SMPMedReq4](MedicationRequest-BSJ-SMPMedReq4.html) _(losartan potassium 6.25 MG)_
 - [MedicationRequest: BSJ-SMPMedReq9](MedicationRequest-BSJ-SMPMedReq9.html) _(clopidogrel 75 mg)_
 - [Immunization: BSJ-Immunization-Pneumococcal](Immunization-BSJ-Immunization-PCV20.html)
 - [Immunization: BSJ-Immunization-Influenza](Immunization-BSJ-Immunization-Fluzone.html)
@@ -95,16 +95,19 @@ Dr. Anita Chu, the receiving physician responsible for Betsy's ongoing medical m
 
 ### FHIR Actors and Organization Resources
 
+**Patient**
 - [Patient: Example-Smith-Johnson-Patient1](Patient-Example-Smith-Johnson-Patient1.html)
 
-- [Organization: org-SNF-Happy-Nursing-Facility](Organization-org-SNF-Happy-Nursing-Facility.html)
-- [Location: org-Loc-SNF-Happy-Nursing-Facility](Location-org-Loc-SNF-Happy-Nursing-Facility.html)
+**Providers**
 - [PractitionerRole: Role-SNFDoc-GeraldPark](PractitionerRole-Role-SNFDoc-GeraldPark.html)
 - [PractitionerRole: Role-OT-JenCadbury](PractitionerRole-Role-OT-JenCadbury.html)
+- [PractitionerRole: Role-IMMD-AnitaChu](PractitionerRole-Role-IMMD-AnitaChu.html)
 
+**Provider Organizations**
+- [Organization: org-SNF-Happy-Nursing-Facility](Organization-org-SNF-Happy-Nursing-Facility.html)
+- [Location: org-Loc-SNF-Happy-Nursing-Facility](Location-org-Loc-SNF-Happy-Nursing-Facility.html)
 - [Organization: org-HomeHealth-Motown](Organization-org-HomeHealth-Motown.html)
 - [Location: org-Loc-HomeHealth-Motown](Location-org-Loc-HomeHealth-Motown.html)
-- [PractitionerRole: Role-IMMD-AnitaChu](PractitionerRole-Role-IMMD-AnitaChu.html)
 
 ---
 
@@ -122,5 +125,7 @@ Dr. Anita Chu, the receiving physician responsible for Betsy's ongoing medical m
 **Dr. Anita Chu** ([PractitionerRole](PractitionerRole-Role-IMMD-AnitaChu.html)) is an Internal Medicine physician who serves as the receiving physician overseeing Betsy's ongoing medical care in the home setting. Dr. Chu is not affiliated with Motown Home Health Grand Rapids but co-signs the home health plan of care and is responsible for Betsy's medical management following discharge.
 
 **Dr. Jen Cadbury** ([PractitionerRole](PractitionerRole-Role-OT-JenCadbury.html)) is the Occupational Therapist at Happy Nursing Facility who has been actively involved in Betsy's care and discharge planning during her SNF stay, and is the requester of Betsy's discharge medication orders.
+
+**Dr. Nura Mekel** ([PractitionerRole: Role-Neuro-NuraMekel](PractitionerRole-Role-Neuro-NuraMekel.html)) is the neurologist who diagnosed the stroke and hemiparesis. Dr. Mekel represents the neurology center [Organization: org-Neuro-Care-Inc](Organization-org-Neuro-Care-Inc.html) located at [Location: org-Loc-Neuro-Care-Inc](Location-org-Loc-Neuro-Care-Inc.html).
 
 ---

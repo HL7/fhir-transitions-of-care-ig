@@ -61,20 +61,20 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 // * entry[+].resource = BSJ-KidneyDiseaseDiagnosis
 // * entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-KidneyDiseaseDiagnosis"
 
-* entry[+].resource = BSJ-NauseaAndVomiting
-* entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-NauseaAndVomiting"
+// * entry[+].resource = BSJ-NauseaAndVomiting
+// * entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-NauseaAndVomiting"
 
-* entry[+].resource = BSJ-NeuropathyDiagnosis
-* entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-NeuropathyDiagnosis"
+// * entry[+].resource = BSJ-NeuropathyDiagnosis
+// * entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-NeuropathyDiagnosis"
 
 * entry[+].resource = BSJ-StrokeDiagnosis
 * entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-StrokeDiagnosis"
 
-* entry[+].resource = BSJ-UndressingConcern
-* entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-UndressingConcern"
+// * entry[+].resource = BSJ-UndressingConcern
+// * entry[=].fullUrl = "http://www.example.org/fhir/Condition/BSJ-UndressingConcern"
 
-* entry[+].resource = OT-ProblemList-Decondition
-* entry[=].fullUrl = "http://www.example.org/fhir/Condition/OT-ProblemList-Decondition"
+// * entry[+].resource = OT-ProblemList-Decondition
+// * entry[=].fullUrl = "http://www.example.org/fhir/Condition/OT-ProblemList-Decondition"
 
 * entry[+].resource = OT-ProblemList-RightWeak
 * entry[=].fullUrl = "http://www.example.org/fhir/Condition/OT-ProblemList-RightWeak"
@@ -84,20 +84,20 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 //* entry[+].resource = BSJ-MDS-Activities-PT1
 //* entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-Activities-PT1"
 
-* entry[+].resource = BSJ-MDS-Doffing1
-* entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-Doffing1"
+// * entry[+].resource = BSJ-MDS-Doffing1
+// * entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-Doffing1"
 
-* entry[+].resource = BSJ-MDS-Donning1
-* entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-Donning1"
+// * entry[+].resource = BSJ-MDS-Donning1
+// * entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-Donning1"
 
-* entry[+].resource = BSJ-MDS-Mobility-PT1
-* entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-Mobility-PT1"
+// * entry[+].resource = BSJ-MDS-Mobility-PT1
+// * entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-Mobility-PT1"
 
 // * entry[+].resource = BSJ-MDS-ShortWalk1
 // * entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-ShortWalk1"
 
-* entry[+].resource = BSJ-MDS-SitStand1
-* entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-SitStand1"
+// * entry[+].resource = BSJ-MDS-SitStand1
+// * entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-SitStand1"
 
 // * entry[+].resource = BSJ-MDS-SitUp1
 // * entry[=].fullUrl = "http://www.example.org/fhir/Observation/BSJ-MDS-SitUp1"
