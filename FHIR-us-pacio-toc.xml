@@ -52,7 +52,7 @@
 <artifact id="MedicationRequest/BSJ-SMPMedReq4" key="MedicationRequest-BSJ-SMPMedReq4" name="Example: Medication request for losartan 6.25 MG Oral Tablet"/>
 <artifact id="MedicationStatement/BSJ-SMPMedStmt1" key="MedicationStatement-BSJ-SMPMedStmt1" name="Example: Medication statement for Atorvastatin 40 MG Oral Tablet"/>
 <artifact id="MedicationStatement/BSJ-SMPMedStmt9" key="MedicationStatement-BSJ-SMPMedStmt9" name="Example: Medication statement for clopidogrel 75 MG Oral Tablet"/>
-<artifact id="MedicationStatement/BSJ-SMPMedStmt4" key="MedicationStatement-BSJ-SMPMedStmt4" name="Example: Medication statement for losartan potassium 6.25 MG Oral Tablet"/>
+<artifact id="MedicationStatement/BSJ-SMPMedStmt4" key="MedicationStatement-BSJ-SMPMedStmt4" name="Example: Medication statement for losartan potassium 25 MG Oral Tablet"/>
 <artifact id="Organization/org-PC-Primary-Care-Michigan" key="Organization-org-PC-Primary-Care-Michigan" name="Example: Michigan Primary Health Care Associates Organization"/>
 <artifact id="Organization/org-HomeHealth-Motown" key="Organization-org-HomeHealth-Motown" name="Example: Motown Home Health Organization"/>
 <artifact id="Organization/org-Neuro-Care-Inc" key="Organization-org-Neuro-Care-Inc" name="Example: Neuro Care Inc. Organization"/>
