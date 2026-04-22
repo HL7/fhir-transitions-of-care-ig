@@ -1,7 +1,7 @@
 Profile: TOCDocumentReference
 Parent: $USCoreDocumentReference
 Id: TOC-DocumentReference
-Title: "TOC Document Reference"
+Title: "Transition of Care Document Reference"
 Description: "This profile defines constraints that represent the information needed
 for a Transition of Care document on a FHIR server."
 

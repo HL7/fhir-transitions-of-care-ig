@@ -48,7 +48,7 @@ Data elements from additional disciplines will be added as time and availability
 
 ### Transitions of Care Data Elements ###
 
-The result of that analysis has been captured in the [DEL Role-based Analysis Spreadsheet](FINAL_DEL_ITEMS_2025-03-05_v3.xlsx):
+The result of that analysis has been captured in the [DEL Role-based Analysis Spreadsheet](FINAL_DEL_ITEMS_2025-03-05_v3.xlsx).
 
 <!-- mlt_20260227 - removed table since it is long and can be better viewed as a downloaded spreadsheet -->
 

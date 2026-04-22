@@ -2,7 +2,7 @@ This section provides additional guidance on the relationship between the associ
 
 ### Purpose of Defining Post-Acute Transitions of Care Data Elements
 
-Post-acute transitions of care are critical for ensuring continuity, safety, and quality of care as patients move from one healthcare setting to another, such as from a skilled nursing facility to home health care, or rehabilitation center. Effective PAC transitions reduce the risk of adverse events, rehospitalizations, and gaps in care. Below are the important aspects of post-acute care transitions:
+Post-acute transitions of care are critical for ensuring continuity, safety, and quality of care as patients move from one healthcare setting to another, such as from a skilled nursing facility to home health care, or rehabilitation center. Effective PAC transitions reduce the risk of adverse events, rehospitalizations, and gaps in care. Below are the important aspects of post-acute care transitions.
 
 #### Comprehensive Discharge Planning ####
 
@@ -48,7 +48,7 @@ Social determinants such as transportation, housing, and access to food can impa
 
 #### Use of Technology and Telehealth ####
 
-Technology, such as electronic health records (EHRs) and telehealth, facilitates communication and monitoring during transitions, especially for patients in remote or underserved areas. Critically important technology and the impetus for this IG is human and machine readable interoperability from endpoint to endpoint across a national framework of networks such as TEFCA and the QHINs.
+Technology, such as electronic health records (EHRs) and telehealth, facilitates communication and monitoring during transitions, especially for patients in remote or underserved areas. Critically important technology and the impetus for this IG is human- and machine-readable interoperability from endpoint to endpoint across a national framework of networks such as TEFCA and the QHINs.
 
 * Evidence: A study by Lin et al. (2020) found that telehealth interventions during care transitions improved patient satisfaction and reduced hospital readmissions. (Lin MH, Yuan WL, Huang TC, et al. J Med Internet Res. 2020;22(10):e19099.)
 
@@ -60,15 +60,15 @@ Ongoing evaluation of transition processes, including patient outcomes and satis
 
 Effective post-acute care transitions requires interoperability across a national framework of networks, such as TEFCA, facilitating a multidisciplinary approach that emphasizes communication (requiring human and machine readable interoperability), patient education, medication safety, follow-up care, and addressing social determinants. Evidence-based models and interventions, such as the Transitional Care Model and Care Transitions Intervention, have demonstrated their ability to improve outcomes and reduce rehospitalizations.
 
-By defining a standard of human and machine readable interoperable documentation for post-acute care transitions this IG enables healthcare providers to ensure smoother transitions, better patient outcomes, and reduced healthcare costs.
+By defining a standard of human- and machine-readable interoperable documentation for post-acute care transitions this IG enables healthcare providers to ensure smoother transitions, better patient outcomes, and reduced healthcare costs.
 
 ### Transitions of Care Document Structure
+
+The Transitions of Care Document is structured as a container that packages the clinical information needed to support a patient's transition into a single, transmissible unit. The Transition of Care Bundle provides the linkage between the searchable document and the clinical content included in the compositor.  The Transitions of Care Composition is the core of the clinical content, serving as the document's index and organizes the clinical content into a set of named sections, each covering a distinct domain of patient information. The sections defined below represent the full scope of the Composition, along with their associated LOINC codes, clinical descriptions, and usage notes to guide implementation.
 
 <p align="center">
     <object data="TOC-STU1-Linked.svg" type="image/svg+xml" width="75%"></object>
 </p>
-
-The Transition of Care composition defines the following sections:
 
 #### Advance Directives
 
