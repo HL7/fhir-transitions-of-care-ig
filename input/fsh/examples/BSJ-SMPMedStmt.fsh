@@ -45,12 +45,12 @@ Usage: #example
 
 Instance: BSJ-SMPMedStmt4
 InstanceOf: MedicationStatement
-Title: "Example: Medication statement for losartan potassium 6.25 MG Oral Tablet"
-Description: "Medication statement for losartan potassium 6.25 MG Oral Tablet for Betsy Smith-Johnson to treat Hypertension"
+Title: "Example: Medication statement for losartan potassium 25 MG Oral Tablet"
+Description: "Medication statement for losartan potassium 25 MG Oral Tablet for Betsy Smith-Johnson to treat Hypertension"
 Usage: #example
 * basedOn = Reference(MedicationRequest/BSJ-SMPMedReq4)
 * status = #active
-* medicationCodeableConcept = $RXNORM#979485 "losartan potassium 6.25 MG Oral Tablet"
+* medicationCodeableConcept = $RXNORM#979485 "losartan potassium 25 MG Oral Tablet"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1) "Betsy Smith-Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"

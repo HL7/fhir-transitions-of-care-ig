@@ -50,7 +50,7 @@ Description: "Medication request for losartan 6.25 MG Oral Tablet for Betsy Smit
 Usage: #example
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $RXNORM#979485 "losartan potassium 6.25 MG Oral Tablet"
+* medicationCodeableConcept = $RXNORM#979485 "losartan potassium 25 MG Oral Tablet"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1) "Betsy Smith-Johnson"
 * authoredOn = "2024-08-11"
 * requester = Reference(Practitioner/Example-JenCadbury) "Dr. Jen Cadbury"
