@@ -5,8 +5,8 @@
     "status" : "trial-use",
     "sequence" : "STU 1",
     "milestone": true,
-    "desc" : "Version for STU1 FHIR Transitions of Care",
-    "descmd" : "Version for STU1 FHIR Transitions of Care",
+    "desc" : "Version for STU 1 FHIR Transitions of Care",
+    "descmd" : "Version for STU 1 FHIR Transitions of Care",
     "changes" : "change_log.html",
     "first" : false, 
     "mode" : "milestone"
