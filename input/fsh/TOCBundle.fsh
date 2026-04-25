@@ -51,7 +51,7 @@ Description: "This is a profile for a Transition of Care Bundle, which includes 
 * entry[immunizations].resource only $USCoreImmunization
 // * entry[discharge-instructions].resource only $USCoreServiceRequest
 * entry[medical-devices].resource only $PFEUseOfDevice
-* entry[medications].resource only $USCoreMedicationRequest or $SMPBundle
+* entry[medications].resource only $SMPList or $USCoreMedicationRequest or MedicationStatement or $USCoreMedication
 * entry[plan-of-care].resource only $USCoreCarePlan
 * entry[procedures].resource only $USCoreProcedure or $USCoreServiceRequest
 * entry[encounter].resource only $USCoreEncounter

@@ -51,6 +51,8 @@ Alias: $CCDAonFHIRDischargeSummary = http://hl7.org/fhir/us/ccda/StructureDefini
 
 // PACIO SMP
 Alias: $SMPBundle = http://hl7.org/fhir/us/smp/StructureDefinition/smp-bundle
+Alias: $SMPList = http://hl7.org/fhir/us/smp/StructureDefinition/smp-medication-list
+Alias: $SMPMedicationStatement = http://hl7.org/fhir/us/smp/StructureDefinition/smp-medicationstatement
 
 // International Patient Summary
 Alias: $IPSComposition = http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips

@@ -114,7 +114,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[medications].code 1..1 
 * section[medications].code = $LOINC#10160-0 // "History of Medication Use"
 * section[medications].entry 
-* section[medications].entry only Reference(List or $USCoreMedicationRequest or $USCoreMedication) 
+* section[medications].entry only Reference($SMPList or $USCoreMedicationRequest or $USCoreMedication) 
 * section[medications].emptyReason 0..1 MS
 
 
