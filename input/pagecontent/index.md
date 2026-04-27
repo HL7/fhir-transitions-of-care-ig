@@ -1,18 +1,7 @@
-<div style="width: 60%;" >
-<h3 id="plain-language-summary-about-this-guide"><a class="anchorjs-link " href="#plain-language-summary-about-this-guide" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a>
-  <button class="btn btn-info btn-lg collapsed" type="button" title="Click to Open or Close the Plain Language Summary" data-toggle="collapse" data-target="#plain-lang-summary" aria-expanded="false" aria-controls="collapseExample">
-    Click Here to see the Plain Language Summary
-  </button>
-</h3>
-</div>
-<div class="collapse" id="plain-lang-summary" aria-expanded="false" style="height: 0px;">
-  <div class="card card-body" style="border:1px solid;border-color:#cccccc;padding:10px">
+<!-- # General
 
-<p>The PACIO Transitions of Care IG defines a FHIR R4-based standard for exchanging patient information when post-acute care (PAC) patients move between PAC settings — such as from a rehabilitation facility to a skilled nursing facility or home health. It specifies machine-readable FHIR resources for the most essential PAC data needed for patient care, including standardized assessments, problems, medications, allergies, immunizations, functional status, social history, and advance directives. The goal is to reduce care gaps, provider burden, and transcription errors during handoffs in the patient journey.</p>
-
-  </div>
-</div>
-
+The PACIO Transitions of Care IG defines a FHIR R4-based standard for exchanging patient information when post-acute care (PAC) patients move between PAC settings — such as from a rehabilitation facility to a skilled nursing facility or home health. It specifies machine-readable FHIR resources for the most essential PAC data needed for patient care, including standardized assessments, problems, medications, allergies, immunizations, functional status, social history, and advance directives. The goal is to reduce care gaps, provider burden, and transcription errors during handoffs in the patient journey.
+-->
 ### Background 
 
 The purpose of the Post-Acute Care Interoperability (PACIO) Project’s Transitions of Care (ToC) Implementation Guide is to provide a standards-based solution to support care transitions and coordination for patients across Long-Term Post-Acute Care (LTPAC) settings. The traditional Post-Acute Care (PAC) settings, Home Health, Skilled Nursing, Long Term Care Hospitals, and Inpatient Rehab facilities employ many types of clinicians, practitioners, therapists, and allied professionals who each require different information to provide the highest value and most efficient services to their patients. This information may include **standardized assessments**, **patient preferences**, **observations**, and other important data. Many of these items are valuable during a transition of care from one setting to another, including settings outside of Post-Acute Care such as Acute Inpatient or the Emergency Department. This critical information, when it has been documented, is often not exchanged, resulting in gaps in care information during initial assessments and reassessments in new or parallel settings. By documenting this information as discrete coded data elements that is human- and machine-readable at the transition of care it  can be exchanged and  consumed by the recipient system. This results in reduced provider burden, as well as minimized transcription and associated errors. In addition, some specific data is more relevant to certain care roles, however, patient data at transfer  are never available as a specific role-based data set. Coded data can be grouped in a specified role based fashion aiding the responsible caregivers at transition. When patient transition information is printed, faxed, or arrives electronically as human-readable only, this leads directly to potentially unsafe transition and coordination of care for these most vulnerable patients.
