@@ -15,8 +15,8 @@ Usage: #example
 
 Instance: BSJ-SMPMedReq4
 InstanceOf: us-core-medicationrequest
-Title: "Example: Medication request for losartan 6.25 MG Oral Tablet"
-Description: "Medication request for losartan 6.25 MG Oral Tablet for Betsy Smith-Johnson to treat Hypertension"
+Title: "Example: Medication request for losartan 25 MG Oral Tablet"
+Description: "Medication request for losartan 25 MG Oral Tablet for Betsy Smith-Johnson to treat Hypertension"
 Usage: #example
 * status = #active
 * intent = #order
