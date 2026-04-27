@@ -49,7 +49,7 @@
 <artifact id="Location/org-Loc-Neuro-Care-Inc" key="Location-org-Loc-Neuro-Care-Inc" name="Example: Location of the Neuro Care Inc. facility"/>
 <artifact id="MedicationRequest/BSJ-SMPMedReq1" key="MedicationRequest-BSJ-SMPMedReq1" name="Example: Medication request for Atorvastatin 40 MG Oral Tablet"/>
 <artifact id="MedicationRequest/BSJ-SMPMedReq9" key="MedicationRequest-BSJ-SMPMedReq9" name="Example: Medication request for clopidogrel 75 MG Oral Tablet"/>
-<artifact id="MedicationRequest/BSJ-SMPMedReq4" key="MedicationRequest-BSJ-SMPMedReq4" name="Example: Medication request for losartan 6.25 MG Oral Tablet"/>
+<artifact id="MedicationRequest/BSJ-SMPMedReq4" key="MedicationRequest-BSJ-SMPMedReq4" name="Example: Medication request for losartan 25 MG Oral Tablet"/>
 <artifact id="MedicationStatement/BSJ-SMPMedStmt1" key="MedicationStatement-BSJ-SMPMedStmt1" name="Example: Medication statement for Atorvastatin 40 MG Oral Tablet"/>
 <artifact id="MedicationStatement/BSJ-SMPMedStmt9" key="MedicationStatement-BSJ-SMPMedStmt9" name="Example: Medication statement for clopidogrel 75 MG Oral Tablet"/>
 <artifact id="MedicationStatement/BSJ-SMPMedStmt4" key="MedicationStatement-BSJ-SMPMedStmt4" name="Example: Medication statement for losartan potassium 25 MG Oral Tablet"/>
