@@ -113,7 +113,7 @@ This section should not include diagnoses or medications. Diagnoses should all b
 
 #### Immunizations
 
-**Section Code**: [LOINC 82593-5](https://loinc.org/82593-5/) Immunization summary report
+**Section Code**: [LOINC 11369-6](https://loinc.org/11369-6/) History of Immunization note
 
 **Description:**
 List of immunizations an individual has received and when. May also include a schedule for future immunizations.
