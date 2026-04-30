@@ -70,8 +70,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[behavioral_health].code 1..1
 * section[behavioral_health].code = $ToCTempCS#behavioral_health_summary // Temporary code that will be replaced once LOINC code is assigned.
 * section[behavioral_health].entry
-* section[behavioral_health].entry only Reference($USCoreConditionEncounterDiagnosis or 
-                                            $USCoreConditionProblemsandHealthConcerns or
+* section[behavioral_health].entry only Reference($USCoreConditionProblemsandHealthConcerns or
                                             $USCoreSimpleObservation)
 * section[behavioral_health].emptyReason 0..1 MS
 
