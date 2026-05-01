@@ -53,7 +53,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[advance_directives].title 1..1 MS
 * section[advance_directives].code = $LOINC#42348-3 // "Advance healthcare directives"
 * section[advance_directives].entry 
-* section[advance_directives].entry only Reference($ADIPACPComposition)
+* section[advance_directives].entry only Reference($ADIDocumentReference)
 * section[advance_directives].emptyReason 0..1 MS
 
 * section[allergies] ^short = "Allergies and Adverse Reactions"
@@ -131,8 +131,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[problems].code = $LOINC#11450-4 // "Problem list - Reported"
 * section[problems].entry 
 * section[problems].entry only Reference($USCoreConditionEncounterDiagnosis or 
-                                            $USCoreConditionProblemsandHealthConcerns or
-                                            $USCoreSimpleObservation)
+                                            $USCoreConditionProblemsandHealthConcerns)
 * section[problems].emptyReason 0..1 MS
 
 * section[procedures] ^short = "Procedures"
@@ -148,7 +147,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[reason_for_referral].code = $LOINC#42349-1 // "Reason for referral (narrative)"
 * section[reason_for_referral].entry
 * section[reason_for_referral].entry only Reference($USCoreConditionProblemsandHealthConcerns or $USCoreConditionEncounterDiagnosis or 
- 														$USCoreProcedure or Observation or ImmunizationRecommendation or 
+ 														$USCoreProcedure or Observation or 
  														$CCDAonFHIRDischargeSummary or $USCoreEncounter)
 * section[reason_for_referral].emptyReason 0..1 MS
 
@@ -181,8 +180,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[social_history].code = $LOINC#29762-2 // "Social history note"
 * section[social_history].entry
 * section[social_history].entry only Reference($USCoreSimpleObservation or $USCoreSmokingStatus or
-                                                    $PFENarrativeHistoryOfStatus or
-                                                    $USCoreCarePlan or $USCorePatient)
+                                                    $PFENarrativeHistoryOfStatus)
 * section[social_history].emptyReason 0..1 MS
 
 * section[vital_signs] ^short = "Vital Signs"

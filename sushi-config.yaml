@@ -47,9 +47,9 @@ contact:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-  hl7.fhir.us.pacio-adi: 1.0.0
+  hl7.fhir.us.pacio-adi: current
   hl7.fhir.us.pacio-pfe: 2.0.0
-  hl7.fhir.us.smp: 1.0.0
+  hl7.fhir.us.smp: current
   hl7.fhir.us.core: 8.0.1
   us.nlm.vsac:
     uri: 'http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac'
