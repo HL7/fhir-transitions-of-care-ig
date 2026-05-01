@@ -188,7 +188,7 @@ There may be additional procedures that have been documented for which informed 
 **Section Code**: [LOINC 42349-1](https://loinc.org/42349-1/) Reason for referral (narrative)
 
 **Description:**
-Purpose to be served by moving the individual to a new site of care. Examples include continued rehabilitation or treatment, treatment unavailable at the current site, preference of individual or substituted decision maker.
+The stated purpose for transfering the individual to a new site of care. The reason could be part of a referral note or clinical summary to justify and guide the care transition. Examples include continued rehabilitation or treatment, treatment unavailable at the current site, preference of individual or substituted decision maker.
 
 **Usage Notes:**
 No additional guidance beyond the description above.
@@ -201,7 +201,8 @@ No additional guidance beyond the description above.
 The result of a laboratory, radiologic, or other clinical test performed to determine the presence, absence, or degree of a condition. Examples include lab, pathology, imaging results.
 
 **Usage Notes:**
-Inclusion: The most critical or trending results that may impact the patient's care in the new care setting. Knowing which data and context to know that identifies a change that needs to be addressed.
+Inclusion: The most critical, current, or trending results that may impact the patient's care in the new care setting. Knowing which data and context to know that identifies a change that needs to be addressed.
+
 Ideally the Clinical Results section will be manageable from the system user interface, such that the end user might select a specific date range, or first and last, or all specific test results trended.
 
 #### Social History
@@ -212,7 +213,7 @@ Ideally the Clinical Results section will be manageable from the system user int
 Documentation of the individual's personal, environmental, and behavioral factors that influence health. Examples include sexual history and preferences, substance use, ethnicity, race, health insurance coverage (Medicare, Medicaid, private, self), level of education, marital status, SDOH, living situation, occupation.
 
 **Usage Notes:**
-Medical History is **NOT** part of the Social History. 
+Medical History is **NOT** part of Social History. 
 
 #### Vital Signs
 
