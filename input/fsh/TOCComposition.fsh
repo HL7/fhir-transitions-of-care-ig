@@ -53,7 +53,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[advance_directives].title 1..1 MS
 * section[advance_directives].code = $LOINC#42348-3 // "Advance healthcare directives"
 * section[advance_directives].entry 
-* section[advance_directives].entry only Reference($ADIPACPComposition)
+* section[advance_directives].entry only Reference($ADIDocumentReference)
 * section[advance_directives].emptyReason 0..1 MS
 
 * section[allergies] ^short = "Allergies and Adverse Reactions"
