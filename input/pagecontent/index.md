@@ -96,12 +96,14 @@ This Guide is divided into several pages which are listed at the top of each pag
 
 ### Authors and Contributors
 
+* Shelly Coyle - CMS
 * Dave Hill - Global Alliant
 * Yolanda Liu - MITRE Corporation
-* Holly Miller, MD
+* Holly Miller, MD - Centauri Health Solutions
 * Terrence O'Malley, MD 
 * James Patterson - MITRE Corporation
 * May Terry - MITRE Corporation
+* Lorraine Wickiser - CMS
 
 The authors also recognize HL7 sponsorship and input from the HL7 Patient Care Working Group.
 
