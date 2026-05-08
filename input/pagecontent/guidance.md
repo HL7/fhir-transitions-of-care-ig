@@ -100,6 +100,42 @@ Observations, assessments, and interventions regarding the impact of behaviors o
 **Usage Notes:**
 This section should not include diagnoses or medications. Diagnoses should all be in the TOC `Problems` section. Medications should all be included in the TOC `Medications` section. Ideally, Medications should be linked to the problem for which they are indicated. The diagnosis “Depression” is listed in the US Core Plan, but should not be included here.
 
+
+#### Clinical Results
+
+**Section Code**: [LOINC 30954-2](https://loinc.org/30954-2/) Relevant diagnostic tests/laboratory data note
+
+**Description:**
+The result of a laboratory, radiologic, or other clinical test performed to determine the presence, absence, or degree of a condition. Examples include lab, pathology, imaging results.
+
+**Usage Notes:**
+Inclusion: The most critical, current, or trending results that may impact the patient's care in the new care setting. Knowing which data and context to know that identifies a change that needs to be addressed.
+
+Ideally the Clinical Results section will be manageable from the system user interface, such that the end user might select a specific date range, or first and last, or all specific test results trended.
+
+
+#### Discharge Care Plan
+
+**Section Code**: [LOINC 18776-5](https://loinc.org/18776-5/) Plan of care note
+
+**Description:**
+A summary of conditions that require further intervention after discharge with plans for treatment, diagnosis, monitoring, prevention of adverse events, and the party responsible for the activity.
+
+**Usage Notes:**
+This section should not include diagnoses or medications. Diagnoses should all be in the TOC `Problems` section. Medications should all be included in the TOC `Medications` section. Ideally, Medications should be linked to the problem for which they are indicated. US Core CarePlan indicates inclusion of Conditions = Diagnoses and Treatments which would include medications. Also includes Substance Abuse which is also a diagnosis.
+
+
+#### Discharge Instructions
+
+**Section Code**: [LOINC 69730-0](https://loinc.org/69730-0/) Instructions
+
+**Description:**
+Directions given to an individual designed to teach about prevention, diagnosis, monitoring, or treatment of conditions or functional impairments.
+
+**Usage Notes:**
+Education/instructions provided at discharge should be included.
+
+
 #### Functional Status
 
 **Section Code**: [LOINC 47420-5](https://loinc.org/47420-5/) Functional status assessment note
@@ -121,16 +157,6 @@ List of immunizations an individual has received and when. May also include a sc
 **Usage Notes:**
 No additional guidance beyond the description above.
 
-#### Discharge Instructions
-
-**Section Code**: [LOINC 69730-0](https://loinc.org/69730-0/) Instructions
-
-**Description:**
-Directions given to an individual designed to teach about prevention, diagnosis, monitoring, or treatment of conditions or functional impairments.
-
-**Usage Notes:**
-Education/instructions provided at discharge should be included.
-
 
 #### Medical Devices
 
@@ -151,16 +177,6 @@ List of medications prescribed for the individual for prevention, diagnosis, or 
 
 **Usage Notes:**
 There should be an indication of whether the discharge medication list has been reconciled with both the medication list for the patient prior to treatment at the current organization as well as with the medication list during the treatment at the current organization.
-
-#### Discharge Care Plan
-
-**Section Code**: [LOINC 18776-5](https://loinc.org/18776-5/) Plan of care note
-
-**Description:**
-A summary of conditions that require further intervention after discharge with plans for treatment, diagnosis, monitoring, prevention of adverse events, and the party responsible for the activity.
-
-**Usage Notes:**
-This section should not include diagnoses or medications. Diagnoses should all be in the TOC `Problems` section. Medications should all be included in the TOC `Medications` section. Ideally, Medications should be linked to the problem for which they are indicated. US Core CarePlan indicates inclusion of Conditions = Diagnoses and Treatments which would include medications. Also includes Substance Abuse which is also a diagnosis.
 
 #### Problems
 
@@ -192,18 +208,6 @@ The stated purpose for transfering the individual to a new site of care. The rea
 
 **Usage Notes:**
 No additional guidance beyond the description above.
-
-#### Clinical Results
-
-**Section Code**: [LOINC 30954-2](https://loinc.org/30954-2/) Relevant diagnostic tests/laboratory data note
-
-**Description:**
-The result of a laboratory, radiologic, or other clinical test performed to determine the presence, absence, or degree of a condition. Examples include lab, pathology, imaging results.
-
-**Usage Notes:**
-Inclusion: The most critical, current, or trending results that may impact the patient's care in the new care setting. Knowing which data and context to know that identifies a change that needs to be addressed.
-
-Ideally the Clinical Results section will be manageable from the system user interface, such that the end user might select a specific date range, or first and last, or all specific test results trended.
 
 #### Social History
 
