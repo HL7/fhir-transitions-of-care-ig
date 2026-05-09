@@ -142,7 +142,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[procedures].entry 
 * section[procedures].entry only Reference(USCoreProcedureProfile)
 
-* section[reason_for_referral] ^short = "Reason for Referral"
+* section[reason_for_referral] ^short = "Reason for Transfer"
 * section[reason_for_referral].title 1..1 MS
 * section[reason_for_referral].code 1..1 
 * section[reason_for_referral].code = $LOINC#42349-1 // "Reason for referral (narrative)"
