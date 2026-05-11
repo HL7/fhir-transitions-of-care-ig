@@ -67,7 +67,7 @@ By defining a standard of human- and machine-readable interoperable documentatio
 The Transitions of Care Document is structured as a container that packages the clinical information needed to support a patient's transition into a single, transmissible unit. The Transition of Care Bundle provides the linkage between the searchable document and the clinical content included in the compositor.  The Transitions of Care Composition is the core of the clinical content, serving as the document's index and organizes the clinical content into a set of named sections, each covering a distinct domain of patient information. The sections defined below represent the full scope of the Composition, along with their associated LOINC codes, clinical descriptions, and usage notes to guide implementation.
 
 <p align="center">
-    <object data="TOC-STU1-Linked.svg" type="image/svg+xml" width="75%"></object>
+    <object data="TOC-STU1.svg" type="image/svg+xml" width="75%"></object>
 </p>
 
 #### Advance Directives
