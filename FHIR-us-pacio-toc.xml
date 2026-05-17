@@ -7,6 +7,9 @@
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
 <artifact deprecated="true" id="Condition/BSJ-AnemiaDiagnosis" key="Condition-BSJ-AnemiaDiagnosis" name="Anemia Diagnosis"/>
+<artifact id="Device/BSJ2-Device-Wheelchair" key="Device-BSJ2-Device-Wheelchair" name="BSJ2-Device-Wheelchair"/>
+<artifact id="Device/BSJ2-Device-WoundPump" key="Device-BSJ2-Device-WoundPump" name="BSJ2-Device-WoundPump"/>
+<artifact id="DocumentReference/BSJ2-DocumentReference" key="DocumentReference-BSJ2-DocumentReference" name="BSJ2-DocumentReference"/>
 <artifact deprecated="true" id="Condition/BSJ-ConstipationDiagnosis" key="Condition-BSJ-ConstipationDiagnosis" name="Constipation Diagnosis"/>
 <artifact deprecated="true" id="Condition/BSJ-DepressionDiagnosis" key="Condition-BSJ-DepressionDiagnosis" name="Depression Diagnosis"/>
 <artifact deprecated="true" id="Condition/BSJ-DiabetesDiagnosis" key="Condition-BSJ-DiabetesDiagnosis" name="Diabetes Diagnosis"/>
@@ -20,6 +23,19 @@
 <artifact deprecated="true" id="Practitioner/Example-Tracy-Count" key="Practitioner-Example-Tracy-Count" name="Dr. Tracy Count"/>
 <artifact id="DocumentReference/Example-Smith-Johnson-DocRef-Bundle" key="DocumentReference-Example-Smith-Johnson-DocRef-Bundle" name="Example-Smith-Johnson-DocRef-Bundle"/>
 <artifact id="AllergyIntolerance/BSJ-AllergyACE" key="AllergyIntolerance-BSJ-AllergyACE" name="Example: Allergy List"/>
+<artifact id="Condition/BSJ2-DiabetesDiagnosis" key="Condition-BSJ2-DiabetesDiagnosis" name="Example: BSJ2 Diabetes Diagnosis"/>
+<artifact id="CarePlan/BSJ2-DischargeCarePlan" key="CarePlan-BSJ2-DischargeCarePlan" name="Example: BSJ2 Discharge Care Plan"/>
+<artifact id="List/BSJ2-SMPMedList" key="List-BSJ2-SMPMedList" name="Example: BSJ2 Home Health Medication List"/>
+<artifact id="MedicationRequest/BSJ2-SMPMedReq1" key="MedicationRequest-BSJ2-SMPMedReq1" name="Example: BSJ2 Medication request for Atorvastatin 40 MG Oral Tablet"/>
+<artifact id="MedicationRequest/BSJ2-SMPMedReq9" key="MedicationRequest-BSJ2-SMPMedReq9" name="Example: BSJ2 Medication request for empagliflozin 10 MG Oral Tablet [Jardiance]"/>
+<artifact id="MedicationRequest/BSJ2-SMPMedReq4" key="MedicationRequest-BSJ2-SMPMedReq4" name="Example: BSJ2 Medication request for sertraline 25 MG Oral Tablet"/>
+<artifact id="MedicationStatement/BSJ2-SMPMedStmt1" key="MedicationStatement-BSJ2-SMPMedStmt1" name="Example: BSJ2 Medication statement for Atorvastatin 40 MG Oral Tablet"/>
+<artifact id="MedicationStatement/BSJ2-SMPMedStmt9" key="MedicationStatement-BSJ2-SMPMedStmt9" name="Example: BSJ2 Medication statement for empagliflozin 10 MG Oral Tablet [Jardiance]"/>
+<artifact id="MedicationStatement/BSJ2-SMPMedStmt4" key="MedicationStatement-BSJ2-SMPMedStmt4" name="Example: BSJ2 Medication statement for sertraline 25 MG Oral Tablet"/>
+<artifact id="Condition/BSJ2-ProblemList-PressureInjury" key="Condition-BSJ2-ProblemList-PressureInjury" name="Example: BSJ2 Pressure Injury"/>
+<artifact id="Bundle/Example-BSJ2-TOCBundle2" key="Bundle-Example-BSJ2-TOCBundle2" name="Example: BSJ2 Transition of Care Bundle"/>
+<artifact id="Composition/BSJ2-TOCComposition2" key="Composition-BSJ2-TOCComposition2" name="Example: BSJ2 Transitions of Care Clinical Document"/>
+<artifact id="Condition/BSJ2-DepressionDiagnosis" key="Condition-BSJ2-DepressionDiagnosis" name="Example: Depression Diagnosis"/>
 <artifact id="CarePlan/BSJ-SNFDischargeCarePlan" key="CarePlan-BSJ-SNFDischargeCarePlan" name="Example: Discharge Care Plan"/>
 <artifact id="ServiceRequest/BSJ-SNFDischargeCallOTRefer" key="ServiceRequest-BSJ-SNFDischargeCallOTRefer" name="Example: Discharge Service Request for OT referral"/>
 <artifact id="ServiceRequest/BSJ-SNFDischargePTRefer" key="ServiceRequest-BSJ-SNFDischargePTRefer" name="Example: Discharge Service Request for PT referral"/>
@@ -40,6 +56,7 @@
 <artifact id="Condition/BSJ-HemiparesisDiagnosis" key="Condition-BSJ-HemiparesisDiagnosis" name="Example: Hemiparesis Diagnosis"/>
 <artifact id="List/BSJ-SMPMedList" key="List-BSJ-SMPMedList" name="Example: Home Medication List"/>
 <artifact id="Condition/BSJ-HyperlipidemiaDiagnosis" key="Condition-BSJ-HyperlipidemiaDiagnosis" name="Example: Hyperlipidemia Diagnosis"/>
+<artifact id="Condition/BSJ2-HyperlipidemiaDiagnosis" key="Condition-BSJ-HyperlipidemiaDiagnosis" name="Example: Hyperlipidemia Diagnosis"/>
 <artifact id="Condition/BSJ-HypertensionDiagnosis" key="Condition-BSJ-HypertensionDiagnosis" name="Example: Hypertension Diagnosis"/>
 <artifact id="Immunization/BSJ-Immunization-Fluzone" key="Immunization-BSJ-Immunization-Fluzone" name="Example: Immunization - Influenza, high-dose, quadrivalent, PF (Fluzone)"/>
 <artifact id="Immunization/BSJ-Immunization-PCV20" key="Immunization-BSJ-Immunization-PCV20" name="Example: Immunization - Pneumococcal Conjugate Vaccine, 20 Valent (PCV20)"/>
@@ -55,15 +72,18 @@
 <artifact id="MedicationStatement/BSJ-SMPMedStmt4" key="MedicationStatement-BSJ-SMPMedStmt4" name="Example: Medication statement for losartan potassium 25 MG Oral Tablet"/>
 <artifact id="Organization/org-PC-Primary-Care-Michigan" key="Organization-org-PC-Primary-Care-Michigan" name="Example: Michigan Primary Health Care Associates Organization"/>
 <artifact id="Organization/org-HomeHealth-Motown" key="Organization-org-HomeHealth-Motown" name="Example: Motown Home Health Organization"/>
+<artifact id="Observation/BSJ2-ADL-Mobility" key="Observation-BSJ2-ADL-Mobility" name="Example: Need help getting out of bed, showered, or dressed"/>
 <artifact id="Organization/org-Neuro-Care-Inc" key="Organization-org-Neuro-Care-Inc" name="Example: Neuro Care Inc. Organization"/>
 <artifact id="Organization/org-Pharm-NED-Contract-Pharm" key="Organization-org-Pharm-NED-Contract-Pharm" name="Example: Not Every Day Contract Pharmacy Organization"/>
 <artifact id="Condition/OT-ProblemList-RightWeak" key="Condition-OT-ProblemList-RightWeak" name="Example: OT Right Weakness Problem List"/>
 <artifact id="Patient/Example-Smith-Johnson-Patient1" key="Patient-Example-Smith-Johnson-Patient1" name="Example: Patient - Betsy Smith-Johnson"/>
+<artifact id="Patient/Example-Smith-Johnson-Patient2" key="Patient-Example-Smith-Johnson-Patient2" name="Example: Patient2 - Betsy Smith-Johnson"/>
 <artifact id="PractitionerRole/Role-IMMD-AnitaChu" key="PractitionerRole-Role-IMMD-AnitaChu" name="Example: Role of Dr. Anita Chu"/>
 <artifact id="PractitionerRole/Role-SNFDoc-GeraldPark" key="PractitionerRole-Role-SNFDoc-GeraldPark" name="Example: Role of Dr. Gerald Park"/>
 <artifact id="PractitionerRole/Role-OT-JenCadbury" key="PractitionerRole-Role-OT-JenCadbury" name="Example: Role of Dr. Jen Cadbury"/>
 <artifact id="PractitionerRole/Role-Neuro-NuraMekel" key="PractitionerRole-Role-Neuro-NuraMekel" name="Example: Role of Dr. Nura Mekel"/>
 <artifact id="ServiceRequest/BSJ-PCPFollowUp" key="ServiceRequest-BSJ-PCPFollowUp" name="Example: Service Request to follow up with PCP"/>
+<artifact id="ServiceRequest/BSJ2-PCPFollowUp" key="ServiceRequest-BSJ-PCPFollowUp" name="Example: Service Request to follow up with PCP"/>
 <artifact id="Condition/BSJ-StrokeDiagnosis" key="Condition-BSJ-StrokeDiagnosis" name="Example: Stroke Diagnosis"/>
 <artifact id="Bundle/Example-Smith-Johnson-TOCBundle" key="Bundle-Example-Smith-Johnson-TOCBundle" name="Example: Transition of Care Bundle"/>
 <artifact id="Composition/BSJ-TOCComposition" key="Composition-BSJ-TOCComposition" name="Example: Transitions of Care Clinical Document"/>
@@ -87,6 +107,10 @@
 <artifact deprecated="true" id="Observation/BSJ-MDS-Mobility-PT1" key="Observation-BSJ-MDS-Mobility-PT1" name="Nursing Home Discharge Assessment Questions - Mobility Part 1"/>
 <artifact deprecated="true" id="Condition/OT-ProblemList-Decondition" key="Condition-OT-ProblemList-Decondition" name="OT Decondition Problem List"/>
 <artifact id="StructureDefinition/point-of-contact-extension" key="StructureDefinition-point-of-contact-extension" name="Point of Contact"/>
+<artifact id="Practitioner/Practitioner-JudySalas" key="Practitioner-Practitioner-JudySalas" name="Practitioner-JudySalas"/>
+<artifact id="Practitioner/Practitioner-PriyaSarkar" key="Practitioner-Practitioner-PriyaSarkar" name="Practitioner-PriyaSarkar"/>
+<artifact id="PractitionerRole/PractitionerRole-DNP-JudySalas" key="PractitionerRole-PractitionerRole-DNP-JudySalas" name="PractitionerRole-DNP-JudySalas"/>
+<artifact id="PractitionerRole/PractitionerRole-Physician-PriyaSarkar" key="PractitionerRole-PractitionerRole-Physician-PriyaSarkar" name="PractitionerRole-Physician-PriyaSarkar"/>
 <artifact deprecated="true" id="PractitionerRole/Role-Pharm-PhilChekhov" key="PractitionerRole-Role-Pharm-PhilChekhov" name="Role of Dr. Phil Chekhov"/>
 <artifact deprecated="true" id="PractitionerRole/Role-Pharm-TracyCount" key="PractitionerRole-Role-Pharm-TracyCount" name="Role of Dr. Tracy Count"/>
 <artifact id="CapabilityStatement/toc" key="CapabilityStatement-toc" name="TOC CapabilityStatement"/>
@@ -98,6 +122,8 @@
 <artifact deprecated="true" id="ValueSet/toc-loinc-answered-by-LL5571-6-vs" key="ValueSet-toc-loinc-answered-by-LL5571-6-vs" name="Transitions of Care LOINC Terms Answered by LL5571-6 Answer List Value Set"/>
 <artifact deprecated="true" id="ValueSet/toc-del-loinc-answered-by-LL5571-6-vs" key="ValueSet-toc-del-loinc-answered-by-LL5571-6-vs" name="Transitions of Care LOINC Terms Included in the DEL Answered by LL5571-6 Answer List Value Set"/>
 <artifact deprecated="true" id="Condition/BSJ-UndressingConcern" key="Condition-BSJ-UndressingConcern" name="Undressing Concern"/>
+<artifact id="Organization/org-ED-Metro-Hospital" key="Organization-org-ED-Metro-Hospital" name="org-ED-Metro-Hospital"/>
+<artifact id="Location/org-Loc-ED-Metro-Hospital" key="Location-org-Loc-ED-Metro-Hospital" name="org-Loc-ED-Metro-Hospital"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="change_log" name="Change Log"/>
