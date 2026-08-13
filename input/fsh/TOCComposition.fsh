@@ -70,7 +70,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[behavioral_health].code 1..1
 * section[behavioral_health].code = $ToCTempCS#behavioral_health_summary // Temporary code that will be replaced once LOINC code is assigned.
 * section[behavioral_health].entry
-* section[behavioral_health].entry only Reference($USCoreConditionProblemsandHealthConcerns or
+* section[behavioral_health].entry only Reference(QuestionnaireResponse or
                                             $USCoreSimpleObservation)
 * section[behavioral_health].emptyReason 0..1 MS
 
@@ -81,7 +81,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[functional_status].entry 
 //* section[functional_status].entry only Reference($PFECollection or $PFEClinicalTestObservation or $PFESingleObservation or
 //                                                 $PFEUseOfDevice or $PFENarrativeHistoryOfStatus)
-* section[functional_status].entry only Reference(Observation or $PFEUseOfDevice or $PFENarrativeHistoryOfStatus or $USCoreConditionProblemsandHealthConcerns)
+* section[functional_status].entry only Reference(Observation or $PFEUseOfDevice or $PFENarrativeHistoryOfStatus or QuestionnaireResponse)
 * section[functional_status].emptyReason 0..1 MS
 
 * section[immunizations] ^short = "Immunizations"
@@ -105,7 +105,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[medical_devices].code 1..1 
 * section[medical_devices].code = $LOINC#46264-8 // "History of medical device use"
 * section[medical_devices].entry 
-* section[medical_devices].entry only Reference(Device)
+* section[medical_devices].entry only Reference(Device or DeviceRequest)
 * section[medical_devices].emptyReason 0..1 MS
 
 * section[medications] ^short = "Medications"
@@ -113,7 +113,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[medications].code 1..1 
 * section[medications].code = $LOINC#10160-0 // "History of Medication Use"
 * section[medications].entry 
-* section[medications].entry only Reference($SMPList or $USCoreMedicationRequest or $USCoreMedication) 
+* section[medications].entry only Reference($SMPList or $USCoreMedicationRequest or $USCoreMedication or MedicationStatement) 
 * section[medications].emptyReason 0..1 MS
 
 
@@ -122,7 +122,7 @@ Description: "This profile defines constraints that represent common administrat
 * section[plan_of_care].code 1..1 
 * section[plan_of_care].code = $LOINC#18776-5 // "Plan of care note"
 * section[plan_of_care].entry 
-* section[plan_of_care].entry only Reference($USCoreCarePlan) 
+* section[plan_of_care].entry only Reference($USCoreCarePlan or $USCoreGoal) 
 * section[plan_of_care].emptyReason 0..1 MS
 
 * section[problems] ^short = "Problems"
