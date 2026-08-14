@@ -125,8 +125,8 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 
 //-------------------------- Medications ---------------------------
 
-* entry[+].resource = BSJ2-SMPMedList
-* entry[=].fullUrl = "http://www.example.org/fhir/List/BSJ2-SMPMedList"
+// * entry[+].resource = BSJ2-SMPMedList
+// * entry[=].fullUrl = "http://www.example.org/fhir/List/BSJ2-SMPMedList"
 
 * entry[+].resource = BSJ2-SMPMedStmt1
 * entry[=].fullUrl = "http://www.example.org/fhir/MedicationStatement/BSJ2-SMPMedStmt1"
@@ -151,6 +151,7 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 
 * entry[+].resource = BSJ2-SMPMedReq9
 * entry[=].fullUrl = "http://www.example.org/fhir/MedicationRequest/BSJ2-SMPMedReq9"
+
 //-------------------------- CarePlans ---------------------------
 
 * entry[+].resource = BSJ2-DischargeCarePlan
