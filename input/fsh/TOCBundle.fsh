@@ -4,7 +4,7 @@ Id: TOC-Bundle
 Title: "Transition of Care Bundle"
 Description: "This is a profile for a Transition of Care Bundle, which includes the necessary resources for documenting a patient's transition from one care setting to another."
 
-* type = #document
+// * type = #document   // mlt_20260813: removed constraint for document type to support transaction bundles.
 * identifier 1..1 MS 
 * entry 1..*
 * entry ^slicing.discriminator.type = #profile

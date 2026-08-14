@@ -71,7 +71,7 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 // * section[medications].emptyReason = $HL7ListEmptyReason#nilknown
 
 * section[plan_of_care].title = "Discharge care plan for Betsy Smith-Johnson"
-* section[plan_of_care].entry[+] = Reference(CarePlan/BSJ2-SNFDischargeCarePlan)
+* section[plan_of_care].entry[+] = Reference(CarePlan/BSJ2-DischargeCarePlan)
 * section[plan_of_care].text.status = #additional
 * section[plan_of_care].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Discharge care plan for Betsy Smith-Johnson</div>"
 // * section[plan_of_care].emptyReason = $HL7ListEmptyReason#nilknown

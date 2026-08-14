@@ -58,9 +58,6 @@ Alias: $SMPMedicationStatement = http://hl7.org/fhir/us/smp/StructureDefinition/
 // International Patient Summary
 Alias: $IPSComposition = http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
 
-// Dental Data Exchange
-Alias: $DDEDentalBundle = http://hl7.org/fhir/us/dental-data-exchange/StructureDefinition/dental-bundle
-
 // Terminology
 Alias: $HL7IdentifierType = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $HL7ProvenanceParticipantType = http://terminology.hl7.org/CodeSystem/provenance-participant-type|1.0.0
