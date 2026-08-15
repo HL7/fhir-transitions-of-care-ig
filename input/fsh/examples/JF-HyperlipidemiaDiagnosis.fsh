@@ -14,4 +14,4 @@ Description: "hyperlipidemia Diagnosis for fictional patient Jane Fiction."
 * bodySite = $sct#113257007 "Structure of cardiovascular system (body structure)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2018-06"
-* asserter = Reference(Role-IMMD-AnitaChu)
+* asserter = Reference(Practitioner-JudySalas)

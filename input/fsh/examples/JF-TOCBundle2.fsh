@@ -138,6 +138,11 @@ Description: "Example Transition of Care bundle for fictional patient Jane Ficti
 * entry[=].request.url = "Organization/org-HomeHealth-Motown"
 * entry[=].fullUrl = "https://gw.interop.community/pacior4test/open/Organization/org-HomeHealth-Motown"
 
+* entry[+].resource = org-ED-Metro-Hospital
+* entry[=].request.method = #PUT
+* entry[=].request.url = "Organization/org-ED-Metro-Hospital"
+* entry[=].fullUrl = "https://gw.interop.community/pacior4test/open/Organization/org-ED-Metro-Hospital"
+
 //-------------------------- Practitioners ---------------------------
 
 * entry[+].resource = Practitioner-JudySalas

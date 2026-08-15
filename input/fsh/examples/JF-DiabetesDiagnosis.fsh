@@ -16,4 +16,4 @@ Description: "Diabetes Diagnosis for fictional patient Jane Fiction."
 * extension.valueDateTime = "2017-06"
 * onsetDateTime = "2017-06"
 * recordedDate = "2017-06-05"
-* asserter = Reference(Role-IMMD-AnitaChu)
+* asserter = Reference(Practitioner-JudySalas)
