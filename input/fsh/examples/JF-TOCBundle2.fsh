@@ -163,5 +163,9 @@ Description: "Example Transition of Care bundle for fictional patient Jane Ficti
 * entry[=].request.url = "PractitionerRole/PractitionerRole-Physician-PriyaSarkar"
 * entry[=].fullUrl = "https://gw.interop.community/pacior4test/open/PractitionerRole/PractitionerRole-Physician-PriyaSarkar"
 
+//-------------------------- DocumentReference ---------------------------
 
-
+* entry[+].resource = JF-DocumentReference
+* entry[=].request.method = #PUT
+* entry[=].request.url = "DocumentReference/JF-DocumentReference"
+* entry[=].fullUrl = "https://gw.interop.community/pacior4test/open/DocumentReference/JF-DocumentReference"
