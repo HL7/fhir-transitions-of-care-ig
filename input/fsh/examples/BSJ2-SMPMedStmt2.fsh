@@ -35,7 +35,7 @@ InstanceOf: $SMPMedicationStatement
 Title: "Example: BSJ2 Medication statement for empagliflozin 10 MG Oral Tablet [Jardiance]"
 Description: "Medication statement for empagliflozin 10 MG Oral Tablet for Betsy Smith-Johnson to treat Type 2 Diabetes"
 Usage: #example
-* basedOn = Reference(MedicationRequest/BSJ2-SMPMedReq9)
+// * basedOn = Reference(MedicationRequest/BSJ2-SMPMedReq9)
 * status = #active
 * medicationCodeableConcept = $RXNORM#1545664 "empagliflozin 10 MG Oral Tablet [Jardiance]"
 * subject = Reference(Patient/Example-Smith-Johnson-Patient2) "Betsy Smith-Johnson"

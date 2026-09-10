@@ -4,7 +4,7 @@ Alias: $USCoreCarePlan = http://hl7.org/fhir/us/core/StructureDefinition/us-core
 Alias: $USCoreConditionEncounterDiagnosis = http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis|8.0.1
 Alias: $USCoreConditionProblemsandHealthConcerns = http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns|8.0.1
 Alias: $USCoreCoverage = http://hl7.org/fhir/us/core/StructureDefinition/us-core-coverage|8.0.1
-Alias: $USCoreDiagnosticReportNotes = http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note|8.0.1
+Alias: $USCoreDiagnosticReportNotes = http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note|9.0.0
 Alias: $USCoreDocumentReference = http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference|8.0.1
 Alias: $USCoreDocumentReferenceCategory = http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category|8.0.1
 Alias: $USCoreEncounter = http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter|8.0.1
@@ -57,9 +57,6 @@ Alias: $SMPMedicationStatement = http://hl7.org/fhir/us/smp/StructureDefinition/
 
 // International Patient Summary
 Alias: $IPSComposition = http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
-
-// Dental Data Exchange
-Alias: $DDEDentalBundle = http://hl7.org/fhir/us/dental-data-exchange/StructureDefinition/dental-bundle
 
 // Terminology
 Alias: $HL7IdentifierType = http://terminology.hl7.org/CodeSystem/v2-0203

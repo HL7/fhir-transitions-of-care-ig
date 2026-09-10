@@ -65,13 +65,13 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 // * section[medical_devices].emptyReason = $HL7ListEmptyReason#nilknown
 
 * section[medications].title = "List of medications prescribed for Betsy Smith-Johnson"
-* section[medications].entry[+] = Reference(List/BSJ2-SMPMedList)
+* section[medications].entry[+] = Reference(MedicationRequest/BSJ2-SMPMedReq1)
 * section[medications].text.status = #additional
 * section[medications].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medications prescribed for Betsy Smith-Johnson</div>"
 // * section[medications].emptyReason = $HL7ListEmptyReason#nilknown
 
 * section[plan_of_care].title = "Discharge care plan for Betsy Smith-Johnson"
-* section[plan_of_care].entry[+] = Reference(CarePlan/BSJ2-SNFDischargeCarePlan)
+* section[plan_of_care].entry[+] = Reference(CarePlan/BSJ2-DischargeCarePlan)
 * section[plan_of_care].text.status = #additional
 * section[plan_of_care].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Discharge care plan for Betsy Smith-Johnson</div>"
 // * section[plan_of_care].emptyReason = $HL7ListEmptyReason#nilknown
