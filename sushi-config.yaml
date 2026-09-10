@@ -33,6 +33,7 @@ parameters:
   apply-publisher: true
   path-expansion-params: '../../input/_resources/exp-params.json'  # for using US ed of SNOMED
   pin-canonicals: pin-multiples
+  auto-oid-root: '2.16.840.1.113883.4.642.40.70'
 
 contact:
   - name: PACIO project
@@ -51,10 +52,11 @@ dependencies:
   hl7.fhir.us.pacio-pfe: current
   hl7.fhir.us.smp: current
   hl7.fhir.us.core: 8.0.1
-  us.nlm.vsac:
-    uri: 'http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac'
-    version: 0.24.0
-    id: vsac
+  "uscore9@npm:hl7.fhir.us.core":
+    version: 9.0.0
+    id: uscore9
+    reason: |
+      Needed for PFE use of diagnostic report note
   hl7.fhir.uv.ips: 2.0.0
   hl7.fhir.us.dental-data-exchange: 1.0.0
   hl7.fhir.us.ccda: 1.2.0
