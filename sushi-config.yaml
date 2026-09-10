@@ -52,11 +52,6 @@ dependencies:
   hl7.fhir.us.pacio-pfe: current
   hl7.fhir.us.smp: current
   hl7.fhir.us.core: 8.0.1
-  "uscore9@npm:hl7.fhir.us.core":
-    version: 9.0.0
-    id: uscore9
-    reason: |
-      Needed for PFE use of diagnostic report note
   hl7.fhir.uv.ips: 2.0.0
   hl7.fhir.us.dental-data-exchange: 1.0.0
   hl7.fhir.us.ccda: 1.2.0
