@@ -1,63 +1,53 @@
 Profile: TOCBundle
-Parent: Bundle
+Parent: $USPCSBundle
 Id: TOC-Bundle
 Title: "Transition of Care Bundle"
-Description: "This is a profile for a Transition of Care Bundle, which includes the necessary resources for documenting a patient's transition from one care setting to another."
+Description: "This profile derives from the US Patient Care Summary Bundle and adds resources for documenting a patient's transition from one care setting to another."
 
-// * type = #document   // mlt_20260813: removed constraint for document type to support transaction bundles.
-* identifier 1..1 MS 
-* entry 1..*
-* entry ^slicing.discriminator.type = #profile
-* entry ^slicing.discriminator.path = "resource"
-* entry ^slicing.rules = #open
-* entry ^slicing.description = "Slice based on the entry.resource profile"
+// Inherit document type, identifier, fullUrl, and type-based entry slicing from US-PCS.
+// Transaction bundles use the separate TOCBundleTransaction profile.
+* identifier 1..1 MS
 
-* entry contains toc-composition 1..* MS and
-    patient 1..* MS and
-    advance-directives 0..* MS and     // Optional: Composition section required; emptyReason used when no data
-    allergies 0..* MS and              // Optional: Composition section required; emptyReason used when no data
-    encounter-diagnosis 0..* MS and    // Encounter/visit diagnoses (distinct from problem list)
-    problems 0..* MS and               // Optional: Composition section required; emptyReason used when no data
-    simple-observation 0..* MS and     // Optional: Composition section required; emptyReason used when no data
-//    functional-status 0..* MS and
-    immunizations 0..* MS and          // Optional: Composition section required; emptyReason used when no data
-//    discharge-instructions 0..* MS and
-    medical-devices 0..* MS and        // Optional: Composition section required; emptyReason used when no data
-    medications 0..* MS and            // Optional: Composition section required; emptyReason used when no data
-    // medication-statement and medication-list are intentionally not sliced: MedicationStatement and List
-    // have no US Core 8.0.1 profiles, so #profile discriminator cannot distinguish them without creating
-    // ambiguous multi-slice matches. Open slicing allows them as valid unsliced entries.
-    plan-of-care 0..* MS and           // Optional: Composition section required; emptyReason used when no data
-    procedures 0..* MS and             // Optional: Composition section required; emptyReason used when no data
-    encounter 0..* MS and              // Optional: Composition section required; emptyReason used when no data
-//    reason-for-visit 0..* MS and
-//    clinical-results 0..* MS and
-    vital-signs 0..* MS and            // Optional: Composition section required; emptyReason used when no data
-    practitioner 0..* MS and           // Supporting practitioner resources
-    practitioner-role 0..* MS and      // Supporting practitioner role resources
-    organization 0..* MS and           // Supporting organization resources
-    location 0..* MS                   // Supporting location resources
+// Reuse the inherited slices instead of adding overlapping resource types.
+// US-PCS requires exactly one US-PCS Composition and one Patient.
+* entry[clinical-document-composition] MS
+* entry[clinical-document-composition].resource only TOCComposition
+* entry[patient] MS
+* entry[allergyintolerance] MS
+* entry[condition] MS
+* entry[diagnosticreport] MS
+* entry[encounter] MS
+* entry[immunization] MS
+* entry[medicationrequest] MS
+* entry[practitioner] MS
+* entry[procedure] MS
+* entry[observation-results] MS
+* entry[organization] MS
 
-* entry[toc-composition].resource only TOCComposition
-// * entry[toc-composition].^description = "The Composition resource that serves as the root document for the Transition of Care."
-* entry[patient].resource only $USCorePatient
-// * entry[patient].^description = "The patient resource representing the individual whose transition of care is being documented."
-* entry[advance-directives].resource only $ADIDocumentReference
-* entry[allergies].resource only $USCoreAllergyIntolerance
-* entry[encounter-diagnosis].resource only $USCoreConditionEncounterDiagnosis
-* entry[problems].resource only $USCoreConditionProblemsandHealthConcerns
-* entry[simple-observation].resource only $USCoreSimpleObservation
-// * entry[functional-status].resource only $USCoreObservationClinicalResult
-* entry[immunizations].resource only $USCoreImmunization
-// * entry[discharge-instructions].resource only $USCoreServiceRequest
+// All Condition entries retain the inherited US Core problems/health-concerns
+// constraint; an encounter-diagnosis slice cannot relax that requirement.
+// The inherited Observation slice accepts simple observations and vital signs.
+// Keep them together because profile-based reslices may overlap.
+
+// Add only resource types not already covered by the inherited slices.
+* entry contains
+    document-reference 0..* MS and
+    medical-devices 0..* MS and
+    medication-list 0..* MS and
+    medication-statement 0..* MS and
+    medication 0..* MS and
+    plan-of-care 0..* MS and
+    service-request 0..* MS and
+    practitioner-role 0..* MS and
+    location 0..* MS
+
+// One type-based slice covers advance directives, discharge documents, and SMP summaries.
+* entry[document-reference].resource only $USCoreDocumentReference or $ADIDocumentReference or $SMPBundleDocumentReference
 * entry[medical-devices].resource only $PFEUseOfDevice
-* entry[medications].resource only $SMPList or $USCoreMedicationRequest or MedicationStatement or $USCoreMedication
+* entry[medication-list].resource only $SMPList
+* entry[medication-statement].resource only MedicationStatement
+* entry[medication].resource only $USCoreMedication
 * entry[plan-of-care].resource only $USCoreCarePlan
-* entry[procedures].resource only $USCoreProcedure or $USCoreServiceRequest
-* entry[encounter].resource only $USCoreEncounter
-// * entry[clinical-results].resource only $USCoreObservationClinicalResult
-* entry[vital-signs].resource only $USCoreVitalSigns
-* entry[practitioner].resource only $USCorePractitioner
+* entry[service-request].resource only $USCoreServiceRequest
 * entry[practitioner-role].resource only $USCorePractitionerRole
-* entry[organization].resource only $USCoreOrganization
 * entry[location].resource only $USCoreLocation

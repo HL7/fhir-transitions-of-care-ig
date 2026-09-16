@@ -9,7 +9,8 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * identifier.system = "http://example.org/GoodHealthClinic/id"
 * identifier.value = "76053988-543c-4681-9a90-2f2eb9a7836c-CCDA-CCD"
 * status = #final
-* type = $LOINC#11490-0 "Physician Discharge summary"
+* type = $LOINC#60591-5 "Patient summary Document"
+* confidentiality = #N
 //* category = $LOINC#??? ""
 * subject = Reference(Patient/Example-Smith-Johnson-Patient1)
 * date = "2024-05-10T08:49:58.313-04:00"
@@ -25,10 +26,10 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * section[advance_directives].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Advance directives for Betsy Smith-Johnson</div>"
 * section[advance_directives].emptyReason = $HL7ListEmptyReason#notasked
 
-* section[allergies].title = "List of allergies for Betsy Smith-Johnson"
-* section[allergies].entry[+] = Reference(AllergyIntolerance/BSJ-AllergyACE)
-* section[allergies].text.status = #additional
-* section[allergies].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Allergies for Betsy Smith-Johnson</div>"
+* section[sectionAllergies].title = "List of allergies for Betsy Smith-Johnson"
+* section[sectionAllergies].entry[+] = Reference(AllergyIntolerance/BSJ-AllergyACE)
+* section[sectionAllergies].text.status = #additional
+* section[sectionAllergies].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Allergies for Betsy Smith-Johnson</div>"
 
 * section[behavioral_health].title = "Behavioral health information for Betsy Smith-Johnson" 
 * section[behavioral_health].text.status = #additional
@@ -44,11 +45,11 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * section[functional_status].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Functional status of Betsy Smith-Johnson</div>"
 * section[functional_status].emptyReason = $HL7ListEmptyReason#nilknown
 
-* section[immunizations].title = "List of immunizations for Betsy Smith-Johnson"
-* section[immunizations].entry[+] = Reference(Immunization/BSJ-Immunization-PCV20)
-* section[immunizations].entry[+] = Reference(Immunization/BSJ-Immunization-Fluzone)
-* section[immunizations].text.status = #additional
-* section[immunizations].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of immunizations for Betsy Smith-Johnson</div>"
+* section[sectionImmunizations].title = "List of immunizations for Betsy Smith-Johnson"
+* section[sectionImmunizations].entry[+] = Reference(Immunization/BSJ-Immunization-PCV20)
+* section[sectionImmunizations].entry[+] = Reference(Immunization/BSJ-Immunization-Fluzone)
+* section[sectionImmunizations].text.status = #additional
+* section[sectionImmunizations].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of immunizations for Betsy Smith-Johnson</div>"
 
 * section[discharge_instructions].title = "Discharge instructions for Betsy Smith-Johnson"
 * section[discharge_instructions].text.status = #additional
@@ -60,10 +61,12 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * section[medical_devices].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medical equipment needed by Betsy Smith-Johnson</div>"
 * section[medical_devices].emptyReason = $HL7ListEmptyReason#nilknown
 
-* section[medications].title = "List of medications prescribed for Betsy Smith-Johnson"
-* section[medications].entry[+] = Reference(List/BSJ-SMPMedList)
-* section[medications].text.status = #additional
-* section[medications].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medications prescribed for Betsy Smith-Johnson</div>"
+* section[sectionMedications].title = "List of medications prescribed for Betsy Smith-Johnson"
+* section[sectionMedications].entry[smp-medication-statement][+] = Reference(MedicationStatement/BSJ-SMPMedStmt1)
+* section[sectionMedications].entry[smp-medication-statement][+] = Reference(MedicationStatement/BSJ-SMPMedStmt4)
+* section[sectionMedications].entry[smp-medication-statement][+] = Reference(MedicationStatement/BSJ-SMPMedStmt9)
+* section[sectionMedications].text.status = #additional
+* section[sectionMedications].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medications prescribed for Betsy Smith-Johnson</div>"
 
 * section[plan_of_care].title = "Discharge care plan for Betsy Smith-Johnson"
 * section[plan_of_care].entry[+] = Reference(CarePlan/BSJ-SNFDischargeCarePlan)
@@ -71,30 +74,30 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 * section[plan_of_care].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Discharge care plan for Betsy Smith-Johnson</div>"
 
 
-* section[problems].title = "List of problem conditions and observations for Betsy Smith-Johnson"
-// * section[problems].entry[+] = Reference(Condition/BSJ-AnemiaDiagnosis)
-// * section[problems].entry[+] = Reference(Condition/BSJ-ConstipationDiagnosis)
-// * section[problems].entry[+] = Reference(Condition/BSJ-DepressionDiagnosis)
-// * section[problems].entry[+] = Reference(Condition/BSJ-DiabetesDiagnosis)
-* section[problems].entry[+] = Reference(Condition/BSJ-DressingConcern)
-* section[problems].entry[+] = Reference(Condition/BSJ-HeartDiseaseDiagnosis)
-* section[problems].entry[+] = Reference(Condition/BSJ-HemiparesisDiagnosis)
-* section[problems].entry[+] = Reference(Condition/BSJ-HyperlipidemiaDiagnosis)
-* section[problems].entry[+] = Reference(Condition/BSJ-HypertensionDiagnosis)
-// * section[problems].entry[+] = Reference(Condition/BSJ-KidneyDiseaseDiagnosis)
-// * section[problems].entry[+] = Reference(Condition/BSJ-NauseaAndVomiting)
-// * section[problems].entry[+] = Reference(Condition/BSJ-NeuropathyDiagnosis)
-* section[problems].entry[+] = Reference(Condition/BSJ-StrokeDiagnosis)
-// * section[problems].entry[+] = Reference(Condition/BSJ-UndressingConcern)
-// * section[problems].entry[+] = Reference(Condition/OT-ProblemList-Decondition)
-* section[problems].entry[+] = Reference(Condition/OT-ProblemList-RightWeak)
-* section[problems].text.status = #additional
-* section[problems].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of problem conditions and observations for Betsy Smith-Johnson</div>"
+* section[sectionProblems].title = "List of problem conditions and observations for Betsy Smith-Johnson"
+// * section[sectionProblems].entry[+] = Reference(Condition/BSJ-AnemiaDiagnosis)
+// * section[sectionProblems].entry[+] = Reference(Condition/BSJ-ConstipationDiagnosis)
+// * section[sectionProblems].entry[+] = Reference(Condition/BSJ-DepressionDiagnosis)
+// * section[sectionProblems].entry[+] = Reference(Condition/BSJ-DiabetesDiagnosis)
+* section[sectionProblems].entry[+] = Reference(Condition/BSJ-DressingConcern)
+* section[sectionProblems].entry[+] = Reference(Condition/BSJ-HeartDiseaseDiagnosis)
+* section[sectionProblems].entry[+] = Reference(Condition/BSJ-HemiparesisDiagnosis)
+* section[sectionProblems].entry[+] = Reference(Condition/BSJ-HyperlipidemiaDiagnosis)
+* section[sectionProblems].entry[+] = Reference(Condition/BSJ-HypertensionDiagnosis)
+// * section[sectionProblems].entry[+] = Reference(Condition/BSJ-KidneyDiseaseDiagnosis)
+// * section[sectionProblems].entry[+] = Reference(Condition/BSJ-NauseaAndVomiting)
+// * section[sectionProblems].entry[+] = Reference(Condition/BSJ-NeuropathyDiagnosis)
+* section[sectionProblems].entry[+] = Reference(Condition/BSJ-StrokeDiagnosis)
+// * section[sectionProblems].entry[+] = Reference(Condition/BSJ-UndressingConcern)
+// * section[sectionProblems].entry[+] = Reference(Condition/OT-ProblemList-Decondition)
+* section[sectionProblems].entry[+] = Reference(Condition/OT-ProblemList-RightWeak)
+* section[sectionProblems].text.status = #additional
+* section[sectionProblems].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of problem conditions and observations for Betsy Smith-Johnson</div>"
 
-* section[procedures].title = "List of procedures prescribed for Betsy Smith-Johnson"
-* section[procedures].text.status = #additional
-* section[procedures].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of procedures prescribed for Betsy Smith-Johnson</div>"
-* section[procedures].emptyReason = $HL7ListEmptyReason#nilknown
+* section[sectionProceduresHx].title = "List of procedures prescribed for Betsy Smith-Johnson"
+* section[sectionProceduresHx].text.status = #additional
+* section[sectionProceduresHx].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of procedures prescribed for Betsy Smith-Johnson</div>"
+* section[sectionProceduresHx].emptyReason = $HL7ListEmptyReason#nilknown
 
 
 * section[reason_for_referral].title = "Reason for referring Betsy Smith-Johnson"
@@ -104,10 +107,10 @@ Description: "Transitions of Care Clinical Document for fictional patient Betsy 
 // * section[reason_for_referral] extension[ReasonExtension].code = $sct#404684003 "Clinical finding (finding)"
 // * section[reason_for_referral] extension[ReasonExtension].reference = Reference(Encounter/BSJ-Encounter)
 
-* section[clinical_results].title = "List of test results for Betsy Smith-Johnson"
-* section[clinical_results].text.status = #additional
-* section[clinical_results].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of test results for Betsy Smith-Johnson</div>"
-* section[clinical_results].emptyReason = $HL7ListEmptyReason#nilknown
+* section[sectionResults].title = "List of test results for Betsy Smith-Johnson"
+* section[sectionResults].text.status = #additional
+* section[sectionResults].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of test results for Betsy Smith-Johnson</div>"
+* section[sectionResults].emptyReason = $HL7ListEmptyReason#nilknown
 
 * section[social_history].title = "Social history for Betsy Smith-Johnson"
 * section[social_history].text.status = #additional

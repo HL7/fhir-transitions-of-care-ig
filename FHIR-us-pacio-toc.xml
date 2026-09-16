@@ -135,6 +135,7 @@
 <artifact deprecated="true" id="PractitionerRole/Role-Pharm-TracyCount" key="PractitionerRole-Role-Pharm-TracyCount" name="Role of Dr. Tracy Count"/>
 <artifact id="CapabilityStatement/toc" key="CapabilityStatement-toc" name="TOC CapabilityStatement"/>
 <artifact id="StructureDefinition/TOC-Bundle" key="Bundle-Example-Smith-Johnson-Bundle" name="Transition of Care Bundle"/>
+<artifact id="StructureDefinition/TOC-BundleTransaction" key="StructureDefinition-TOC-BundleTransaction" name="Transition of Care Bundle (Transaction)"/>
 <artifact id="StructureDefinition/TOC-Composition" key="StructureDefinition-TOC-Composition" name="Transition of Care Composition"/>
 <artifact id="StructureDefinition/TOC-DocumentReference" key="StructureDefinition-TOC-DocumentReference" name="Transition of Care Document Reference"/>
 <artifact id="CodeSystem/toc-temp-cs" key="CodeSystem-toc-temp-cs" name="Transition of Care Temporary Code System"/>

@@ -6,7 +6,6 @@ Description: "Example Transition of Care bundle for fictional patient Betsy Smit
 
 * identifier.system = "http://www.example.org/documents"
 * identifier.value = "12345"
-* type = #document
 * timestamp = "2024-05-10T14:25:34.001-05:00"
 
 //-------------------------- Transition of Care Composition ---------------------------

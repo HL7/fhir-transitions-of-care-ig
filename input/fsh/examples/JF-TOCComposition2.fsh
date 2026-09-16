@@ -9,7 +9,8 @@ Description: "Transitions of Care Clinical Document for fictional patient Jane F
 * identifier.system = "http://example.org/GoodHealthClinic/id"
 * identifier.value = "76053988-543c-4681-9a90-2f2eb9a7836c-CCDA-CCD"
 * status = #final
-* type = $LOINC#11490-0 "Physician Discharge summary"
+* type = $LOINC#60591-5 "Patient summary Document"
+* confidentiality = #N
 * subject = Reference(https://gw.interop.community/pacior4test/open/Patient/Example-Fiction)
 * date = "2024-05-10T08:49:58.313-04:00"
 * author = Reference(https://gw.interop.community/pacior4test/open/Practitioner/Practitioner-JudySalas)
@@ -24,11 +25,11 @@ Description: "Transitions of Care Clinical Document for fictional patient Jane F
 * section[advance_directives].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Advance directives for Jane Fiction</div>"
 * section[advance_directives].emptyReason = $HL7ListEmptyReason#notasked
 
-* section[allergies].title = "List of allergies for Jane Fiction"
-// * section[allergies].entry[+] = Reference(AllergyIntolerance/JF-AllergyACE)
-* section[allergies].text.status = #additional
-* section[allergies].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Allergies for Jane Fiction</div>"
-* section[allergies].emptyReason = $HL7ListEmptyReason#nilknown
+* section[sectionAllergies].title = "List of allergies for Jane Fiction"
+// * section[sectionAllergies].entry[+] = Reference(AllergyIntolerance/JF-AllergyACE)
+* section[sectionAllergies].text.status = #additional
+* section[sectionAllergies].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Allergies for Jane Fiction</div>"
+* section[sectionAllergies].emptyReason = $HL7ListEmptyReason#nilknown
 
 * section[behavioral_health].title = "Behavioral health information for Jane Fiction" 
 * section[behavioral_health].text.status = #additional
@@ -41,12 +42,12 @@ Description: "Transitions of Care Clinical Document for fictional patient Jane F
 * section[functional_status].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Functional status of Jane Fiction</div>"
 * section[functional_status].emptyReason = $HL7ListEmptyReason#nilknown
 
-* section[immunizations].title = "List of immunizations for Jane Fiction"
-// * section[immunizations].entry[+] = Reference(Immunization/JF-Immunization-PCV20)
-// * section[immunizations].entry[+] = Reference(Immunization/JF-Immunization-Fluzone)
-* section[immunizations].text.status = #additional
-* section[immunizations].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of immunizations for Jane Fiction</div>"
-* section[immunizations].emptyReason = $HL7ListEmptyReason#nilknown
+* section[sectionImmunizations].title = "List of immunizations for Jane Fiction"
+// * section[sectionImmunizations].entry[+] = Reference(Immunization/JF-Immunization-PCV20)
+// * section[sectionImmunizations].entry[+] = Reference(Immunization/JF-Immunization-Fluzone)
+* section[sectionImmunizations].text.status = #additional
+* section[sectionImmunizations].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of immunizations for Jane Fiction</div>"
+* section[sectionImmunizations].emptyReason = $HL7ListEmptyReason#nilknown
 
 * section[discharge_instructions].title = "Discharge instructions for Jane Fiction"
 * section[discharge_instructions].text.status = #additional
@@ -60,11 +61,11 @@ Description: "Transitions of Care Clinical Document for fictional patient Jane F
 * section[medical_devices].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medical equipment needed by Jane Fiction</div>"
 // * section[medical_devices].emptyReason = $HL7ListEmptyReason#nilknown
 
-* section[medications].title = "Medications prescribed for Jane Fiction"
-* section[medications].entry[+] = Reference(https://gw.interop.community/pacior4test/open/MedicationRequest/JF-SMPMedReq1)
-* section[medications].text.status = #additional
-* section[medications].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medications prescribed for Jane Fiction</div>"
-// * section[medications].emptyReason = $HL7ListEmptyReason#nilknown
+* section[sectionMedications].title = "Medications prescribed for Jane Fiction"
+* section[sectionMedications].entry[+] = Reference(https://gw.interop.community/pacior4test/open/MedicationRequest/JF-SMPMedReq1)
+* section[sectionMedications].text.status = #additional
+* section[sectionMedications].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medications prescribed for Jane Fiction</div>"
+// * section[sectionMedications].emptyReason = $HL7ListEmptyReason#nilknown
 
 * section[plan_of_care].title = "Discharge care plan for Jane Fiction"
 * section[plan_of_care].entry[+] = Reference(https://gw.interop.community/pacior4test/open/CarePlan/JF-DischargeCarePlan)
@@ -73,18 +74,18 @@ Description: "Transitions of Care Clinical Document for fictional patient Jane F
 // * section[plan_of_care].emptyReason = $HL7ListEmptyReason#nilknown
 
 
-* section[problems].title = "List of problem conditions and observations for Jane Fiction"
-// * section[problems].entry[+] = Reference(Condition/JF-DepressionDiagnosis)
-// * section[problems].entry[+] = Reference(Condition/JF-DiabetesDiagnosis)
-* section[problems].entry[+] = Reference(https://gw.interop.community/pacior4test/open/Condition/JF-HyperlipidemiaDiagnosis)
-// * section[problems].entry[+] = Reference(Condition/JF-ProblemList-PressureInjury)
-* section[problems].text.status = #additional
-* section[problems].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of problem conditions and observations for Jane Fiction</div>"
+* section[sectionProblems].title = "List of problem conditions and observations for Jane Fiction"
+// * section[sectionProblems].entry[+] = Reference(Condition/JF-DepressionDiagnosis)
+// * section[sectionProblems].entry[+] = Reference(Condition/JF-DiabetesDiagnosis)
+* section[sectionProblems].entry[+] = Reference(https://gw.interop.community/pacior4test/open/Condition/JF-HyperlipidemiaDiagnosis)
+// * section[sectionProblems].entry[+] = Reference(Condition/JF-ProblemList-PressureInjury)
+* section[sectionProblems].text.status = #additional
+* section[sectionProblems].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of problem conditions and observations for Jane Fiction</div>"
 
-* section[procedures].title = "List of procedures prescribed for Jane Fiction"
-* section[procedures].text.status = #additional
-* section[procedures].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of procedures prescribed for Jane Fiction</div>"
-* section[procedures].emptyReason = $HL7ListEmptyReason#nilknown
+* section[sectionProceduresHx].title = "List of procedures prescribed for Jane Fiction"
+* section[sectionProceduresHx].text.status = #additional
+* section[sectionProceduresHx].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of procedures prescribed for Jane Fiction</div>"
+* section[sectionProceduresHx].emptyReason = $HL7ListEmptyReason#nilknown
 
 
 * section[reason_for_referral].title = "Reason for referring Jane Fiction"
@@ -95,10 +96,10 @@ Description: "Transitions of Care Clinical Document for fictional patient Jane F
 // * section[reason_for_referral] extension[ReasonExtension].reference = Reference(Encounter/JF-Encounter)
 * section[reason_for_referral].emptyReason = $HL7ListEmptyReason#nilknown
 
-* section[clinical_results].title = "List of test results for Jane Fiction"
-* section[clinical_results].text.status = #additional
-* section[clinical_results].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of test results for Jane Fiction</div>"
-* section[clinical_results].emptyReason = $HL7ListEmptyReason#nilknown
+* section[sectionResults].title = "List of test results for Jane Fiction"
+* section[sectionResults].text.status = #additional
+* section[sectionResults].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of test results for Jane Fiction</div>"
+* section[sectionResults].emptyReason = $HL7ListEmptyReason#nilknown
 
 * section[social_history].title = "Social history for Jane Fiction"
 * section[social_history].text.status = #additional

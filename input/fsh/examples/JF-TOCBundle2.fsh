@@ -1,5 +1,5 @@
 Instance: Example-JF-TOCBundle2
-InstanceOf: TOCBundle
+InstanceOf: TOCBundleTransaction
 Usage: #example
 Title: "Example: JF Transition of Care Bundle"
 Description: "Example Transition of Care bundle for fictional patient Jane Fiction."
