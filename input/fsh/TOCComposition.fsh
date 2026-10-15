@@ -4,6 +4,10 @@ Id: TOC-Composition
 Title: "Transition of Care Composition"
 Description: "This profile defines constraints that represent common administrative and demographic concepts for transitions of care information used in US Realm clinical documents."
 
+* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
+* ^extension[=].valueInteger = 2
+* ^experimental = false
+
 * language 1..1 MS
 * identifier 1..1 MS
 * type MS

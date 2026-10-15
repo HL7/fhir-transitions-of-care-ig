@@ -5,6 +5,10 @@ Title: "Transition of Care Document Reference"
 Description: "This profile defines constraints that represent the information needed
 for a Transition of Care document on a FHIR server."
 
+* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
+* ^extension[=].valueInteger = 2
+* ^experimental = false
+
 * identifier MS
 * identifier ^short = "Contains a specialized identifier for the setId used to identify a specific logical document."
 * status MS

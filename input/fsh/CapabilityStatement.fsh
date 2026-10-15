@@ -1,6 +1,7 @@
 Instance: toc
 InstanceOf: CapabilityStatement
 Usage: #definition
+
 * contact.telecom.system = #url
 * contact.telecom.value = "https://www.hl7.org/Special/committees/patientcare/index.cfm"
 * date = "2023-11-10"

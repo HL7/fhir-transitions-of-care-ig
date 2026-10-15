@@ -3,6 +3,11 @@ Id: point-of-contact-extension
 Title: "Point of Contact"
 Description: "The Point of Contact Extension represents the individual or organization that can be contacted for information about the patient or their care."
 Context: Composition, CarePlan, DocumentReference
+
+* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
+* ^extension[=].valueInteger = 1
+* ^experimental = false
+
 * valueReference 1..1 MS
 * valueReference only Reference($USCoreRelatedPerson or $USCorePractitioner or $USCorePractitionerRole)
 

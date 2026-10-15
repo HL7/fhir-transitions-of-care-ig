@@ -5,6 +5,11 @@ Title: "Transition of Care Bundle"
 Description: "This is a profile for a Transition of Care Bundle, which includes the necessary resources for documenting a patient's transition from one care setting to another."
 
 // * type = #document   // mlt_20260813: removed constraint for document type to support transaction bundles.
+
+* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
+* ^extension[=].valueInteger = 2
+* ^experimental = false
+
 * identifier 1..1 MS 
 * entry 1..*
 * entry ^slicing.discriminator.type = #profile
